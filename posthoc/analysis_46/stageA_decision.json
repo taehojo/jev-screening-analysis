@@ -1,0 +1,744 @@
+{
+ "written": "2026-09-28 23:42:18 EDT",
+ "n_reviews": 28,
+ "protocols_identified": 6,
+ "protocols_usable": 5,
+ "usable_reviews": [
+  "CD009069",
+  "CD012551",
+  "CD012567",
+  "CD012661",
+  "CD012669"
+ ],
+ "identified_not_usable": [
+  "CD012768"
+ ],
+ "threshold": 8,
+ "stage_B_run": false,
+ "reviews": {
+  "CD000996": {
+   "n_records": 281,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd000996.pub3",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd000996.pub2",
+     "2009"
+    ],
+    [
+     "10.1002/14651858.cd000996",
+     "2000"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [
+    "2000"
+   ],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD001261": {
+   "n_records": 571,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd001261.pub4",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd001261.pub3",
+     "2014"
+    ],
+    [
+     "10.1002/14651858.cd001261.pub2",
+     "2007"
+    ],
+    [
+     "10.1002/14651858.cd001261",
+     "2000"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [
+    "2000"
+   ],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD004414": {
+   "n_records": 336,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd004414.pub3",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd004414.pub2",
+     "2010"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD006468": {
+   "n_records": 3874,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd006468.pub6",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd006468.pub5",
+     "2014"
+    ],
+    [
+     "10.1002/14651858.cd006468.pub4",
+     "2011"
+    ],
+    [
+     "10.1002/14651858.cd006468.pub3",
+     "2011"
+    ],
+    [
+     "10.1002/14651858.cd006468.pub2",
+     "2007"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD007867": {
+   "n_records": 943,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd007867.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD008874": {
+   "n_records": 2382,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd008874.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD009044": {
+   "n_records": 3169,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd009044.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD009069": {
+   "n_records": 1757,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd009069.pub3",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd009069",
+     "2011"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": true,
+   "protocol_pmcid": [
+    "PMC4176676"
+   ],
+   "fulltext_pmc_html_status": [
+    200
+   ],
+   "fulltext_europepmc_xml_status": [
+    500
+   ],
+   "sections_found": {
+    "objectives": true,
+    "criteria": true,
+    "page_is_recaptcha_challenge": false
+   },
+   "usable": true,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD009642": {
+   "n_records": 1922,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd009642.pub3",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd009642.pub2",
+     "2015"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD010038": {
+   "n_records": 8867,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd010038.pub3",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd010038.pub2",
+     "2013"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD010239": {
+   "n_records": 224,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd010239.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD010558": {
+   "n_records": 2815,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd010558.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD010753": {
+   "n_records": 2539,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd010753.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD011571": {
+   "n_records": 146,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd011571.pub2",
+     "2019"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD011686": {
+   "n_records": 9729,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd011686.pub3",
+     "2024"
+    ],
+    [
+     "10.1002/14651858.cd011686.pub2",
+     "2017"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD011768": {
+   "n_records": 9160,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd011768.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD011787": {
+   "n_records": 4369,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd011787.pub2",
+     "2017"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD011977": {
+   "n_records": 195,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd011977.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012069": {
+   "n_records": 3479,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012069.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012080": {
+   "n_records": 6643,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012080.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012164": {
+   "n_records": 61,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012164.pub2",
+     "2019"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012233": {
+   "n_records": 472,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012233.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012455": {
+   "n_records": 1593,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012455.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": false,
+   "protocol_pmcid": [],
+   "fulltext_pmc_html_status": [],
+   "fulltext_europepmc_xml_status": [],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": null
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012551": {
+   "n_records": 591,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012551.pub3",
+     "2018"
+    ],
+    [
+     "10.1002/14651858.cd012551.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": true,
+   "protocol_pmcid": [
+    "PMC6464272"
+   ],
+   "fulltext_pmc_html_status": [
+    200
+   ],
+   "fulltext_europepmc_xml_status": [
+    503
+   ],
+   "sections_found": {
+    "objectives": true,
+    "criteria": true,
+    "page_is_recaptcha_challenge": false
+   },
+   "usable": true,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012567": {
+   "n_records": 6735,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012567.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": true,
+   "protocol_pmcid": [
+    "PMC6464503"
+   ],
+   "fulltext_pmc_html_status": [
+    200
+   ],
+   "fulltext_europepmc_xml_status": [
+    503
+   ],
+   "sections_found": {
+    "objectives": true,
+    "criteria": true,
+    "page_is_recaptcha_challenge": false
+   },
+   "usable": true,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012661": {
+   "n_records": 3367,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012661.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": true,
+   "protocol_pmcid": [
+    "PMC6481685"
+   ],
+   "fulltext_pmc_html_status": [
+    200
+   ],
+   "fulltext_europepmc_xml_status": [
+    503
+   ],
+   "sections_found": {
+    "objectives": true,
+    "criteria": true,
+    "page_is_recaptcha_challenge": false
+   },
+   "usable": true,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012669": {
+   "n_records": 1260,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012669.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": true,
+   "protocol_pmcid": [
+    "PMC6481509"
+   ],
+   "fulltext_pmc_html_status": [
+    200
+   ],
+   "fulltext_europepmc_xml_status": [
+    503
+   ],
+   "sections_found": {
+    "objectives": true,
+    "criteria": true,
+    "page_is_recaptcha_challenge": false
+   },
+   "usable": true,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  },
+  "CD012768": {
+   "n_records": 131,
+   "cdsr_versions_in_pubmed": [
+    [
+     "10.1002/14651858.cd012768.pub4",
+     "2025"
+    ],
+    [
+     "10.1002/14651858.cd012768.pub3",
+     "2021"
+    ],
+    [
+     "10.1002/14651858.cd012768.pub2",
+     "2018"
+    ]
+   ],
+   "unsuffixed_doi_in_pubmed_is_review": [],
+   "protocol_identified": true,
+   "protocol_pmcid": [
+    "PMC6483559"
+   ],
+   "fulltext_pmc_html_status": [
+    200
+   ],
+   "fulltext_europepmc_xml_status": [
+    503
+   ],
+   "sections_found": {
+    "objectives": false,
+    "criteria": false,
+    "page_is_recaptcha_challenge": true
+   },
+   "usable": false,
+   "cochrane_library_status": 412,
+   "wiley_status": 403
+  }
+ }
+}

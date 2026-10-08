@@ -1,0 +1,388 @@
+{
+ "analysis": "AN-0001-07",
+ "compiled": "2026-09-26 18:03:53 EDT",
+ "tau": 0.07,
+ "status_of_categories": "AI-proposed, not verified by an author (same status as appendix section 7); categories A, B, C as in appendix section 7; D and E are proposed additions.",
+ "sources": {
+  "CD012233": {
+   "pmc": "PMC6513652",
+   "pmid": "30109701",
+   "doi": "10.1002/14651858.CD012233.pub2",
+   "pmc_html_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6513652/",
+   "fetch_log": [
+    "2026-09-26 17:51:32 EDT pmc-html PMC6513652 200 https://pmc.ncbi.nlm.nih.gov/articles/PMC6513652/ 547022"
+   ],
+   "note": "The PMC XML from E-utilities contains the abstract only (publisher restriction); the PMC HTML page contains the full review text including the reference list sections, the characteristics of included studies and the data tables. Cochrane Library and Wiley pages were not reachable from this server (HTTP 412 and 403)."
+  },
+  "CD011977": {
+   "pmc": "PMC6494477",
+   "pmid": "29786830",
+   "doi": "10.1002/14651858.CD011977.pub2",
+   "pmc_html_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494477/",
+   "fetch_log": [
+    "2026-09-26 17:51:32 EDT pmc-html PMC6494477 200 https://pmc.ncbi.nlm.nih.gov/articles/PMC6494477/ 922897"
+   ],
+   "note": "The PMC XML from E-utilities contains the abstract only (publisher restriction); the PMC HTML page contains the full review text including the reference list sections, the characteristics of included studies and the data tables. Cochrane Library and Wiley pages were not reachable from this server (HTTP 412 and 403)."
+  },
+  "CD010558": {
+   "pmc": "PMC6494651",
+   "pmid": "29761488",
+   "doi": "10.1002/14651858.CD010558.pub2",
+   "pmc_html_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6494651/",
+   "fetch_log": [
+    "2026-09-26 17:51:32 EDT pmc-html PMC6494651 200 https://pmc.ncbi.nlm.nih.gov/articles/PMC6494651/ 546981"
+   ],
+   "note": "The PMC XML from E-utilities contains the abstract only (publisher restriction); the PMC HTML page contains the full review text including the reference list sections, the characteristics of included studies and the data tables. Cochrane Library and Wiley pages were not reachable from this server (HTTP 412 and 403)."
+  }
+ },
+ "criteria_source": {
+  "CD012233": {
+   "pmid": "30109701",
+   "year": 2018
+  },
+  "CD011977": {
+   "pmid": "29786830",
+   "year": 2018
+  },
+  "CD010558": {
+   "pmid": "29761488",
+   "year": 2018
+  }
+ },
+ "reviews": {
+  "CD012233": {
+   "type": "DTA",
+   "N": 472,
+   "n_clef_content_relevant": 9,
+   "n_clef_abstract_relevant": 43,
+   "n_read_at_tau": 353,
+   "work_at_tau": 0.7478813559322034,
+   "recall_at_tau_clef_content_labels": 0.8888888888888888,
+   "n_relevant_below_tau": 1,
+   "n_abstract_relevant_below_tau": 1,
+   "largest_tau_keeping_95_recall": 0.05,
+   "clef_relevant_p_sorted": [
+    0.05,
+    0.19,
+    0.65,
+    0.68,
+    0.78,
+    0.79,
+    0.88,
+    0.93,
+    0.94
+   ],
+   "published_review": {
+    "n_included_studies": 16,
+    "clef_relevant_pmids_by_reference_list_section": {
+     "References to studies excluded from this review": 4,
+     "Additional references": 1,
+     "References to studies included in this review": 4
+    },
+    "n_included_study_ids_represented_in_clef_relevant_set": 4,
+    "n_of_these_with_at_least_one_report_at_or_above_tau": 4,
+    "study_level_recall_at_tau": 1.0
+   },
+   "missed": [
+    {
+     "pmid": "9362194",
+     "first_author": "Chen",
+     "year": "1997",
+     "journal": "Am J Gastroenterol",
+     "doi": null,
+     "title": "Risk factors for gallbladder polyps in the Chinese population.",
+     "jev_probability": 0.05,
+     "rank": 382,
+     "rank_proportion": 0.809322033898305,
+     "clef_abstract_label": 1,
+     "study_id_in_published_review": "Chen 1997",
+     "reference_list_section": [
+      "Additional references"
+     ],
+     "other_reports_of_same_study_in_clef_set": [],
+     "ai_proposed_category": "E (proposed new category): CLEF content-level label does not correspond to an included study of the published review",
+     "basis": "The published review (CD012233.pub2) cites Chen 1997 only under Additional references, as a background source for the prevalence of gallbladder polyps in Asian populations; it is not among the 16 included studies, it appears in none of the five data tables by test, and the abstract describes a prevalence and risk-factor survey without diagnostic accuracy data (no index test against a reference standard). A low probability is consistent with the written criteria.",
+     "contribution_to_published_review": "None: not an included study of the published review; contributes to no data table, meta-analysis or summary of findings.",
+     "effect_of_removal_on_pooled_estimate": "Not applicable (no data in the review).",
+     "n_mentions_in_review_text": 3,
+     "evidence_sentences": [
+      "However, it appears that the prevalence is lower in Western populations ( Jorgensen 1990 ; Kratzer 2008 ) than in Asian populations ( Chen 1997 ; Okamoto 1999 ; Lin 2008 ).",
+      "Second, all included studies for these two review questions were of Asian origin, where the prevalence of gallbladder polyps and carcinomas is higher than in the western population ( Jorgensen 1990 ; Chen 1997 ; Okamoto 1999 ; Kratzer 2008 ; Lin 2008 ).",
+      "Journal of Clinical Epidemiology 2006;59(7):697‐703. [ DOI ] [ PubMed ] [ Google Scholar ] Chen 1997 Chen CY, Lu CL, Chang FY, Lee SD."
+     ]
+    }
+   ]
+  },
+  "CD011977": {
+   "type": "Intervention",
+   "N": 195,
+   "n_clef_content_relevant": 37,
+   "n_clef_abstract_relevant": 49,
+   "n_read_at_tau": 89,
+   "work_at_tau": 0.4564102564102564,
+   "recall_at_tau_clef_content_labels": 0.918918918918919,
+   "n_relevant_below_tau": 3,
+   "n_abstract_relevant_below_tau": 3,
+   "largest_tau_keeping_95_recall": 0.03,
+   "clef_relevant_p_sorted": [
+    0.03,
+    0.03,
+    0.05,
+    0.07,
+    0.08,
+    0.08,
+    0.11,
+    0.14,
+    0.42,
+    0.43,
+    0.44,
+    0.48,
+    0.53,
+    0.53,
+    0.57,
+    0.59,
+    0.62,
+    0.64,
+    0.67,
+    0.76,
+    0.76,
+    0.77,
+    0.79,
+    0.8,
+    0.81,
+    0.82,
+    0.83,
+    0.84,
+    0.84,
+    0.84,
+    0.88,
+    0.88,
+    0.9,
+    0.9,
+    0.91,
+    0.91,
+    0.93
+   ],
+   "published_review": {
+    "n_included_studies": 51,
+    "clef_relevant_pmids_by_reference_list_section": {
+     "References to studies included in this review": 37
+    },
+    "n_included_study_ids_represented_in_clef_relevant_set": 37,
+    "n_of_these_with_at_least_one_report_at_or_above_tau": 34,
+    "study_level_recall_at_tau": 0.918918918918919
+   },
+   "missed": [
+    {
+     "pmid": "15682919",
+     "first_author": "Kennis",
+     "year": "2004",
+     "journal": "Bull Soc Belge Ophtalmol",
+     "doi": null,
+     "title": "Comparing the contrast sensitivity of a modified prolate anterior surface IOL and of two spherical IOLs.",
+     "jev_probability": 0.03,
+     "rank": 115,
+     "rank_proportion": 0.5897435897435898,
+     "clef_abstract_label": 1,
+     "study_id_in_published_review": "Kennis 2004",
+     "reference_list_section": [
+      "References to studies included in this review"
+     ],
+     "other_reports_of_same_study_in_clef_set": [],
+     "ai_proposed_category": "B: eligibility information not stated in the abstract (the abstract frames the trial as an aspheric versus spherical intraocular lens comparison; that the spherical comparator AcrySof Natural SN60AT is a blue-light filtering lens is product knowledge not stated in the abstract)",
+     "basis": "Abstract: Tecnis Z9000 versus Sensar AR40e and AcrySof Natural SN60AT; contrast sensitivity and BCVA at six months. The review table of intraocular lenses lists Kennis 2004 with blue-light filtering IOL AcrySof Natural SN60AT and non-blue-light filtering IOL Tecnis Z9000 or Opti-Edge.",
+     "contribution_to_published_review": "Primary outcome (distance BCVA at six to 18 months): the review states that six studies including Kennis 2004 reported relevant data, that Kennis 2004 could not be included in the meta-analysis because it analysed 98 eyes of 71 participants without details of the analysis approach, and that its findings were presented separately (Analysis 1.2, Figure 5). The pooled estimate (Analysis 1.1; MD -0.01 logMAR, 95% CI -0.03 to 0.02; 2 studies, 131 eyes) comprised Caporossi 2009 and Vuori 2006 only. Secondary outcome contrast sensitivity: listed as potentially relevant but no measures of variability, so no data were included.",
+     "effect_of_removal_on_pooled_estimate": "Removing Kennis 2004 would not change the pooled primary-outcome estimate, because it was not part of it. Whether the GRADE rating for this outcome took the separately presented Kennis 2004 result into account is not stated in the text and was not determined.",
+     "n_mentions_in_review_text": 19,
+     "evidence_sentences": [
+      "In two studies, more than one eye from an individual participant was included in the analysis but details of the intra‐class correlation coefficient for within‐person clustering were not provided ( Kennis 2004 ; Marshall 2005 ).",
+      "For the study where one eye was included in the analysis ( Caporossi 2007 ), the method of selection was the dominant eye, although it was not stated whether this was a pre‐planned or post hoc selection. the unit of randomisation being the participants, unilateral implantation of a randomly allocated IOL type with inter‐group comparisons ( Bandyopadhyay 2016 ; Brøndsted 2015 ; Brøndsted 2017 ; Espíndola 2012a ; Falkner Radler 2008 ; Kim 2011b ; Leibovitch 2006 ; Monnet 2009 ; Neumaier‐Ammerer 2010 ; Pandita 2007 ; Schmoll 2014 ; Ueda 2006 ; Wang 2010 ; Yuan 2004 ); a paired‐eye design, whereby one eye randomly received a blue‐light filtering IOL and the fellow eye received a non‐blue‐light f",
+      "The studies were conducted in 17 different countries: one in Australia ( Leibovitch 2006 ), six in Austria ( Falkner Radler 2008 ; Hahsler 2004 ; Hahsler 2005 ; Neumaier‐Ammerer 2010 ; Schmidinger 2008 ; Wirtitsch 2009 ), one in Belgium or Switzerland (unclear) ( Kennis 2004 ), four in Brazil ( Espíndola 2012a ; Kara Júnior 2006 ; Kara Junior 2011 ; Rocha 2007 ), three in China ( Cui 2009 ; Wang 2010 ; Yuan 2004 ), one in Croatia ( Barisic 2007 ), three in Denmark ( Brøndsted 2014 ; Brøndsted 2015 ; Brøndsted 2017 ), one in England ( Cuthbertson 2009 ), one in Finland ( Vuori 2006 ), one in France ( Monnet 2009 ), four in Germany ( Kuchenbecker 2004 ; Mester 2008a ; Schmack 2012 ; Walter 200",
+      "Several studies excluded participants with intraoperative complications ( Bhattacharjee 2006 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Cuthbertson 2009 ; Espíndola 2012a ; Kara Junior 2011 ; Kennis 2004 ; Kim 2011a ; Mester 2008a ; Monnet 2009 ; Pandita 2007 ; Raj 2005 ; Rocha 2007 ; Schmack 2012 ; Wang 2010 ; Yamaguchi 2009 ; Yamaguchi 2011 ), postoperative complications ( Bhattacharjee 2006 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Kennis 2004 ; Kim 2011a ; Pandita 2007 ; Raj 2005 ; Schmack 2012 ; Yamaguchi 2009 ; Yamaguchi 2011 ), incomplete follow‐up ( Espíndola 2012a ; Kara Junior 2011 ; Wang 2010 ) and/or reduced actual ( Kara Júnior 2006 ) or ant",
+      "Study Blue‐light filtering IOL name(s) a (Manufacturer) Non‐blue‐light filtering IOL name(s) a (Manufacturer) Aose 2006 YA‐60BB (Hoya) AcrySof SA60AT (Alcon) or AcrySof MA60BM (Alcon) or VA‐60BB (Hoya) Bandyopadhyay 2016 AcrySof Natural SN60AT (Alcon) or PC4406 (Optech) AcrySof SA60AT (Alcon) Barisic 2007 AcrySof Natural (Alcon) AcrySof MA60BM (Alcon) Behrens‐Baumann 2005 YA‐60BB (Hoya) VA‐60BB (Hoya) Bhattacharjee 2006 AcrySof Natural SN60AT (Alcon) AcrySof SA60AT (Alcon) Brøndsted 2014 Not reported Not reported Brøndsted 2015 AcrySof IQ SN60WF (Alcon) AMO ZCBOO (Abbott Medical Optics) Brøndsted 2017 AcrySof IQ SN60WF (Alcon) AMO ZCBOO (Abbott Medical Optics) Caporossi 2007 AcrySof Natural ",
+      "Six studies ( Bhattacharjee 2006 ; Caporossi 2009 ; Kennis 2004 ; Mester 2008a ; Schmack 2012 ; Vuori 2006 ) presented data that we judged to be potentially relevant to the primary outcome, defined as the change in distance BCVA, and considered as a continuous variable.",
+      "The methods adopted to assess BCVA involved quantification on an Early Treatment of Diabetic Retinopathy Study (ETDRS) chart under photopic conditions ( Caporossi 2009 ; Mester 2008a ; Schmack 2012 ), Snellen chart under photopic conditions ( Kennis 2004 ; Vuori 2006 ), or was not reported ( Bhattacharjee 2006 ).",
+      "The trial designs of the six studies were single‐eye comparisons ( Caporossi 2009 ; Vuori 2006 ), paired‐eye comparisons ( Bhattacharjee 2006 ; Mester 2008a ; Schmack 2012 ) and a clustered design including where data from more than one eye of some participants were included ( Kennis 2004 ).",
+      "For one study ( Kennis 2004 ), the unit of measure for distance BCVA was not defined in the paper; for all other studies, the unit of measure was in LogMAR.",
+      "Nine studies ( Caporossi 2009 ; Falkner Radler 2008 ; Kennis 2004 ; Leibovitch 2006 ; Mester 2008a ; Pandita 2007 ; Schmack 2012 ; Wang 2010 ; Yuan 2004 ) presented data that we considered potentially relevant to this outcome, defined as the effect on the contrast sensitivity function, measured in log Contrast Threshold (%), and considered as a continuous outcome using the mid‐range of the available spatial frequencies (between six and 12 cycles/degree), under photopic conditions, as determined by various contrast acuity charts, at six months (with an acceptable follow‐up range of three to nine months).",
+      "Of these potentially relevant trials, five studies ( Caporossi 2009 ; Kennis 2004 ; Pandita 2007 ; Wang 2010 ; Yuan 2004 ) did not provide details relating to measures of variability for this outcome; we attempted to contact the study authors for this information, but this was not successful, and thus we were unable to include data from these trials.",
+      "For the other 34 trials, the design was either an ‘open label’ trial ( Behrens‐Baumann 2005 ; Kuchenbecker 2004 ; Monnet 2009 ; Walter 2005 ), 'patient‐masked only' ( Cionni 2003 ; Marshall 2005 ), or there was no information provided in relation to how masking may have been performed for study participants and personnel ( Aose 2006 ; Bandyopadhyay 2016 ; Barisic 2007 ; Brøndsted 2014 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Cui 2009 ; Cuthbertson 2009 ; Falkner Radler 2008 ; Hahsler 2004 ; Hahsler 2005 ; Hyunseok 2007 ; Kara Júnior 2006 ; Kennis 2004 ; Kim 2011a ; Kim 2011b ; Mester 2008a ; Rocha 2006a ; Rocha 2006b ; Rocha 2007 ; Soriano 2006 ; Ueda 2005 ; Ueda"
+     ]
+    },
+    {
+     "pmid": "19781467",
+     "first_author": "Yamaguchi",
+     "year": "2009",
+     "journal": "J Cataract Refract Surg",
+     "doi": "10.1016/j.jcrs.2009.05.031",
+     "title": "Feasibility of spherical aberration correction with aspheric intraocular lenses in cataract surgery based on individual pupil diameter.",
+     "jev_probability": 0.05,
+     "rank": 96,
+     "rank_proportion": 0.49230769230769234,
+     "clef_abstract_label": 1,
+     "study_id_in_published_review": "Yamaguchi 2009",
+     "reference_list_section": [
+      "References to studies included in this review"
+     ],
+     "other_reports_of_same_study_in_clef_set": [],
+     "ai_proposed_category": "B: eligibility information not stated in the abstract (aspheric versus spherical comparison; the spherical group used AcrySof Natural SN60AT, a blue-light filtering lens, which the abstract does not state)",
+     "basis": "Abstract: four IOL groups (AcrySof SN60WF, Tecnis ZA9003, Hoya PY-60AD, AcrySof Natural SN60AT); outcomes are higher-order aberrations and pupil diameter.",
+     "contribution_to_published_review": "No data for the primary outcome or for any meta-analysis: the review mentions Yamaguchi 2009 only in the description of study designs and countries, in the risk-of-bias assessment, and in the adverse-effects summary (no participants developed intraoperative or postoperative complications).",
+     "effect_of_removal_on_pooled_estimate": "Not applicable (no pooled estimate uses this study).",
+     "n_mentions_in_review_text": 11,
+     "evidence_sentences": [
+      "Additionally, in a number of studies, there was lack of a clear description relating to whether IOL allocation was bilateral or unilateral ( Aose 2006 ; Behrens‐Baumann 2005 ; Brøndsted 2014 ; Cui 2009 ; Hahsler 2004 ; Kuchenbecker 2004 ; Nolan 2009 ; Rocha 2006a ; Rocha 2006b ; Soriano 2006 ; Ueda 2005 ; Yamaguchi 2009 ; Yamaguchi 2011 ).",
+      "The studies were conducted in 17 different countries: one in Australia ( Leibovitch 2006 ), six in Austria ( Falkner Radler 2008 ; Hahsler 2004 ; Hahsler 2005 ; Neumaier‐Ammerer 2010 ; Schmidinger 2008 ; Wirtitsch 2009 ), one in Belgium or Switzerland (unclear) ( Kennis 2004 ), four in Brazil ( Espíndola 2012a ; Kara Júnior 2006 ; Kara Junior 2011 ; Rocha 2007 ), three in China ( Cui 2009 ; Wang 2010 ; Yuan 2004 ), one in Croatia ( Barisic 2007 ), three in Denmark ( Brøndsted 2014 ; Brøndsted 2015 ; Brøndsted 2017 ), one in England ( Cuthbertson 2009 ), one in Finland ( Vuori 2006 ), one in France ( Monnet 2009 ), four in Germany ( Kuchenbecker 2004 ; Mester 2008a ; Schmack 2012 ; Walter 200",
+      "Several studies excluded participants with intraoperative complications ( Bhattacharjee 2006 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Cuthbertson 2009 ; Espíndola 2012a ; Kara Junior 2011 ; Kennis 2004 ; Kim 2011a ; Mester 2008a ; Monnet 2009 ; Pandita 2007 ; Raj 2005 ; Rocha 2007 ; Schmack 2012 ; Wang 2010 ; Yamaguchi 2009 ; Yamaguchi 2011 ), postoperative complications ( Bhattacharjee 2006 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Kennis 2004 ; Kim 2011a ; Pandita 2007 ; Raj 2005 ; Schmack 2012 ; Yamaguchi 2009 ; Yamaguchi 2011 ), incomplete follow‐up ( Espíndola 2012a ; Kara Junior 2011 ; Wang 2010 ) and/or reduced actual ( Kara Júnior 2006 ) or ant",
+      "Some trials indicated that no participants developed intraoperative or postoperative complications ( Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Espíndola 2012a ; Raj 2005 ; Yamaguchi 2009 ) but most studies did not report on how many participants were excluded due to such effects, which may have affected our ability to report upon all potential adverse events from the interventions.",
+      "Study Blue‐light filtering IOL name(s) a (Manufacturer) Non‐blue‐light filtering IOL name(s) a (Manufacturer) Aose 2006 YA‐60BB (Hoya) AcrySof SA60AT (Alcon) or AcrySof MA60BM (Alcon) or VA‐60BB (Hoya) Bandyopadhyay 2016 AcrySof Natural SN60AT (Alcon) or PC4406 (Optech) AcrySof SA60AT (Alcon) Barisic 2007 AcrySof Natural (Alcon) AcrySof MA60BM (Alcon) Behrens‐Baumann 2005 YA‐60BB (Hoya) VA‐60BB (Hoya) Bhattacharjee 2006 AcrySof Natural SN60AT (Alcon) AcrySof SA60AT (Alcon) Brøndsted 2014 Not reported Not reported Brøndsted 2015 AcrySof IQ SN60WF (Alcon) AMO ZCBOO (Abbott Medical Optics) Brøndsted 2017 AcrySof IQ SN60WF (Alcon) AMO ZCBOO (Abbott Medical Optics) Caporossi 2007 AcrySof Natural ",
+      "Thirty‐one studies reported an absence of any conflict of interest ( Aose 2006 ; Bandyopadhyay 2016 ; Bhattacharjee 2006 ; Brøndsted 2014 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cui 2009 ; Cuthbertson 2009 ; Espíndola 2012a ; Falkner Radler 2008 ; Hayashi 2006 ; Kara Júnior 2006 ; Kara Junior 2011 ; Kim 2011a ; Kim 2011b ; Mester 2008a ; Monnet 2009 ; Neumaier‐Ammerer 2010 ; Pandita 2007 ; Raj 2005 ; Rocha 2006b ; Rocha 2007 ; Schmack 2012 ; Schmidinger 2008 ; Schmoll 2014 ; Ueda 2005 ; Wang 2010 ; Wirtitsch 2009 ; Yamaguchi 2009 ; Yamaguchi 2011 ).",
+      "For the other 34 trials, the design was either an ‘open label’ trial ( Behrens‐Baumann 2005 ; Kuchenbecker 2004 ; Monnet 2009 ; Walter 2005 ), 'patient‐masked only' ( Cionni 2003 ; Marshall 2005 ), or there was no information provided in relation to how masking may have been performed for study participants and personnel ( Aose 2006 ; Bandyopadhyay 2016 ; Barisic 2007 ; Brøndsted 2014 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Cui 2009 ; Cuthbertson 2009 ; Falkner Radler 2008 ; Hahsler 2004 ; Hahsler 2005 ; Hyunseok 2007 ; Kara Júnior 2006 ; Kennis 2004 ; Kim 2011a ; Kim 2011b ; Mester 2008a ; Rocha 2006a ; Rocha 2006b ; Rocha 2007 ; Soriano 2006 ; Ueda 2005 ; Ueda",
+      "In 32 studies, we judged the influence of attrition bias to be unclear, as follow‐up was either not clearly stated ( Aose 2006 ; Bandyopadhyay 2016 ; Behrens‐Baumann 2005 ; Brøndsted 2014 ; Brøndsted 2017 ; Cionni 2003 ; Cui 2009 ; Hahsler 2004 ; Hahsler 2005 ; Hyunseok 2007 ; Kennis 2004 ; Kim 2011a ; Kuchenbecker 2004 ; Rocha 2006a ; Rocha 2006b ; Soriano 2006 ; Ueda 2005 ; Ueda 2006 ; Vuori 2006 ; Walter 2005 ; Yuan 2004 ), participants were potentially excluded due to intraoperative and/or postoperative complications ( Bhattacharjee 2006 ; Caporossi 2007 ; Cristobal 2005 ; Cuthbertson 2009 ; Espíndola 2012a ; Mester 2008a ; Schmack 2012 ; Wang 2010 ; Yamaguchi 2009 ; Yamaguchi 2011 ), or",
+      "Other potential sources of bias For 36 of the 51 included trials we did not identify any other potential sources of bias ( Aose 2006 ; Bandyopadhyay 2016 ; Barisic 2007 ; Behrens‐Baumann 2005 ; Bhattacharjee 2006 ; Brøndsted 2014 ; Brøndsted 2015 ; Brøndsted 2017 ; Caporossi 2007 ; Caporossi 2009 ; Cionni 2003 ; Cui 2009 ; Cuthbertson 2009 ; Espíndola 2012a ; Falkner Radler 2008 ; Hayashi 2006 ; Kara Júnior 2006 ; Kara Junior 2011 ; Kennis 2004 ; Kim 2011a ; Kim 2011b ; Leibovitch 2006 ; Monnet 2009 ; Neumaier‐Ammerer 2010 ; Pandita 2007 ; Raj 2005 ; Rocha 2007 ; Schmack 2012 ; Schmidinger 2008 ; Schmoll 2014 ; Ueda 2006 ; Wang 2010 ; Wirtitsch 2009 ; Yamaguchi 2009 ; Yamaguchi 2011 ; Yuan 2",
+      "Study is described as “randomised” but with no further details Blinding of participants and personnel (performance bias) All outcomes Low risk Quote: \"Patients and examiner were masked for IOL assignment.\" Blinding of outcome assessment (detection bias) All outcomes Low risk Quote: \"Study testing was performed in 1 single test session 90 plus/minus 10 days after surgery of the second eye by the same experienced and masked examiner.\" Incomplete outcome data (attrition bias) All outcomes Low risk Quote: \"All included patients completed the scheduled vision tests and questionnaire.\" Selective reporting (reporting bias) Low risk Judgement comment: all outcomes listed in trials registry (clinical",
+      "Ophthalmology 2009;116(1):39‐45. [ DOI ] [ PubMed ] [ Google Scholar ] Yamaguchi 2009 {published data only} Yamaguchi T, Negishi K, Ono T, Torii H, Dogru M, Yamaguchi K, et al."
+     ]
+    },
+    {
+     "pmid": "19491981",
+     "first_author": "Cui",
+     "year": "2009",
+     "journal": "Can J Ophthalmol",
+     "doi": "10.3129/i08-121",
+     "title": "Comparison of pseudophakic visual quality in spherical and aspherical intraocular lenses.",
+     "jev_probability": 0.03,
+     "rank": 124,
+     "rank_proportion": 0.6358974358974359,
+     "clef_abstract_label": 1,
+     "study_id_in_published_review": "Cui 2009",
+     "reference_list_section": [
+      "References to studies included in this review"
+     ],
+     "other_reports_of_same_study_in_clef_set": [],
+     "ai_proposed_category": "B: eligibility information not stated in the abstract (aspheric versus spherical comparison; the spherical control AcrySof Natural is a blue-light filtering lens, which the abstract does not state)",
+     "basis": "Abstract: AcrySof IQ SN60WF or Tecnis Z9001 versus AcrySof Natural; aberrations and contrast sensitivity up to two months. The review lists Cui 2009 with blue-light filtering IOL AcrySof Natural SN60AT or AcrySof IQ SN60WF and non-blue-light filtering IOL Tecnis Z9001.",
+     "contribution_to_published_review": "No data for the primary outcome or for any meta-analysis: the review states that its distance BCVA data were not relevant to the primary outcome because follow-up was under six months and that the publication lacked quantitative data; Cui 2009 appears in the adverse-effects summary table (intraoperative complications: none) and in the risk-of-bias tables.",
+     "effect_of_removal_on_pooled_estimate": "Not applicable (no pooled estimate uses this study).",
+     "n_mentions_in_review_text": 14,
+     "evidence_sentences": [
+      "Additionally, in a number of studies, there was lack of a clear description relating to whether IOL allocation was bilateral or unilateral ( Aose 2006 ; Behrens‐Baumann 2005 ; Brøndsted 2014 ; Cui 2009 ; Hahsler 2004 ; Kuchenbecker 2004 ; Nolan 2009 ; Rocha 2006a ; Rocha 2006b ; Soriano 2006 ; Ueda 2005 ; Yamaguchi 2009 ; Yamaguchi 2011 ).",
+      "The studies were conducted in 17 different countries: one in Australia ( Leibovitch 2006 ), six in Austria ( Falkner Radler 2008 ; Hahsler 2004 ; Hahsler 2005 ; Neumaier‐Ammerer 2010 ; Schmidinger 2008 ; Wirtitsch 2009 ), one in Belgium or Switzerland (unclear) ( Kennis 2004 ), four in Brazil ( Espíndola 2012a ; Kara Júnior 2006 ; Kara Junior 2011 ; Rocha 2007 ), three in China ( Cui 2009 ; Wang 2010 ; Yuan 2004 ), one in Croatia ( Barisic 2007 ), three in Denmark ( Brøndsted 2014 ; Brøndsted 2015 ; Brøndsted 2017 ), one in England ( Cuthbertson 2009 ), one in Finland ( Vuori 2006 ), one in France ( Monnet 2009 ), four in Germany ( Kuchenbecker 2004 ; Mester 2008a ; Schmack 2012 ; Walter 200",
+      "Study Blue‐light filtering IOL name(s) a (Manufacturer) Non‐blue‐light filtering IOL name(s) a (Manufacturer) Aose 2006 YA‐60BB (Hoya) AcrySof SA60AT (Alcon) or AcrySof MA60BM (Alcon) or VA‐60BB (Hoya) Bandyopadhyay 2016 AcrySof Natural SN60AT (Alcon) or PC4406 (Optech) AcrySof SA60AT (Alcon) Barisic 2007 AcrySof Natural (Alcon) AcrySof MA60BM (Alcon) Behrens‐Baumann 2005 YA‐60BB (Hoya) VA‐60BB (Hoya) Bhattacharjee 2006 AcrySof Natural SN60AT (Alcon) AcrySof SA60AT (Alcon) Brøndsted 2014 Not reported Not reported Brøndsted 2015 AcrySof IQ SN60WF (Alcon) AMO ZCBOO (Abbott Medical Optics) Brøndsted 2017 AcrySof IQ SN60WF (Alcon) AMO ZCBOO (Abbott Medical Optics) Caporossi 2007 AcrySof Natural ",
+      "Several studies reported data relating to distance BCVA that were not directly relevant to the primary outcome, due to: the postoperative follow‐up period being less than six months ( Aose 2006 ; Bandyopadhyay 2016 ; Brøndsted 2015 ; Caporossi 2007 ; Cristobal 2005 ; Cui 2009 ; Cuthbertson 2009 ; Falkner Radler 2008 ; Hayashi 2006 ; Kim 2011a ; Kim 2011b ; Kuchenbecker 2004 ; Neumaier‐Ammerer 2010 ; Pandita 2007 ; Rocha 2007 ; Schmidinger 2008 ; Ueda 2006 ; Walter 2005 ; Wang 2010 ; Wirtitsch 2009 ); the postoperative follow‐up period being in excess of 18 months ( Espíndola 2012a : 24 months); data being presented in an alternative format: Nolan 2009 : reported distance BCVA as a 'visual ac",
+      "In this study, it was reported that \"similar improvements in acuity were observed in (both intervention groups) over the time course of the study\"; Barisic 2007 : measured distance BCVA categorically as the number of eyes with BCVA of 0.8, 0.9 or 1.0 decimal acuity after six months of follow‐up, which could not be included in the statistical analysis; a lack of quantitative data within the publication ( Aose 2006 ; Barisic 2007 ; Caporossi 2007 ; Cionni 2003 ; Cui 2009 ; Kim 2011a ; Kim 2011b ; Leibovitch 2006 ; Marshall 2005 ).",
+      "Adverse effects We have summarised data relating to adverse effects in relation to: intraoperative complications ( Bandyopadhyay 2016 ; Barisic 2007 ; Caporossi 2007 ; Cui 2009 ; Cuthbertson 2009 ; Espíndola 2012a ; Falkner Radler 2008 ; Kim 2011a ; Kim 2011b ; Leibovitch 2006 ; Marshall 2005 ; Monnet 2009 ; Pandita 2007 ; Raj 2005 ; Schmidinger 2008 ; Vuori 2006 ); eyes that required neodymium‐doped yttrium aluminium garnet (Nd:YAG) capsulotomy following cataract surgery ( Barisic 2007 ; Caporossi 2009 ; Espíndola 2012a ; Marshall 2005 ; Monnet 2009 ; Vuori 2006 ; Wang 2010 ; Yamaguchi 2011 ); and postoperative complications ( Bandyopadhyay 2016 ; Barisic 2007 ; Brøndsted 2015 ; Caporossi 2",
+      "Study Study population: number of participants (number of eyes) Number of intraoperative complication(s) Details of intraoperative complication(s) Bandyopadhyay 2016 Blue‐light filtering IOLs: n = 65 (65); this group combined individuals assigned to 2 different blue‐light filtering IOLs Non‐blue‐light filtering IOL: n = 33 (33) Blue‐light filtering IOL: none Non‐blue‐light filtering IOL: none Not applicable Barisic 2007 Blue‐light filtering IOL: n = 30 (60) Non‐blue‐light filtering IOL: n = 30 (60) Blue‐light filtering IOL: none Non‐blue‐light filtering IOL: none Not applicable Caporossi 2007 Blue‐light filtering IOL: n = 50 (100); this group combined individuals assigned to 2 different blue",
+      "Two Nd:YAG laser capsulotomies were required in two patients who had AcrySof SN60AT IOL (blue‐light filtering IOL) and Tecnis Z9000 IOL (non‐blue‐light filtering IOL) implantation.\" Cui 2009 Blue‐light filtering IOL: n = 39 (41); this group combined individuals assigned to 2 different blue‐light filtering IOLs.",
+      "Thirty‐one studies reported an absence of any conflict of interest ( Aose 2006 ; Bandyopadhyay 2016 ; Bhattacharjee 2006 ; Brøndsted 2014 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cui 2009 ; Cuthbertson 2009 ; Espíndola 2012a ; Falkner Radler 2008 ; Hayashi 2006 ; Kara Júnior 2006 ; Kara Junior 2011 ; Kim 2011a ; Kim 2011b ; Mester 2008a ; Monnet 2009 ; Neumaier‐Ammerer 2010 ; Pandita 2007 ; Raj 2005 ; Rocha 2006b ; Rocha 2007 ; Schmack 2012 ; Schmidinger 2008 ; Schmoll 2014 ; Ueda 2005 ; Wang 2010 ; Wirtitsch 2009 ; Yamaguchi 2009 ; Yamaguchi 2011 ).",
+      "For the other 34 trials, the design was either an ‘open label’ trial ( Behrens‐Baumann 2005 ; Kuchenbecker 2004 ; Monnet 2009 ; Walter 2005 ), 'patient‐masked only' ( Cionni 2003 ; Marshall 2005 ), or there was no information provided in relation to how masking may have been performed for study participants and personnel ( Aose 2006 ; Bandyopadhyay 2016 ; Barisic 2007 ; Brøndsted 2014 ; Brøndsted 2015 ; Caporossi 2007 ; Caporossi 2009 ; Cristobal 2005 ; Cui 2009 ; Cuthbertson 2009 ; Falkner Radler 2008 ; Hahsler 2004 ; Hahsler 2005 ; Hyunseok 2007 ; Kara Júnior 2006 ; Kennis 2004 ; Kim 2011a ; Kim 2011b ; Mester 2008a ; Rocha 2006a ; Rocha 2006b ; Rocha 2007 ; Soriano 2006 ; Ueda 2005 ; Ueda",
+      "In 32 studies, we judged the influence of attrition bias to be unclear, as follow‐up was either not clearly stated ( Aose 2006 ; Bandyopadhyay 2016 ; Behrens‐Baumann 2005 ; Brøndsted 2014 ; Brøndsted 2017 ; Cionni 2003 ; Cui 2009 ; Hahsler 2004 ; Hahsler 2005 ; Hyunseok 2007 ; Kennis 2004 ; Kim 2011a ; Kuchenbecker 2004 ; Rocha 2006a ; Rocha 2006b ; Soriano 2006 ; Ueda 2005 ; Ueda 2006 ; Vuori 2006 ; Walter 2005 ; Yuan 2004 ), participants were potentially excluded due to intraoperative and/or postoperative complications ( Bhattacharjee 2006 ; Caporossi 2007 ; Cristobal 2005 ; Cuthbertson 2009 ; Espíndola 2012a ; Mester 2008a ; Schmack 2012 ; Wang 2010 ; Yamaguchi 2009 ; Yamaguchi 2011 ), or",
+      "Other potential sources of bias For 36 of the 51 included trials we did not identify any other potential sources of bias ( Aose 2006 ; Bandyopadhyay 2016 ; Barisic 2007 ; Behrens‐Baumann 2005 ; Bhattacharjee 2006 ; Brøndsted 2014 ; Brøndsted 2015 ; Brøndsted 2017 ; Caporossi 2007 ; Caporossi 2009 ; Cionni 2003 ; Cui 2009 ; Cuthbertson 2009 ; Espíndola 2012a ; Falkner Radler 2008 ; Hayashi 2006 ; Kara Júnior 2006 ; Kara Junior 2011 ; Kennis 2004 ; Kim 2011a ; Kim 2011b ; Leibovitch 2006 ; Monnet 2009 ; Neumaier‐Ammerer 2010 ; Pandita 2007 ; Raj 2005 ; Rocha 2007 ; Schmack 2012 ; Schmidinger 2008 ; Schmoll 2014 ; Ueda 2006 ; Wang 2010 ; Wirtitsch 2009 ; Yamaguchi 2009 ; Yamaguchi 2011 ; Yuan 2"
+     ]
+    }
+   ]
+  },
+  "CD010558": {
+   "type": "Intervention",
+   "N": 2815,
+   "n_clef_content_relevant": 10,
+   "n_clef_abstract_relevant": 37,
+   "n_read_at_tau": 856,
+   "work_at_tau": 0.30408525754884547,
+   "recall_at_tau_clef_content_labels": 0.9,
+   "n_relevant_below_tau": 1,
+   "n_abstract_relevant_below_tau": 2,
+   "largest_tau_keeping_95_recall": 0.06,
+   "clef_relevant_p_sorted": [
+    0.06,
+    0.67,
+    0.77,
+    0.78,
+    0.82,
+    0.84,
+    0.88,
+    0.9,
+    0.94,
+    0.95
+   ],
+   "published_review": {
+    "n_included_studies": 6,
+    "clef_relevant_pmids_by_reference_list_section": {
+     "References to studies included in this review": 10
+    },
+    "n_included_study_ids_represented_in_clef_relevant_set": 4,
+    "n_of_these_with_at_least_one_report_at_or_above_tau": 4,
+    "study_level_recall_at_tau": 1.0
+   },
+   "missed": [
+    {
+     "pmid": "23851972",
+     "first_author": "Simmonds",
+     "year": "2013",
+     "journal": "Fam Pract",
+     "doi": "10.1093/fampra/cmt028",
+     "title": "Patients' experiences of participating in a large-scale trial of cognitive behavioural therapy for depression: a mixed methods study.",
+     "jev_probability": 0.06,
+     "rank": 1057,
+     "rank_proportion": 0.37548845470692715,
+     "clef_abstract_label": 1,
+     "study_id_in_published_review": "Wiles 2016",
+     "reference_list_section": [
+      "References to studies included in this review"
+     ],
+     "other_reports_of_same_study_in_clef_set": [
+      {
+       "pmid": "22101205",
+       "in_clef_set": true,
+       "p": 0.84,
+       "clef_label": 1
+      },
+      {
+       "pmid": "23219570",
+       "in_clef_set": true,
+       "p": 0.95,
+       "clef_label": 1
+      },
+      {
+       "pmid": "24262818",
+       "in_clef_set": true,
+       "p": 0.77,
+       "clef_label": 1
+      },
+      {
+       "pmid": "24824481",
+       "in_clef_set": true,
+       "p": 0.94,
+       "clef_label": 1
+      },
+      {
+       "pmid": "25527998",
+       "in_clef_set": true,
+       "p": 0.88,
+       "clef_label": 1
+      }
+     ],
+     "ai_proposed_category": "D (proposed new category): secondary report of an included study whose other reports were retrieved above tau",
+     "basis": "The record is a mixed-methods study of patients' experiences of taking part in the CoBalT trial; the review lists it as one of the reports of the included study Wiles 2016. Its abstract contains no information on the trial's eligibility-relevant design, population or outcomes. The five other CoBalT reports in the CLEF set (PMIDs 22101205, 23219570, 24262818, 24824481, 25527998) had Jev probabilities of 0.77 to 0.95.",
+     "contribution_to_published_review": "The record itself contributes no outcome data; the trial (Wiles 2016) contributes to the primary outcomes through its main reports, which were above tau, so the trial would not have been lost.",
+     "effect_of_removal_on_pooled_estimate": "Not applicable (the record carries no outcome data; the study is retained through its other reports).",
+     "n_mentions_in_review_text": 50,
+     "evidence_sentences": [
+      "Included studies Six studies met all of our inclusion criteria, and we included them in this review (see Characteristics of included studies ) ( Harley 2008 ; Nakagawa 2017 ; Souza 2016 ; Town 2017 ; Wiles 2007 ; Wiles 2016 ).",
+      "Only one study was a large multi‐centre RCT with a total of 469 participants randomised between two groups ( Wiles 2016 ).",
+      "Setting Two studies were reported from the same UK research group, which recruited participants from general practices (primary care) ( Wiles 2007 ; Wiles 2016 ).",
+      "Three studies ‐ one from Japan ‐ Nakagawa 2017 ‐ and two from the UK ‐ Wiles 2007 and Wiles 2016 ‐ evaluated individual cognitive‐behavioural therapy (CBT) for depression using the model proposed by Beck et al ( Beck 1979 ).",
+      "The number of sessions was similar across these studies: 16 to 20 sessions in Nakagawa 2017 , 12 to 20 sessions in Wiles 2007 , and 12 to 18 sessions in Wiles 2016 .",
+      "In the two UK studies, sessions lasted up to an hour and were provided by trained and supervised therapists representative of the NHS psychological therapy services (two therapists delivered CBT in Wiles 2007, and 11 part‐time therapists delivered treatment in Wiles 2016 ).",
+      "In the large UK multi‐centre trial ( Wiles 2016 ), participants received an average (median) of 12 sessions of CBT (IQR 6 to 17) by 12‐month follow‐up.",
+      "Intervention fidelity Four studies also assessed the fidelity of the intervention to the respective psychotherapy models (CBT and ISTDP) using a validated rating scale completed by independent raters ( Nakagawa 2017 ; Town 2017 ; Wiles 2007 ; Wiles 2016 ).",
+      "Two studies reported medium‐term follow‐up (7 to 12 months) ( Nakagawa 2017 ; Wiles 2016 ), and one study reported long‐term (longer than 12 months) follow‐up ( Wiles 2016 ).",
+      "Three studies used BDI version II ( Beck 1996 ) ( Nakagawa 2017 ; Wiles 2007 ; Wiles 2016 ), and two studies used BDI version I ( Beck 1961 ) ( Harley 2008 ; Souza 2016 ).",
+      "Two studies also reported change in depressive symptoms on the Patient Health Questionnaire (PHQ)‐9 scale ( Town 2017 : Wiles 2016 ).",
+      "Study ID Total N randomised Follow‐up time point, months Reason for dropout given in Intervention group (psychotherapy as an adjunct to usual care) Reason for dropout given in control group (usual care alone) Harley 2008 24 4 1 difficulty finding child care; 1 work schedule conflict; 1 decided group was not a good fit 1 moved; 1 medical problem Wiles 2016 469 6 25 not followed up 14 withdrew from study 6 lost to follow‐up 4 unable to contact 1 died 22 not followed up 13 withdrew from study 6 lost to follow‐up 3 unable to contact 12 36 not followed up 17 withdrew from study 17 lost to follow‐up 2 died 37 not followed up 15 withdrew from study 22 lost to follow‐up Wiles 2007 25 4 NA 2 lost to "
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "repo": "ncbi/MedCPT-Cross-Encoder",
+ "started": "2026-09-28 20:29:14 EDT",
+ "huggingface_hub": "1.33.0",
+ "revision_sha": "71caf65d4927987813984f54c284405a13fcca49",
+ "last_modified": "2023-12-03 00:45:45+00:00",
+ "files_in_repo": [
+  ".gitattributes",
+  "LICENSE",
+  "README.md",
+  "added_tokens.json",
+  "config.json",
+  "pytorch_model.bin",
+  "special_tokens_map.json",
+  "tokenizer.json",
+  "tokenizer_config.json",
+  "vocab.txt"
+ ],
+ "local_path": "/N/project/AiLab/jev/review_pipeline_npj/rounds/round_0001/revision/analysis/AN-0001-13/hf_home/hub/models--ncbi--MedCPT-Cross-Encoder/snapshots/71caf65d4927987813984f54c284405a13fcca49",
+ "files": {
+  ".gitattributes": {
+   "bytes": 1519,
+   "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+  },
+  "LICENSE": {
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "README.md": {
+   "bytes": 4236,
+   "sha256": "8ab1ceed3beea346789e0b9cd7e04d6373dcf8b738fb63b996c7d97bb25df2ec"
+  },
+  "added_tokens.json": {
+   "bytes": 74,
+   "sha256": "691a5ce0135045c12b8410af8d472ff8de864094df40ac9af418d6c644c7588d"
+  },
+  "config.json": {
+   "bytes": 741,
+   "sha256": "1f375c7e8081f043c99fdb9c80059c44ed757cce7b05d333b7f3c81b1b713a42"
+  },
+  "pytorch_model.bin": {
+   "bytes": 437998062,
+   "sha256": "61d5ccd48869e03500544525fc231641d7daa9ba267b202c82724750038dc1e0"
+  },
+  "special_tokens_map.json": {
+   "bytes": 228,
+   "sha256": "cb63d0cbbf45160dc9cd786a257759593b798ae0c72957011016dbc3972df4e4"
+  },
+  "tokenizer.json": {
+   "bytes": 706277,
+   "sha256": "6e046044df8a2fcedb10607075dca187cae61d806c0d80a96c5b81017edc90c9"
+  },
+  "tokenizer_config.json": {
+   "bytes": 1556,
+   "sha256": "25e63abb25f637aa24981117b13394370693dd7bc140903d95008599b3abc1a9"
+  },
+  "vocab.txt": {
+   "bytes": 226150,
+   "sha256": "79489a52be45e6fa033521e8ce8e4f62aedc0a742ee2aa6fc04667e5b0b1454d"
+  }
+ },
+ "finished": "2026-09-28 20:29:20 EDT"
+}

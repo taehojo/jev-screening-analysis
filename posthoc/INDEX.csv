@@ -1,0 +1,53 @@
+analysis,purpose (Supplementary Tables 1 to 3),folder,note
+1,Calibration of Jev scores,posthoc/analysis_01,17 files
+2,Label-free Jev ranking and the increment of the hybrid,posthoc/analysis_02,5 files
+3,Larger values of λ,posthoc/analysis_03,9 files
+4,"Uncertainty, strata, and score bands for stopping rules",posthoc/analysis_04,7 files
+5,"Grid, sensitivity, and re-selection of τ",posthoc/analysis_05,8 files
+6,Threshold against title and abstract labels; pilot review,posthoc/analysis_06,3 files
+7,CLEF 2019 reviews with recall below 95%,posthoc/analysis_07,6 files
+8,"Statistical stopping criterion, label-free ranking with statistical stopping, time to discovery, recall curves",posthoc/analysis_08,20 files
+9,Composition of the subset for the comparison with LLMs,posthoc/analysis_09,5 files
+10,Publication year and label publicity,posthoc/analysis_10,8 files
+11,Provenance and length of the eligibility criteria,posthoc/analysis_11,4 files
+12,"Cost, tokens, and throughput",posthoc/analysis_12,4 files
+13,Statistical procedures and exact *P* values,posthoc/analysis_13,7 files
+14,Simulation through the programming interface versus the command-line tool,posthoc/analysis_14,11 files
+15,Gateway response and vendor documentation,posthoc/analysis_15,4 files
+16,Study and gene counts in the pilot review,not included,"Reports study and gene counts of the pilot review, which is unpublished."
+17,SYNERGY+ release and split,posthoc/analysis_17,3 files
+18,Verification of references,posthoc/analysis_18,4 files
+19,Label level of the published LLM-guided ranker; search dates of CLEF 2019,posthoc/analysis_19,5 files
+20,Literature searches (Introduction and Methods),posthoc/analysis_20,4 files
+21,"Provenance of the plan, timing, tool versions, and scoring modes",not included,"Documentary record that quotes the analysis plan file, which is not deposited."
+22,Order of records in the data files and composition of the ten-record requests,posthoc/analysis_22,3 files
+23,McNemar-type tests and score intervals for paired differences in reliability; knee method on the hybrid rankin,posthoc/analysis_23,4 files
+24,Archived copies of the vendor announcement; model periods of the texts sent to the evaluated models,posthoc/analysis_24,7 files
+25,"Verification of sources (knee rule, ref. 11, McNemar-type methods)",posthoc/analysis_25,4 files
+26,Prompt development on the pilot review,not included,"Derived from the session records of the AI coding tool, which contain material of the unpublished pilot review."
+27,Inclusion rates of the CLEF 2019 relevance files by review type,posthoc/analysis_27,2 files
+28,Direction of the differences in file position; order of the data file among tied scores,posthoc/analysis_28,4 files
+29,Positive records below τ and request composition; stored score of Kennis 2004,posthoc/analysis_29,3 files
+30,Vendor's statement on price in the saved copies of the vendor announcement,posthoc/analysis_30,4 files
+31,Bibliographic data of refs 25 and 18,posthoc/analysis_31,3 files
+32,"Pooled failures of the threshold, positive records below τ by label level, cost and records not read, resoluti",posthoc/analysis_32,2 files
+33,Knee method with the published minimum of 1000 screened records,posthoc/analysis_33,7 files
+34,Hybrid with ten tie-breaking seeds of the Jev starting order,posthoc/analysis_34,15 files
+35,True negative rate at 95% recall; rounding of k95,posthoc/analysis_35,3 files
+36,Records on different sides of τ under three scoring modes,posthoc/analysis_36,4 files
+37,Out-of-sample reliability of the selection of τ; results by review size,posthoc/analysis_37,5 files
+38,"Two-stage bootstrap, refused records, and calibration in the comparison with LLMs",posthoc/analysis_38,3 files
+39,Treatment of zero differences in paired tests; confirmatory and exploratory *P* values,posthoc/analysis_39,13 files
+40,CIs for the negative controls and the rephrasings,posthoc/analysis_40,3 files
+41,"Share of the release retained in the SYNERGY+ export, per review",posthoc/analysis_41,4 files
+42,Threshold with a random-sample recall check below τ,posthoc/analysis_42,3 files
+43,Prediction intervals for the proportion of records read,posthoc/analysis_43,2 files
+44,Biomedical cross-encoder (MedCPT) as a further free ranker,posthoc/analysis_44,62 files
+45,Verification of new references; search for a published per-record screening time,posthoc/analysis_45,5 files
+46,Retrieval of protocol-stage criteria for the Cochrane reviews (feasibility),posthoc/analysis_46,8 files
+47,Scoring times of the three scoring modes of the 2002-record subset; record of the provider,posthoc/analysis_47,2 files
+48,Part of the MedCPT query-document pairs shortened by truncation to 512 tokens,posthoc/analysis_48,6 files
+49,Scope of the zero-difference check of analysis 39 and its extension to analyses 32 to 46,posthoc/analysis_49,13 files
+50,Verification of refs 32 and 23 and of the description of ref. 17,posthoc/analysis_50,4 files
+51,"Definitions of ref. 32 (95% recall point, TNR@95, fewer than 20 included records) compared with the Methods",posthoc/analysis_51,7 files
+52,Single-run reliability of the evaluated stopping options of Table 3,posthoc/analysis_52,5 files

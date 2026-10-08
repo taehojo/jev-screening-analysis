@@ -1,0 +1,438 @@
+{
+ "summary": {
+  "n_topics": 31,
+  "n_topics_with_8digit_end_date": 30,
+  "earliest_end_date": [
+   "20150224",
+   "CD011686"
+  ],
+  "latest_end_date": [
+   "20190123",
+   "CD011571"
+  ],
+  "topics_with_year_only_limit": [
+   [
+    "CD011558",
+    [
+     [
+      "2013",
+      "2016"
+     ]
+    ]
+   ]
+  ],
+  "topics_ending_20170630": [
+   "CD000996"
+  ],
+  "source": "clef/tar/2019-TAR/Task2/Testing/*/topics/* (Ovid MEDLINE entry-date limits in each Boolean query)"
+ },
+ "topics": [
+  {
+   "topic": "CD008874",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 5 to ED=19460101-20161216"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20161216"
+    ]
+   ]
+  },
+  {
+   "topic": "CD009044",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 36 to ED=20110201-20160720"
+   ],
+   "date_ranges": [
+    [
+     "20110201",
+     "20160720"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011686",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 59 to ED=19460101-20150224"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20150224"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012080",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 19 to ED=19460101-20160304"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20160304"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012233",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 20 to ED=19460101-20180709"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20180709"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012567",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 22 to ED=19460101-20170223"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20170223"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012669",
+   "type": "DTA",
+   "limit_lines": [
+    "limit of detection\"/ or roc curve/ or signal-to-noise ratio/ or \"predictive value of tests\"/",
+    "limit 49 to ED=19460101-20170715"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20170715"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012768",
+   "type": "DTA",
+   "limit_lines": [
+    "limit 15 to ED=19460101-20170807"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20170807"
+    ]
+   ]
+  },
+  {
+   "topic": "CD000996",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 16 to ed =\"19480101-20170630\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170630"
+    ]
+   ]
+  },
+  {
+   "topic": "CD001261",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 11 to ed = \"19480101-20180214\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20180214"
+    ]
+   ]
+  },
+  {
+   "topic": "CD004414",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 23 to ed=\"19480101-20180117\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20180117"
+    ]
+   ]
+  },
+  {
+   "topic": "CD006468",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 20 to ed=\"19480101-20180514\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20180514"
+    ]
+   ]
+  },
+  {
+   "topic": "CD007867",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 24 to ed=\"19480101-20170620\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170620"
+    ]
+   ]
+  },
+  {
+   "topic": "CD009069",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 25 to ed =\"19480101-20170615\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170615"
+    ]
+   ]
+  },
+  {
+   "topic": "CD009642",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 4 to ed =\"19480101-20170125\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170125"
+    ]
+   ]
+  },
+  {
+   "topic": "CD010038",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 51 to ed = \"19480101-20170703\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170703"
+    ]
+   ]
+  },
+  {
+   "topic": "CD010239",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 7 to (humans and clinical trial/all)",
+    "limit 8 to ed= \"19480101-20171013\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20171013"
+    ]
+   ]
+  },
+  {
+   "topic": "CD010558",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 32 to ed = \"19480101-20170516\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170516"
+    ]
+   ]
+  },
+  {
+   "topic": "CD010753",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 29 to ed = \"19460101-20181201\""
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20181201"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011140",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 36 to ed=\"19480101-20171102\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20171102"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011571",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 21 to ed=\"19480101-20190123\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20190123"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011768",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 14 to ed= \"19480101-20171106\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20171106"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011977",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 51 to ed = \"19480101-20171025\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20171025"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012069",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 180 to ed =\"19480101-20160110\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20160110"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012164",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 26 to ed = \"19480101-20180304\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20180304"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012342",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 73 to ed= \"19480101-20171012\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20171012"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012455",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 4 to ed=\"19480101-20170926\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170926"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012551",
+   "type": "Intervention",
+   "limit_lines": [
+    "limit 35 to ed= \"19480101-20170811\""
+   ],
+   "date_ranges": [
+    [
+     "19480101",
+     "20170811"
+    ]
+   ]
+  },
+  {
+   "topic": "CD012661",
+   "type": "Prognosis",
+   "limit_lines": [
+    "limit 56 to ED=19460101-20180226"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20180226"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011558",
+   "type": "Qualitative",
+   "limit_lines": [
+    "limit 45 to yr=\"2013 -2016\""
+   ],
+   "date_ranges": [
+    [
+     "2013",
+     "2016"
+    ]
+   ]
+  },
+  {
+   "topic": "CD011787",
+   "type": "Qualitative",
+   "limit_lines": [
+    "limit 85 to \"qualitative (maximizes sensitivity)\"",
+    "limit 102 to (danish or english or french or norwegian or swedish)",
+    "limit 103 to ED=19460101-20160830"
+   ],
+   "date_ranges": [
+    [
+     "19460101",
+     "20160830"
+    ]
+   ]
+  }
+ ]
+}

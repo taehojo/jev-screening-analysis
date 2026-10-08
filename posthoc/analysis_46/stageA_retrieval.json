@@ -1,0 +1,952 @@
+{
+ "started": "2026-09-28 23:21:20 EDT",
+ "reviews": {
+  "CD000996": {
+   "protocol_doi": "10.1002/14651858.CD000996",
+   "n_records": 281,
+   "europepmc_status": 502,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29766487",
+    "19160186",
+    "10796575"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29766487",
+     "doi": "10.1002/14651858.cd000996.pub3",
+     "pmc": "PMC6494510",
+     "title": "Inhaled corticosteroids for bronchiectasis.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Bronchiectasis is being increasingly diagnosed and recognised as an important contributor to chronic lung disease in both adults and children in high- and low-income countries. It is characterised by irreversible dilatation of airways and is generally associated with airway inflammation and chronic "
+    },
+    {
+     "pmid": "19160186",
+     "doi": "10.1002/14651858.cd000996.pub2",
+     "pmc": null,
+     "title": "Inhaled steroids for bronchiectasis.",
+     "year": "2009",
+     "is_protocol": false,
+     "abstract_start": "Bronchiectasis is increasingly recognized as a major cause of respiratory morbidity especially in developing countries and in some ethnic populations of affluent countries. It is characterized by irreversible dilatation of airways, generally associated with chronic bacterial infection. Medical manag"
+    },
+    {
+     "pmid": "10796575",
+     "doi": "10.1002/14651858.cd000996",
+     "pmc": null,
+     "title": "Inhaled steroids for bronchiectasis.",
+     "year": "2000",
+     "is_protocol": false,
+     "abstract_start": "Bronchiectasis is a progressive condition characterised by irreversible destruction and dilatation of airways, generally associated with chronic bacterial infection. The two distinct therapeutic goals are: symptom control and reduction in morbidity; and prevention of progression of the underlying di"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD001261": {
+   "protocol_doi": "10.1002/14651858.CD001261",
+   "n_records": 571,
+   "europepmc_status": 200,
+   "europepmc_hits": [
+    {
+     "id": "10796623",
+     "source": "MED",
+     "pmid": "10796623",
+     "pmcid": null,
+     "doi": "10.1002/14651858.cd001261",
+     "title": "Vaccines for preventing typhoid fever.",
+     "pubYear": "2000",
+     "inPMC": "N",
+     "isOpenAccess": "N"
+    }
+   ],
+   "pubmed_ids": [
+    "29851031",
+    "24385413",
+    "17636661",
+    "10796623"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29851031",
+     "doi": "10.1002/14651858.cd001261.pub4",
+     "pmc": "PMC6494485",
+     "title": "Vaccines for preventing typhoid fever.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Typhoid fever and paratyphoid fever continue to be important causes of illness and death, particularly among children and adolescents in south-central and southeast Asia. Two typhoid vaccines are widely available, Ty21a (oral) and Vi polysaccharide (parenteral). Newer typhoid conjugate vaccines are "
+    },
+    {
+     "pmid": "24385413",
+     "doi": "10.1002/14651858.cd001261.pub3",
+     "pmc": null,
+     "title": "Vaccines for preventing typhoid fever.",
+     "year": "2014",
+     "is_protocol": false,
+     "abstract_start": "Typhoid fever and paratyphoid fever continue to be important causes of illness and death, particularly among children and adolescents in south-central and southeast Asia. Two typhoid vaccines are commercially available, Ty21a (oral) and Vi polysaccharide (parenteral), but neither is used routinely. "
+    },
+    {
+     "pmid": "17636661",
+     "doi": "10.1002/14651858.cd001261.pub2",
+     "pmc": null,
+     "title": "Vaccines for preventing typhoid fever.",
+     "year": "2007",
+     "is_protocol": false,
+     "abstract_start": "Two typhoid vaccines are commercially available, Ty21a (oral) and Vi polysaccharide (parenteral), but neither is used routinely. Other vaccines, such as a new modified, conjugated Vi vaccine called Vi-rEPA, are in development. To evaluate vaccines for preventing typhoid fever. In December 2006, we s"
+    },
+    {
+     "pmid": "10796623",
+     "doi": "10.1002/14651858.cd001261",
+     "pmc": null,
+     "title": "Vaccines for preventing typhoid fever.",
+     "year": "2000",
+     "is_protocol": false,
+     "abstract_start": "Whole cell vaccines, consisting of relatively crude preparations of Salmonella typhi administered parenterally, are effective but have a high incidence of adverse effects. Two vaccines have been developed more recently. Ty21a (an attenuated strain of S. typhi administered orally) and Vi (the purifie"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD004414": {
+   "protocol_doi": "10.1002/14651858.CD004414",
+   "n_records": 336,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29708265",
+    "20556758"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29708265",
+     "doi": "10.1002/14651858.cd004414.pub3",
+     "pmc": "PMC6494486",
+     "title": "Interventions for preventing occupational irritant hand dermatitis.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Occupational irritant hand dermatitis (OIHD) causes significant functional impairment, disruption of work, and discomfort in the working population. Different preventive measures such as protective gloves, barrier creams and moisturisers can be used, but it is not clear how effective these are. This"
+    },
+    {
+     "pmid": "20556758",
+     "doi": "10.1002/14651858.cd004414.pub2",
+     "pmc": null,
+     "title": "Interventions for preventing occupational irritant hand dermatitis.",
+     "year": "2010",
+     "is_protocol": false,
+     "abstract_start": "Occupational irritant hand dermatitis (OIHD) is an important cause of discomfort in the working population. Different preventive measures are in place but it is not clear how effective these are. To assess the effect of interventions for preventing OIHD in healthy people who work in occupations wher"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD006468": {
+   "protocol_doi": "10.1002/14651858.CD006468",
+   "n_records": 3874,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29856471",
+    "25318061",
+    "21491394",
+    "21328283",
+    "17636845"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29856471",
+     "doi": "10.1002/14651858.cd006468.pub6",
+     "pmc": "PMC6389340",
+     "title": "Anticoagulation for people with cancer and central venous catheters.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Central venous catheter (CVC) placement increases the risk of thrombosis in people with cancer. Thrombosis often necessitates the removal of the CVC, resulting in treatment delays and thrombosis-related morbidity and mortality. This is an update of the Cochrane Review published in 2014. To evaluate "
+    },
+    {
+     "pmid": "25318061",
+     "doi": "10.1002/14651858.cd006468.pub5",
+     "pmc": null,
+     "title": "Anticoagulation for people with cancer and central venous catheters.",
+     "year": "2014",
+     "is_protocol": false,
+     "abstract_start": "Central venous catheter (CVC) placement increases the risk of thrombosis in people with cancer. Thrombosis often necessitates the removal of the CVC, resulting in treatment delays and thrombosis-related morbidity and mortality. To evaluate the relative efficacy and safety of anticoagulation for thro"
+    },
+    {
+     "pmid": "21491394",
+     "doi": "10.1002/14651858.cd006468.pub4",
+     "pmc": null,
+     "title": "Anticoagulation for patients with cancer and central venous catheters.",
+     "year": "2011",
+     "is_protocol": false,
+     "abstract_start": "Central venous catheter (CVC) placement increases the risk of thrombosis in cancer patients. Thrombosis often necessitates the removal of the CVC, resulting in treatment delays and thrombosis related morbidity and mortality. To evaluate the efficacy and safety of anticoagulation in cancer patients w"
+    },
+    {
+     "pmid": "21328283",
+     "doi": "10.1002/14651858.cd006468.pub3",
+     "pmc": null,
+     "title": "Anticoagulation for patients with cancer and central venous catheters.",
+     "year": "2011",
+     "is_protocol": false,
+     "abstract_start": "Central venous catheter (CVC) placement increases the risk of thrombosis in cancer patients. Thrombosis often necessitates the removal of the CVC, resulting in treatment delays and thrombosis related morbidity and mortality. To evaluate the efficacy and safety of anticoagulation in cancer patients w"
+    },
+    {
+     "pmid": "17636845",
+     "doi": "10.1002/14651858.cd006468.pub2",
+     "pmc": null,
+     "title": "Anticoagulation for thrombosis prophylaxis in cancer patients with central venous catheters.",
+     "year": "2007",
+     "is_protocol": false,
+     "abstract_start": "Central venous catheter (CVC) placement increases the risk of thrombosis in cancer patients. Thrombosis often necessitates the removal of the CVC, resulting in treatment delays and thrombosis related morbidity and mortality. To evaluate the efficacy and safety of anticoagulation in reducing venous t"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD007867": {
+   "protocol_doi": "10.1002/14651858.CD007867",
+   "n_records": 943,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29864793"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29864793",
+     "doi": "10.1002/14651858.cd007867.pub2",
+     "pmc": "PMC6513548",
+     "title": "Prescribed hypocaloric nutrition support for critically-ill adults.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "There are controversies about the amount of calories and the type of nutritional support that should be given to critically-ill people. Several authors advocate the potential benefits of hypocaloric nutrition support, but the evidence is inconclusive. To assess the effects of prescribed hypocaloric "
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD008874": {
+   "protocol_doi": "10.1002/14651858.CD008874",
+   "n_records": 2382,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29761867"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29761867",
+     "doi": "10.1002/14651858.cd008874.pub2",
+     "pmc": "PMC6404686",
+     "title": "Airway physical examination tests for detection of difficult airway management in apparently normal adult patients.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "The unanticipated difficult airway is a potentially life-threatening event during anaesthesia or acute conditions. An unsuccessfully managed upper airway is associated with serious morbidity and mortality. Several bedside screening tests are used in clinical practice to identify those at high risk o"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD009044": {
+   "protocol_doi": "10.1002/14651858.CD009044",
+   "n_records": 3169,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "30075057"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30075057",
+     "doi": "10.1002/14651858.cd009044.pub2",
+     "pmc": "PMC6513463",
+     "title": "Diagnostic tests for autism spectrum disorder (ASD) in preschool children.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Autism spectrum disorder (ASD) is a behaviourally diagnosed condition. It is defined by impairments in social communication or the presence of restricted or repetitive behaviours, or both. Diagnosis is made according to existing classification systems. In recent years, especially following publicati"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD009069": {
+   "protocol_doi": "10.1002/14651858.CD009069",
+   "n_records": 1757,
+   "europepmc_status": 200,
+   "europepmc_hits": [
+    {
+     "id": "25267916",
+     "source": "MED",
+     "pmid": "25267916",
+     "pmcid": "PMC4176676",
+     "doi": "10.1002/14651858.cd009069",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "pubYear": "2011",
+     "inPMC": "Y",
+     "isOpenAccess": "N"
+    }
+   ],
+   "pubmed_ids": [
+    "29740819",
+    "25267916"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29740819",
+     "doi": "10.1002/14651858.cd009069.pub3",
+     "pmc": "PMC6494566",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Persistent infection with high-risk human papillomaviruses (hrHPV) types is causally linked with the development of cervical precancer and cancer. HPV types 16 and 18 cause approximately 70% of cervical cancers worldwide. To evaluate the harms and protection of prophylactic human papillomaviruses (H"
+    },
+    {
+     "pmid": "25267916",
+     "doi": "10.1002/14651858.cd009069",
+     "pmc": "PMC4176676",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "year": "2011",
+     "is_protocol": false,
+     "abstract_start": "This is the protocol for a review and there is no abstract. The objectives are as follows: To evaluate the immunogenicity, clinical efficacy, and safety of prophylactic HPV vaccines in females. The assessment of clinical efficacy will address protection against HPV infection (for homologous and hete"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD009642": {
+   "protocol_doi": "10.1002/14651858.CD009642",
+   "n_records": 1922,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29864216",
+    "26184397"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29864216",
+     "doi": "10.1002/14651858.cd009642.pub3",
+     "pmc": "PMC6513586",
+     "title": "Continuous intravenous perioperative lidocaine infusion for postoperative pain and recovery in adults.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "The management of postoperative pain and recovery is still unsatisfactory in a number of cases in clinical practice. Opioids used for postoperative analgesia are frequently associated with adverse effects, including nausea and constipation, preventing smooth postoperative recovery. Not all patients "
+    },
+    {
+     "pmid": "26184397",
+     "doi": "10.1002/14651858.cd009642.pub2",
+     "pmc": null,
+     "title": "Continuous intravenous perioperative lidocaine infusion for postoperative pain and recovery.",
+     "year": "2015",
+     "is_protocol": false,
+     "abstract_start": "The management of postoperative pain and recovery is still unsatisfactory in clinical practice. Opioids used for postoperative analgesia are frequently associated with adverse effects including nausea and constipation. These adverse effects prevent smooth postoperative recovery. On the other hand no"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD010038": {
+   "protocol_doi": "10.1002/14651858.CD010038",
+   "n_records": 8867,
+   "europepmc_status": 502,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29736980",
+    "23728698"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29736980",
+     "doi": "10.1002/14651858.cd010038.pub3",
+     "pmc": "PMC6494431",
+     "title": "Face-to-face interventions for informing or educating parents about early childhood vaccination.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Early childhood vaccination is an essential global public health practice that saves two to three million lives each year, but many children do not receive all the recommended vaccines. To achieve and maintain appropriate coverage rates, vaccination programmes rely on people having sufficient awaren"
+    },
+    {
+     "pmid": "23728698",
+     "doi": "10.1002/14651858.cd010038.pub2",
+     "pmc": null,
+     "title": "Face to face interventions for informing or educating parents about early childhood vaccination.",
+     "year": "2013",
+     "is_protocol": false,
+     "abstract_start": "Childhood vaccination (also described as immunisation) is an important and effective way to reduce childhood illness and death. However, there are many children who do not receive the recommended vaccines because their parents do not know why vaccination is important, do not understand how, where or"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD010239": {
+   "protocol_doi": "10.1002/14651858.CD010239",
+   "n_records": 224,
+   "europepmc_status": 503,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29726010"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29726010",
+     "doi": "10.1002/14651858.cd010239.pub2",
+     "pmc": "PMC6494481",
+     "title": "Lower versus higher oxygen concentrations titrated to target oxygen saturations during resuscitation of preterm infants at birth.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Initial resuscitation with air is well tolerated by most infants born at term. However, the optimal fractional inspired oxygen concentration (FiO2 - proportion of the breathed air that is oxygen) targeted to oxygen saturation (SpO2 - an estimate of the amount of oxygen in the blood) for infants born"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD010558": {
+   "protocol_doi": "10.1002/14651858.CD010558",
+   "n_records": 2815,
+   "europepmc_status": 503,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29761488"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29761488",
+     "doi": "10.1002/14651858.cd010558.pub2",
+     "pmc": "PMC6494651",
+     "title": "Psychological therapies for treatment-resistant depression in adults.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Antidepressants are a first-line treatment for adults with moderate to severe major depression. However, many people prescribed antidepressants for depression don't respond fully to such medication, and little evidence is available to inform the most appropriate 'next step' treatment for such patien"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD010753": {
+   "protocol_doi": "10.1002/14651858.CD010753",
+   "n_records": 2539,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29761479"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29761479",
+     "doi": "10.1002/14651858.cd010753.pub2",
+     "pmc": "PMC6494576",
+     "title": "Antidepressants for insomnia in adults.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Insomnia disorder is a subjective condition of unsatisfactory sleep (e.g. sleep onset, maintenance, early waking, impairment of daytime functioning). Insomnia disorder impairs quality of life and is associated with an increased risk of physical and mental health problems including anxiety, depressio"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD011571": {
+   "protocol_doi": "10.1002/14651858.CD011571",
+   "n_records": 146,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "30835819"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30835819",
+     "doi": "10.1002/14651858.cd011571.pub2",
+     "pmc": "PMC6400423",
+     "title": "Antistreptococcal interventions for guttate and chronic plaque psoriasis.",
+     "year": "2019",
+     "is_protocol": false,
+     "abstract_start": "Psoriasis is a chronic skin disease that affects approximately two per cent of the general population. Plaque psoriasis is the most common form: it usually appears as raised, red patches of inflamed skin, covered with silvery white scales. The patches often occur in a symmetrical pattern. Guttate ps"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD011686": {
+   "protocol_doi": "10.1002/14651858.CD011686",
+   "n_records": 9729,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "38517085",
+    "29215711"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "38517085",
+     "doi": "10.1002/14651858.cd011686.pub3",
+     "pmc": "PMC10958760",
+     "title": "Triage tools for detecting cervical spine injury in paediatric trauma patients.",
+     "year": "2024",
+     "is_protocol": false,
+     "abstract_start": "Paediatric cervical spine injury (CSI) after blunt trauma is rare but can have severe consequences. Clinical decision rules (CDRs) have been developed to guide clinical decision-making, minimise unnecessary tests and associated risks, whilst detecting all significant CSIs. Several validated CDRs are"
+    },
+    {
+     "pmid": "29215711",
+     "doi": "10.1002/14651858.cd011686.pub2",
+     "pmc": "PMC6486014",
+     "title": "Triage tools for detecting cervical spine injury in pediatric trauma patients.",
+     "year": "2017",
+     "is_protocol": false,
+     "abstract_start": "Pediatric cervical spine injury (CSI) after blunt trauma is rare. Nonetheless, missing these injuries can have severe consequences. To prevent the overuse of radiographic imaging, two clinical decision tools have been developed: The National Emergency X-Radiography Utilization Study (NEXUS) criteria"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD011768": {
+   "protocol_doi": "10.1002/14651858.CD011768",
+   "n_records": 9160,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29775501"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29775501",
+     "doi": "10.1002/14651858.cd011768.pub2",
+     "pmc": "PMC6494551",
+     "title": "Educational interventions for improving primary caregiver complementary feeding practices for children aged 24 months and under.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Although complementary feeding is a universal practice, the methods and manner in which it is practiced vary between cultures, individuals and socioeconomic classes. The period of complementary feeding is a critical time of transition in the life of an infant, and inappropriate complementary feeding"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD011787": {
+   "protocol_doi": "10.1002/14651858.CD011787",
+   "n_records": 4369,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "28169420"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "28169420",
+     "doi": "10.1002/14651858.cd011787.pub2",
+     "pmc": "PMC5461870",
+     "title": "Parents' and informal caregivers' views and experiences of communication about routine childhood vaccination: a synthesis of qualitative evidence.",
+     "year": "2017",
+     "is_protocol": false,
+     "abstract_start": "Childhood vaccination is an effective way to prevent serious childhood illnesses, but many children do not receive all the recommended vaccines. There are various reasons for this; some parents lack access because of poor quality health services, long distances or lack of money. Other parents may no"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD011977": {
+   "protocol_doi": "10.1002/14651858.CD011977",
+   "n_records": 195,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29786830"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29786830",
+     "doi": "10.1002/14651858.cd011977.pub2",
+     "pmc": "PMC6494477",
+     "title": "Blue-light filtering intraocular lenses (IOLs) for protecting macular health.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "An intraocular lens (IOL) is a synthetic lens that is surgically implanted within the eye following removal of the crystalline lens, during cataract surgery. While all modern IOLs attenuate the transmission of ultra-violet (UV) light, some IOLs, called blue-blocking or blue-light filtering IOLs, als"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012069": {
+   "protocol_doi": "10.1002/14651858.CD012069",
+   "n_records": 3479,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29744873"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29744873",
+     "doi": "10.1002/14651858.cd012069.pub2",
+     "pmc": "PMC6494554",
+     "title": "Methylphenidate for attention deficit hyperactivity disorder (ADHD) in children and adolescents - assessment of adverse events in non-randomised studies.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Attention deficit hyperactivity disorder (ADHD) is a common neurodevelopmental disorder in childhood. The psychostimulant methylphenidate is the most frequently used medication to treat it. Several studies have investigated the benefits of methylphenidate, showing possible favourable effects on ADHD"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012080": {
+   "protocol_doi": "10.1002/14651858.CD012080",
+   "n_records": 6643,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29543326"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29543326",
+     "doi": "10.1002/14651858.cd012080.pub2",
+     "pmc": "PMC6513531",
+     "title": "Non-invasive diagnostic tests for Helicobacter pylori infection.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Helicobacter pylori (H pylori) infection has been implicated in a number of malignancies and non-malignant conditions including peptic ulcers, non-ulcer dyspepsia, recurrent peptic ulcer bleeding, unexplained iron deficiency anaemia, idiopathic thrombocytopaenia purpura, and colorectal adenomas. The"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012164": {
+   "protocol_doi": "10.1002/14651858.CD012164",
+   "n_records": 61,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "30827037"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30827037",
+     "doi": "10.1002/14651858.cd012164.pub2",
+     "pmc": "PMC6397791",
+     "title": "Subfascial endoscopic perforator surgery (SEPS) for treating venous leg ulcers.",
+     "year": "2019",
+     "is_protocol": false,
+     "abstract_start": "Venous leg ulcers are complex, costly, and their prevalence is expected to increase as populations age. Venous congestion is a possible cause of venous leg ulcers, which subfascial endoscopic perforator surgery (SEPS) attempts to address by removing the connection between deep and superficial veins "
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012233": {
+   "protocol_doi": "10.1002/14651858.CD012233",
+   "n_records": 472,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "30109701"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30109701",
+     "doi": "10.1002/14651858.cd012233.pub2",
+     "pmc": "PMC6513652",
+     "title": "Transabdominal ultrasound and endoscopic ultrasound for diagnosis of gallbladder polyps.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Approximately 0.6% to 4% of cholecystectomies are performed because of gallbladder polyps. The decision to perform cholecystectomy is based on presence of gallbladder polyp(s) on transabdominal ultrasound (TAUS) or endoscopic ultrasound (EUS), or both. These polyps are currently considered for surge"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012455": {
+   "protocol_doi": "10.1002/14651858.CD012455",
+   "n_records": 1593,
+   "europepmc_status": 200,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "29746721"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29746721",
+     "doi": "10.1002/14651858.cd012455.pub2",
+     "pmc": "PMC6353085",
+     "title": "Melatonin for the promotion of sleep in adults in the intensive care unit.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Patients in the intensive care unit (ICU) experience sleep deprivation caused by environmental disruption, such as high noise levels and 24-hour lighting, as well as increased patient care activities and invasive monitoring as part of their care. Sleep deprivation affects physical and psychological "
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012551": {
+   "protocol_doi": "10.1002/14651858.CD012551",
+   "n_records": 591,
+   "europepmc_status": 200,
+   "europepmc_hits": [
+    {
+     "id": "PMC6464272",
+     "source": "PMC",
+     "pmid": null,
+     "pmcid": "PMC6464272",
+     "doi": null,
+     "title": "Non\u2010pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome",
+     "pubYear": "2017",
+     "inPMC": "Y",
+     "isOpenAccess": "N"
+    }
+   ],
+   "pubmed_ids": [
+    "29757454",
+    "29372565"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "29757454",
+     "doi": "10.1002/14651858.cd012551.pub3",
+     "pmc": "PMC6494451",
+     "title": "Non-pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Chronic prostatitis/chronic pelvic pain syndrome (CP/CPPS) is a common disorder in which the two main clinical features are pelvic pain and lower urinary tract symptoms. There are currently many approaches for its management, using both pharmacological and non-pharmacological interventions. The Nati"
+    },
+    {
+     "pmid": "29372565",
+     "doi": "10.1002/14651858.cd012551.pub2",
+     "pmc": "PMC6491290",
+     "title": "Non-pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Chronic prostatitis/chronic pelvic pain syndrome (CP/CPPS) is a common disorder in which the two main clinical features are pelvic pain and lower urinary tract symptoms. There are currently many approaches for its management, using both pharmacological and non-pharmacological interventions. The Nati"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012567": {
+   "protocol_doi": "10.1002/14651858.CD012567",
+   "n_records": 6735,
+   "europepmc_status": 200,
+   "europepmc_hits": [
+    {
+     "id": "PMC6464503",
+     "source": "PMC",
+     "pmid": null,
+     "pmcid": "PMC6464503",
+     "doi": null,
+     "title": "Positron emission tomography (PET) and magnetic resonance imaging (MRI) for assessing tumour resectability in advanced epithelial ovarian, fallopian tube and/or primary peritoneal cancer",
+     "pubYear": "2017",
+     "inPMC": "Y",
+     "isOpenAccess": "N"
+    }
+   ],
+   "pubmed_ids": [
+    "30298516"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30298516",
+     "doi": "10.1002/14651858.cd012567.pub2",
+     "pmc": "PMC6517226",
+     "title": "Positron emission tomography (PET) and magnetic resonance imaging (MRI) for assessing tumour resectability in advanced epithelial ovarian/fallopian tube/primary peritoneal cancer.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Ovarian cancer is the leading cause of death from gynaecological cancer in developed countries. Surgery and chemotherapy are considered its mainstay of treatment and the completeness of surgery is a major prognostic factor for survival in these women. Currently, computed tomography (CT) is used to p"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012661": {
+   "protocol_doi": "10.1002/14651858.CD012661",
+   "n_records": 3367,
+   "europepmc_status": 502,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "30371961"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30371961",
+     "doi": "10.1002/14651858.cd012661.pub2",
+     "pmc": "PMC6516891",
+     "title": "Development of type 2 diabetes mellitus in people with intermediate hyperglycaemia.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Intermediate hyperglycaemia (IH) is characterised by one or more measurements of elevated blood glucose concentrations, such as impaired fasting glucose (IFG), impaired glucose tolerance (IGT) and elevated glycosylated haemoglobin A1c (HbA1c). These levels are higher than normal but below the diagno"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012669": {
+   "protocol_doi": "10.1002/14651858.CD012669",
+   "n_records": 1260,
+   "europepmc_status": 503,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "30548249"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "30548249",
+     "doi": "10.1002/14651858.cd012669.pub2",
+     "pmc": "PMC6517180",
+     "title": "Point-of-care ultrasonography for diagnosing thoracoabdominal injuries in patients with blunt trauma.",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Point-of-care sonography (POCS) has emerged as the screening modality of choice for suspected body trauma in many emergency departments worldwide. Its best known application is FAST (focused abdominal sonography for trauma). The technology is almost ubiquitously available, can be performed during re"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  },
+  "CD012768": {
+   "protocol_doi": "10.1002/14651858.CD012768",
+   "n_records": 131,
+   "europepmc_status": 503,
+   "europepmc_hits": [],
+   "pubmed_ids": [
+    "40757508",
+    "33448348",
+    "30148542"
+   ],
+   "pubmed_versions": [
+    {
+     "pmid": "40757508",
+     "doi": "10.1002/14651858.cd012768.pub4",
+     "pmc": "PMC12320217",
+     "title": "Low-complexity automated nucleic acid amplification tests for extrapulmonary tuberculosis and rifampicin resistance in adults and adolescents.",
+     "year": "2025",
+     "is_protocol": false,
+     "abstract_start": "Low-complexity automated nucleic acid amplification tests (LC-aNAATs) are molecular World Health Organization (WHO)-recommended rapid diagnostic tests widely used for simultaneous detection of Mycobacterium tuberculosis complex and rifampicin resistance in sputum. To extend our previous review on ex"
+    },
+    {
+     "pmid": "33448348",
+     "doi": "10.1002/14651858.cd012768.pub3",
+     "pmc": "PMC8078545",
+     "title": "Xpert MTB/RIF Ultra and Xpert MTB/RIF assays for extrapulmonary tuberculosis and rifampicin resistance in adults.",
+     "year": "2021",
+     "is_protocol": false,
+     "abstract_start": "Xpert MTB/RIF Ultra (Xpert Ultra) and Xpert MTB/RIF are World Health Organization (WHO)-recommended rapid nucleic acid amplification tests (NAATs) widely used for simultaneous detection of Mycobacterium tuberculosis complex and rifampicin resistance in sputum. To extend our previous review on extrap"
+    },
+    {
+     "pmid": "30148542",
+     "doi": "10.1002/14651858.cd012768.pub2",
+     "pmc": "PMC6513199",
+     "title": "Xpert",
+     "year": "2018",
+     "is_protocol": false,
+     "abstract_start": "Tuberculosis (TB) is the world's leading infectious cause of death. Extrapulmonary TB accounts for 15% of TB cases, but the proportion is increasing, and over half a million people were newly diagnosed with rifampicin-resistant TB in 2016. Xpert\u00ae MTB/RIF (Xpert) is a World Health Organization (WHO)-"
+    }
+   ],
+   "pubmed_protocol": null,
+   "pmcids": [],
+   "fulltext": [],
+   "cochrane_library_status": 412,
+   "wiley_status": 403,
+   "protocol_identified": false
+  }
+ },
+ "finished": "2026-09-28 23:29:56 EDT"
+}

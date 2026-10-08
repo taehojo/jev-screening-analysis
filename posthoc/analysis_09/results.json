@@ -1,0 +1,369 @@
+{
+ "inputs": {
+  "records": "synergy/test_records.json",
+  "subset_ids": "synergy/test_cmp_ids.json",
+  "jev_full_run": "synergy/jev_test.json",
+  "claude_opus": "synergy/test_cmp_claude-opus.json",
+  "gpt4omini_lp": "synergy/test_cmp_gpt4omini_lp.json",
+  "deepseek": "synergy/test_cmp_deepseek.json",
+  "jev_single_p2": "synergy/jev_testcmp_single.json",
+  "jev_b10_subset_p2": "synergy/jev_testcmp_b10.json"
+ },
+ "subset": {
+  "n_ids": 2002,
+  "n_included": 597,
+  "n_excluded": 1405,
+  "reviews": 23,
+  "min_excluded_per_review": 5,
+  "median_excluded_per_review": 36.0,
+  "max_excluded_per_review": 499,
+  "reviews_with_lt20_excluded": [
+   "Abgaz_2023",
+   "Donners_2021",
+   "Eggmann_2023",
+   "Hall_2011",
+   "Lewowski_2021",
+   "Theobald_2021",
+   "Toffalini_2021"
+  ],
+  "reviews_with_lt10_excluded": [
+   "Donners_2021",
+   "Theobald_2021"
+  ],
+  "all_included_present": true
+ },
+ "refused_claude": [
+  {
+   "review": "Attai_2022",
+   "label": 1,
+   "review_title": "A Systematic Review of Applications of Machine Learning and Other Soft Computing Techniques for the Diagnosis of Tropical Diseases",
+   "review_type": "Systematic review",
+   "journal": "Tropical Medicine and Infectious deisease",
+   "error_prefix": "cli: API Error: Opus 5's safeguards flagged this message (https://www.anthropic.com/legal/",
+   "p_jev_full_run": 0.22,
+   "p_gpt4omini_lp": 1.3709571940389707e-06,
+   "p_deepseek": 0.1,
+   "p_jev_single_p2": 0.21,
+   "jev_rank_in_full_review": 397,
+   "jev_n_full_review": 1726
+  },
+  {
+   "review": "Attai_2022",
+   "label": 1,
+   "review_title": "A Systematic Review of Applications of Machine Learning and Other Soft Computing Techniques for the Diagnosis of Tropical Diseases",
+   "review_type": "Systematic review",
+   "journal": "Tropical Medicine and Infectious deisease",
+   "error_prefix": "cli: API Error: Opus 5's safeguards flagged this message (https://www.anthropic.com/legal/",
+   "p_jev_full_run": 0.23,
+   "p_gpt4omini_lp": 5.602796319491143e-09,
+   "p_deepseek": 0.1,
+   "p_jev_single_p2": 0.19,
+   "jev_rank_in_full_review": 383,
+   "jev_n_full_review": 1726
+  },
+  {
+   "review": "Walker_2018",
+   "label": 0,
+   "review_title": "Human and animal evidence of potential transgenerational inheritance of health effects: An evidence map and state-of-the-science evaluation",
+   "review_type": "Scoping review",
+   "journal": "Environment International",
+   "error_prefix": "cli: API Error: Opus 5's safeguards flagged this message (https://www.anthropic.com/legal/",
+   "p_jev_full_run": 0.03,
+   "p_gpt4omini_lp": 2.9400776692644086e-11,
+   "p_deepseek": 0,
+   "p_jev_single_p2": 0.03,
+   "jev_rank_in_full_review": 6191,
+   "jev_n_full_review": 11735
+  }
+ ],
+ "refused_claude_handling": "final_eval.py builds the C2 common set as the records scored by all four models, so the three refused records were dropped from every model for C2 (n_common = 1999).",
+ "gpt4omini_top20": {
+  "n_records_in_file": 2002,
+  "n_ok": 2002,
+  "n_error_in_final_file": 0,
+  "error_types_in_final_file": {},
+  "pmass_min": 0.9999993768303709,
+  "pmass_median": 1.000000022906406,
+  "n_pmass_below_0.99": 0,
+  "n_pmass_below_0.9": 0,
+  "note": "The harness (run_screen.mjs askGatewayLP) retries when the top-20 list is missing and records the error \"no yes/no in top\" when neither token appears; only successful records are kept when a run is resumed. progress.log shows the first gpt-4o-mini run at 19:00 on Sept 24, 2026 with 5 failures among the first 50 attempts (type not recorded); those records were re-scored in the resumed run and the final file has no errors."
+ },
+ "n_common": 1999,
+ "macro_common": {
+  "n_reviews": 23,
+  "macro_auc": {
+   "jev": 0.9615,
+   "gpt4omini_lp": 0.9369,
+   "deepseek": 0.9187,
+   "claude_opus": 0.9727
+  },
+  "jev_minus_gpt4omini": {
+   "diff": 0.0246,
+   "ci": [
+    0.01,
+    0.0409
+   ],
+   "wins": 16
+  },
+  "claude_minus_jev": {
+   "diff": 0.0112,
+   "ci": [
+    0.005,
+    0.019
+   ],
+   "claude_wins": 14
+  },
+  "jev_minus_deepseek": {
+   "diff": 0.0429,
+   "ci": [
+    0.0242,
+    0.0629
+   ],
+   "wins": 18
+  },
+  "jev_single_p2_macro": 0.9601,
+  "jev_b10_subset_p2_macro": 0.9626
+ },
+ "macro_all2002_without_claude": {
+  "n_reviews": 23,
+  "macro_auc": {
+   "jev": 0.9615,
+   "gpt4omini_lp": 0.9369,
+   "deepseek": 0.9185
+  },
+  "jev_minus_gpt4omini": {
+   "diff": 0.0246,
+   "ci": [
+    0.0105,
+    0.0406
+   ],
+   "wins": 16
+  },
+  "jev_minus_deepseek": {
+   "diff": 0.043,
+   "ci": [
+    0.0245,
+    0.0637
+   ],
+   "wins": 18
+  }
+ },
+ "macro_restricted_excluded_ge20": {
+  "reviews_kept": [
+   "Attai_2022",
+   "Boersma-van_Dam_2024",
+   "Bos_2018",
+   "Bosch_2021",
+   "Chakraborty_2023",
+   "Chueca_2023",
+   "Harms_2024",
+   "Kerschbaumer_2024b",
+   "Menon_2022",
+   "Moran_2020",
+   "Parodis_2023b",
+   "Roberts_2021",
+   "Seghers_2022",
+   "Tumkaya_2018",
+   "Walker_2018",
+   "van_der_Waal_2022"
+  ],
+  "n_reviews": 16,
+  "macro_auc": {
+   "jev": 0.9572,
+   "gpt4omini_lp": 0.928,
+   "deepseek": 0.909,
+   "claude_opus": 0.9726
+  },
+  "jev_minus_gpt4omini": {
+   "diff": 0.0292,
+   "ci": [
+    0.009,
+    0.0511
+   ],
+   "wins": 11
+  },
+  "claude_minus_jev": {
+   "diff": 0.0154,
+   "ci": [
+    0.0071,
+    0.0257
+   ],
+   "claude_wins": 13
+  },
+  "jev_minus_deepseek": {
+   "diff": 0.0481,
+   "ci": [
+    0.0241,
+    0.0735
+   ],
+   "wins": 13
+  },
+  "reviews_dropped": [
+   "Abgaz_2023",
+   "Donners_2021",
+   "Eggmann_2023",
+   "Hall_2011",
+   "Lewowski_2021",
+   "Theobald_2021",
+   "Toffalini_2021"
+  ]
+ },
+ "macro_restricted_excluded_ge10": {
+  "reviews_kept": [
+   "Abgaz_2023",
+   "Attai_2022",
+   "Boersma-van_Dam_2024",
+   "Bos_2018",
+   "Bosch_2021",
+   "Chakraborty_2023",
+   "Chueca_2023",
+   "Eggmann_2023",
+   "Hall_2011",
+   "Harms_2024",
+   "Kerschbaumer_2024b",
+   "Lewowski_2021",
+   "Menon_2022",
+   "Moran_2020",
+   "Parodis_2023b",
+   "Roberts_2021",
+   "Seghers_2022",
+   "Toffalini_2021",
+   "Tumkaya_2018",
+   "Walker_2018",
+   "van_der_Waal_2022"
+  ],
+  "n_reviews": 21,
+  "macro_auc": {
+   "jev": 0.9674,
+   "gpt4omini_lp": 0.9433,
+   "deepseek": 0.9215,
+   "claude_opus": 0.9791
+  },
+  "jev_minus_gpt4omini": {
+   "diff": 0.0241,
+   "ci": [
+    0.0083,
+    0.0415
+   ],
+   "wins": 14
+  },
+  "claude_minus_jev": {
+   "diff": 0.0117,
+   "ci": [
+    0.0049,
+    0.02
+   ],
+   "claude_wins": 13
+  },
+  "jev_minus_deepseek": {
+   "diff": 0.0459,
+   "ci": [
+    0.026,
+    0.0664
+   ],
+   "wins": 17
+  },
+  "reviews_dropped": [
+   "Donners_2021",
+   "Theobald_2021"
+  ]
+ },
+ "pooled_common": {
+  "n": 1999,
+  "n_included": 595,
+  "auc": {
+   "jev": 0.9516,
+   "gpt4omini_lp": 0.9266,
+   "deepseek": 0.9123,
+   "claude_opus": 0.9817
+  },
+  "auc_ci_record_bootstrap": {
+   "jev": [
+    0.9424,
+    0.9596
+   ],
+   "gpt4omini_lp": [
+    0.915,
+    0.9379
+   ],
+   "deepseek": [
+    0.8989,
+    0.9243
+   ],
+   "claude_opus": [
+    0.9766,
+    0.9857
+   ]
+  },
+  "diff_ci": {
+   "jev_minus_gpt4omini": [
+    0.017,
+    0.0337
+   ],
+   "claude_minus_jev": [
+    0.0234,
+    0.0372
+   ],
+   "jev_minus_deepseek": [
+    0.0302,
+    0.0488
+   ]
+  },
+  "diff_point": {
+   "jev_minus_gpt4omini": 0.025,
+   "claude_minus_jev": 0.0301,
+   "jev_minus_deepseek": 0.0393
+  },
+  "bootstrap": "record-level, B=2000, seed 12345, percentile"
+ },
+ "pooled_all2002_without_claude": {
+  "jev": 0.9512,
+  "gpt4omini_lp": 0.926,
+  "deepseek": 0.9116
+ },
+ "ties": {
+  "jev": {
+   "distinct_values_on_common": 97,
+   "tied_pos_neg_pair_fraction_pooled": 0.0014,
+   "tied_pair_fraction_mean_over_reviews": 0.0016,
+   "max_over_reviews": 0.0068
+  },
+  "gpt4omini_lp": {
+   "distinct_values_on_common": 1980,
+   "tied_pos_neg_pair_fraction_pooled": 0.0,
+   "tied_pair_fraction_mean_over_reviews": 0.0,
+   "max_over_reviews": 0.0
+  },
+  "deepseek": {
+   "distinct_values_on_common": 13,
+   "tied_pos_neg_pair_fraction_pooled": 0.088,
+   "tied_pair_fraction_mean_over_reviews": 0.1097,
+   "max_over_reviews": 0.4846
+  },
+  "claude_opus": {
+   "distinct_values_on_common": 45,
+   "tied_pos_neg_pair_fraction_pooled": 0.0041,
+   "tied_pair_fraction_mean_over_reviews": 0.0069,
+   "max_over_reviews": 0.0667
+  },
+  "jev_single_p2": {
+   "distinct_values_on_common": 95,
+   "tied_pos_neg_pair_fraction_pooled": 0.0023,
+   "tied_pair_fraction_mean_over_reviews": 0.0036,
+   "max_over_reviews": 0.0222
+  },
+  "jev_b10_subset_p2": {
+   "distinct_values_on_common": 96,
+   "tied_pos_neg_pair_fraction_pooled": 0.002,
+   "tied_pair_fraction_mean_over_reviews": 0.0023,
+   "max_over_reviews": 0.0115
+  }
+ },
+ "ties_note": "AUC via sklearn roc_auc_score assigns one half to tied positive-negative pairs (mid-rank convention); DeepSeek and Claude returned verbalised probabilities with few distinct values, GPT-4o-mini log-probability ratios are effectively continuous, Jev returns two-decimal probabilities.",
+ "jev_subset_scoring_mode": {
+  "final_eval_source": "final_eval.py: models = {\"jev\": J} where J is loaded from jev_test.json (the full held-out run, ten records per request)",
+  "subset_records_with_batch10_in_full_run": 1989,
+  "n_subset": 2002,
+  "single_record_rescoring_p2": "jev_testcmp_single.json (batch 1) and jev_testcmp_b10.json (batch 10 within the subset); post_test.json P2 macro AUC single 0.9601, b10_subset 0.9625, b10_full 0.9615 on 23 reviews (2002 records)"
+ }
+}

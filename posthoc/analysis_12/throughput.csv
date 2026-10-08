@@ -1,0 +1,12 @@
+run,n_records,start,start_source,end,end_source,minutes,records_per_minute,hours
+jev_development_batch10,52957,2026-09-24T18:17:47,run_jev_dev.log creation time as verified in PREREG.md (entry of 2026-09-25 13:14),2026-09-25T00:48:48,jev_dev2000.json and run_jev_dev.log modification time (the retry pass at the end had nothing left to score),391.0,135.4,6.52
+jev_held_out_batch10,33001,2026-09-25T00:48:48,chain_jev.sh starts the held-out run immediately after the development retry pass,2026-09-25T03:29:32,jev_test.json modification time,160.7,205.4,2.68
+jev_robust_q1_batch10,5550,2026-09-25T03:29:32,chain_jev.sh sequence,2026-09-25T03:52:49,jev_robust_q1.json modification time,23.3,238.2,0.39
+jev_robust_q2_batch10,5550,2026-09-25T03:52:49,chain_jev.sh sequence,2026-09-25T04:14:28,jev_robust_q2.json modification time,21.6,256.9,0.36
+jev_robust_titleonly_batch10,5550,2026-09-25T04:14:28,chain2_jev.sh starts when chain_jev.log says done (04:14:28),2026-09-25T04:37:44,jev_robust_titleonly.json modification time,23.3,238.2,0.39
+jev_robust_mismatch_batch10,5550,2026-09-25T04:37:44,chain2_jev.sh sequence,2026-09-25T05:01:25,jev_robust_mismatch.json modification time,23.7,234.2,0.39
+jev_clef_batch10,82418,2026-09-25T10:39:29,run_p2.done modification time; chain_clef.sh starts the CLEF run when this file appears,2026-09-25T17:03:30,jev_clef.json modification time (retry pass had nothing left),384.0,214.6,6.4
+claude_opus_cli_subset,2002,2026-09-24T18:30:00,"progress.log: 0 done at 18:30, 50 done at 18:31 (2-minute polling; start uncertain by about one minute)",2026-09-24T19:15:10,run_test_claude.log modification time (main pass; the retry of 3 refused records ran later),45.2,44.3,0.75
+deepseek_subset,2002,2026-09-24T18:56:00,"progress.log: run present with 0 done at 18:56, 50 done at 19:04 (start uncertain by up to 8 minutes)",2026-09-24T23:57:18,test_cmp_deepseek.json modification time,301.3,6.6,5.02
+gpt4omini_lp_subset_resumed_run,1957,2026-09-24T19:02:00,"progress.log: resumed run present with 45 done at 19:02, 50/1957 at 19:22",2026-09-25T04:50:20,test_cmp_gpt4omini_lp.json modification time,588.3,3.3,9.8
+jev_p2_batch10_subset,2002,,"start not recorded (no chain script; run_p2_single.log ended 10:28:38 and the batched run ended 10:39:29; if sequential, about 11 minutes)",2026-09-25T10:39:29,run_p2_b10.log modification time,,,

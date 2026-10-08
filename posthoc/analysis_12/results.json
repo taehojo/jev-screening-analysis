@@ -1,0 +1,615 @@
+{
+ "prices_gateway_listing": {
+  "jev": {
+   "id": "typesafe-ai/jev",
+   "name": "Jev",
+   "input_usd_per_M": 0.041999999999999996,
+   "output_usd_per_M": 0.0,
+   "input_cache_read_usd_per_M": null,
+   "input_cache_write_usd_per_M": null,
+   "varies_by_provider": false,
+   "released_unix": 1789430400,
+   "released_date_utc": "2026-09-15"
+  },
+  "gpt4omini": {
+   "id": "openai/gpt-4o-mini",
+   "name": "GPT-4o mini",
+   "input_usd_per_M": 0.15,
+   "output_usd_per_M": 0.6,
+   "input_cache_read_usd_per_M": 0.075,
+   "input_cache_write_usd_per_M": null,
+   "varies_by_provider": false,
+   "released_unix": 1721260800,
+   "released_date_utc": "2024-07-18"
+  },
+  "deepseek_v31": {
+   "id": "deepseek/deepseek-v3.1",
+   "name": "DeepSeek V3.1",
+   "input_usd_per_M": 0.25,
+   "output_usd_per_M": 0.95,
+   "input_cache_read_usd_per_M": 0.13,
+   "input_cache_write_usd_per_M": null,
+   "varies_by_provider": true,
+   "released_unix": 1755734400,
+   "released_date_utc": "2025-08-21"
+  },
+  "claude_opus_55": {
+   "id": "anthropic/claude-opus-5.5",
+   "name": "Claude Opus 5.5",
+   "input_usd_per_M": 4.0,
+   "output_usd_per_M": 20.0,
+   "input_cache_read_usd_per_M": 0.19999999999999998,
+   "input_cache_write_usd_per_M": 5.0,
+   "varies_by_provider": false,
+   "released_unix": 1790035200,
+   "released_date_utc": "2026-09-22"
+  },
+  "source": "https://ai-gateway.vercel.sh/v1/models (public listing) fetched 2026-09-26 17:52 EDT; copy in pricing_sources/"
+ },
+ "prices_vendor_pages": {
+  "anthropic_claude_opus_55": {
+   "snippet": [
+    "$10 / MTok $50 / MTok $12.50 / MTok $20 / MTok $0.25 / MTok Claude Opus 5.5 For long-running agentic coding and knowledg"
+   ],
+   "reading": "Claude Opus 5.5: $4 / MTok input, $20 / MTok output, $5 / MTok 5-minute cache write, $8 / MTok 1-hour cache write, $0.20 / MTok cache read (columns as on the page)",
+   "batch_snippets": [
+    "$0.25 USD per million tokens). On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens). These multipliers stack with other pricing modifiers, including the Batch API discount and data residency. For implementation details, supported models, and code examples, see Prompt caching . Data residency pricing \ue09a For Claude 4.6 and later models, specifying US-onl",
+    "cing stacks with other pricing modifiers: Prompt caching multipliers apply on top of fast mode pricing Data residency multipliers apply on top of fast mode pricing Fast mode is not available with the Batch API . For more information, see Fast mode . Batch processing \ue09a The Batch API allows asynchronous processing of large volumes of requests with a 50% discount on both input and output tokens. Mode",
+    "y on top of fast mode pricing Data residency multipliers apply on top of fast mode pricing Fast mode is not available with the Batch API . For more information, see Fast mode . Batch processing \ue09a The Batch API allows asynchronous processing of large volumes of requests with a 50% discount on both input and output tokens. Model Batch tokens Name Input Output Claude Fable 5.1 For demanding reasoning"
+   ],
+   "cache_snippets": [
+    "ude Opus 5.5) Same duration as the preceding write Cache write tokens are charged when content is first stored. Cache read tokens are charged when a subsequent request retrieves the cached content. A cache hit costs 10% of the standard input price, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write).",
+    "e, which means caching pays off after one cache read for the 5-minute duration (1.25x write), or after two cache reads for the 1-hour duration (2x write). On Claude Fable 5.1 and Claude Mythos 5.1, a cache hit costs 2.5% of the standard input price ($0.25 USD per million tokens). On Claude Opus 5.5, a cache hit costs 5% of the standard input price ($0.20 USD per million tokens). These multipliers "
+   ],
+   "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+   "fetched": "2026-09-26 17:52 EDT"
+  },
+  "openai_gpt4omini": {
+   "table_row_input_cached_output_usd_per_M": [
+    0.15,
+    0.075,
+    0.6
+   ],
+   "batch_snippets": [
+    " pricing includes Hosted Shell and Code Interpreter . Eligible container sessions will be billed by the minute, with a 5-minute minimum per session. Responses API, Chat Completions API, Realtime API, Batch API, and Assistants API are not priced separately. Tokens are billed at the chosen model's input and output rates. Specialized models Prices per 1M tokens. Standard Fast mode Standard Category M"
+   ],
+   "url": "https://developers.openai.com/api/docs/pricing (redirect from platform.openai.com/docs/pricing)",
+   "fetched": "2026-09-26 17:52 EDT"
+  },
+  "deepseek": {
+   "note": "The vendor pricing page fetched on 2026-09-26 lists deepseek-flash and deepseek-v4-pro only; DeepSeek-V3.1 is no longer listed, so the gateway listing price is used.",
+   "snippet": [
+    "rk. We will bill based on the total number of input and output tokens by the model. Model Details \u200b MODEL deepseek-flash (1) deepseek-v4-pro BASE URL (OpenAI Format) https://api.deepseek.com BASE URL "
+   ],
+   "url": "https://api-docs.deepseek.com/quick_start/pricing"
+  },
+  "typesafe_jev": {
+   "price_snippets": [
+    "redibly efficient and hardware-aware. Cost Input tokens: from $0.20 to $10 / MTok. Output tokens: ~5x more expensive than input tokens. Input tokens: $0.042 / MTok ($42 per billion tokens). Output tokens: FREE (too cheap to meter). Speed End-to-end response time is 3 to 329 seconds for frontier mode"
+   ],
+   "speed_snippets": [
+    "e query. Incredibly efficient and hardware-aware. Cost Input tokens: from $0.20 to $10 / MTok. Output tokens: ~5x more expensive than input tokens. Input tokens: $0.042 / MTok ($42 per billion tokens). Output tokens: FREE (too cheap to meter). Speed End-to-end response time is 3 to 329 seconds for frontier models. Fast enough for interfacing with humans, but a big bottleneck when integrated in code. End-to-end response time is 70ms-500ms for TypeSafe. This can range from 40x-200x faster for the ",
+    " tokens: $0.042 / MTok ($42 per billion tokens). Output tokens: FREE (too cheap to meter). Speed End-to-end response time is 3 to 329 seconds for frontier models. Fast enough for interfacing with humans, but a big bottleneck when integrated in code. End-to-end response time is 70ms-500ms for TypeSafe. This can range from 40x-200x faster for the same levels of frontier intelligence for System One shaped queries. Confidence Even if prompted for a confidence estimate, models tend to be overconfiden"
+   ],
+   "orders_snippets": [
+    "or Calibrated Decisions (RLCD). Our first public model is Jev , available today in early access. Jev achieves similar levels of intelligence on System One tasks compared to existing LLMs, while being two orders of magnitude faster and more efficient. While Jev gives up string generation, it\u2019s optimized for structured outputs and can\u2019t hallucinate. Think of Jev as a frontier-intelligence function c"
+   ],
+   "pricing_sustainability_snippet": [
+    "e skeptics ourselves. There are some claims you can easily verify: Speed per call: We truly are that fast, though our published evals are generally run from our laptops on the West Coast (this is where our service is currently based). Cost per call: We make our pricing transparent. We can\u2019t prove it isn\u2019t subsidized; we\u2019ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up). No type errors : This would be an easy thing to falsify with just a single "
+   ],
+   "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "fetched": "2026-09-26 17:52 EDT"
+  }
+ },
+ "run_costs": {
+  "jev_development": {
+   "log": "run_jev_dev.log",
+   "completed_run_costs_usd": [
+    1.1134,
+    0.0
+   ],
+   "cost_first_pass_usd": 1.1134,
+   "cost_all_passes_usd": 1.1134,
+   "n_records_ok_in_output": 52957,
+   "n_records_in_first_pass": null
+  },
+  "jev_held_out": {
+   "log": "run_jev_test.log",
+   "completed_run_costs_usd": [
+    0.6634,
+    0.0
+   ],
+   "cost_first_pass_usd": 0.6634,
+   "cost_all_passes_usd": 0.6634,
+   "n_records_ok_in_output": 33001,
+   "n_records_in_first_pass": null
+  },
+  "jev_clef": {
+   "log": "run_jev_clef.log",
+   "completed_run_costs_usd": [
+    1.5442,
+    0.0
+   ],
+   "cost_first_pass_usd": 1.5442,
+   "cost_all_passes_usd": 1.5442,
+   "n_records_ok_in_output": 82418,
+   "n_records_in_first_pass": null
+  },
+  "jev_robust_q1": {
+   "log": "run_jev_q1.log",
+   "completed_run_costs_usd": [
+    0.1302
+   ],
+   "cost_first_pass_usd": 0.1302,
+   "cost_all_passes_usd": 0.1302,
+   "n_records_ok_in_output": 5550,
+   "n_records_in_first_pass": null
+  },
+  "jev_robust_q2": {
+   "log": "run_jev_q2.log",
+   "completed_run_costs_usd": [
+    0.1271
+   ],
+   "cost_first_pass_usd": 0.1271,
+   "cost_all_passes_usd": 0.1271,
+   "n_records_ok_in_output": 5550,
+   "n_records_in_first_pass": null
+  },
+  "jev_robust_titleonly": {
+   "log": "run_jev_titleonly.log",
+   "completed_run_costs_usd": [
+    0.1242
+   ],
+   "cost_first_pass_usd": 0.1242,
+   "cost_all_passes_usd": 0.1242,
+   "n_records_ok_in_output": 5550,
+   "n_records_in_first_pass": null
+  },
+  "jev_robust_mismatch": {
+   "log": "run_jev_mismatch.log",
+   "completed_run_costs_usd": [
+    0.1319
+   ],
+   "cost_first_pass_usd": 0.1319,
+   "cost_all_passes_usd": 0.1319,
+   "n_records_ok_in_output": 5550,
+   "n_records_in_first_pass": null
+  },
+  "jev_p2_single_record": {
+   "log": "run_p2_single.log",
+   "completed_run_costs_usd": [
+    0.0845
+   ],
+   "cost_first_pass_usd": 0.0845,
+   "cost_all_passes_usd": 0.0845,
+   "n_records_ok_in_output": 2002,
+   "n_records_in_first_pass": null
+  },
+  "jev_p2_batch10_subset": {
+   "log": "run_p2_b10.log",
+   "completed_run_costs_usd": [
+    0.0404
+   ],
+   "cost_first_pass_usd": 0.0404,
+   "cost_all_passes_usd": 0.0404,
+   "n_records_ok_in_output": 2002,
+   "n_records_in_first_pass": null
+  },
+  "gpt4omini_lp_resumed_run": {
+   "log": "run_test_gpt4omini.log",
+   "completed_run_costs_usd": [
+    0.2133
+   ],
+   "cost_first_pass_usd": 0.2133,
+   "cost_all_passes_usd": 0.2133,
+   "n_records_ok_in_output": 2002,
+   "n_records_in_first_pass": 1957
+  },
+  "deepseek": {
+   "log": "run_test_deepseek.log",
+   "completed_run_costs_usd": [
+    0.3204
+   ],
+   "cost_first_pass_usd": 0.3204,
+   "cost_all_passes_usd": 0.3204,
+   "n_records_ok_in_output": 2002,
+   "n_records_in_first_pass": null
+  },
+  "claude_opus_cli": {
+   "log": "run_test_claude.log",
+   "completed_run_costs_usd": [
+    29.3337
+   ],
+   "cost_first_pass_usd": 29.3337,
+   "cost_all_passes_usd": 29.3337,
+   "n_records_ok_in_output": 1999,
+   "n_records_in_first_pass": null
+  },
+  "pilot_jev_single": {
+   "log": "/N/project/AiLab/jev/screen/run_jev.log",
+   "completed_run_costs_usd": [
+    0.056
+   ],
+   "cost_first_pass_usd": 0.056,
+   "cost_all_passes_usd": 0.056,
+   "n_records_ok_in_output": 1572,
+   "n_records_in_first_pass": null
+  },
+  "pilot_claude_opus_cli": {
+   "log": "/N/project/AiLab/jev/screen/run_claude-opus.log",
+   "completed_run_costs_usd": [
+    22.6903
+   ],
+   "cost_first_pass_usd": 22.6903,
+   "cost_all_passes_usd": 22.6903,
+   "n_records_ok_in_output": 1572,
+   "n_records_in_first_pass": null
+  },
+  "gpt4omini_lp_first_run_note": "The first gpt-4o-mini run (Sept 24, 19:00, progress.log) reached 50/2002 at $0.0087 with 5 failures and was restarted at 19:02 with 45 records kept; its cost is only in progress.log. Total gateway cost for 2002 records = 0.2133 + 0.0087 = 0.2220 USD (the 0.0087 covers 45 successful and 5 failed attempts)."
+ },
+ "cost_per_1000": {
+  "jev_development_batch10": 0.021,
+  "jev_held_out_batch10": 0.0201,
+  "jev_clef_batch10": 0.0187,
+  "jev_p2_batch10_subset": 0.0202,
+  "jev_p2_single_record": 0.0422,
+  "jev_pilot_single_record": 0.0356,
+  "gpt4omini_lp_single_record": 0.1109,
+  "deepseek_single_record": 0.16,
+  "claude_opus_cli_per_2002_attempted": 14.6522,
+  "claude_opus_cli_per_1999_scored": 14.6742,
+  "claude_opus_cli_pilot_1572": 14.434
+ },
+ "cost_ratios": {
+  "basis": "Jev held-out batched run (0.0201 per 1000) versus each comparator on the 2002-record subset; second row uses the Jev single-record cost from the P2 run",
+  "jev_batch10_vs": {
+   "gpt4omini_lp": 5.5,
+   "deepseek": 8.0,
+   "claude_opus_cli_2002": 729.0,
+   "claude_opus_cli_1999": 730.0
+  },
+  "jev_single_vs": {
+   "gpt4omini_lp": 2.6,
+   "deepseek": 3.8,
+   "claude_opus_cli_2002": 347.0
+  },
+  "manuscript_v0_values": {
+   "jev": 0.02,
+   "gpt4omini": 0.11,
+   "deepseek": 0.16,
+   "claude": 14.65,
+   "ratio_stated": "about 1/700th"
+  }
+ },
+ "jev_tokens": {
+  "development_batch10": {
+   "n_records": 52957,
+   "mean_input_tokens_per_request": 4992.4,
+   "mean_input_tokens_per_record": 500.6,
+   "median_input_tokens_per_record": 488.0,
+   "total_input_tokens": 26509152,
+   "batch_sizes": {
+    "1": 6,
+    "2": 8,
+    "3": 36,
+    "4": 36,
+    "5": 40,
+    "6": 36,
+    "7": 28,
+    "8": 48,
+    "9": 99,
+    "10": 52620
+   },
+   "cost_at_0.042_per_M_usd": 1.1134
+  },
+  "held_out_batch10": {
+   "n_records": 33001,
+   "mean_input_tokens_per_request": 4780.2,
+   "mean_input_tokens_per_record": 478.6,
+   "median_input_tokens_per_record": 473.6,
+   "total_input_tokens": 15794504,
+   "batch_sizes": {
+    "1": 2,
+    "2": 2,
+    "3": 6,
+    "5": 10,
+    "6": 24,
+    "8": 32,
+    "9": 45,
+    "10": 32880
+   },
+   "cost_at_0.042_per_M_usd": 0.6634
+  },
+  "clef_batch10": {
+   "n_records": 82418,
+   "mean_input_tokens_per_request": 4457.6,
+   "mean_input_tokens_per_record": 446.1,
+   "median_input_tokens_per_record": 450.4,
+   "total_input_tokens": 36765491,
+   "batch_sizes": {
+    "1": 5,
+    "2": 6,
+    "3": 12,
+    "4": 8,
+    "5": 20,
+    "6": 12,
+    "7": 21,
+    "9": 54,
+    "10": 82280
+   },
+   "cost_at_0.042_per_M_usd": 1.5442
+  },
+  "p2_single_record": {
+   "n_records": 2002,
+   "mean_input_tokens_per_request": 1005.1,
+   "mean_input_tokens_per_record": 1005.1,
+   "median_input_tokens_per_record": 996.0,
+   "total_input_tokens": 2012117,
+   "batch_sizes": {
+    "1": 2002
+   },
+   "cost_at_0.042_per_M_usd": 0.0845
+  },
+  "p2_batch10_subset": {
+   "n_records": 2002,
+   "mean_input_tokens_per_request": 4682.9,
+   "mean_input_tokens_per_record": 480.2,
+   "median_input_tokens_per_record": 477.2,
+   "total_input_tokens": 961317,
+   "batch_sizes": {
+    "1": 3,
+    "2": 4,
+    "3": 9,
+    "4": 20,
+    "5": 5,
+    "6": 18,
+    "8": 16,
+    "9": 27,
+    "10": 1900
+   },
+   "cost_at_0.042_per_M_usd": 0.0404
+  },
+  "pilot_single_record": {
+   "n_records": 1572,
+   "mean_input_tokens_per_request": 974.9,
+   "mean_input_tokens_per_record": 974.9,
+   "median_input_tokens_per_record": 949.5,
+   "total_input_tokens": 1532620,
+   "batch_sizes": {
+    "1": 1572
+   },
+   "cost_at_0.042_per_M_usd": 0.0644
+  },
+  "pilot_batch10": {
+   "n_records": 1572,
+   "mean_input_tokens_per_request": 5378.4,
+   "mean_input_tokens_per_record": 538.4,
+   "median_input_tokens_per_record": 536.3,
+   "total_input_tokens": 846386,
+   "batch_sizes": {
+    "2": 2,
+    "10": 1570
+   },
+   "cost_at_0.042_per_M_usd": 0.0355
+  },
+  "robust_q1_batch10": {
+   "n_records": 5550,
+   "mean_input_tokens_per_request": 5558.4,
+   "mean_input_tokens_per_record": 558.4,
+   "median_input_tokens_per_record": 525.4,
+   "total_input_tokens": 3098854,
+   "batch_sizes": {
+    "1": 1,
+    "3": 9,
+    "4": 8,
+    "5": 5,
+    "6": 12,
+    "8": 16,
+    "9": 9,
+    "10": 5490
+   },
+   "cost_at_0.042_per_M_usd": 0.1302
+  },
+  "robust_titleonly_batch10": {
+   "n_records": 5550,
+   "mean_input_tokens_per_request": 5304.2,
+   "mean_input_tokens_per_record": 532.6,
+   "median_input_tokens_per_record": 500.6,
+   "total_input_tokens": 2956022,
+   "batch_sizes": {
+    "1": 1,
+    "3": 9,
+    "4": 8,
+    "5": 5,
+    "6": 12,
+    "8": 16,
+    "9": 9,
+    "10": 5490
+   },
+   "cost_at_0.042_per_M_usd": 0.1242
+  },
+  "note": "usage.input_tokens is the gateway-reported input token count of the request; output tokens are free and not reported. cost_at_0.042_per_M is the arithmetic check against the gateway-reported marketCost."
+ },
+ "prompt_lengths": {
+  "subset_n": 2002,
+  "chars_mean": {
+   "verbalised_user_msg": 3554.5,
+   "lp_user_msg": 3482.5,
+   "jev_single_state": 3359.5,
+   "criteria_block": 1674.2,
+   "record_block": 1683.3
+  },
+  "chars_median": {
+   "verbalised_user_msg": 3515.0,
+   "lp_user_msg": 3443.0,
+   "jev_single_state": 3320.0,
+   "criteria_block": 1695.0,
+   "record_block": 1647.0
+  },
+  "words_mean_verbalised_user_msg": 506.0,
+  "system_prompt_chars": {
+   "verbalised": 252,
+   "log_probability": 88
+  },
+  "approx_tokens_chars_div_4": {
+   "verbalised_total_per_record": 952.0,
+   "lp_total_per_record": 893.0,
+   "jev_single_state": 840.0
+  },
+  "jev_held_out_batched_state_chars_total": 61823373,
+  "jev_held_out_requests_reconstructed": 3308,
+  "jev_held_out_chars_per_record": 1873.4,
+  "jev_chars_per_reported_token_held_out": 3.91,
+  "note": "Characters and words are exact for the texts sent; token counts for the chat models were not recorded by the harness, so chars/4 is an approximation and the implied counts below are derived from cost at list price."
+ },
+ "implied_tokens_from_cost": {
+  "gpt4omini_lp": {
+   "cost_per_record_usd": 0.000111,
+   "assumed_output_tokens": 1,
+   "implied_input_tokens": 735.0
+  },
+  "deepseek": {
+   "cost_per_record_usd": 0.00016,
+   "assumed_output_tokens": 8,
+   "implied_input_tokens_at_gateway_list_price": 610.0,
+   "caveat": "price varies by provider on the gateway"
+  },
+  "claude_opus_cli": {
+   "cost_per_scored_record_usd": 0.014674,
+   "assumed_output_tokens": 10,
+   "implied_input_token_equivalents_at_4_per_M": 3619.0,
+   "implied_at_5_per_M_cache_write": 2895.0,
+   "caveat": "The command-line interface reports a total cost per call; how it is composed (input, cache writes, hidden harness context) is not itemised in our record. An earlier run with the same interface settings measured a fixed context of 577 input tokens (HANDOVER.md section 11), which is far below the implied count, so the interface figure should not be read as an API invoice for the prompt text alone."
+  }
+ },
+ "throughput": [
+  {
+   "run": "jev_development_batch10",
+   "n_records": 52957,
+   "start": "2026-09-24T18:17:47",
+   "start_source": "run_jev_dev.log creation time as verified in PREREG.md (entry of 2026-09-25 13:14)",
+   "end": "2026-09-25T00:48:48",
+   "end_source": "jev_dev2000.json and run_jev_dev.log modification time (the retry pass at the end had nothing left to score)",
+   "minutes": 391.0,
+   "records_per_minute": 135.4,
+   "hours": 6.52
+  },
+  {
+   "run": "jev_held_out_batch10",
+   "n_records": 33001,
+   "start": "2026-09-25T00:48:48",
+   "start_source": "chain_jev.sh starts the held-out run immediately after the development retry pass",
+   "end": "2026-09-25T03:29:32",
+   "end_source": "jev_test.json modification time",
+   "minutes": 160.7,
+   "records_per_minute": 205.4,
+   "hours": 2.68
+  },
+  {
+   "run": "jev_robust_q1_batch10",
+   "n_records": 5550,
+   "start": "2026-09-25T03:29:32",
+   "start_source": "chain_jev.sh sequence",
+   "end": "2026-09-25T03:52:49",
+   "end_source": "jev_robust_q1.json modification time",
+   "minutes": 23.3,
+   "records_per_minute": 238.2,
+   "hours": 0.39
+  },
+  {
+   "run": "jev_robust_q2_batch10",
+   "n_records": 5550,
+   "start": "2026-09-25T03:52:49",
+   "start_source": "chain_jev.sh sequence",
+   "end": "2026-09-25T04:14:28",
+   "end_source": "jev_robust_q2.json modification time",
+   "minutes": 21.6,
+   "records_per_minute": 256.9,
+   "hours": 0.36
+  },
+  {
+   "run": "jev_robust_titleonly_batch10",
+   "n_records": 5550,
+   "start": "2026-09-25T04:14:28",
+   "start_source": "chain2_jev.sh starts when chain_jev.log says done (04:14:28)",
+   "end": "2026-09-25T04:37:44",
+   "end_source": "jev_robust_titleonly.json modification time",
+   "minutes": 23.3,
+   "records_per_minute": 238.2,
+   "hours": 0.39
+  },
+  {
+   "run": "jev_robust_mismatch_batch10",
+   "n_records": 5550,
+   "start": "2026-09-25T04:37:44",
+   "start_source": "chain2_jev.sh sequence",
+   "end": "2026-09-25T05:01:25",
+   "end_source": "jev_robust_mismatch.json modification time",
+   "minutes": 23.7,
+   "records_per_minute": 234.2,
+   "hours": 0.39
+  },
+  {
+   "run": "jev_clef_batch10",
+   "n_records": 82418,
+   "start": "2026-09-25T10:39:29",
+   "start_source": "run_p2.done modification time; chain_clef.sh starts the CLEF run when this file appears",
+   "end": "2026-09-25T17:03:30",
+   "end_source": "jev_clef.json modification time (retry pass had nothing left)",
+   "minutes": 384.0,
+   "records_per_minute": 214.6,
+   "hours": 6.4
+  },
+  {
+   "run": "claude_opus_cli_subset",
+   "n_records": 2002,
+   "start": "2026-09-24T18:30:00",
+   "start_source": "progress.log: 0 done at 18:30, 50 done at 18:31 (2-minute polling; start uncertain by about one minute)",
+   "end": "2026-09-24T19:15:10",
+   "end_source": "run_test_claude.log modification time (main pass; the retry of 3 refused records ran later)",
+   "minutes": 45.2,
+   "records_per_minute": 44.3,
+   "hours": 0.75
+  },
+  {
+   "run": "deepseek_subset",
+   "n_records": 2002,
+   "start": "2026-09-24T18:56:00",
+   "start_source": "progress.log: run present with 0 done at 18:56, 50 done at 19:04 (start uncertain by up to 8 minutes)",
+   "end": "2026-09-24T23:57:18",
+   "end_source": "test_cmp_deepseek.json modification time",
+   "minutes": 301.3,
+   "records_per_minute": 6.6,
+   "hours": 5.02
+  },
+  {
+   "run": "gpt4omini_lp_subset_resumed_run",
+   "n_records": 1957,
+   "start": "2026-09-24T19:02:00",
+   "start_source": "progress.log: resumed run present with 45 done at 19:02, 50/1957 at 19:22",
+   "end": "2026-09-25T04:50:20",
+   "end_source": "test_cmp_gpt4omini_lp.json modification time",
+   "minutes": 588.3,
+   "records_per_minute": 3.3,
+   "hours": 9.8
+  },
+  {
+   "run": "jev_p2_batch10_subset",
+   "n_records": 2002,
+   "start": null,
+   "start_source": "start not recorded (no chain script; run_p2_single.log ended 10:28:38 and the batched run ended 10:39:29; if sequential, about 11 minutes)",
+   "end": "2026-09-25T10:39:29",
+   "end_source": "run_p2_b10.log modification time"
+  }
+ ],
+ "throughput_conditions": {
+  "jev": "run_screen.mjs with --batch 10 --conc 3 --gap 1900: a global pacing of one request per 1.9 s (at most about 32 requests per minute, about 316 records per minute); the observed rate is lower because of HTTP 429 back-offs (counts in the logs: development 4359, held-out 1152, CLEF 2277 throttled responses). The measured gateway limit was 30 requests per 10 seconds with retry-after (HANDOVER.md section 12).",
+  "chat_models": "Gateway free tier: about five requests per minute per chat model (HANDOVER.md section 14; 503 responses without retry-after, section 13), one record per request; GPT-4o-mini additionally restricted to the OpenAI provider for log-probabilities.",
+  "claude_cli": "Subscription command-line interface (claude -p), one record per call, concurrency as set by --conc (default 2 in run_screen.mjs); no gateway limit.",
+  "exclusions": "Times and costs cover model scoring only; they exclude CPU time for the free rankers and ASReview simulations, retrieval of records, and human screening time."
+ },
+ "manuscript_577_tokens_claim": {
+  "origin": "HANDOVER.md section 11 (gene-trait experiment, same CLI settings): \"\ubb38\ub9e5 577\ud1a0\ud070\"; not measured in the screening runs (run_screen.mjs stores total_cost_usd and modelId only).",
+  "recommendation": "State as a fixed context of about 577 tokens measured in an earlier run with the same interface settings, or remove."
+ }
+}

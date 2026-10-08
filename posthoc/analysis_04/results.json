@@ -1,0 +1,2245 @@
+{
+ "analysis_id": "AN-0001-04",
+ "started": "2026-09-26 18:00:57 EDT",
+ "tau": 0.07,
+ "environment": {
+  "python": "3.12.9",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "2.3.3",
+  "sklearn": "1.9.1",
+  "executable": "/N/project/AiLab/jev/synergy/.venv/bin/python"
+ },
+ "settings": {
+  "bootstrap": {
+   "resamples": 5000,
+   "seed": 1004,
+   "type": "percentile CI of the mean over resampled reviews"
+  },
+  "wilson_z": 1.959963984540054,
+  "knee_reliability_primary": "indicator on the seed-mean knee recall per review (as in synergy/final_eval.py and clef_eval.py)",
+  "knee_reliability_secondary": "mean over seeds of the per-seed indicator (knee applied per seed)",
+  "estimands": "macro = unweighted mean over reviews; pooled = record-weighted (sum of records read / sum of records; sum of included found / sum of included)"
+ },
+ "collections": {
+  "heldout": {
+   "n_reviews": 23,
+   "records": 33001,
+   "included": 597,
+   "threshold": {
+    "rule": "Jev probability >= 0.07 (label-free)",
+    "reliability": {
+     "k": 23,
+     "n": 23,
+     "proportion": 1.0,
+     "wilson95": [
+      0.8568833815495731,
+      1.0
+     ],
+     "clopper_pearson95": [
+      0.8518148710847756,
+      1.0
+     ]
+    },
+    "work_macro": {
+     "mean": 0.5887384479631907,
+     "boot95_of_mean": [
+      0.4896006570384092,
+      0.6898241282052407
+     ],
+     "median": 0.5375939849624061,
+     "q1": 0.39884699215639996,
+     "q3": 0.8265925898352193,
+     "min": 0.12941176470588237,
+     "max": 0.9713390058217645,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.510014848034908,
+    "recall_macro": {
+     "mean": 0.9975442834138485,
+     "boot95_of_mean": [
+      0.9932769726247986,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.9583333333333334,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [],
+    "recall_pooled": 0.9949748743718593
+   },
+   "knee_asr": {
+    "rule": "knee on ASReview default ranking (10 seeds)",
+    "reliability": {
+     "k": 20,
+     "n": 23,
+     "proportion": 0.8695652173913043,
+     "wilson95": [
+      0.6787251772990404,
+      0.9546234090636876
+     ],
+     "clopper_pearson95": [
+      0.6641108624628791,
+      0.9722484925772068
+     ]
+    },
+    "work_macro": {
+     "mean": 0.9398238329609147,
+     "boot95_of_mean": [
+      0.8822378847250618,
+      0.9830091607426159
+     ],
+     "median": 1.0,
+     "q1": 0.9483805881256634,
+     "q3": 1.0,
+     "min": 0.536020451640392,
+     "max": 1.0,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.7933092936577679,
+    "recall_macro": {
+     "mean": 0.9767212047862625,
+     "boot95_of_mean": [
+      0.9426229533933137,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.6571428571428571,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [
+     {
+      "review": "Chakraborty_2023",
+      "recall": 0.6571428571428571,
+      "work": 0.6279444693237797,
+      "N": 2233,
+      "n1": 7
+     },
+     {
+      "review": "van_der_Waal_2022",
+      "recall": 0.9058823529411765,
+      "work": 0.9134715025906737,
+      "N": 1158,
+      "n1": 17
+     },
+     {
+      "review": "Walker_2018",
+      "recall": 0.9015625,
+      "work": 0.536020451640392,
+      "N": 11735,
+      "n1": 64
+     }
+    ],
+    "reliability_per_seed_mean": 0.9739130434782608
+   },
+   "knee_hybrid": {
+    "rule": "knee on hybrid ranking (1 run)",
+    "reliability": {
+     "k": 23,
+     "n": 23,
+     "proportion": 1.0,
+     "wilson95": [
+      0.8568833815495731,
+      1.0
+     ],
+     "clopper_pearson95": [
+      0.8518148710847756,
+      1.0
+     ]
+    },
+    "work_macro": {
+     "mean": 0.8373485481461094,
+     "boot95_of_mean": [
+      0.7574451056628879,
+      0.9117482384037496
+     ],
+     "median": 0.8877374784110535,
+     "q1": 0.6875826926515287,
+     "q3": 1.0,
+     "min": 0.3305496378355347,
+     "max": 1.0,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.6458592163873822,
+    "recall_macro": {
+     "mean": 1.0,
+     "boot95_of_mean": [
+      1.0,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [],
+    "reliability_per_seed_mean": 1.0
+   },
+   "knee_pseudo": {
+    "rule": "knee on weak-supervision ranking (1 run)",
+    "reliability": {
+     "k": 23,
+     "n": 23,
+     "proportion": 1.0,
+     "wilson95": [
+      0.8568833815495731,
+      1.0
+     ],
+     "clopper_pearson95": [
+      0.8518148710847756,
+      1.0
+     ]
+    },
+    "work_macro": {
+     "mean": 0.9361953919009707,
+     "boot95_of_mean": [
+      0.862197559799512,
+      0.985779899505134
+     ],
+     "median": 1.0,
+     "q1": 0.9421981527244685,
+     "q3": 1.0,
+     "min": 0.2621218576906689,
+     "max": 1.0,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.7029180933911093,
+    "recall_macro": {
+     "mean": 1.0,
+     "boot95_of_mean": [
+      1.0,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 1.0,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [],
+    "reliability_per_seed_mean": 1.0
+   },
+   "knee_h3": {
+    "rule": "knee on ASReview strongest preset (10 seeds)",
+    "reliability": {
+     "k": 23,
+     "n": 23,
+     "proportion": 1.0,
+     "wilson95": [
+      0.8568833815495731,
+      1.0
+     ],
+     "clopper_pearson95": [
+      0.8518148710847756,
+      1.0
+     ]
+    },
+    "work_macro": {
+     "mean": 0.9690859855800747,
+     "boot95_of_mean": [
+      0.9370294225065171,
+      0.995720265465952
+     ],
+     "median": 1.0,
+     "q1": 0.997279792746114,
+     "q3": 1.0,
+     "min": 0.7480301274623407,
+     "max": 1.0,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.9023575043180508,
+    "recall_macro": {
+     "mean": 0.9999677938808375,
+     "boot95_of_mean": [
+      0.999903381642512,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.9992592592592592,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [],
+    "reliability_per_seed_mean": 1.0
+   },
+   "knee_lr": {
+    "rule": "knee on prespecified LR active learning (10 seeds)",
+    "reliability": {
+     "k": 21,
+     "n": 23,
+     "proportion": 0.9130434782608695,
+     "wilson95": [
+      0.7320401892425634,
+      0.9758199955157796
+     ],
+     "clopper_pearson95": [
+      0.7196206640905891,
+      0.9892900339621241
+     ]
+    },
+    "work_macro": {
+     "mean": 0.9614356588854216,
+     "boot95_of_mean": [
+      0.9223960539133126,
+      0.9913322008067859
+     ],
+     "median": 1.0,
+     "q1": 0.9878205128205128,
+     "q3": 1.0,
+     "min": 0.6522539412015338,
+     "max": 1.0,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.8466167691888123,
+    "recall_macro": {
+     "mean": 0.9881806418219462,
+     "boot95_of_mean": [
+      0.9694875776397517,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.8285714285714286,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [
+     {
+      "review": "Chakraborty_2023",
+      "recall": 0.8285714285714286,
+      "work": 0.8139722346618898,
+      "N": 2233,
+      "n1": 7
+     },
+     {
+      "review": "Chueca_2023",
+      "recall": 0.90625,
+      "work": 0.9256157635467981,
+      "N": 609,
+      "n1": 16
+     }
+    ],
+    "reliability_per_seed_mean": 0.9869565217391304
+   },
+   "knee_nb": {
+    "rule": "knee on prespecified NB active learning (10 seeds)",
+    "reliability": {
+     "k": 21,
+     "n": 23,
+     "proportion": 0.9130434782608695,
+     "wilson95": [
+      0.7320401892425634,
+      0.9758199955157796
+     ],
+     "clopper_pearson95": [
+      0.7196206640905891,
+      0.9892900339621241
+     ]
+    },
+    "work_macro": {
+     "mean": 0.9632719316463371,
+     "boot95_of_mean": [
+      0.9260138495465698,
+      0.9911952759816992
+     ],
+     "median": 1.0,
+     "q1": 0.9841391534810238,
+     "q3": 1.0,
+     "min": 0.6671580741371964,
+     "max": 1.0,
+     "n": 23
+    },
+    "work_pooled_record_weighted": 0.852259022453865,
+    "recall_macro": {
+     "mean": 0.987533500115022,
+     "boot95_of_mean": [
+      0.9689686637336093,
+      0.9997423510466988
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.8285714285714286,
+     "max": 1.0,
+     "n": 23
+    },
+    "failing_reviews": [
+     {
+      "review": "Chakraborty_2023",
+      "recall": 0.8285714285714286,
+      "work": 0.8139722346618898,
+      "N": 2233,
+      "n1": 7
+     },
+     {
+      "review": "Chueca_2023",
+      "recall": 0.90625,
+      "work": 0.9256157635467981,
+      "N": 609,
+      "n1": 16
+     }
+    ],
+    "reliability_per_seed_mean": 0.9869565217391304
+   },
+   "paired_threshold_vs_knee_asr": {
+    "reliability_diff_threshold_minus_knee": 0.13043478260869565,
+    "reliability_diff_boot95": [
+     0.0,
+     0.30434782608695654
+    ],
+    "reviews_threshold_reliable_knee_not": 3,
+    "reviews_knee_reliable_threshold_not": 0,
+    "work_diff_threshold_minus_knee_macro": -0.35108538499772396,
+    "work_diff_boot95": [
+     -0.4546152109324919,
+     -0.2404159035474761
+    ],
+    "reviews_threshold_reads_less": 22,
+    "reviews_threshold_reads_more": 1
+   },
+   "paired_threshold_vs_knee_hybrid": {
+    "reliability_diff_threshold_minus_knee": 0.0,
+    "reliability_diff_boot95": [
+     0.0,
+     0.0
+    ],
+    "reviews_threshold_reliable_knee_not": 0,
+    "reviews_knee_reliable_threshold_not": 0,
+    "work_diff_threshold_minus_knee_macro": -0.24861010018291857,
+    "work_diff_boot95": [
+     -0.3383720951524456,
+     -0.16466973675105456
+    ],
+    "reviews_threshold_reads_less": 21,
+    "reviews_threshold_reads_more": 2
+   },
+   "size_restriction_150": {
+    "N<150": {
+     "n_reviews": 2,
+     "reviews": [
+      "Donners_2021",
+      "Theobald_2021"
+     ],
+     "thr_work_macro": 0.7357142857142858,
+     "thr_work_pooled": 0.7301587301587301,
+     "thr_reliable": {
+      "k": 2,
+      "n": 2,
+      "proportion": 1.0,
+      "wilson95": [
+       0.34238022750665303,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.15811388300841897,
+       1.0
+      ]
+     },
+     "asr_knee_work_macro": 1.0,
+     "asr_knee_work_pooled": 1.0,
+     "asr_knee_reliable": {
+      "k": 2,
+      "n": 2,
+      "proportion": 1.0,
+      "wilson95": [
+       0.34238022750665303,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.15811388300841897,
+       1.0
+      ]
+     },
+     "hybrid_knee_work_macro": 1.0,
+     "hybrid_knee_work_pooled": 1.0,
+     "hybrid_knee_reliable": {
+      "k": 2,
+      "n": 2,
+      "proportion": 1.0,
+      "wilson95": [
+       0.34238022750665303,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.15811388300841897,
+       1.0
+      ]
+     },
+     "lr_knee_work_macro": 1.0,
+     "lr_knee_work_pooled": 1.0,
+     "lr_knee_reliable": {
+      "k": 2,
+      "n": 2,
+      "proportion": 1.0,
+      "wilson95": [
+       0.34238022750665303,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.15811388300841897,
+       1.0
+      ]
+     },
+     "nb_knee_work_macro": 1.0,
+     "nb_knee_work_pooled": 1.0,
+     "nb_knee_reliable": {
+      "k": 2,
+      "n": 2,
+      "proportion": 1.0,
+      "wilson95": [
+       0.34238022750665303,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.15811388300841897,
+       1.0
+      ]
+     }
+    },
+    "N>=150": {
+     "n_reviews": 21,
+     "reviews": null,
+     "thr_work_macro": 0.5747407491297531,
+     "thr_work_pooled": 0.5087467999512374,
+     "thr_reliable": {
+      "k": 21,
+      "n": 21,
+      "proportion": 1.0,
+      "wilson95": [
+       0.8453609810751531,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.8389023847809204,
+       1.0
+      ]
+     },
+     "asr_knee_work_macro": 0.9340927694333827,
+     "asr_knee_work_pooled": 0.7921187370474216,
+     "asr_knee_reliable": {
+      "k": 18,
+      "n": 21,
+      "proportion": 0.8571428571428571,
+      "wilson95": [
+       0.6536393971937906,
+       0.9501898750027473
+      ],
+      "clopper_pearson95": [
+       0.636576012983019,
+       0.9695110323784845
+      ]
+     },
+     "hybrid_knee_work_macro": 0.8218579336838339,
+     "hybrid_knee_work_pooled": 0.6438193343898574,
+     "hybrid_knee_reliable": {
+      "k": 21,
+      "n": 21,
+      "proportion": 1.0,
+      "wilson95": [
+       0.8453609810751531,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.8389023847809204,
+       1.0
+      ]
+     },
+     "lr_knee_work_macro": 0.9577628644935571,
+     "lr_knee_work_pooled": 0.8457332683164694,
+     "lr_knee_reliable": {
+      "k": 19,
+      "n": 21,
+      "proportion": 0.9047619047619048,
+      "wilson95": [
+       0.7108586092608176,
+       0.9734812325619255
+      ],
+      "clopper_pearson95": [
+       0.6962255930860758,
+       0.9882506821155542
+      ]
+     },
+     "nb_knee_work_macro": 0.9597740203745596,
+     "nb_knee_work_pooled": 0.8514080214555649,
+     "nb_knee_reliable": {
+      "k": 19,
+      "n": 21,
+      "proportion": 0.9047619047619048,
+      "wilson95": [
+       0.7108586092608176,
+       0.9734812325619255
+      ],
+      "clopper_pearson95": [
+       0.6962255930860758,
+       0.9882506821155542
+      ]
+     }
+    }
+   },
+   "size_restriction_500": {
+    "N<500": {
+     "n_reviews": 9,
+     "reviews": [
+      "Abgaz_2023",
+      "Donners_2021",
+      "Eggmann_2023",
+      "Hall_2011",
+      "Lewowski_2021",
+      "Menon_2022",
+      "Theobald_2021",
+      "Toffalini_2021",
+      "Tumkaya_2018"
+     ],
+     "thr_work_macro": 0.5793807009368847,
+     "thr_work_pooled": 0.5613451589061346,
+     "thr_reliable": {
+      "k": 9,
+      "n": 9,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7008549515804559,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6637328831200572,
+       1.0
+      ]
+     },
+     "asr_knee_work_macro": 0.9722916542503527,
+     "asr_knee_work_pooled": 0.9687730968218773,
+     "asr_knee_reliable": {
+      "k": 9,
+      "n": 9,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7008549515804559,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6637328831200572,
+       1.0
+      ]
+     },
+     "hybrid_knee_work_macro": 0.884625727857399,
+     "hybrid_knee_work_pooled": 0.8821138211382114,
+     "hybrid_knee_reliable": {
+      "k": 9,
+      "n": 9,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7008549515804559,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6637328831200572,
+       1.0
+      ]
+     },
+     "lr_knee_work_macro": 1.0,
+     "lr_knee_work_pooled": 1.0,
+     "lr_knee_reliable": {
+      "k": 9,
+      "n": 9,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7008549515804559,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6637328831200572,
+       1.0
+      ]
+     },
+     "nb_knee_work_macro": 1.0,
+     "nb_knee_work_pooled": 1.0,
+     "nb_knee_reliable": {
+      "k": 9,
+      "n": 9,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7008549515804559,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6637328831200572,
+       1.0
+      ]
+     }
+    },
+    "N>=500": {
+     "n_reviews": 14,
+     "reviews": null,
+     "thr_work_macro": 0.5947541424801016,
+     "thr_work_pooled": 0.5054299389338175,
+     "thr_reliable": {
+      "k": 14,
+      "n": 14,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7846891972623643,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.7683642383498834,
+       1.0
+      ]
+     },
+     "asr_knee_work_macro": 0.9189516621319903,
+     "asr_knee_work_pooled": 0.7776365736920284,
+     "asr_knee_reliable": {
+      "k": 11,
+      "n": 14,
+      "proportion": 0.7857142857142857,
+      "wilson95": [
+       0.524107694133997,
+       0.9242861328730683
+      ],
+      "clopper_pearson95": [
+       0.4920243229515281,
+       0.9534207121101327
+      ]
+     },
+     "hybrid_knee_work_macro": 0.8069560754745659,
+     "hybrid_knee_work_pooled": 0.6247565604885295,
+     "hybrid_knee_reliable": {
+      "k": 14,
+      "n": 14,
+      "proportion": 1.0,
+      "wilson95": [
+       0.7846891972623643,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.7683642383498834,
+       1.0
+      ]
+     },
+     "lr_knee_work_macro": 0.9366442967403358,
+     "lr_knee_work_pooled": 0.8329163228255487,
+     "lr_knee_reliable": {
+      "k": 12,
+      "n": 14,
+      "proportion": 0.8571428571428571,
+      "wilson95": [
+       0.6005862050302965,
+       0.9599060787285351
+      ],
+      "clopper_pearson95": [
+       0.5718708390903011,
+       0.9822054845168084
+      ]
+     },
+     "nb_knee_work_macro": 0.9396610305618395,
+     "nb_knee_work_pooled": 0.8390625515761677,
+     "nb_knee_reliable": {
+      "k": 12,
+      "n": 14,
+      "proportion": 0.8571428571428571,
+      "wilson95": [
+       0.6005862050302965,
+       0.9599060787285351
+      ],
+      "clopper_pearson95": [
+       0.5718708390903011,
+       0.9822054845168084
+      ]
+     }
+    }
+   },
+   "strata": [
+    {
+     "stratum_variable": "size_stratum",
+     "stratum": "N<=2000",
+     "n_reviews": 20,
+     "records": 16792,
+     "prevalence_min": 0.0033975084937712344,
+     "prevalence_max": 0.12857142857142856,
+     "thr_reliable_k": 20,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.8388748419471806,
+     "thr_wilson_hi": 1.0,
+     "thr_work_macro": 0.590689248365601,
+     "thr_work_pooled": 0.5828370652691758,
+     "thr_recall_macro": 0.9971759259259259,
+     "thr_recall_min": 0.9583333333333334,
+     "knee_reliable_k": 19,
+     "knee_reliability": 0.95,
+     "knee_wilson_lo": 0.763868806553258,
+     "knee_wilson_hi": 0.9911185511992047,
+     "knee_work_macro": 0.9725991618568433,
+     "knee_work_pooled": 0.9675202477370175
+    },
+    {
+     "stratum_variable": "size_stratum",
+     "stratum": "N>2000",
+     "n_reviews": 3,
+     "records": 16209,
+     "prevalence_min": 0.002677376171352075,
+     "prevalence_max": 0.005453770771197273,
+     "thr_reliable_k": 3,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.4385029682449546,
+     "thr_wilson_hi": 1.0,
+     "thr_work_macro": 0.5757331119471216,
+     "thr_work_pooled": 0.4345733851563946,
+     "thr_recall_macro": 1.0,
+     "thr_recall_min": 1.0,
+     "knee_reliable_k": 1,
+     "knee_reliability": 0.3333333333333333,
+     "knee_wilson_lo": 0.06149194472039621,
+     "knee_wilson_hi": 0.7923403991979522,
+     "knee_work_macro": 0.7213216403213906,
+     "knee_work_pooled": 0.6128323770744649
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "high",
+     "n_reviews": 8,
+     "records": 4627,
+     "prevalence_min": 0.04152249134948097,
+     "prevalence_max": 0.12857142857142856,
+     "thr_reliable_k": 8,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.6755924351161198,
+     "thr_wilson_hi": 1.0,
+     "thr_work_macro": 0.6218117440449837,
+     "thr_work_pooled": 0.5809379727685325,
+     "thr_recall_macro": 0.9929398148148147,
+     "thr_recall_min": 0.9583333333333334,
+     "knee_reliable_k": 8,
+     "knee_reliability": 1.0,
+     "knee_wilson_lo": 0.6755924351161198,
+     "knee_wilson_hi": 1.0,
+     "knee_work_macro": 0.9907227694090383,
+     "knee_work_pooled": 0.9723146747352496
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "low",
+     "n_reviews": 8,
+     "records": 22053,
+     "prevalence_min": 0.002677376171352075,
+     "prevalence_max": 0.013089005235602094,
+     "thr_reliable_k": 8,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.6755924351161198,
+     "thr_wilson_hi": 1.0,
+     "thr_work_macro": 0.5180392299359489,
+     "thr_work_pooled": 0.46519747880107015,
+     "thr_recall_macro": 1.0,
+     "thr_recall_min": 1.0,
+     "knee_reliable_k": 6,
+     "knee_reliability": 0.75,
+     "knee_wilson_lo": 0.40927543031016883,
+     "knee_wilson_hi": 0.9285207872478909,
+     "knee_work_macro": 0.8639635809781931,
+     "knee_work_pooled": 0.7097311023443523
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "mid",
+     "n_reviews": 7,
+     "records": 6321,
+     "prevalence_min": 0.01468048359240069,
+     "prevalence_max": 0.03819444444444445,
+     "thr_reliable_k": 7,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.6456695649333126,
+     "thr_wilson_hi": 1.0,
+     "thr_work_macro": 0.6317395016151321,
+     "thr_work_pooled": 0.6144597373833254,
+     "thr_recall_macro": 1.0,
+     "thr_recall_min": 1.0,
+     "knee_reliable_k": 6,
+     "knee_reliability": 0.8571428571428571,
+     "knee_wilson_lo": 0.4868721707256811,
+     "knee_wilson_hi": 0.9743203756552565,
+     "knee_work_macro": 0.9683510507147408,
+     "knee_work_pooled": 0.9538680588514477
+    }
+   ],
+   "prevalence_tertile_cuts": [
+    0.013619498021201628,
+    0.04041314238113546
+   ],
+   "bands_below_tau": {
+    "0.03_0.07": {
+     "records_macro_frac": 0.25484553447477404,
+     "records_pooled_frac": 0.2945971334201994,
+     "records_n": 9722,
+     "included_macro_frac": 0.0024557165861513685,
+     "included_pooled_frac": 0.005025125628140704,
+     "included_n": 3,
+     "reviews_with_included_in_band": 2
+    },
+    "0.01_0.07": {
+     "records_macro_frac": 0.41126155203680936,
+     "records_pooled_frac": 0.48998515196509196,
+     "records_n": 16170,
+     "included_macro_frac": 0.0024557165861513685,
+     "included_pooled_frac": 0.005025125628140704,
+     "included_n": 3,
+     "reviews_with_included_in_band": 2
+    },
+    "included_below_tau_n": 3,
+    "included_total": 597,
+    "records_total": 33001
+   },
+   "exact_ci_for_23_of_23": {
+    "wilson95": [
+     0.8568833815495731,
+     1.0
+    ],
+    "clopper_pearson95": [
+     0.8518148710847756,
+     1.0
+    ],
+    "clopper_pearson_lower_formula": "0.05**(1/23)",
+    "value": 0.8778766110934769
+   }
+  },
+  "clef": {
+   "n_reviews": 28,
+   "records": 77611,
+   "included": 882,
+   "threshold": {
+    "rule": "Jev probability >= 0.07 (label-free)",
+    "reliability": {
+     "k": 25,
+     "n": 28,
+     "proportion": 0.8928571428571429,
+     "wilson95": [
+      0.7280414845132785,
+      0.9628816331707
+     ],
+     "clopper_pearson95": [
+      0.7177356042846756,
+      0.977334909360941
+     ]
+    },
+    "work_macro": {
+     "mean": 0.3905051883618073,
+     "boot95_of_mean": [
+      0.3070033229520368,
+      0.4760459234572495
+     ],
+     "median": 0.41367257810210833,
+     "q1": 0.2071973888855656,
+     "q3": 0.5400343724600616,
+     "min": 0.044569993722536096,
+     "max": 0.9236641221374046,
+     "n": 28
+    },
+    "work_pooled_record_weighted": 0.30020229091237066,
+    "recall_macro": {
+     "mean": 0.9895645645645647,
+     "boot95_of_mean": [
+      0.9769090519090521,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.8888888888888888,
+     "max": 1.0,
+     "n": 28
+    },
+    "failing_reviews": [
+     {
+      "review": "CD012233",
+      "recall": 0.8888888888888888,
+      "work": 0.7478813559322034,
+      "N": 472,
+      "n1": 9
+     },
+     {
+      "review": "CD011977",
+      "recall": 0.918918918918919,
+      "work": 0.4564102564102564,
+      "N": 195,
+      "n1": 37
+     },
+     {
+      "review": "CD010558",
+      "recall": 0.9,
+      "work": 0.30408525754884547,
+      "N": 2815,
+      "n1": 10
+     }
+    ],
+    "recall_pooled": 0.9943310657596371
+   },
+   "knee_asr": {
+    "rule": "knee on ASReview default ranking (10 seeds)",
+    "reliability": {
+     "k": 26,
+     "n": 28,
+     "proportion": 0.9285714285714286,
+     "wilson95": [
+      0.7735463743160095,
+      0.9801879358846942
+     ],
+     "clopper_pearson95": [
+      0.7649652268254092,
+      0.9912295032964729
+     ]
+    },
+    "work_macro": {
+     "mean": 0.7595777333570466,
+     "boot95_of_mean": [
+      0.6504655046522206,
+      0.8590495308718733
+     ],
+     "median": 0.9030401446599552,
+     "q1": 0.5739527726512608,
+     "q3": 1.0,
+     "min": 0.049226885452824234,
+     "max": 1.0,
+     "n": 28
+    },
+    "work_pooled_record_weighted": 0.617909832369123,
+    "recall_macro": {
+     "mean": 0.9792728256449489,
+     "boot95_of_mean": [
+      0.9447218577907355,
+      0.9992483057812791
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.55,
+     "max": 1.0,
+     "n": 28
+    },
+    "failing_reviews": [
+     {
+      "review": "CD012567",
+      "recall": 0.55,
+      "work": 0.41389755011135854,
+      "N": 6735,
+      "n1": 4
+     },
+     {
+      "review": "CD010038",
+      "recall": 0.9111111111111111,
+      "work": 0.9017818878989512,
+      "N": 8867,
+      "n1": 9
+     }
+    ],
+    "reliability_per_seed_mean": 0.975
+   },
+   "knee_hybrid": {
+    "rule": "knee on hybrid ranking (1 run)",
+    "reliability": {
+     "k": 27,
+     "n": 28,
+     "proportion": 0.9642857142857143,
+     "wilson95": [
+      0.8228780225664668,
+      0.9936674801509623
+     ],
+     "clopper_pearson95": [
+      0.8165224024553763,
+      0.999096201244342
+     ]
+    },
+    "work_macro": {
+     "mean": 0.5978036627296328,
+     "boot95_of_mean": [
+      0.46473505233086676,
+      0.7276118368260717
+     ],
+     "median": 0.6343572268839173,
+     "q1": 0.18140155368966532,
+     "q3": 1.0,
+     "min": 0.054270736971939564,
+     "max": 1.0,
+     "n": 28
+    },
+    "work_pooled_record_weighted": 0.36012936310574534,
+    "recall_macro": {
+     "mean": 0.9979591836734694,
+     "boot95_of_mean": [
+      0.9938775510204082,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.9428571428571428,
+     "max": 1.0,
+     "n": 28
+    },
+    "failing_reviews": [
+     {
+      "review": "CD012069",
+      "recall": 0.9428571428571428,
+      "work": 0.36217303822937624,
+      "N": 3479,
+      "n1": 245
+     }
+    ],
+    "reliability_per_seed_mean": 0.9642857142857143
+   },
+   "knee_pseudo": {
+    "rule": "knee on weak-supervision ranking (1 run)",
+    "reliability": {
+     "k": 27,
+     "n": 28,
+     "proportion": 0.9642857142857143,
+     "wilson95": [
+      0.8228780225664668,
+      0.9936674801509623
+     ],
+     "clopper_pearson95": [
+      0.8165224024553763,
+      0.999096201244342
+     ]
+    },
+    "work_macro": {
+     "mean": 0.8190576532854701,
+     "boot95_of_mean": [
+      0.7180458573267513,
+      0.9093094157206195
+     ],
+     "median": 1.0,
+     "q1": 0.6751477028322667,
+     "q3": 1.0,
+     "min": 0.09845377090564847,
+     "max": 1.0,
+     "n": 28
+    },
+    "work_pooled_record_weighted": 0.7666954426563245,
+    "recall_macro": {
+     "mean": 0.9973760932944605,
+     "boot95_of_mean": [
+      0.992128279883382,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.926530612244898,
+     "max": 1.0,
+     "n": 28
+    },
+    "failing_reviews": [
+     {
+      "review": "CD012069",
+      "recall": 0.926530612244898,
+      "work": 0.387180224202357,
+      "N": 3479,
+      "n1": 245
+     }
+    ],
+    "reliability_per_seed_mean": 0.9642857142857143
+   },
+   "paired_threshold_vs_knee_asr": {
+    "reliability_diff_threshold_minus_knee": -0.03571428571428571,
+    "reliability_diff_boot95": [
+     -0.17857142857142858,
+     0.10714285714285714
+    ],
+    "reviews_threshold_reliable_knee_not": 2,
+    "reviews_knee_reliable_threshold_not": 3,
+    "work_diff_threshold_minus_knee_macro": -0.36907254499523934,
+    "work_diff_boot95": [
+     -0.46675417895272203,
+     -0.26755058354063527
+    ],
+    "reviews_threshold_reads_less": 25,
+    "reviews_threshold_reads_more": 3
+   },
+   "paired_threshold_vs_knee_hybrid": {
+    "reliability_diff_threshold_minus_knee": -0.07142857142857142,
+    "reliability_diff_boot95": [
+     -0.21428571428571427,
+     0.07142857142857142
+    ],
+    "reviews_threshold_reliable_knee_not": 1,
+    "reviews_knee_reliable_threshold_not": 3,
+    "work_diff_threshold_minus_knee_macro": -0.2072984743678256,
+    "work_diff_boot95": [
+     -0.32693386114573947,
+     -0.08876579887287284
+    ],
+    "reviews_threshold_reads_less": 20,
+    "reviews_threshold_reads_more": 8
+   },
+   "size_restriction_150": {
+    "N<150": {
+     "n_reviews": 3,
+     "reviews": [
+      "CD012768",
+      "CD012164",
+      "CD011571"
+     ],
+     "thr_work_macro": 0.5794652545757812,
+     "thr_work_pooled": 0.5532544378698225,
+     "thr_reliable": {
+      "k": 3,
+      "n": 3,
+      "proportion": 1.0,
+      "wilson95": [
+       0.4385029682449546,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.2924017738212866,
+       1.0
+      ]
+     },
+     "asr_knee_work_macro": 1.0,
+     "asr_knee_work_pooled": 1.0,
+     "asr_knee_reliable": {
+      "k": 3,
+      "n": 3,
+      "proportion": 1.0,
+      "wilson95": [
+       0.4385029682449546,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.2924017738212866,
+       1.0
+      ]
+     },
+     "hybrid_knee_work_macro": 1.0,
+     "hybrid_knee_work_pooled": 1.0,
+     "hybrid_knee_reliable": {
+      "k": 3,
+      "n": 3,
+      "proportion": 1.0,
+      "wilson95": [
+       0.4385029682449546,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.2924017738212866,
+       1.0
+      ]
+     },
+     "pseudo_knee_work_macro": 1.0,
+     "pseudo_knee_work_pooled": 1.0,
+     "pseudo_knee_reliable": {
+      "k": 3,
+      "n": 3,
+      "proportion": 1.0,
+      "wilson95": [
+       0.4385029682449546,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.2924017738212866,
+       1.0
+      ]
+     }
+    },
+    "N>=150": {
+     "n_reviews": 25,
+     "reviews": null,
+     "thr_work_macro": 0.36782998041613046,
+     "thr_work_pooled": 0.299095414957359,
+     "thr_reliable": {
+      "k": 22,
+      "n": 25,
+      "proportion": 0.88,
+      "wilson95": [
+       0.7004420607907267,
+       0.9583318284955964
+      ],
+      "clopper_pearson95": [
+       0.6878096927137646,
+       0.9745346033522668
+      ]
+     },
+     "asr_knee_work_macro": 0.7307270613598924,
+     "asr_knee_work_pooled": 0.6162385309228319,
+     "asr_knee_reliable": {
+      "k": 23,
+      "n": 25,
+      "proportion": 0.92,
+      "wilson95": [
+       0.7503389104960468,
+       0.9777795987151524
+      ],
+      "clopper_pearson95": [
+       0.7396941578947858,
+       0.9901604099812025
+      ]
+     },
+     "hybrid_knee_work_macro": 0.5495401022571889,
+     "hybrid_knee_work_pooled": 0.35733050353939927,
+     "hybrid_knee_reliable": {
+      "k": 24,
+      "n": 25,
+      "proportion": 0.96,
+      "wilson95": [
+       0.8045593626380625,
+       0.9929037664980127
+      ],
+      "clopper_pearson95": [
+       0.796483086077586,
+       0.9989878003006891
+      ]
+     },
+     "pseudo_knee_work_macro": 0.7973445716797268,
+     "pseudo_knee_work_pooled": 0.7656749446766659,
+     "pseudo_knee_reliable": {
+      "k": 24,
+      "n": 25,
+      "proportion": 0.96,
+      "wilson95": [
+       0.8045593626380625,
+       0.9929037664980127
+      ],
+      "clopper_pearson95": [
+       0.796483086077586,
+       0.9989878003006891
+      ]
+     }
+    }
+   },
+   "size_restriction_500": {
+    "N<500": {
+     "n_reviews": 8,
+     "reviews": [
+      "CD012768",
+      "CD012233",
+      "CD010239",
+      "CD012164",
+      "CD004414",
+      "CD011977",
+      "CD011571",
+      "CD000996"
+     ],
+     "thr_work_macro": 0.4594610173315521,
+     "thr_work_pooled": 0.4528710725893825,
+     "thr_reliable": {
+      "k": 6,
+      "n": 8,
+      "proportion": 0.75,
+      "wilson95": [
+       0.40927543031016883,
+       0.9285207872478909
+      ],
+      "clopper_pearson95": [
+       0.3491442055871758,
+       0.9681459737500557
+      ]
+     },
+     "asr_knee_work_macro": 0.9715300505210982,
+     "asr_knee_work_pooled": 0.9707475622968581,
+     "asr_knee_reliable": {
+      "k": 8,
+      "n": 8,
+      "proportion": 1.0,
+      "wilson95": [
+       0.6755924351161198,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6305833524471807,
+       1.0
+      ]
+     },
+     "hybrid_knee_work_macro": 0.918014425521098,
+     "hybrid_knee_work_pooled": 0.9052004333694474,
+     "hybrid_knee_reliable": {
+      "k": 8,
+      "n": 8,
+      "proportion": 1.0,
+      "wilson95": [
+       0.6755924351161198,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6305833524471807,
+       1.0
+      ]
+     },
+     "pseudo_knee_work_macro": 0.98828125,
+     "pseudo_knee_work_pooled": 0.9886240520043337,
+     "pseudo_knee_reliable": {
+      "k": 8,
+      "n": 8,
+      "proportion": 1.0,
+      "wilson95": [
+       0.6755924351161198,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.6305833524471807,
+       1.0
+      ]
+     }
+    },
+    "N>=500": {
+     "n_reviews": 20,
+     "reviews": null,
+     "thr_work_macro": 0.36292285677390945,
+     "thr_work_pooled": 0.29648254471061836,
+     "thr_reliable": {
+      "k": 19,
+      "n": 20,
+      "proportion": 0.95,
+      "wilson95": [
+       0.763868806553258,
+       0.9911185511992047
+      ],
+      "clopper_pearson95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ]
+     },
+     "asr_knee_work_macro": 0.674796806491426,
+     "asr_knee_work_pooled": 0.6093130073252822,
+     "asr_knee_reliable": {
+      "k": 18,
+      "n": 20,
+      "proportion": 0.9,
+      "wilson95": [
+       0.6989663547715128,
+       0.9721335187862319
+      ],
+      "clopper_pearson95": [
+       0.6830172859809177,
+       0.9876514728297052
+      ]
+     },
+     "hybrid_knee_work_macro": 0.46971935761304673,
+     "hybrid_knee_work_pooled": 0.34684880881673597,
+     "hybrid_knee_reliable": {
+      "k": 19,
+      "n": 20,
+      "proportion": 0.95,
+      "wilson95": [
+       0.763868806553258,
+       0.9911185511992047
+      ],
+      "clopper_pearson95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ]
+     },
+     "pseudo_knee_work_macro": 0.7513682145996582,
+     "pseudo_knee_work_pooled": 0.7612881937570118,
+     "pseudo_knee_reliable": {
+      "k": 19,
+      "n": 20,
+      "proportion": 0.95,
+      "wilson95": [
+       0.763868806553258,
+       0.9911185511992047
+      ],
+      "clopper_pearson95": [
+       0.7512672372279722,
+       0.9987349105020502
+      ]
+     }
+    }
+   },
+   "strata": [
+    {
+     "stratum_variable": "size_stratum",
+     "stratum": "N<=2000",
+     "n_reviews": 15,
+     "records": 10483,
+     "prevalence_min": 0.0028457598178713715,
+     "prevalence_max": 0.18974358974358974,
+     "thr_reliable_k": 13,
+     "thr_reliability": 0.8666666666666667,
+     "thr_wilson_lo": 0.6211801716767764,
+     "thr_wilson_hi": 0.9626387408969346,
+     "thr_work_macro": 0.42726809706004953,
+     "thr_work_pooled": 0.34274539730993037,
+     "thr_recall_macro": 0.9871871871871872,
+     "thr_recall_min": 0.8888888888888888,
+     "knee_reliable_k": 15,
+     "knee_reliability": 1.0,
+     "knee_wilson_lo": 0.7961166989641515,
+     "knee_wilson_hi": 1.0,
+     "knee_work_macro": 0.8946328210050534,
+     "knee_work_pooled": 0.7908423161308785
+    },
+    {
+     "stratum_variable": "size_stratum",
+     "stratum": "N>2000",
+     "n_reviews": 13,
+     "records": 67128,
+     "prevalence_min": 0.0003083564600678384,
+     "prevalence_max": 0.07042253521126761,
+     "thr_reliable_k": 12,
+     "thr_reliability": 0.9230769230769231,
+     "thr_wilson_lo": 0.6668604907890041,
+     "thr_wilson_hi": 0.9862895787574435,
+     "thr_work_macro": 0.34808644755614326,
+     "thr_work_pooled": 0.29355857466332974,
+     "thr_recall_macro": 0.9923076923076923,
+     "thr_recall_min": 0.9,
+     "knee_reliable_k": 11,
+     "knee_reliability": 0.8461538461538461,
+     "knee_wilson_lo": 0.5776536898051745,
+     "knee_wilson_hi": 0.9567418216419186,
+     "knee_work_macro": 0.603744939917039,
+     "knee_work_pooled": 0.5909039447026577
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "high",
+     "n_reviews": 10,
+     "records": 11147,
+     "prevalence_min": 0.02791802791802792,
+     "prevalence_max": 0.18974358974358974,
+     "thr_reliable_k": 9,
+     "thr_reliability": 0.9,
+     "thr_wilson_lo": 0.5958499732047615,
+     "thr_wilson_hi": 0.9821237869049271,
+     "thr_work_macro": 0.5175141237437464,
+     "thr_work_pooled": 0.5518076612541492,
+     "thr_recall_macro": 0.991891891891892,
+     "thr_recall_min": 0.918918918918919,
+     "knee_reliable_k": 10,
+     "knee_reliability": 1.0,
+     "knee_wilson_lo": 0.7224672001371107,
+     "knee_wilson_hi": 0.9999999999999999,
+     "knee_work_macro": 0.839301468126223,
+     "knee_work_pooled": 0.6678657934870369
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "low",
+     "n_reviews": 9,
+     "records": 47699,
+     "prevalence_min": 0.0003083564600678384,
+     "prevalence_max": 0.003552397868561279,
+     "thr_reliable_k": 8,
+     "thr_reliability": 0.8888888888888888,
+     "thr_wilson_lo": 0.5650002944233439,
+     "thr_wilson_hi": 0.9801091123614551,
+     "thr_work_macro": 0.19195123878846224,
+     "thr_work_pooled": 0.17260319922849535,
+     "thr_recall_macro": 0.9888888888888889,
+     "thr_recall_min": 0.9,
+     "knee_reliable_k": 7,
+     "knee_reliability": 0.7777777777777778,
+     "knee_wilson_lo": 0.45258896910698887,
+     "knee_wilson_hi": 0.9367748928821533,
+     "knee_work_macro": 0.5513788199010248,
+     "knee_work_pooled": 0.5146564917503511
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "mid",
+     "n_reviews": 9,
+     "records": 18765,
+     "prevalence_min": 0.006408789196612497,
+     "prevalence_max": 0.026014568158168574,
+     "thr_reliable_k": 8,
+     "thr_reliability": 0.8888888888888888,
+     "thr_wilson_lo": 0.5650002944233439,
+     "thr_wilson_hi": 0.9801091123614551,
+     "thr_work_macro": 0.44793809862188666,
+     "thr_work_pooled": 0.47508659738875564,
+     "thr_recall_macro": 0.9876543209876544,
+     "thr_recall_min": 0.8888888888888888,
+     "knee_reliable_k": 9,
+     "knee_reliability": 1.0,
+     "knee_wilson_lo": 0.7008549515804559,
+     "knee_wilson_hi": 1.0,
+     "knee_work_macro": 0.8791947192917615,
+     "knee_work_pooled": 0.850695443645084
+    }
+   ],
+   "prevalence_tertile_cuts": [
+    0.0064087891966124995,
+    0.027918027918027957
+   ],
+   "bands_below_tau": {
+    "0.03_0.07": {
+     "records_macro_frac": 0.29643408749999584,
+     "records_pooled_frac": 0.2800762778472124,
+     "records_n": 21737,
+     "included_macro_frac": 0.010435435435435434,
+     "included_pooled_frac": 0.005668934240362812,
+     "included_n": 5,
+     "reviews_with_included_in_band": 3
+    },
+    "0.01_0.07": {
+     "records_macro_frac": 0.6090626128951814,
+     "records_pooled_frac": 0.6990246227983147,
+     "records_n": 54252,
+     "included_macro_frac": 0.010435435435435434,
+     "included_pooled_frac": 0.005668934240362812,
+     "included_n": 5,
+     "reviews_with_included_in_band": 3
+    },
+    "included_below_tau_n": 5,
+    "included_total": 882,
+    "records_total": 77611
+   },
+   "by_review_type": {
+    "DTA": {
+     "n": 8,
+     "thr_reliable": {
+      "k": 7,
+      "n": 8,
+      "proportion": 0.875,
+      "wilson95": [
+       0.5291118177871464,
+       0.9775825085499433
+      ],
+      "clopper_pearson95": [
+       0.47349032912479344,
+       0.9968402764687481
+      ]
+     },
+     "thr_work_macro": 0.46581257944246524,
+     "knee_asr_reliable": {
+      "k": 7,
+      "n": 8,
+      "proportion": 0.875,
+      "wilson95": [
+       0.5291118177871464,
+       0.9775825085499433
+      ],
+      "clopper_pearson95": [
+       0.47349032912479344,
+       0.9968402764687481
+      ]
+     },
+     "knee_asr_work_macro": 0.6565662494966387
+    },
+    "Intervention": {
+     "n": 18,
+     "thr_reliable": {
+      "k": 16,
+      "n": 18,
+      "proportion": 0.8888888888888888,
+      "wilson95": [
+       0.672002348698212,
+       0.9689804773543876
+      ],
+      "clopper_pearson95": [
+       0.652879561391328,
+       0.9862487843356355
+      ]
+     },
+     "thr_work_macro": 0.3501318436569847,
+     "knee_asr_reliable": {
+      "k": 17,
+      "n": 18,
+      "proportion": 0.9444444444444444,
+      "wilson95": [
+       0.7424269921812741,
+       0.990124809021697
+      ],
+      "clopper_pearson95": [
+       0.7270564003266314,
+       0.9985944438326306
+      ]
+     },
+     "knee_asr_work_macro": 0.8066578601098068
+    },
+    "Prognosis": {
+     "n": 1,
+     "thr_reliable": {
+      "k": 1,
+      "n": 1,
+      "proportion": 1.0,
+      "wilson95": [
+       0.20654931437723745,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.025,
+       1.0
+      ]
+     },
+     "thr_work_macro": 0.4282744282744283,
+     "knee_asr_reliable": {
+      "k": 1,
+      "n": 1,
+      "proportion": 1.0,
+      "wilson95": [
+       0.20654931437723745,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.025,
+       1.0
+      ]
+     },
+     "knee_asr_work_macro": 0.7182358182358183
+    },
+    "Qualitative": {
+     "n": 1,
+     "thr_reliable": {
+      "k": 1,
+      "n": 1,
+      "proportion": 1.0,
+      "wilson95": [
+       0.20654931437723745,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.025,
+       1.0
+      ]
+     },
+     "thr_work_macro": 0.47699702449073017,
+     "knee_asr_reliable": {
+      "k": 1,
+      "n": 1,
+      "proportion": 1.0,
+      "wilson95": [
+       0.20654931437723745,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.025,
+       1.0
+      ]
+     },
+     "knee_asr_work_macro": 0.7775692378118563
+    }
+   }
+  },
+  "development": {
+   "n_reviews": 73,
+   "records": 52957,
+   "included": 2048,
+   "threshold": {
+    "rule": "Jev probability >= 0.07 (label-free; tau was selected on these reviews)",
+    "reliability": {
+     "k": 72,
+     "n": 73,
+     "proportion": 0.9863013698630136,
+     "wilson95": [
+      0.9264026272903616,
+      0.997577748533516
+     ],
+     "clopper_pearson95": [
+      0.9260236768216559,
+      0.9996532408474009
+     ]
+    },
+    "work_macro": {
+     "mean": 0.5829376328992093,
+     "boot95_of_mean": [
+      0.5294934139149631,
+      0.6362901889411451
+     ],
+     "median": 0.5555555555555556,
+     "q1": 0.42495479204339964,
+     "q3": 0.8011363636363636,
+     "min": 0.12409717662508207,
+     "max": 1.0,
+     "n": 73
+    },
+    "work_pooled_record_weighted": 0.5902147024944766,
+    "recall_macro": {
+     "mean": 0.9888995966079552,
+     "boot95_of_mean": [
+      0.9694158219946393,
+      0.9993848331336872
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.3333333333333333,
+     "max": 1.0,
+     "n": 73
+    },
+    "failing_reviews": [
+     {
+      "review": "Ferreira_2022",
+      "recall": 0.3333333333333333,
+      "work": 0.21524663677130046,
+      "N": 223,
+      "n1": 3
+     }
+    ],
+    "recall_pooled": 0.99560546875
+   },
+   "knee_asr": {
+    "rule": "knee on ASReview default ranking (10 seeds)",
+    "reliability": {
+     "k": 70,
+     "n": 73,
+     "proportion": 0.958904109589041,
+     "wilson95": [
+      0.8859990837370165,
+      0.9859260596460794
+     ],
+     "clopper_pearson95": [
+      0.8845639212331385,
+      0.9914435104922139
+     ]
+    },
+    "work_macro": {
+     "mean": 0.947856915459827,
+     "boot95_of_mean": [
+      0.9135357883364744,
+      0.9757034303376855
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.3088255733148019,
+     "max": 1.0,
+     "n": 73
+    },
+    "work_pooled_record_weighted": 0.8996242234265537,
+    "recall_macro": {
+     "mean": 0.992332448125174,
+     "boot95_of_mean": [
+      0.9830893374501976,
+      0.9995719665975692
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.8181818181818181,
+     "max": 1.0,
+     "n": 73
+    },
+    "failing_reviews": [
+     {
+      "review": "Wijnen_2024",
+      "recall": 0.8333333333333334,
+      "work": 0.8781954887218045,
+      "N": 399,
+      "n1": 6
+     },
+     {
+      "review": "Verdugo-Castro_2022",
+      "recall": 0.82,
+      "work": 0.8250602409638554,
+      "N": 1245,
+      "n1": 10
+     },
+     {
+      "review": "Giesen_2021",
+      "recall": 0.8181818181818181,
+      "work": 0.8241299303944316,
+      "N": 1293,
+      "n1": 11
+     }
+    ],
+    "reliability_per_seed_mean": 0.989041095890411
+   },
+   "knee_hybrid": {
+    "rule": "knee on hybrid ranking (1 run)",
+    "reliability": {
+     "k": 73,
+     "n": 73,
+     "proportion": 1.0,
+     "wilson95": [
+      0.9500079920442688,
+      0.9999999999999998
+     ],
+     "clopper_pearson95": [
+      0.9507229391041407,
+      1.0
+     ]
+    },
+    "work_macro": {
+     "mean": 0.8850011680952896,
+     "boot95_of_mean": [
+      0.8390635634938379,
+      0.9251166998916112
+     ],
+     "median": 1.0,
+     "q1": 0.8081761006289309,
+     "q3": 1.0,
+     "min": 0.29325920778318276,
+     "max": 1.0,
+     "n": 73
+    },
+    "work_pooled_record_weighted": 0.8207791226844421,
+    "recall_macro": {
+     "mean": 0.9998605511670767,
+     "boot95_of_mean": [
+      0.999650490838602,
+      1.0
+     ],
+     "median": 1.0,
+     "q1": 1.0,
+     "q3": 1.0,
+     "min": 0.9948453608247423,
+     "max": 1.0,
+     "n": 73
+    },
+    "failing_reviews": [],
+    "reliability_per_seed_mean": 1.0
+   },
+   "paired_threshold_vs_knee_asr": {
+    "reliability_diff_threshold_minus_knee": 0.0273972602739726,
+    "reliability_diff_boot95": [
+     -0.0273972602739726,
+     0.0821917808219178
+    ],
+    "reviews_threshold_reliable_knee_not": 3,
+    "reviews_knee_reliable_threshold_not": 1,
+    "work_diff_threshold_minus_knee_macro": -0.3649192825606178,
+    "work_diff_boot95": [
+     -0.4280845879343011,
+     -0.3008952960162339
+    ],
+    "reviews_threshold_reads_less": 65,
+    "reviews_threshold_reads_more": 7
+   },
+   "size_restriction_150": {
+    "N<150": {
+     "n_reviews": 7,
+     "reviews": [
+      "Pijls_2017",
+      "Hanlon_2022",
+      "Deckers_2022",
+      "Pinos-Cisneros_2023",
+      "Zinsser_2022",
+      "de_Matteis_2024a",
+      "Sep_2021"
+     ],
+     "thr_work_macro": 0.6007459899505625,
+     "thr_work_pooled": 0.6068601583113457,
+     "thr_reliable": {
+      "k": 7,
+      "n": 7,
+      "proportion": 1.0,
+      "wilson95": [
+       0.6456695649333126,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.5903836027749966,
+       1.0
+      ]
+     },
+     "asr_knee_work_macro": 1.0,
+     "asr_knee_work_pooled": 1.0,
+     "asr_knee_reliable": {
+      "k": 7,
+      "n": 7,
+      "proportion": 1.0,
+      "wilson95": [
+       0.6456695649333126,
+       1.0
+      ],
+      "clopper_pearson95": [
+       0.5903836027749966,
+       1.0
+      ]
+     }
+    },
+    "N>=150": {
+     "n_reviews": 66,
+     "reviews": null,
+     "thr_work_macro": 0.5810488677573991,
+     "thr_work_pooled": 0.5899729879882757,
+     "thr_reliable": {
+      "k": 65,
+      "n": 66,
+      "proportion": 0.9848484848484849,
+      "wilson95": [
+       0.9190407973793359,
+       0.9973203594560177
+      ],
+      "clopper_pearson95": [
+       0.9184476789051759,
+       0.9996164704150047
+      ]
+     },
+     "asr_knee_work_macro": 0.9423265883116267,
+     "asr_knee_work_pooled": 0.8981666315446655,
+     "asr_knee_reliable": {
+      "k": 63,
+      "n": 66,
+      "proportion": 0.9545454545454546,
+      "wilson95": [
+       0.8746668588675778,
+       0.9844217256655664
+      ],
+      "clopper_pearson95": [
+       0.8728574940886829,
+       0.9905262614362937
+      ]
+     }
+    }
+   },
+   "strata": [
+    {
+     "stratum_variable": "size_stratum",
+     "stratum": "N<=2000",
+     "n_reviews": 73,
+     "records": 52957,
+     "prevalence_min": 0.005017921146953405,
+     "prevalence_max": 0.23803680981595093,
+     "thr_reliable_k": 72,
+     "thr_reliability": 0.9863013698630136,
+     "thr_wilson_lo": 0.9264026272903616,
+     "thr_wilson_hi": 0.997577748533516,
+     "thr_work_macro": 0.5829376328992093,
+     "thr_work_pooled": 0.5902147024944766,
+     "thr_recall_macro": 0.9888995966079552,
+     "thr_recall_min": 0.3333333333333333,
+     "knee_reliable_k": 70,
+     "knee_reliability": 0.958904109589041,
+     "knee_wilson_lo": 0.8859990837370165,
+     "knee_wilson_hi": 0.9859260596460794,
+     "knee_work_macro": 0.947856915459827,
+     "knee_work_pooled": 0.8996242234265537
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "high",
+     "n_reviews": 25,
+     "records": 13273,
+     "prevalence_min": 0.04525862068965517,
+     "prevalence_max": 0.23803680981595093,
+     "thr_reliable_k": 25,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.8668077490609515,
+     "thr_wilson_hi": 0.9999999999999999,
+     "thr_work_macro": 0.6572527058826202,
+     "thr_work_pooled": 0.652075642281323,
+     "thr_recall_macro": 0.994253488761896,
+     "thr_recall_min": 0.9545454545454546,
+     "knee_reliable_k": 25,
+     "knee_reliability": 1.0,
+     "knee_wilson_lo": 0.8668077490609515,
+     "knee_wilson_hi": 0.9999999999999999,
+     "knee_work_macro": 0.9466893011299657,
+     "knee_work_pooled": 0.8491072101258194
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "low",
+     "n_reviews": 25,
+     "records": 21162,
+     "prevalence_min": 0.005017921146953405,
+     "prevalence_max": 0.0205761316872428,
+     "thr_reliable_k": 24,
+     "thr_reliability": 0.96,
+     "thr_wilson_lo": 0.8045593626380625,
+     "thr_wilson_hi": 0.9929037664980127,
+     "thr_work_macro": 0.5155936749087789,
+     "thr_work_pooled": 0.5424818070125697,
+     "thr_recall_macro": 0.9733333333333333,
+     "thr_recall_min": 0.3333333333333333,
+     "knee_reliable_k": 22,
+     "knee_reliability": 0.88,
+     "knee_wilson_lo": 0.7004420607907267,
+     "knee_wilson_hi": 0.9583318284955964,
+     "knee_work_macro": 0.9474798293334996,
+     "knee_work_pooled": 0.9220584065778281
+    },
+    {
+     "stratum_variable": "prev_tertile",
+     "stratum": "mid",
+     "n_reviews": 23,
+     "records": 18522,
+     "prevalence_min": 0.0213903743315508,
+     "prevalence_max": 0.04416839199447895,
+     "thr_reliable_k": 23,
+     "thr_reliability": 1.0,
+     "thr_wilson_lo": 0.8568833815495731,
+     "thr_wilson_hi": 1.0,
+     "thr_work_macro": 0.5753603339937956,
+     "thr_work_pooled": 0.6004211208292841,
+     "thr_recall_macro": 1.0,
+     "thr_recall_min": 1.0,
+     "knee_reliable_k": 23,
+     "knee_reliability": 1.0,
+     "knee_wilson_lo": 0.8568833815495731,
+     "knee_wilson_hi": 1.0,
+     "knee_work_macro": 0.949535937694815,
+     "knee_work_pooled": 0.9101932836626714
+    }
+   ],
+   "prevalence_tertile_cuts": [
+    0.020576131687242802,
+    0.04525862068965518
+   ],
+   "bands_below_tau": {
+    "0.03_0.07": {
+     "records_macro_frac": 0.25689366293134974,
+     "records_pooled_frac": 0.25701984629038654,
+     "records_n": 13611,
+     "included_macro_frac": 0.011100403392044737,
+     "included_pooled_frac": 0.00439453125,
+     "included_n": 9,
+     "reviews_with_included_in_band": 5
+    },
+    "0.01_0.07": {
+     "records_macro_frac": 0.4160235710421656,
+     "records_pooled_frac": 0.4090299677096512,
+     "records_n": 21661,
+     "included_macro_frac": 0.011100403392044737,
+     "included_pooled_frac": 0.00439453125,
+     "included_n": 9,
+     "reviews_with_included_in_band": 5
+    },
+    "included_below_tau_n": 9,
+    "included_total": 2048,
+    "records_total": 52957
+   }
+  }
+ },
+ "bands_heldout_plus_clef": {
+  "0.03_0.07": {
+   "records_macro_frac": 0.27767846554744485,
+   "records_pooled_frac": 0.28440856326619174,
+   "records_n": 31459,
+   "included_macro_frac": 0.006836738699483797,
+   "included_pooled_frac": 0.005409060175794456,
+   "included_n": 8,
+   "reviews_with_included_in_band": 5
+  },
+  "0.01_0.07": {
+   "records_macro_frac": 0.5198582129002293,
+   "records_pooled_frac": 0.6366578671391893,
+   "records_n": 70422,
+   "included_macro_frac": 0.006836738699483797,
+   "included_pooled_frac": 0.005409060175794456,
+   "included_n": 8,
+   "reviews_with_included_in_band": 5
+  },
+  "included_below_tau_n": 8,
+  "included_total": 1479,
+  "records_total": 110612
+ },
+ "v0_comparison": {
+  "heldout_thr_reliable": {
+   "v0": "23 of 23",
+   "new": "23 of 23",
+   "match": true
+  },
+  "heldout_thr_work": {
+   "v0": 0.589,
+   "new": 0.589,
+   "match": true
+  },
+  "heldout_thr_mean_recall": {
+   "v0": 0.998,
+   "new": 0.998,
+   "match": true
+  },
+  "heldout_thr_min_recall": {
+   "v0": 0.958,
+   "new": 0.958,
+   "match": true
+  },
+  "heldout_knee_asr_reliable": {
+   "v0": "20 of 23",
+   "new": "20 of 23",
+   "match": true
+  },
+  "heldout_knee_asr_work": {
+   "v0": 0.94,
+   "new": 0.94,
+   "match": true
+  },
+  "heldout_knee_hybrid_reliable": {
+   "v0": "23 of 23",
+   "new": "23 of 23",
+   "match": true
+  },
+  "heldout_knee_hybrid_work": {
+   "v0": 0.837,
+   "new": 0.837,
+   "match": true
+  },
+  "heldout_knee_lr_nb_reliable": {
+   "v0": "21 of 23 each",
+   "new": "21 and 21 of 23",
+   "match": false
+  },
+  "heldout_knee_lr_work": {
+   "v0": 0.961,
+   "new": 0.961,
+   "match": true
+  },
+  "heldout_knee_nb_work": {
+   "v0": 0.963,
+   "new": 0.963,
+   "match": true
+  },
+  "clef_thr_reliable": {
+   "v0": "25 of 28",
+   "new": "25 of 28",
+   "match": true
+  },
+  "clef_thr_mean_recall": {
+   "v0": 0.99,
+   "new": 0.99,
+   "match": true
+  },
+  "clef_thr_min_recall": {
+   "v0": 0.889,
+   "new": 0.889,
+   "match": true
+  },
+  "clef_thr_work": {
+   "v0": 0.391,
+   "new": 0.391,
+   "match": true
+  },
+  "clef_knee_asr_reliable": {
+   "v0": "26 of 28",
+   "new": "26 of 28",
+   "match": true
+  },
+  "clef_knee_asr_work": {
+   "v0": 0.76,
+   "new": 0.76,
+   "match": true
+  },
+  "clef_knee_hybrid_reliable": {
+   "v0": "27 of 28",
+   "new": "27 of 28",
+   "match": true
+  },
+  "clef_knee_hybrid_work": {
+   "v0": 0.598,
+   "new": 0.598,
+   "match": true
+  },
+  "clef_knee_pseudo_reliable": {
+   "v0": "27 of 28",
+   "new": "27 of 28",
+   "match": true
+  },
+  "clef_knee_pseudo_work": {
+   "v0": 0.819,
+   "new": 0.819,
+   "match": true
+  },
+  "dev_thr_reliability": {
+   "v0": 0.986,
+   "new": 0.986,
+   "match": true
+  },
+  "dev_thr_work": {
+   "v0": 0.583,
+   "new": 0.583,
+   "match": true
+  }
+ },
+ "elapsed_seconds": 2.5,
+ "finished": "2026-09-26 18:01:00 EDT"
+}

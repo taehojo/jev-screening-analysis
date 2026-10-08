@@ -1,0 +1,659 @@
+{
+ "analysis_id": "AN-0004-01",
+ "manuscript_analysis": 52,
+ "post_hoc": true,
+ "plan": "REVISION_ANALYSIS_LOG.md entry of 2026-09-29 09:07:49 EDT",
+ "definition": "A review-run pair reaches 95% recall when the number of included records found k >= ceil(0.95*n1) (integer comparison).",
+ "descriptive_reference_0.03": "not computed: deterministic rule with recall 100% in every review of both collections by construction (Table 3)",
+ "no_interval_or_test": "runs are nested within reviews; descriptive counts only",
+ "inputs": {
+  "an02_per_review": "/N/project/AiLab/jev/review_pipeline_npj/rounds/round_0001/revision/analysis/AN-0001-02/per_review.csv",
+  "an02_results": "/N/project/AiLab/jev/review_pipeline_npj/rounds/round_0001/revision/analysis/AN-0001-02/results.json",
+  "an11_per_review": "/N/project/AiLab/jev/review_pipeline_npj/rounds/round_0001/revision/analysis/AN-0001-11/per_review.csv",
+  "an11_results": "/N/project/AiLab/jev/review_pipeline_npj/rounds/round_0001/revision/analysis/AN-0001-11/results.json",
+  "l08_per_order": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-08/per_order_stopping.csv",
+  "l08_results": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-08/results.json",
+  "table3": "/N/project/AiLab/jev/review_pipeline_npj/versions/v0003_after_round0003/source/tables/table3_stopping.md"
+ },
+ "consistency_checks": [
+  {
+   "check": "heldout: number of reviews",
+   "passed": true,
+   "detail": {
+    "an02": 23,
+    "an11": 23,
+    "expected": 23,
+    "same_set": true
+   }
+  },
+  {
+   "check": "heldout: n1 agrees between AN-0001-02 and AN-0001-11",
+   "passed": true,
+   "detail": {}
+  },
+  {
+   "check": "heldout: per-order rows asr_prior seeds 0-9 present for every review",
+   "passed": true,
+   "detail": {
+    "missing": [],
+    "n_missing": 0,
+    "extra_reviews": []
+   }
+  },
+  {
+   "check": "heldout: n1 agrees in per-order rows asr_prior",
+   "passed": true,
+   "detail": {
+    "n_bad": 0
+   }
+  },
+  {
+   "check": "heldout: per-order rows jev_only seeds 0-9 present for every review",
+   "passed": true,
+   "detail": {
+    "missing": [],
+    "n_missing": 0,
+    "extra_reviews": []
+   }
+  },
+  {
+   "check": "heldout: n1 agrees in per-order rows jev_only",
+   "passed": true,
+   "detail": {
+    "n_bad": 0
+   }
+  },
+  {
+   "check": "heldout: threshold vs AN-0001-11 threshold_alone",
+   "passed": true,
+   "detail": {
+    "n_reliable": [
+     23,
+     23
+    ],
+    "mean_recall": [
+     0.9975442834138487,
+     0.9975442834138485
+    ]
+   }
+  },
+  {
+   "check": "heldout: knee150 seed means equal AN-0001-02 asr_knee150_rec",
+   "passed": true,
+   "detail": {
+    "max_abs_diff": 4.285714285714286e-17
+   }
+  },
+  {
+   "check": "heldout: knee150 mean-based reliable reviews equal Table 3 and AN-0001-02",
+   "passed": true,
+   "detail": {
+    "computed": 20,
+    "table3": [
+     20,
+     23
+    ],
+    "an02": 20
+   }
+  },
+  {
+   "check": "heldout: stat_asreview vs Lancet AN-0001-08 rules.stat_asreview and Table 3",
+   "passed": true,
+   "detail": {
+    "reliable": [
+     23,
+     23,
+     23
+    ],
+    "reliability_per_seed_mean": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "check": "heldout: combined workflow vs AN-0001-11 combined_workflow_stored and Table 3",
+   "passed": true,
+   "detail": {
+    "n_reliable": [
+     23,
+     23,
+     23
+    ],
+    "mean_recall": [
+     1.0,
+     1.0
+    ],
+    "max_abs_diff_review_mean_vs_comb_rec_stored": 0.0
+   }
+  },
+  {
+   "check": "heldout: knee1000 mean-based reliable reviews equal Table 3 and AN-0001-02; per-seed mean equals summary",
+   "passed": true,
+   "detail": {
+    "reliable": [
+     23,
+     23,
+     23
+    ],
+    "per_seed_mean": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "check": "heldout: sample check mean-based reliable reviews equal Table 3; per-seed mean equals AN-0001-11",
+   "passed": true,
+   "detail": {
+    "reliable": [
+     23,
+     23
+    ],
+    "per_seed_mean": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "check": "heldout: threshold reliable reviews equal Table 3",
+   "passed": true,
+   "detail": {
+    "table3": [
+     23,
+     23
+    ]
+   }
+  },
+  {
+   "check": "clef: number of reviews",
+   "passed": true,
+   "detail": {
+    "an02": 28,
+    "an11": 28,
+    "expected": 28,
+    "same_set": true
+   }
+  },
+  {
+   "check": "clef: n1 agrees between AN-0001-02 and AN-0001-11",
+   "passed": true,
+   "detail": {}
+  },
+  {
+   "check": "clef: per-order rows asr_prior seeds 0-9 present for every review",
+   "passed": true,
+   "detail": {
+    "missing": [],
+    "n_missing": 0,
+    "extra_reviews": []
+   }
+  },
+  {
+   "check": "clef: n1 agrees in per-order rows asr_prior",
+   "passed": true,
+   "detail": {
+    "n_bad": 0
+   }
+  },
+  {
+   "check": "clef: per-order rows jev_only seeds 0-9 present for every review",
+   "passed": true,
+   "detail": {
+    "missing": [],
+    "n_missing": 0,
+    "extra_reviews": []
+   }
+  },
+  {
+   "check": "clef: n1 agrees in per-order rows jev_only",
+   "passed": true,
+   "detail": {
+    "n_bad": 0
+   }
+  },
+  {
+   "check": "clef: threshold vs AN-0001-11 threshold_alone",
+   "passed": true,
+   "detail": {
+    "n_reliable": [
+     25,
+     25
+    ],
+    "mean_recall": [
+     0.9895645645645645,
+     0.9895645645645647
+    ]
+   }
+  },
+  {
+   "check": "clef: knee150 seed means equal AN-0001-02 asr_knee150_rec",
+   "passed": true,
+   "detail": {
+    "max_abs_diff": 5.74468085106383e-17
+   }
+  },
+  {
+   "check": "clef: knee150 mean-based reliable reviews equal Table 3 and AN-0001-02",
+   "passed": true,
+   "detail": {
+    "computed": 26,
+    "table3": [
+     26,
+     28
+    ],
+    "an02": 26
+   }
+  },
+  {
+   "check": "clef: stat_asreview vs Lancet AN-0001-08 rules.stat_asreview and Table 3",
+   "passed": true,
+   "detail": {
+    "reliable": [
+     28,
+     28,
+     28
+    ],
+    "reliability_per_seed_mean": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "check": "clef: combined workflow vs AN-0001-11 combined_workflow_stored and Table 3",
+   "passed": true,
+   "detail": {
+    "n_reliable": [
+     28,
+     28,
+     28
+    ],
+    "mean_recall": [
+     1.0,
+     1.0
+    ],
+    "max_abs_diff_review_mean_vs_comb_rec_stored": 0.0
+   }
+  },
+  {
+   "check": "clef: knee1000 mean-based reliable reviews equal Table 3 and AN-0001-02; per-seed mean equals summary",
+   "passed": true,
+   "detail": {
+    "reliable": [
+     28,
+     28,
+     28
+    ],
+    "per_seed_mean": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "check": "clef: sample check mean-based reliable reviews equal Table 3; per-seed mean equals AN-0001-11",
+   "passed": true,
+   "detail": {
+    "reliable": [
+     28,
+     28
+    ],
+    "per_seed_mean": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  {
+   "check": "clef: threshold reliable reviews equal Table 3",
+   "passed": true,
+   "detail": {
+    "table3": [
+     25,
+     28
+    ]
+   }
+  }
+ ],
+ "results": {
+  "heldout": {
+   "collection_label": "23 held-out SYNERGY+ reviews, final inclusion",
+   "options": {
+    "threshold": {
+     "label": "Threshold tau=0.07 on the Jev score",
+     "runs_per_review": 1,
+     "run_unit": "deterministic rule, one run per review",
+     "n_reviews": 23,
+     "review_run_pairs": 23,
+     "pairs_recall_ge_095": 23,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "23/23",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 0.9583333333333334,
+      "fraction": "23/24",
+      "review": "Boersma-van_Dam_2024",
+      "reviews_at_lowest": [
+       "Boersma-van_Dam_2024"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 23,
+     "mean_based_reliable_reviews_recomputed": 23
+    },
+    "knee150_asr": {
+     "label": "Knee method as adapted (from 150 screened records), default ASReview ranking",
+     "runs_per_review": 10,
+     "run_unit": "ASReview simulation seeds 0-9 (random prior records)",
+     "n_reviews": 23,
+     "review_run_pairs": 230,
+     "pairs_recall_ge_095": 224,
+     "proportion_pairs_recall_ge_095": 0.9739130434782609,
+     "proportion_fraction": "224/230",
+     "reviews_with_at_least_one_run_below_095": 3,
+     "runs_below_095_by_review": {
+      "Chakraborty_2023": 4,
+      "Walker_2018": 1,
+      "van_der_Waal_2022": 1
+     },
+     "lowest_single_run_recall": {
+      "value": 0.015625,
+      "fraction": "1/64",
+      "review": "Walker_2018",
+      "reviews_at_lowest": [
+       "Walker_2018"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 20,
+     "mean_based_reliable_reviews_recomputed": 20
+    },
+    "knee1000_asr": {
+     "label": "Knee method with the published minimum of 1000 screened records, default ASReview ranking",
+     "runs_per_review": 10,
+     "run_unit": "ASReview simulation seeds 0-9 (random prior records)",
+     "n_reviews": 23,
+     "review_run_pairs": 230,
+     "pairs_recall_ge_095": 230,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "230/230",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": "not stored",
+     "mean_based_reliable_reviews_table3": 23,
+     "mean_based_reliable_reviews_recomputed": 23
+    },
+    "combined_workflow": {
+     "label": "Label-free Jev ranking plus statistical criterion (combined workflow)",
+     "runs_per_review": 10,
+     "run_unit": "tie-breaking seeds 0-9 of the label-free Jev ranking",
+     "n_reviews": 23,
+     "review_run_pairs": 230,
+     "pairs_recall_ge_095": 230,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "230/230",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 1.0,
+      "fraction": "1/1",
+      "review": "Abgaz_2023",
+      "reviews_at_lowest": [
+       "Abgaz_2023",
+       "Attai_2022",
+       "Boersma-van_Dam_2024",
+       "Bos_2018",
+       "Bosch_2021",
+       "Chakraborty_2023",
+       "Chueca_2023",
+       "Donners_2021",
+       "Eggmann_2023",
+       "Hall_2011",
+       "Harms_2024",
+       "Kerschbaumer_2024b",
+       "Lewowski_2021",
+       "Menon_2022",
+       "Moran_2020",
+       "Parodis_2023b",
+       "Roberts_2021",
+       "Seghers_2022",
+       "Theobald_2021",
+       "Toffalini_2021",
+       "Tumkaya_2018",
+       "Walker_2018",
+       "van_der_Waal_2022"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 23,
+     "mean_based_reliable_reviews_recomputed": 23
+    },
+    "stat_asreview": {
+     "label": "Default ASReview ranking plus statistical criterion",
+     "runs_per_review": 10,
+     "run_unit": "ASReview simulation seeds 0-9 (random prior records)",
+     "n_reviews": 23,
+     "review_run_pairs": 230,
+     "pairs_recall_ge_095": 230,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "230/230",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 0.9925925925925926,
+      "fraction": "134/135",
+      "review": "Attai_2022",
+      "reviews_at_lowest": [
+       "Attai_2022"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 23,
+     "mean_based_reliable_reviews_recomputed": 23
+    },
+    "threshold_plus_sample_check": {
+     "label": "Threshold plus random-sample check below tau",
+     "runs_per_review": 10,
+     "run_unit": "random-order seeds 0-9 of the sample below tau",
+     "n_reviews": 23,
+     "review_run_pairs": 230,
+     "pairs_recall_ge_095": 230,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "230/230",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 0.9583333333333334,
+      "fraction": "23/24",
+      "review": "Boersma-van_Dam_2024",
+      "reviews_at_lowest": [
+       "Boersma-van_Dam_2024"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 23,
+     "mean_based_reliable_reviews_recomputed": 23
+    }
+   },
+   "lowest_proportion": {
+    "value": 0.9739130434782609,
+    "fraction": "112/115",
+    "options": [
+     "knee150_asr"
+    ]
+   },
+   "all_options_every_pair_ge_095": false
+  },
+  "clef": {
+   "collection_label": "28 CLEF 2019 Cochrane reviews with a content-relevant record, content-level label",
+   "options": {
+    "threshold": {
+     "label": "Threshold tau=0.07 on the Jev score",
+     "runs_per_review": 1,
+     "run_unit": "deterministic rule, one run per review",
+     "n_reviews": 28,
+     "review_run_pairs": 28,
+     "pairs_recall_ge_095": 25,
+     "proportion_pairs_recall_ge_095": 0.8928571428571429,
+     "proportion_fraction": "25/28",
+     "reviews_with_at_least_one_run_below_095": 3,
+     "runs_below_095_by_review": {
+      "CD010558": 1,
+      "CD011977": 1,
+      "CD012233": 1
+     },
+     "lowest_single_run_recall": {
+      "value": 0.8888888888888888,
+      "fraction": "8/9",
+      "review": "CD012233",
+      "reviews_at_lowest": [
+       "CD012233"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 25,
+     "mean_based_reliable_reviews_recomputed": 25
+    },
+    "knee150_asr": {
+     "label": "Knee method as adapted (from 150 screened records), default ASReview ranking",
+     "runs_per_review": 10,
+     "run_unit": "ASReview simulation seeds 0-9 (random prior records)",
+     "n_reviews": 28,
+     "review_run_pairs": 280,
+     "pairs_recall_ge_095": 273,
+     "proportion_pairs_recall_ge_095": 0.975,
+     "proportion_fraction": "273/280",
+     "reviews_with_at_least_one_run_below_095": 2,
+     "runs_below_095_by_review": {
+      "CD010038": 1,
+      "CD012567": 6
+     },
+     "lowest_single_run_recall": {
+      "value": 0.1111111111111111,
+      "fraction": "1/9",
+      "review": "CD010038",
+      "reviews_at_lowest": [
+       "CD010038"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 26,
+     "mean_based_reliable_reviews_recomputed": 26
+    },
+    "knee1000_asr": {
+     "label": "Knee method with the published minimum of 1000 screened records, default ASReview ranking",
+     "runs_per_review": 10,
+     "run_unit": "ASReview simulation seeds 0-9 (random prior records)",
+     "n_reviews": 28,
+     "review_run_pairs": 280,
+     "pairs_recall_ge_095": 280,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "280/280",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": "not stored",
+     "mean_based_reliable_reviews_table3": 28,
+     "mean_based_reliable_reviews_recomputed": 28
+    },
+    "combined_workflow": {
+     "label": "Label-free Jev ranking plus statistical criterion (combined workflow)",
+     "runs_per_review": 10,
+     "run_unit": "tie-breaking seeds 0-9 of the label-free Jev ranking",
+     "n_reviews": 28,
+     "review_run_pairs": 280,
+     "pairs_recall_ge_095": 280,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "280/280",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 1.0,
+      "fraction": "1/1",
+      "review": "CD000996",
+      "reviews_at_lowest": [
+       "CD000996",
+       "CD001261",
+       "CD004414",
+       "CD006468",
+       "CD007867",
+       "CD008874",
+       "CD009044",
+       "CD009069",
+       "CD009642",
+       "CD010038",
+       "CD010239",
+       "CD010558",
+       "CD010753",
+       "CD011571",
+       "CD011686",
+       "CD011768",
+       "CD011787",
+       "CD011977",
+       "CD012069",
+       "CD012080",
+       "CD012164",
+       "CD012233",
+       "CD012455",
+       "CD012551",
+       "CD012567",
+       "CD012661",
+       "CD012669",
+       "CD012768"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 28,
+     "mean_based_reliable_reviews_recomputed": 28
+    },
+    "stat_asreview": {
+     "label": "Default ASReview ranking plus statistical criterion",
+     "runs_per_review": 10,
+     "run_unit": "ASReview simulation seeds 0-9 (random prior records)",
+     "n_reviews": 28,
+     "review_run_pairs": 280,
+     "pairs_recall_ge_095": 280,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "280/280",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 0.9836734693877551,
+      "fraction": "241/245",
+      "review": "CD012069",
+      "reviews_at_lowest": [
+       "CD012069"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 28,
+     "mean_based_reliable_reviews_recomputed": 28
+    },
+    "threshold_plus_sample_check": {
+     "label": "Threshold plus random-sample check below tau",
+     "runs_per_review": 10,
+     "run_unit": "random-order seeds 0-9 of the sample below tau",
+     "n_reviews": 28,
+     "review_run_pairs": 280,
+     "pairs_recall_ge_095": 280,
+     "proportion_pairs_recall_ge_095": 1.0,
+     "proportion_fraction": "280/280",
+     "reviews_with_at_least_one_run_below_095": 0,
+     "runs_below_095_by_review": {},
+     "lowest_single_run_recall": {
+      "value": 0.972972972972973,
+      "fraction": "36/37",
+      "review": "CD011977",
+      "reviews_at_lowest": [
+       "CD011977"
+      ]
+     },
+     "mean_based_reliable_reviews_table3": 28,
+     "mean_based_reliable_reviews_recomputed": 28
+    }
+   },
+   "lowest_proportion": {
+    "value": 0.8928571428571429,
+    "fraction": "25/28",
+    "options": [
+     "threshold"
+    ]
+   },
+   "all_options_every_pair_ge_095": false
+  }
+ },
+ "finished": "2026-09-29T09:17:44-04:00"
+}

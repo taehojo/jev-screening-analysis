@@ -1,0 +1,591 @@
+{
+ "CD000996": {
+  "N": 281,
+  "start_len_by_seed": [
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD001261": {
+  "N": 571,
+  "start_len_by_seed": [
+   12,
+   12,
+   12,
+   12,
+   12,
+   12,
+   12,
+   12,
+   12,
+   12
+  ],
+  "distinct_start_sets": 5,
+  "top_p": 0.97,
+  "n_records_at_top_p": 3,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD004414": {
+  "N": 336,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   3,
+   2,
+   2,
+   2,
+   3,
+   2,
+   2
+  ],
+  "distinct_start_sets": 5,
+  "top_p": 0.93,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD006468": {
+  "N": 3874,
+  "start_len_by_seed": [
+   9,
+   9,
+   9,
+   9,
+   9,
+   9,
+   10,
+   10,
+   9,
+   10
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.97,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD007867": {
+  "N": 943,
+  "start_len_by_seed": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.97,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD008874": {
+  "N": 2382,
+  "start_len_by_seed": [
+   6,
+   4,
+   6,
+   4,
+   6,
+   6,
+   4,
+   6,
+   4,
+   4
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD009044": {
+  "N": 3169,
+  "start_len_by_seed": [
+   45,
+   43,
+   43,
+   43,
+   44,
+   45,
+   44,
+   44,
+   44,
+   44
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "CD009069": {
+  "N": 1757,
+  "start_len_by_seed": [
+   12,
+   9,
+   8,
+   8,
+   7,
+   8,
+   8,
+   7,
+   12,
+   11
+  ],
+  "distinct_start_sets": 8,
+  "top_p": 0.97,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "CD009642": {
+  "N": 1922,
+  "start_len_by_seed": [
+   6,
+   2,
+   3,
+   3,
+   4,
+   3,
+   2,
+   4,
+   6,
+   5
+  ],
+  "distinct_start_sets": 7,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD010038": {
+  "N": 8867,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD010239": {
+  "N": 224,
+  "start_len_by_seed": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.96,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD010558": {
+  "N": 2815,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD010753": {
+  "N": 2539,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.97,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD011571": {
+  "N": 146,
+  "start_len_by_seed": [
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5,
+   5
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.93,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD011686": {
+  "N": 9729,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.93,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD011768": {
+  "N": 9160,
+  "start_len_by_seed": [
+   3,
+   4,
+   4,
+   3,
+   3,
+   3,
+   4,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 5,
+  "top_p": 0.96,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "CD011787": {
+  "N": 4369,
+  "start_len_by_seed": [
+   5,
+   3,
+   3,
+   4,
+   3,
+   3,
+   2,
+   4,
+   2,
+   2
+  ],
+  "distinct_start_sets": 6,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD011977": {
+  "N": 195,
+  "start_len_by_seed": [
+   7,
+   7,
+   6,
+   8,
+   7,
+   8,
+   8,
+   6,
+   8,
+   8
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.93,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012069": {
+  "N": 3479,
+  "start_len_by_seed": [
+   6,
+   10,
+   10,
+   8,
+   8,
+   6,
+   8,
+   9,
+   8,
+   6
+  ],
+  "distinct_start_sets": 6,
+  "top_p": 0.93,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012080": {
+  "N": 6643,
+  "start_len_by_seed": [
+   2,
+   4,
+   2,
+   2,
+   2,
+   3,
+   2,
+   2,
+   3,
+   3
+  ],
+  "distinct_start_sets": 7,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "CD012164": {
+  "N": 61,
+  "start_len_by_seed": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012233": {
+  "N": 472,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012455": {
+  "N": 1593,
+  "start_len_by_seed": [
+   3,
+   2,
+   3,
+   2,
+   2,
+   3,
+   3,
+   2,
+   2,
+   3
+  ],
+  "distinct_start_sets": 2,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012551": {
+  "N": 591,
+  "start_len_by_seed": [
+   8,
+   9,
+   9,
+   9,
+   8,
+   9,
+   11,
+   8,
+   11,
+   9
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.96,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012567": {
+  "N": 6735,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.9,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "CD012661": {
+  "N": 3367,
+  "start_len_by_seed": [
+   2,
+   2,
+   3,
+   2,
+   2,
+   3,
+   2,
+   3,
+   2,
+   2
+  ],
+  "distinct_start_sets": 5,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "CD012669": {
+  "N": 1260,
+  "start_len_by_seed": [
+   3,
+   3,
+   4,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   4
+  ],
+  "distinct_start_sets": 5,
+  "top_p": 0.94,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "CD012768": {
+  "N": 131,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   2,
+   2,
+   4,
+   2,
+   2,
+   4,
+   3
+  ],
+  "distinct_start_sets": 5,
+  "top_p": 0.94,
+  "n_records_at_top_p": 4,
+  "labels_at_top_p": [
+   0,
+   1
+  ]
+ }
+}

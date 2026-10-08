@@ -1,0 +1,360 @@
+{
+ "analysis_id": "AN-0001-11",
+ "tau": 0.07,
+ "alpha": 0.05,
+ "recall_target": 0.95,
+ "seeds": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9
+ ],
+ "bootstrap": {
+  "B": 5000,
+  "seed": 20260928
+ },
+ "development_final": {
+  "threshold_alone": {
+   "n_reviews": 73,
+   "n_reliable": 72,
+   "reliability": 0.9863013698630136,
+   "wilson95": [
+    0.9264026272903616,
+    0.997577748533516
+   ],
+   "mean_recall": 0.9888995966079552,
+   "min_recall": 0.3333333333333333,
+   "macro_work": 0.5829376328992093,
+   "macro_work_boot95": [
+    0.5307281878030143,
+    0.6364377316337586
+   ],
+   "pooled_work": 0.5902147024944766,
+   "failing_reviews": [
+    "Ferreira_2022"
+   ]
+  },
+  "threshold_plus_sample_check": {
+   "n_reviews": 73,
+   "n_reliable": 73,
+   "reliability": 1.0,
+   "wilson95": [
+    0.9500079920442687,
+    0.9999999999999998
+   ],
+   "mean_recall": 0.9993942805054191,
+   "min_recall": 0.9842696629213483,
+   "macro_work": 0.9379544597860876,
+   "macro_work_boot95": [
+    0.9215204796733572,
+    0.952626472171674
+   ],
+   "pooled_work": 0.9108408708952547,
+   "failing_reviews": [],
+   "reliability_per_seed_mean": 1.0,
+   "min_recall_any_seed": 0.9565217391304348,
+   "reviews_with_any_seed_below_0.95": [],
+   "proportion_of_review_seed_runs_stopping_before_all_below_tau_read": 0.958904109589041,
+   "reviews_never_stopping_early": 3,
+   "reviews_with_no_record_below_tau": 1
+  },
+  "check_minus_threshold_work": {
+   "mean": 0.3550168268868784,
+   "boot95": [
+    0.3019634932545586,
+    0.40544576644746316
+   ]
+  }
+ },
+ "heldout_final": {
+  "threshold_alone": {
+   "n_reviews": 23,
+   "n_reliable": 23,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8568833815495732,
+    1.0
+   ],
+   "mean_recall": 0.9975442834138485,
+   "min_recall": 0.9583333333333334,
+   "macro_work": 0.5887384479631907,
+   "macro_work_boot95": [
+    0.49123969559111025,
+    0.6843332507804252
+   ],
+   "pooled_work": 0.510014848034908,
+   "failing_reviews": []
+  },
+  "threshold_plus_sample_check": {
+   "n_reviews": 23,
+   "n_reliable": 23,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8568833815495732,
+    1.0
+   ],
+   "mean_recall": 0.9988244766505636,
+   "min_recall": 0.9833333333333334,
+   "macro_work": 0.9249343534867712,
+   "macro_work_boot95": [
+    0.8811909928689198,
+    0.960866811501706
+   ],
+   "pooled_work": 0.8359625465894972,
+   "failing_reviews": [],
+   "reliability_per_seed_mean": 1.0,
+   "min_recall_any_seed": 0.9583333333333334,
+   "reviews_with_any_seed_below_0.95": [],
+   "proportion_of_review_seed_runs_stopping_before_all_below_tau_read": 0.9565217391304348,
+   "reviews_never_stopping_early": 1,
+   "reviews_with_no_record_below_tau": 0
+  },
+  "check_minus_threshold_work": {
+   "mean": 0.3361959055235807,
+   "boot95": [
+    0.2514822195977672,
+    0.42298509486314234
+   ]
+  },
+  "combined_workflow_stored": {
+   "n_reviews": 23,
+   "n_reliable": 23,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8568833815495732,
+    1.0
+   ],
+   "mean_recall": 1.0,
+   "min_recall": 1.0,
+   "macro_work": 0.8763339154428149,
+   "macro_work_boot95": [
+    0.8279253500962915,
+    0.9184881823375779
+   ],
+   "pooled_work": 0.7685827702190843,
+   "failing_reviews": []
+  },
+  "check_minus_combined_work": {
+   "mean": 0.04860043804395641,
+   "boot95": [
+    0.029835216230672125,
+    0.07314851384565381
+   ],
+   "check_reads_less": 1,
+   "check_reads_more": 22
+  }
+ },
+ "heldout12_ta": {
+  "threshold_alone": {
+   "n_reviews": 12,
+   "n_reliable": 7,
+   "reliability": 0.5833333333333334,
+   "wilson95": [
+    0.3195113125495498,
+    0.8067396863412435
+   ],
+   "mean_recall": 0.9342288183749728,
+   "min_recall": 0.6470588235294118,
+   "macro_work": 0.5771901257218306,
+   "macro_work_boot95": [
+    0.4335096472901672,
+    0.7245607372269294
+   ],
+   "pooled_work": 0.4573308455268585,
+   "failing_reviews": [
+    "Boersma-van_Dam_2024",
+    "Moran_2020",
+    "Roberts_2021",
+    "Theobald_2021",
+    "Tumkaya_2018"
+   ]
+  },
+  "threshold_plus_sample_check": {
+   "n_reviews": 12,
+   "n_reliable": 12,
+   "reliability": 1.0,
+   "wilson95": [
+    0.7575059933447591,
+    1.0
+   ],
+   "mean_recall": 0.9913727004339831,
+   "min_recall": 0.9743362831858408,
+   "macro_work": 0.8936585938652143,
+   "macro_work_boot95": [
+    0.8285850690725101,
+    0.9478931905788233
+   ],
+   "pooled_work": 0.7571442600412452,
+   "failing_reviews": [],
+   "reliability_per_seed_mean": 0.9833333333333334,
+   "min_recall_any_seed": 0.918918918918919,
+   "reviews_with_any_seed_below_0.95": [
+    "Roberts_2021",
+    "Theobald_2021"
+   ],
+   "proportion_of_review_seed_runs_stopping_before_all_below_tau_read": 1.0,
+   "reviews_never_stopping_early": 0,
+   "reviews_with_no_record_below_tau": 0
+  },
+  "check_minus_threshold_work": {
+   "mean": 0.31646846814338386,
+   "boot95": [
+    0.1917497067720863,
+    0.44894250656393814
+   ]
+  }
+ },
+ "clef28_content": {
+  "threshold_alone": {
+   "n_reviews": 28,
+   "n_reliable": 25,
+   "reliability": 0.8928571428571429,
+   "wilson95": [
+    0.7280414845132784,
+    0.9628816331707001
+   ],
+   "mean_recall": 0.9895645645645647,
+   "min_recall": 0.8888888888888888,
+   "macro_work": 0.39050518836180725,
+   "macro_work_boot95": [
+    0.30496362499846197,
+    0.47534348931168363
+   ],
+   "pooled_work": 0.30020229091237066,
+   "failing_reviews": [
+    "CD010558",
+    "CD011977",
+    "CD012233"
+   ]
+  },
+  "threshold_plus_sample_check": {
+   "n_reviews": 28,
+   "n_reliable": 28,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8793566952341543,
+    0.9999999999999998
+   ],
+   "mean_recall": 0.9997104247104247,
+   "min_recall": 0.991891891891892,
+   "macro_work": 0.9055153921924096,
+   "macro_work_boot95": [
+    0.8656034360108126,
+    0.9398920964986115
+   ],
+   "pooled_work": 0.8832691242220818,
+   "failing_reviews": [],
+   "reliability_per_seed_mean": 1.0,
+   "min_recall_any_seed": 0.972972972972973,
+   "reviews_with_any_seed_below_0.95": [],
+   "proportion_of_review_seed_runs_stopping_before_all_below_tau_read": 1.0,
+   "reviews_never_stopping_early": 0,
+   "reviews_with_no_record_below_tau": 0
+  },
+  "check_minus_threshold_work": {
+   "mean": 0.5150102038306021,
+   "boot95": [
+    0.42029604338748583,
+    0.608796702852692
+   ]
+  },
+  "combined_workflow_stored": {
+   "n_reviews": 28,
+   "n_reliable": 28,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8793566952341543,
+    0.9999999999999998
+   ],
+   "mean_recall": 1.0,
+   "min_recall": 1.0,
+   "macro_work": 0.8608323190392566,
+   "macro_work_boot95": [
+    0.8103341252386446,
+    0.9068381032326923
+   ],
+   "pooled_work": 0.8362229580858384,
+   "failing_reviews": []
+  },
+  "check_minus_combined_work": {
+   "mean": 0.04468307315315288,
+   "boot95": [
+    0.028405250112908596,
+    0.06249751936948898
+   ],
+   "check_reads_less": 0,
+   "check_reads_more": 28
+  }
+ },
+ "clef31_ta": {
+  "threshold_alone": {
+   "n_reviews": 31,
+   "n_reliable": 25,
+   "reliability": 0.8064516129032258,
+   "wilson95": [
+    0.6371974218820453,
+    0.9081299163841389
+   ],
+   "mean_recall": 0.9822956738745741,
+   "min_recall": 0.8888888888888888,
+   "macro_work": 0.383455703031457,
+   "macro_work_boot95": [
+    0.30257757875907487,
+    0.4661790913225254
+   ],
+   "pooled_work": 0.30652284695090876,
+   "failing_reviews": [
+    "CD000996",
+    "CD006468",
+    "CD010558",
+    "CD011571",
+    "CD011686",
+    "CD011977"
+   ]
+  },
+  "threshold_plus_sample_check": {
+   "n_reviews": 31,
+   "n_reliable": 31,
+   "reliability": 1.0,
+   "wilson95": [
+    0.889744604539564,
+    1.0
+   ],
+   "mean_recall": 0.9966540816811214,
+   "min_recall": 0.9793103448275863,
+   "macro_work": 0.8602163442148263,
+   "macro_work_boot95": [
+    0.8118066052357907,
+    0.9011770586725566
+   ],
+   "pooled_work": 0.8128309349899293,
+   "failing_reviews": [],
+   "reliability_per_seed_mean": 0.9903225806451613,
+   "min_recall_any_seed": 0.9375,
+   "reviews_with_any_seed_below_0.95": [
+    "CD010558",
+    "CD011686",
+    "CD011977"
+   ],
+   "proportion_of_review_seed_runs_stopping_before_all_below_tau_read": 1.0,
+   "reviews_never_stopping_early": 0,
+   "reviews_with_no_record_below_tau": 0
+  },
+  "check_minus_threshold_work": {
+   "mean": 0.4767606411833694,
+   "boot95": [
+    0.38226830670338025,
+    0.5702237404820554
+   ]
+  }
+ },
+ "caveat": "Retrospective simulation on stored scores and labels; the test is applied after every draw, which can inflate the error rate; reliability is judged on the recall averaged over ten random samples per review (as for the knee method), and the per-seed proportion is also given.",
+ "runtime_seconds": 61.4,
+ "finished": "2026-09-28T20:09:24-04:00"
+}

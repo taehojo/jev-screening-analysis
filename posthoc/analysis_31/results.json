@@ -1,0 +1,424 @@
+{
+ "analysis_id": "AN-0003-04",
+ "type": "literature check",
+ "fetch_record": [
+  [
+   "2026-09-28 10:41:39 EDT",
+   "crossref_10.1145_3469096.3469873.json",
+   "200",
+   "16425",
+   "application/json",
+   "https://api.crossref.org/works/10.1145/3469096.3469873",
+   "https://api.crossref.org/works/10.1145/3469096.3469873"
+  ],
+  [
+   "2026-09-28 10:41:40 EDT",
+   "crossref_10.1016_j.jclinepi.2026.112514.json",
+   "200",
+   "4368",
+   "application/json",
+   "https://api.crossref.org/works/10.1016/j.jclinepi.2026.112514",
+   "https://api.crossref.org/works/10.1016/j.jclinepi.2026.112514"
+  ],
+  [
+   "2026-09-28 10:41:41 EDT",
+   "pubmed_efetch_42767575.xml",
+   "200",
+   "7436",
+   "text/xml; charset=UTF-8",
+   "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42767575&retmode=xml",
+   "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=42767575&retmode=xml"
+  ],
+  [
+   "2026-09-28 10:41:43 EDT",
+   "acm_dl_doi_10.1145_3469096.3469873.html",
+   "403",
+   "5652",
+   "",
+   "https://dl.acm.org/doi/10.1145/3469096.3469873",
+   "https://dl.acm.org/doi/10.1145/3469096.3469873"
+  ],
+  [
+   "2026-09-28 10:41:44 EDT",
+   "doi_org_10.1016_j.jclinepi.2026.112514.html",
+   "200",
+   "2784",
+   "text/html;charset=UTF-8",
+   "https://doi.org/10.1016/j.jclinepi.2026.112514",
+   "https://linkinghub.elsevier.com/retrieve/pii/S0895435626003902"
+  ],
+  [
+   "2026-09-28 10:41:45 EDT",
+   "doi_org_citeproc_10.1145_3469096.3469873.json",
+   "200",
+   "16178",
+   "application/vnd.citationstyles.csl+json",
+   "https://doi.org/10.1145/3469096.3469873",
+   "https://api.crossref.org/v1/works/10.1145%2F3469096.3469873/transform"
+  ],
+  [
+   "2026-09-28 10:41:46 EDT",
+   "doi_org_citeproc_10.1016_j.jclinepi.2026.112514.json",
+   "200",
+   "4239",
+   "application/vnd.citationstyles.csl+json",
+   "https://doi.org/10.1016/j.jclinepi.2026.112514",
+   "https://api.crossref.org/v1/works/10.1016%2Fj.jclinepi.2026.112514/transform"
+  ]
+ ],
+ "reference_24": {
+  "current_entry_v0002": "24. Yang E, Lewis DD, Frieder O. Heuristic stopping rules for technology-assisted review. Proceedings of the 21st ACM Symposium on Document Engineering; 2021: 1–10.",
+  "crossref": {
+   "DOI": "10.1145/3469096.3469873",
+   "type": "proceedings-article",
+   "title": "Heuristic stopping rules for technology-assisted review",
+   "container_title": "Proceedings of the 21st ACM Symposium on Document Engineering",
+   "page": "1-10",
+   "article_number": null,
+   "volume": null,
+   "issue": null,
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      8,
+      16
+     ]
+    ]
+   },
+   "published_online": {
+    "date-parts": [
+     [
+      2021,
+      8,
+      16
+     ]
+    ]
+   },
+   "published_print": {
+    "date-parts": [
+     [
+      2021,
+      8,
+      16
+     ]
+    ]
+   },
+   "publisher": "ACM",
+   "event": {
+    "name": "DocEng '21: ACM Symposium on Document Engineering 2021",
+    "location": "Limerick Ireland",
+    "acronym": "DocEng '21",
+    "sponsor": [
+     "SIGWEB ACM Special Interest Group on Hypertext, Hypermedia, and Web"
+    ]
+   },
+   "authors": [
+    {
+     "given": "Eugene",
+     "family": "Yang",
+     "initials": "E"
+    },
+    {
+     "given": "David D.",
+     "family": "Lewis",
+     "initials": "DD"
+    },
+    {
+     "given": "Ophir",
+     "family": "Frieder",
+     "initials": "O"
+    }
+   ]
+  },
+  "doi_org_csl": {
+   "page": "1-10",
+   "article_number": null,
+   "volume": null,
+   "container_title": "Proceedings of the 21st ACM Symposium on Document Engineering",
+   "issued": {
+    "date-parts": [
+     [
+      2021,
+      8,
+      16
+     ]
+    ]
+   },
+   "authors": [
+    {
+     "given": "Eugene",
+     "family": "Yang"
+    },
+    {
+     "given": "David D.",
+     "family": "Lewis"
+    },
+    {
+     "given": "Ophir",
+     "family": "Frieder"
+    }
+   ]
+  },
+  "acm_dl_page": "HTTP 403 (sources/acm_dl_doi_10.1145_3469096.3469873.html.http403, a bot-check page)",
+  "arxiv_acm_reference_format": "Eugene Yang, David D. Lewis, and Ophir Frieder. 2021. Heuristic Stopping Rules For Technology-Assisted Review. In ACM Symposium on Document Engineering 2021 (DocEng ’21), August 24–27, 2021, Limerick, Ireland. ACM, New York, NY, USA, 10 pages. https://doi.org/10.1145/3469096.3469873",
+  "fields": {
+   "authors": {
+    "verified": true,
+    "value": "Yang E, Lewis DD, Frieder O",
+    "source": "Crossref"
+   },
+   "title": {
+    "verified": true,
+    "value": "Heuristic stopping rules for technology-assisted review",
+    "source": "Crossref"
+   },
+   "container": {
+    "verified": true,
+    "value": "Proceedings of the 21st ACM Symposium on Document Engineering",
+    "source": "Crossref"
+   },
+   "year": {
+    "verified": true,
+    "value": [
+     2021,
+     8,
+     16
+    ],
+    "source": "Crossref"
+   },
+   "pages": {
+    "verified": true,
+    "value": "1-10",
+    "source": "Crossref and doi.org CSL"
+   },
+   "article_number": {
+    "verified": false,
+    "value": null,
+    "note": "not in the Crossref or CSL record; the ACM Digital Library page returned HTTP 403; the ACM reference format printed in the arXiv PDF gives '10 pages' and no article number"
+   },
+   "doi": {
+    "verified": true,
+    "value": "10.1145/3469096.3469873",
+    "source": "Crossref (registered DOI resolves)"
+   }
+  }
+ },
+ "reference_14": {
+  "current_entry_v0002": "14. Pitre T, Zeraatkar D, Granton J, et al. A biomedical BERT ensemble (TITAN-SR) outperformed active learning and LLM chatbots for systematic-review title and abstract screening: development and external validation. *J Clin Epidemiol* 2026; published online Sept 21. https://doi.org/10.1016/j.jclinepi.2026.112514.",
+  "crossref": {
+   "DOI": "10.1016/j.jclinepi.2026.112514",
+   "type": "journal-article",
+   "title": "A biomedical BERT ensemble (TITAN-SR) outperformed active learning and LLM chatbots for systematic-review title and abstract screening: development and external validation",
+   "container_title": "Journal of Clinical Epidemiology",
+   "page": "112514",
+   "article_number": "112514",
+   "volume": null,
+   "issue": null,
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   },
+   "published_online": null,
+   "published_print": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   },
+   "publisher": "Elsevier BV",
+   "event": null,
+   "authors": [
+    {
+     "given": "Tyler",
+     "family": "Pitre",
+     "initials": "T"
+    },
+    {
+     "given": "Dena",
+     "family": "Zeraatkar",
+     "initials": "D"
+    },
+    {
+     "given": "John",
+     "family": "Granton",
+     "initials": "J"
+    },
+    {
+     "given": "Jason",
+     "family": "Busse",
+     "initials": "J"
+    },
+    {
+     "given": "Bram",
+     "family": "Rochwerg",
+     "initials": "B"
+    },
+    {
+     "given": "Gordon",
+     "family": "Guyatt",
+     "initials": "G"
+    }
+   ]
+  },
+  "doi_org_csl": {
+   "page": "112514",
+   "article_number": "112514",
+   "volume": null,
+   "container_title": "Journal of Clinical Epidemiology",
+   "issued": {
+    "date-parts": [
+     [
+      2026,
+      9
+     ]
+    ]
+   },
+   "authors": [
+    {
+     "given": "Tyler",
+     "family": "Pitre"
+    },
+    {
+     "given": "Dena",
+     "family": "Zeraatkar"
+    },
+    {
+     "given": "John",
+     "family": "Granton"
+    },
+    {
+     "given": "Jason",
+     "family": "Busse"
+    },
+    {
+     "given": "Bram",
+     "family": "Rochwerg"
+    },
+    {
+     "given": "Gordon",
+     "family": "Guyatt"
+    }
+   ]
+  },
+  "pubmed": {
+   "pmid": "42767575",
+   "title": "A biomedical BERT ensemble (TITAN-SR) outperformed active learning and LLM chatbots for systematic-review title and abstract screening: development and external validation.",
+   "journal": "Journal of clinical epidemiology",
+   "iso_abbreviation": "J Clin Epidemiol",
+   "volume": null,
+   "issue": null,
+   "pub_date": {
+    "Year": "2026",
+    "Month": "Sep",
+    "Day": "21"
+   },
+   "medline_pgn": "112514",
+   "elocation": {
+    "doi": "10.1016/j.jclinepi.2026.112514",
+    "pii": "S0895-4356(26)00390-2"
+   },
+   "article_date_electronic": {
+    "Year": "2026",
+    "Month": "09",
+    "Day": "21"
+   },
+   "publication_status": "aheadofprint",
+   "author_list_complete": "Y",
+   "authors": [
+    {
+     "last": "Pitre",
+     "initials": "T",
+     "fore": "Tyler"
+    },
+    {
+     "last": "Zeraatkar",
+     "initials": "D",
+     "fore": "Dena"
+    },
+    {
+     "last": "Granton",
+     "initials": "J",
+     "fore": "John"
+    },
+    {
+     "last": "Busse",
+     "initials": "J",
+     "fore": "Jason"
+    },
+    {
+     "last": "Rochwerg",
+     "initials": "B",
+     "fore": "Bram"
+    },
+    {
+     "last": "Guyatt",
+     "initials": "G",
+     "fore": "Gordon"
+    }
+   ]
+  },
+  "publisher_page": "doi.org redirected to linkinghub.elsevier.com (HTTP 200, redirect page to ScienceDirect PII S0895435626003902); the article page itself was not fetched",
+  "fields": {
+   "authors": {
+    "verified": true,
+    "value": "Pitre T, Zeraatkar D, Granton J, Busse J, Rochwerg B, Guyatt G",
+    "crossref": "Pitre T, Zeraatkar D, Granton J, Busse J, Rochwerg B, Guyatt G",
+    "pubmed": "Pitre T, Zeraatkar D, Granton J, Busse J, Rochwerg B, Guyatt G",
+    "source": "PubMed (initials as indexed) and Crossref (given names)"
+   },
+   "title": {
+    "verified": true,
+    "value": "A biomedical BERT ensemble (TITAN-SR) outperformed active learning and LLM chatbots for systematic-review title and abstract screening: development and external validation",
+    "source": "Crossref and PubMed"
+   },
+   "journal": {
+    "verified": true,
+    "value": "J Clin Epidemiol",
+    "source": "PubMed"
+   },
+   "article_number": {
+    "verified": true,
+    "value": "112514",
+    "source": "Crossref article-number and PubMed MedlinePgn"
+   },
+   "volume": {
+    "verified": true,
+    "value": null,
+    "note": "no volume assigned in either record (ahead of print)"
+   },
+   "online_date": {
+    "verified": true,
+    "value": "2026-09-21",
+    "source": "PubMed ArticleDate (Electronic)"
+   },
+   "status": {
+    "value": "aheadofprint",
+    "source": "PubMed"
+   },
+   "doi": {
+    "verified": true,
+    "value": "10.1016/j.jclinepi.2026.112514",
+    "source": "Crossref and PubMed"
+   },
+   "crossref_issued": {
+    "value": {
+     "date-parts": [
+      [
+       2026,
+       9
+      ]
+     ]
+    },
+    "note": "Crossref gives year and month only (2026-09)"
+   }
+  }
+ },
+ "finished": "2026-09-28 10:43:04 EDT"
+}

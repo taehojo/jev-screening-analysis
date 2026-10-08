@@ -1,0 +1,37 @@
+{
+ "analysis_id": "AN-0001-15 (npj round 1)",
+ "post_hoc": true,
+ "stage_A": {
+  "written": "2026-09-28 23:42:18 EDT",
+  "n_reviews": 28,
+  "protocols_identified": 6,
+  "protocols_usable": 5,
+  "usable_reviews": [
+   "CD009069",
+   "CD012551",
+   "CD012567",
+   "CD012661",
+   "CD012669"
+  ],
+  "identified_not_usable": [
+   "CD012768"
+  ],
+  "threshold": 8,
+  "stage_B_run": false
+ },
+ "stage_B_run": false,
+ "stage_C_run": false,
+ "paid_calls": 0,
+ "cost_usd": 0.0,
+ "reason": "fewer than eight CLEF 2019 reviews with a content-relevant record had a retrievable protocol with the Objectives and Criteria sections (plan threshold 8)",
+ "per_review_source": "stageA_decision.json",
+ "sources_tried": [
+  "Cochrane Library page (412 all)",
+  "Wiley page (403 all)",
+  "PubMed esearch/efetch",
+  "Europe PMC REST search",
+  "PMC esearch/esummary",
+  "PMC article page",
+  "Europe PMC fullTextXML (500/503 all)"
+ ]
+}

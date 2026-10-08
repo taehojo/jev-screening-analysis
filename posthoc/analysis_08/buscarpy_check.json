@@ -1,0 +1,27 @@
+{
+ "started": "2026-09-26 18:58:52 EDT",
+ "finished": "2026-09-26 18:59:14 EDT",
+ "n_points": 3148,
+ "n_reviews": 51,
+ "n_nan_buscarpy": 23,
+ "max_abs_diff_non_nan": 3.429695156348389e-11,
+ "n_decision_mismatch": 1,
+ "seconds_buscarpy_total": 113.28595757484436,
+ "pip_freeze": [
+  "buscarpy==0.0.2",
+  "contourpy==1.4.0",
+  "cycler==0.12.1",
+  "fonttools==4.66.0",
+  "kiwisolver==1.5.1",
+  "matplotlib==3.11.2",
+  "numpy==2.5.3",
+  "packaging==26.3",
+  "pandas==3.0.6",
+  "pillow==12.3.0",
+  "pyparsing==3.3.3",
+  "python-dateutil==2.9.0.post0",
+  "scipy==1.18.1",
+  "six==1.17.0"
+ ],
+ "note": "buscarpy.calculate_h0 returns nan when the smallest look-back window (the last screened record alone) has Ktar larger than its population (python min() over an array whose first element is nan); an08_stopping.py assigns p = 0 to such windows because H0 cannot hold there."
+}

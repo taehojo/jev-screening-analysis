@@ -1,0 +1,29 @@
+time	name	status	bytes	content_type	url	final_url
+2026-09-29 04:15:23 EDT	crossref_10.1016_j.iswa.2023.200193.json	PENDING			https://api.crossref.org/works/10.1016/j.iswa.2023.200193	
+2026-09-29 04:15:23 EDT	crossref_10.1016_j.iswa.2023.200193.json	200	11266	application/json	https://api.crossref.org/works/10.1016/j.iswa.2023.200193	https://api.crossref.org/works/10.1016/j.iswa.2023.200193
+2026-09-29 04:15:24 EDT	crossref_10.1186_1471-2105-11-55.json	PENDING			https://api.crossref.org/works/10.1186/1471-2105-11-55	
+2026-09-29 04:15:24 EDT	crossref_10.1186_1471-2105-11-55.json	200	17780	application/json	https://api.crossref.org/works/10.1186/1471-2105-11-55	https://api.crossref.org/works/10.1186/1471-2105-11-55
+2026-09-29 04:15:24 EDT	ucl_discovery_10164959.html	PENDING			https://discovery.ucl.ac.uk/id/eprint/10164959/	
+2026-09-29 04:15:25 EDT	ucl_discovery_10164959.html	403	5552	text/html; charset=UTF-8	https://discovery.ucl.ac.uk/id/eprint/10164959/	https://discovery.ucl.ac.uk/id/eprint/10164959/
+2026-09-29 04:15:25 EDT	repositum_188936.html	PENDING			https://repositum.tuwien.at/handle/20.500.12708/188936	
+2026-09-29 04:15:27 EDT	repositum_188936.html	200	26838	text/html	https://repositum.tuwien.at/handle/20.500.12708/188936	https://repositum.tuwien.at/handle/20.500.12708/188936
+2026-09-29 04:15:27 EDT	pubmed_efetch_20102628.xml	PENDING			https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=20102628	
+2026-09-29 04:15:28 EDT	pubmed_efetch_20102628.xml	200	17971	text/xml; charset=UTF-8	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=20102628	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=xml&id=20102628
+2026-09-29 04:15:42 EDT	repositum_188936_full.html	PENDING			https://repositum.tuwien.at/handle/20.500.12708/188936?mode=full	
+2026-09-29 04:15:44 EDT	repositum_188936_full.html	200	38511	text/html	https://repositum.tuwien.at/handle/20.500.12708/188936?mode=full	https://repositum.tuwien.at/handle/20.500.12708/188936?mode=full
+2026-09-29 04:15:44 EDT	doi_org_10.1016_j.iswa.2023.200193.html	PENDING			https://doi.org/10.1016/j.iswa.2023.200193	
+2026-09-29 04:15:45 EDT	doi_org_10.1016_j.iswa.2023.200193.html	200	2737	text/html;charset=UTF-8	https://doi.org/10.1016/j.iswa.2023.200193	https://linkinghub.elsevier.com/retrieve/pii/S2667305323000182
+2026-09-29 04:15:45 EDT	sciencedirect_S2667305323000182.html	PENDING			https://www.sciencedirect.com/science/article/pii/S2667305323000182	
+2026-09-29 04:15:45 EDT	sciencedirect_S2667305323000182.html	403	1207741	text/html; charset=UTF-8	https://www.sciencedirect.com/science/article/pii/S2667305323000182	https://www.sciencedirect.com/science/article/pii/S2667305323000182
+2026-09-29 04:16:10 EDT	pmc_efetch_PMC2824679_wallace.xml	PENDING			https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2824679&retmode=xml	
+2026-09-29 04:16:10 EDT	pmc_efetch_PMC2824679_wallace.xml	200	87224	text/xml; charset=UTF-8	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2824679&retmode=xml	https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2824679&retmode=xml
+2026-09-29 04:16:10 EDT	elsevier_api_S2667305323000182_kusa.xml	PENDING			https://api.elsevier.com/content/article/PII:S2667305323000182?httpAccept=text/xml	
+2026-09-29 04:16:11 EDT	elsevier_api_S2667305323000182_kusa.xml	200	1993	text/xml;charset=UTF-8	https://api.elsevier.com/content/article/PII:S2667305323000182?httpAccept=text/xml	https://api.elsevier.com/content/article/PII:S2667305323000182?httpAccept=text/xml
+2026-09-29 04:16:37 EDT	openalex_doi_10.1016_j.iswa.2023.200193.json	PENDING			https://api.openalex.org/works/doi:10.1016/j.iswa.2023.200193	
+2026-09-29 04:16:38 EDT	openalex_doi_10.1016_j.iswa.2023.200193.json	200	20819	application/json	https://api.openalex.org/works/doi:10.1016/j.iswa.2023.200193	https://api.openalex.org/works/doi:10.1016/j.iswa.2023.200193
+2026-09-29 04:16:38 EDT	s2_doi_10.1016_j.iswa.2023.200193.json	PENDING			https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.iswa.2023.200193?fields=openAccessPdf,externalIds,title	
+2026-09-29 04:16:39 EDT	s2_doi_10.1016_j.iswa.2023.200193.json	200	412	application/json	https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.iswa.2023.200193?fields=openAccessPdf,externalIds,title	https://api.semanticscholar.org/graph/v1/paper/DOI:10.1016/j.iswa.2023.200193?fields=openAccessPdf,externalIds,title
+2026-09-29 04:16:43 EDT	oro_87644_kusa.pdf	PENDING			https://oro.open.ac.uk/87644/1/87644.pdf	
+2026-09-29 04:16:43 EDT	oro_87644_kusa.pdf	403	5498	text/html; charset=UTF-8	https://oro.open.ac.uk/87644/1/87644.pdf	https://oro.open.ac.uk/87644/1/87644.pdf
+2026-09-29 04:16:44 EDT	ucl_10164959_kusa.pdf	PENDING			https://discovery.ucl.ac.uk/10164959/1/1-s2.0-S2667305323000182-main.pdf	
+2026-09-29 04:16:46 EDT	ucl_10164959_kusa.pdf	404	17145	text/html; charset=utf-8	https://discovery.ucl.ac.uk/10164959/1/1-s2.0-S2667305323000182-main.pdf	https://discovery.ucl.ac.uk/id/eprint/10164959/1/1-s2.0-S2667305323000182-main.pdf

@@ -1,0 +1,99 @@
+{
+ "analysis_id": "AN-0001-15",
+ "purpose": "Record what the gateway returns for the Jev endpoint and what the vendor documents, so that the provenance statements in the Methods rest on records (E1.08, E1.01, R4.1.02, R2.1.15, A0.14).",
+ "written": "2026-09-26 19:11 EDT (date)",
+ "probe": {
+  "source": "probe_record.json (an15_probe.mjs)",
+  "utc": "2026-09-26T23:00:44Z (response header date: Sat, 26 Sep 2026 23:00:44 GMT)",
+  "endpoint": "POST https://ai-gateway.vercel.sh/typesafe/v1/systemone",
+  "request_model": "typesafe-ai/jev",
+  "request_state": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+  "request_questions": {"q1": {"type": "noul", "instructions": "Is this statement about the boiling point of water?"}},
+  "http_status": 200,
+  "latency_ms": 648,
+  "answer": {"q1": {"type": "noul", "noul": 0.99}},
+  "usage": {"input_tokens": 290, "output_tokens": 21},
+  "cost_usd": 0.00001218,
+  "cost_source": "provider_metadata.gateway.marketCost (also cost, gatewayCost, inferenceCost, inputInferenceCost; surchargeCost 0)",
+  "credits_before_after": {"balance_before": "3.88868171", "balance_after": "3.88866953", "difference": 0.00001218},
+  "top_level_keys_in_body": ["model", "answers", "usage", "provider_metadata"],
+  "model_field_in_body": "typesafe-ai/jev (the gateway's canonical slug; provider_metadata.gateway.routing.originalModelId and canonicalSlug are the same string)",
+  "version_or_build_string_in_body": "none (no field other than the alias identifies a model version or build)",
+  "version_or_build_string_in_headers": "none (headers: access-control-*, cache-control, content-encoding, content-type, date, server: Vercel, strict-transport-security, transfer-encoding, x-matched-path: /typesafe/v1/systemone, x-vercel-cache, x-vercel-id)",
+  "provider_metadata_typesafe": {"confidence": {}},
+  "gateway_routing_observed": "resolvedProvider digitalocean (system credentials) failed with HTTP 503 'Service temporarily unavailable' in 110 ms; fallback provider typesafe-ai (system credentials) succeeded with HTTP 200 in 113 ms; finalProvider typesafe-ai; generationId gen_01M3FZ64FB4FYJ9Q1HS8XFR068",
+  "gateway_routing_note": "The gateway lists two providers for the model (TypeSafe AI and DigitalOcean); the original run script did not record which provider served each request (run_screen.mjs stores p and input_tokens only)."
+ },
+ "public_model_listing": {
+  "source": "probe_record.json step public_models_listing; sources/vercel_ai_gateway_v1_models.json (GET https://ai-gateway.vercel.sh/v1/models, no authorisation header, 391 models on 2026-09-26)",
+  "id": "typesafe-ai/jev",
+  "name": "Jev",
+  "owned_by": "typesafe-ai",
+  "type": "evaluation",
+  "created_epoch": 1755815280,
+  "created_utc": "2025-08-21T22:28:00Z",
+  "released_epoch": 1789430400,
+  "released_utc": "2026-09-15T00:00:00Z",
+  "description": "TypeSafe AI System One evaluation model. Accepts shared state and typed questions, returning choices, scores, and boolean probabilities. Limits: 64,000 tokens total per request; 32,000 tokens for the state plus the longest question. No streaming or output-token limit.",
+  "context_window": 32000,
+  "max_tokens": 0,
+  "pricing_per_token_usd": {"input": "0.000000042", "output": "0"},
+  "pricing_per_million_input_tokens_usd": 0.042,
+  "zdr": "none",
+  "no_training": "all",
+  "field_meaning_from_gateway_docs": "Vercel AI Gateway documentation (sources/vercel_docs_disallow_prompt_training.txt): 'No training on prompt data is available to all AI Gateway users at no extra charge ... Disallow prompt training is a subset of Zero Data Retention (ZDR). All ZDR-compliant providers also disallow prompt training, but not all providers that disallow prompt training offer full zero data retention.' The listing values therefore read: no provider of this model offers zero data retention through the gateway; all providers disallow training on prompts. The gateway page for the model (sources/vercel_model_page_jev.txt) lists two providers, TypeSafe AI and DigitalOcean, both 32K context, $0.04 per million input tokens, release date 09/15/2026."
+ },
+ "vendor_documentation": {
+  "fetched": "2026-09-26 19:00 to 19:10 EDT (sources/fetch_record.txt; HTML saved, text extracted to .txt; markdown pages of docs.typesafe.ai saved as .md)",
+  "release_status": {
+   "statement": "Our first public model is Jev, available today in early access. ... Today, we are opening early access and bringing developers off the waitlist as quickly as we can.",
+   "source": "sources/typesafe_blog_introducing_system_one_models_and_jev.txt (blog post dated Sep 15, 2026, by Diogo Almeida, founder; v0 reference 16)",
+   "release_date": "2026-09-15 (blog date; gateway listing released 2026-09-15T00:00:00Z; gateway model page release date 09/15/2026)"
+  },
+  "version_identifier": {
+   "statement": "The vendor's documentation lists one current model, 'Jev 1.13' with versioned ID jev-1.13.0, and two aliases (jev-latest and jev-preview, both pointing to jev-1.13.0); 'An alias moves when a new release ships, so the answers behind it can change without a change on your side. The response's model field reports the versioned ID that answered, so you can log which model produced each result.'",
+   "source": "sources/typesafe_docs_models.md (2026-09-26); the same table is present in the Internet Archive snapshot of models.md taken 2026-09-21 10:22 UTC (wayback_docs_typesafe_ai_models_md_20260921102206.bin.decoded.txt), in the snapshot of the models page of 2026-09-25 06:51 UTC and in llms.txt of 2026-09-24 16:09 UTC ('Jev 1.13 jaggedness' entry), that is, before and during the study runs of Sept 24-25",
+   "gateway_contrast": "Through the Vercel AI Gateway the response's model field is the alias typesafe-ai/jev (probe above) and the public listing has no versioned entry, so the version that served the study's requests is not recorded anywhere in the study's outputs. The v0 Methods sentence 'the vendor does not publish version identifiers' is incorrect for the direct API and is recorded in CORRECTIONS.md.",
+   "limitations_page": "sources/typesafe_docs_model-jaggedness_jev-1.13.md ('Applies to jev-1.13. Last reviewed 2026-09-17'): literal reading, unreliable counting and numeric comparison, date comparison as text, indirection, 'Large state full of irrelevant detail', adversarial content, contradictory criteria."
+  },
+  "model_size_architecture": "Not documented. The blog describes 'a new model architecture, parallel sampler ... and training method we call Reinforcement Learning for Calibrated Decisions (RLCD)'; no parameter count, architecture details or model card were found on the vendor pages (blog FAQ entries 'Is Jev just a smaller LLM?' and 'Where does our training data come from?' are collapsed and their answers are not in the served HTML).",
+  "training_data": "Not documented on the pages fetched. Documentation states 'Jev is not fine-tuned or LoRA-adapted with customer data. It is trained with RLCD to return calibrated decisions, and the same weights serve every account.' (docs models.md, Customizing Jev) and 'Jev is not trained on customer requests or responses.' (docs models.md, Data handling). No knowledge cut-off date is given.",
+  "language_coverage": {
+   "statement": "Jev accepts natural-language text. English is the primary training language and where accuracy is currently best. Other languages, including CJK scripts, are handled but not equally well; test on your own content before relying on Jev for a non-English workload, and pay close attention to Confidence when routing.",
+   "source": "sources/typesafe_docs_models.md, section Language support; also docs concepts/state.md: 'Jev's primary training language is English; other languages, including CJK scripts, are accepted but currently have lower accuracy'"
+  },
+  "input_limits": "Text only; 64k tokens per request, 32k tokens for state plus the longest question; rate limits 250,000 tokens per second and 1,200 requests per minute 'adjusting dynamically' (docs models.md); price $0.042 per million input tokens, output free (blog and docs).",
+  "calibration_claims_and_evaluation": {
+   "vendor_claim": "Always communicates confidence and uncertainty with every output. Calibrated: higher confidence means higher accuracy. More consistent: returns similar answers for similar inputs. (blog table, row Confidence)",
+   "vendor_definition": "Across many predictions from a well-calibrated model: Outcomes assigned a probability of 0.2 should occur about 20% of the time. ... These rates describe groups of predictions, not a guarantee about any single answer. (docs introduction/machine-learning-primer.md, RLCD and calibrated decisions); 'System One models are trained for calibrated decisions: their probabilities are optimized against outcomes to reflect uncertainty. Calibration is measured across groups of predictions; it does not guarantee that an individual answer is correct.' (docs concepts/system-one.md)",
+   "vendor_evaluation_method": "We made a new type of evaluation to measure how well AI works within code. We don't optimize for a ground truth classification ... Instead, we assume there is a correct compute graph (a 'workflow' represented in code) and use the predictions of the largest, smartest, and most expensive external models as reference probabilities. Rephrased: every model gets the same workflow. We test how they compare to the average of the smartest models (in this case, Astra and Fable). ... We use the average of GPT-6 Astra and Fable 5.1 as the reference answer, which biases answers towards OpenAI and Anthropic's models. (blog, Workflow evals and its Nuance)",
+   "reading": "The vendor's published evaluation measures agreement with reference probabilities produced by other large language models on the vendor's own workflows, not calibration against observed outcomes on an external labelled task; calibration against screening labels is assessed in AN-0001-01."
+  },
+  "data_retention_and_training_on_inputs": {
+   "vendor": "Legal page (docs legal.md): 'These documents cover how TypeSafe handles your data when you have an account with us, including data retention, our commitment not to train models on user data ... We also offer zero data retention (ZDR) for enterprise customers.' Data Processing Agreement (sources/typesafe_legal_data-processing.txt): Typesafe is the processor and will 'not ... retain, use, or disclose Customer Personal Data for any purpose other than in accordance with the Documented Instructions'; retention 'for as long as necessary taking into account the purpose of the Processing, and in compliance with applicable laws'. Master Customer Agreement (sources/typesafe_legal_mca.txt): 'Telemetry' (technical logs, hashes, summary statistics and classifications, metrics, and learnings) may be processed 'without restriction, including to improve the Services'. Privacy Policy (sources/typesafe_legal_privacy-policy.txt): personal data retained 'for as long as reasonably necessary to provide you with the Services, or otherwise in support of our business or commercial purposes'. No page states a retention period in days for API inputs.",
+   "gateway": "Vercel AI Gateway: 'AI Gateway does not use your prompts or responses for training purposes. Your data is processed solely to fulfill your requests and is not retained for model improvement.' and 'AI Gateway has agreements in place with specific providers regarding the use of prompt data for training. A provider's default policy may not match with the status that AI Gateway has in place due to these agreements.' (sources/vercel_docs_disallow_prompt_training.txt); listing for typesafe-ai/jev: no_training 'all', zdr 'none'.",
+   "applicability_to_this_study": "The study's requests went through the gateway with system credentials to the providers listed by the gateway; the vendor's own DPA and MCA apply to direct customers of TypeSafe and their applicability to gateway traffic is not stated on the pages fetched. Left as [TO CONFIRM] for the authors together with the terms of use."
+  },
+  "research_use_and_terms": "The Acceptable Use Policy (sources/typesafe_legal_acceptable-use-policy.txt) prohibits illegal, deceptive and abusive uses; no clause on research or publication was found. The Terms of Use of the website (sources/typesafe_legal_terms.txt) state that the site 'is intended for visitors located within the United States' and are governed by Delaware law. The Master Customer Agreement governs API accounts. Confirmation that the study's use complied with the applicable terms is a human item ([TO CONFIRM]).",
+  "company_location_A0.14": {
+   "statement": "The Site is offered by TypeSafe AI, Inc., located at 255 California St, Suite 1300, San Francisco, CA 94117.",
+   "source": "sources/typesafe_legal_terms.txt (Terms of Use, section Contact Information); the home page footer reads 'Made in SF. With Love.' (sources/typesafe_home.txt); the blog says 'our published evals are generally run from our laptops on the West Coast (this is where our service is currently based)'",
+   "reading": "'TypeSafe AI, Inc., San Francisco, CA, USA' is supported by the vendor's Terms of Use; the audit item A0.14 can be closed with this source."
+  },
+  "endpoint_identifiers": {
+   "gateway_path": "/typesafe/v1/systemone (response header x-matched-path)",
+   "gateway_model": "typesafe-ai/jev",
+   "vendor_direct_endpoint": "POST https://api.typesafe.ai/v1/systemone with model jev-latest, jev-preview or jev-1.13.0 (docs api.md, models.md); not used in this study",
+   "vendor_sdk": "TypeSafe Python SDK v0.5.7 (2026-09-14, initial public release) to v0.7.2 (2026-09-26) (docs sdk/python/changelog.md); not used in this study (the study used fetch() against the gateway)"
+  }
+ },
+ "reproducibility_statement_support": "Because the gateway alias can move to a new release without any change on the caller's side (vendor documentation, Aliases section) and the study's outputs carry no versioned identifier, the released score files are the only reproducible artefact of the primary analysis; results may not reproduce after a vendor update.",
+ "cost_recorded": "api_spend.csv row 2026-09-26 19:00:45 EDT: 0.00001218 USD (gateway marketCost); budget balance after this bundle 49.99998782 USD; gateway credit balance 3.88866953 USD",
+ "files": {
+  "probe_record.json": "full probe record (request body, response body, redacted response headers, credits before and after, public listing entry)",
+  "an15_probe.mjs": "probe script (reads the token from oidc.txt; never writes it)",
+  "an15_fetch_pages.sh": "first-stage page fetch script",
+  "sources/fetch_record.txt": "every URL fetched with HTTP status, size and time (first stage 19:00:40 to 19:00:43 EDT; second stage 19:01:16; docs stages 19:05 to 19:10; Wayback queries 19:06 to 19:10; legal stage 19:10)",
+  "sources/*.html, *.txt, *.md, *.json": "saved pages, extracted text, markdown pages, gateway listing, Wayback CDX indexes and decoded snapshots"
+ }
+}

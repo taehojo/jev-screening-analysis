@@ -1,0 +1,840 @@
+{
+ "started": "2026-09-28 23:31:58 EDT",
+ "reviews": {
+  "CD000996": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 200,
+   "europepmc_repeat_hits": [
+    {
+     "id": "10796575",
+     "source": "MED",
+     "pmid": "10796575",
+     "pmcid": null,
+     "doi": "10.1002/14651858.cd000996",
+     "title": "Inhaled steroids for bronchiectasis.",
+     "pubYear": "2000"
+    }
+   ],
+   "pmc_ids": [
+    "6494510"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494510",
+     "doi": "10.1002/14651858.cd000996.pub3",
+     "pmid": "29766487",
+     "title": "Inhaled corticosteroids for bronchiectasis.",
+     "pubdate": "2018 May 16",
+     "epubdate": "2018 May 16"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD001261": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494485"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494485",
+     "doi": "10.1002/14651858.cd001261.pub4",
+     "pmid": "29851031",
+     "title": "Vaccines for preventing typhoid fever.",
+     "pubdate": "2018 May 31",
+     "epubdate": "2018 May 31"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD004414": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494486"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494486",
+     "doi": "10.1002/14651858.cd004414.pub3",
+     "pmid": "29708265",
+     "title": "Interventions for preventing occupational irritant hand dermatitis.",
+     "pubdate": "2018 Apr 30",
+     "epubdate": "2018 Apr 30"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD006468": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6389340"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6389340",
+     "doi": "10.1002/14651858.cd006468.pub6",
+     "pmid": "29856471",
+     "title": "Anticoagulation for people with cancer and central venous catheters.",
+     "pubdate": "2018 Jun 1",
+     "epubdate": "2018 Jun 1"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD007867": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6513548"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6513548",
+     "doi": "10.1002/14651858.cd007867.pub2",
+     "pmid": "29864793",
+     "title": "Prescribed hypocaloric nutrition support for critically-ill adults.",
+     "pubdate": "2018 Jun 4",
+     "epubdate": "2018 Jun 4"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD008874": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6404686"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6404686",
+     "doi": "10.1002/14651858.cd008874.pub2",
+     "pmid": "29761867",
+     "title": "Airway physical examination tests for detection of difficult airway management in apparently normal adult patients.",
+     "pubdate": "2018 May 15",
+     "epubdate": "2018 May 15"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD009044": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6513463"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6513463",
+     "doi": "10.1002/14651858.cd009044.pub2",
+     "pmid": "30075057",
+     "title": "Diagnostic tests for autism spectrum disorder (ASD) in preschool children.",
+     "pubdate": "2018 Jul 24",
+     "epubdate": "2018 Jul 24"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD009069": {
+   "pubmed_protocol": {
+    "pmid": "25267916",
+    "doi": "10.1002/14651858.cd009069",
+    "pmc": "PMC4176676",
+    "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+    "year": "2011",
+    "is_protocol": false,
+    "abstract_start": "This is the protocol for a review and there is no abstract. The objectives are as follows: To evaluate the immunogenicity, clinical efficacy, and safety of prophylactic HPV vaccines in females. The assessment of clinical efficacy will address protection against HPV infection (for homologous and hete"
+   },
+   "pmc_ids": [
+    "6494566",
+    "6483806",
+    "4176676"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494566",
+     "doi": "10.1002/14651858.cd009069.pub3",
+     "pmid": "29740819",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "pubdate": "2018 May 9",
+     "epubdate": "2018 May 9"
+    },
+    {
+     "pmcid": "PMC6483806",
+     "doi": "10.1002/14651858.cd009069.pub2",
+     "pmid": null,
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "pubdate": "2013 Dec",
+     "epubdate": "2013 Dec 30"
+    },
+    {
+     "pmcid": "PMC4176676",
+     "doi": "10.1002/14651858.cd009069",
+     "pmid": "25267916",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "pubdate": "2011",
+     "epubdate": ""
+    }
+   ],
+   "pmc_protocol": [
+    {
+     "pmcid": "PMC4176676",
+     "doi": "10.1002/14651858.cd009069",
+     "pmid": "25267916",
+     "title": "Prophylactic vaccination against human papillomaviruses to prevent cervical cancer and its precursors.",
+     "pubdate": "2011",
+     "epubdate": ""
+    }
+   ],
+   "protocol_identified": true,
+   "fulltext": [
+    {
+     "pmcid": "PMC4176676",
+     "source": "pmc_html",
+     "status": 200,
+     "bytes": 216036,
+     "file": "CD009069_PMC4176676_pmc.html"
+    },
+    {
+     "pmcid": "PMC4176676",
+     "source": "europepmc_fullTextXML",
+     "status": 500,
+     "bytes": 150,
+     "file": "CD009069_PMC4176676_europepmc_fullTextXML.xml"
+    }
+   ]
+  },
+  "CD009642": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6513586"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6513586",
+     "doi": "10.1002/14651858.cd009642.pub3",
+     "pmid": "29864216",
+     "title": "Continuous intravenous perioperative lidocaine infusion for postoperative pain and recovery in adults.",
+     "pubdate": "2018 Jun 4",
+     "epubdate": "2018 Jun 4"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD010038": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 200,
+   "europepmc_repeat_hits": [],
+   "pmc_ids": [
+    "6494431"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494431",
+     "doi": "10.1002/14651858.cd010038.pub3",
+     "pmid": "29736980",
+     "title": "Face-to-face interventions for informing or educating parents about early childhood vaccination.",
+     "pubdate": "2018 May 8",
+     "epubdate": "2018 May 8"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD010239": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 503,
+   "europepmc_repeat_hits": null,
+   "pmc_ids": [
+    "6494481"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494481",
+     "doi": "10.1002/14651858.cd010239.pub2",
+     "pmid": "29726010",
+     "title": "Lower versus higher oxygen concentrations titrated to target oxygen saturations during resuscitation of preterm infants at birth.",
+     "pubdate": "2018 May 4",
+     "epubdate": "2018 May 4"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD010558": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 503,
+   "europepmc_repeat_hits": null,
+   "pmc_ids": [
+    "6494651"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494651",
+     "doi": "10.1002/14651858.cd010558.pub2",
+     "pmid": "29761488",
+     "title": "Psychological therapies for treatment-resistant depression in adults.",
+     "pubdate": "2018 May 14",
+     "epubdate": "2018 May 14"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD010753": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494576"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494576",
+     "doi": "10.1002/14651858.cd010753.pub2",
+     "pmid": "29761479",
+     "title": "Antidepressants for insomnia in adults.",
+     "pubdate": "2018 May 14",
+     "epubdate": "2018 May 14"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD011571": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6402274",
+    "6400423"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6402274",
+     "doi": "10.1002/14651858.cd001976.pub2",
+     "pmid": "30839103",
+     "title": "WITHDRAWN: Antistreptococcal interventions for guttate and chronic plaque psoriasis.",
+     "pubdate": "2019 Mar 6",
+     "epubdate": "2019 Mar 6"
+    },
+    {
+     "pmcid": "PMC6400423",
+     "doi": "10.1002/14651858.cd011571.pub2",
+     "pmid": "30835819",
+     "title": "Antistreptococcal interventions for guttate and chronic plaque psoriasis.",
+     "pubdate": "2019 Mar 5",
+     "epubdate": "2019 Mar 5"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD011686": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "10958760",
+    "6486014"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC10958760",
+     "doi": "10.1002/14651858.cd011686.pub3",
+     "pmid": "38517085",
+     "title": "Triage tools for detecting cervical spine injury in paediatric trauma patients.",
+     "pubdate": "2024 Mar 22",
+     "epubdate": "2024 Mar 22"
+    },
+    {
+     "pmcid": "PMC6486014",
+     "doi": "10.1002/14651858.cd011686.pub2",
+     "pmid": "29215711",
+     "title": "Triage tools for detecting cervical spine injury in pediatric trauma patients.",
+     "pubdate": "2017 Dec 7",
+     "epubdate": "2017 Dec 7"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD011768": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494551"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494551",
+     "doi": "10.1002/14651858.cd011768.pub2",
+     "pmid": "29775501",
+     "title": "Educational interventions for improving primary caregiver complementary feeding practices for children aged 24 months and under.",
+     "pubdate": "2018 May 18",
+     "epubdate": "2018 May 18"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD011787": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "10911892",
+    "8078227",
+    "5461870"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC10911892",
+     "doi": "10.1002/14651858.cd014765.pub2",
+     "pmid": "38438114",
+     "title": "Factors influencing the implementation of early discharge hospital at home and admission avoidance hospital at home: a qualitative evidence synthesis.",
+     "pubdate": "2024 Mar 5",
+     "epubdate": "2024 Mar 5"
+    },
+    {
+     "pmcid": "PMC8078227",
+     "doi": "10.1002/14651858.cd014765",
+     "pmid": null,
+     "title": "Factors influencing the implementation of early discharge hospital at home and\u00a0admission avoidance hospital at home: a qualitative evidence synthesis.",
+     "pubdate": "2021",
+     "epubdate": "2021 Mar 17"
+    },
+    {
+     "pmcid": "PMC5461870",
+     "doi": "10.1002/14651858.cd011787.pub2",
+     "pmid": "28169420",
+     "title": "Parents' and informal caregivers' views and experiences of communication about routine childhood vaccination: a synthesis of qualitative evidence.",
+     "pubdate": "2017 Feb 7",
+     "epubdate": "2017 Feb 7"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD011977": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494477"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494477",
+     "doi": "10.1002/14651858.cd011977.pub2",
+     "pmid": "29786830",
+     "title": "Blue-light filtering intraocular lenses (IOLs) for protecting macular health.",
+     "pubdate": "2018 May 22",
+     "epubdate": "2018 May 22"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD012069": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494554"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494554",
+     "doi": "10.1002/14651858.cd012069.pub2",
+     "pmid": "29744873",
+     "title": "Methylphenidate for attention deficit hyperactivity disorder (ADHD) in children and adolescents - assessment of adverse events in non-randomised studies.",
+     "pubdate": "2018 May 9",
+     "epubdate": "2018 May 9"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD012080": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6513531"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6513531",
+     "doi": "10.1002/14651858.cd012080.pub2",
+     "pmid": "29543326",
+     "title": "Non-invasive diagnostic tests for Helicobacter pylori infection.",
+     "pubdate": "2018 Mar 15",
+     "epubdate": "2018 Mar 15"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD012164": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6397791"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6397791",
+     "doi": "10.1002/14651858.cd012164.pub2",
+     "pmid": "30827037",
+     "title": "Subfascial endoscopic perforator surgery (SEPS) for treating venous leg ulcers.",
+     "pubdate": "2019 Mar 3",
+     "epubdate": "2019 Mar 3"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD012233": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6513652"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6513652",
+     "doi": "10.1002/14651858.cd012233.pub2",
+     "pmid": "30109701",
+     "title": "Transabdominal ultrasound and endoscopic ultrasound for diagnosis of gallbladder polyps.",
+     "pubdate": "2018 Aug 15",
+     "epubdate": "2018 Aug 15"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD012455": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6353085"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6353085",
+     "doi": "10.1002/14651858.cd012455.pub2",
+     "pmid": "29746721",
+     "title": "Melatonin for the promotion of sleep in adults in the intensive care unit.",
+     "pubdate": "2018 May 10",
+     "epubdate": "2018 May 10"
+    }
+   ],
+   "pmc_protocol": [],
+   "protocol_identified": false,
+   "fulltext": []
+  },
+  "CD012551": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6494451",
+    "6491290",
+    "6464272"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6494451",
+     "doi": "10.1002/14651858.cd012551.pub3",
+     "pmid": "29757454",
+     "title": "Non-pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome.",
+     "pubdate": "2018 May 12",
+     "epubdate": "2018 May 12"
+    },
+    {
+     "pmcid": "PMC6491290",
+     "doi": "10.1002/14651858.cd012551.pub2",
+     "pmid": "29372565",
+     "title": "Non-pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome.",
+     "pubdate": "2018 Jan 26",
+     "epubdate": "2018 Jan 26"
+    },
+    {
+     "pmcid": "PMC6464272",
+     "doi": "10.1002/14651858.cd012551",
+     "pmid": null,
+     "title": "Non\u2010pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome.",
+     "pubdate": "2017 Feb",
+     "epubdate": "2017 Feb 10"
+    }
+   ],
+   "pmc_protocol": [
+    {
+     "pmcid": "PMC6464272",
+     "doi": "10.1002/14651858.cd012551",
+     "pmid": null,
+     "title": "Non\u2010pharmacological interventions for treating chronic prostatitis/chronic pelvic pain syndrome.",
+     "pubdate": "2017 Feb",
+     "epubdate": "2017 Feb 10"
+    }
+   ],
+   "protocol_identified": true,
+   "fulltext": [
+    {
+     "pmcid": "PMC6464272",
+     "source": "pmc_html",
+     "status": 200,
+     "bytes": 206348,
+     "file": "CD012551_PMC6464272_pmc.html"
+    },
+    {
+     "pmcid": "PMC6464272",
+     "source": "europepmc_fullTextXML",
+     "status": 503,
+     "bytes": 190,
+     "file": "CD012551_PMC6464272_europepmc_fullTextXML.xml"
+    }
+   ]
+  },
+  "CD012567": {
+   "pubmed_protocol": null,
+   "pmc_ids": [
+    "6517226",
+    "6464503"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6517226",
+     "doi": "10.1002/14651858.cd012567.pub2",
+     "pmid": "30298516",
+     "title": "Positron emission tomography (PET) and magnetic resonance imaging (MRI) for assessing tumour resectability in advanced epithelial ovarian/fallopian tube/primary peritoneal cancer.",
+     "pubdate": "2018 Oct 8",
+     "epubdate": "2018 Oct 8"
+    },
+    {
+     "pmcid": "PMC6464503",
+     "doi": "10.1002/14651858.cd012567",
+     "pmid": null,
+     "title": "Positron emission tomography (PET) and magnetic resonance imaging (MRI) for assessing tumour resectability in advanced epithelial ovarian, fallopian tube and/or primary peritoneal cancer.",
+     "pubdate": "2017 Mar",
+     "epubdate": "2017 Mar 3"
+    }
+   ],
+   "pmc_protocol": [
+    {
+     "pmcid": "PMC6464503",
+     "doi": "10.1002/14651858.cd012567",
+     "pmid": null,
+     "title": "Positron emission tomography (PET) and magnetic resonance imaging (MRI) for assessing tumour resectability in advanced epithelial ovarian, fallopian tube and/or primary peritoneal cancer.",
+     "pubdate": "2017 Mar",
+     "epubdate": "2017 Mar 3"
+    }
+   ],
+   "protocol_identified": true,
+   "fulltext": [
+    {
+     "pmcid": "PMC6464503",
+     "source": "pmc_html",
+     "status": 200,
+     "bytes": 183238,
+     "file": "CD012567_PMC6464503_pmc.html"
+    },
+    {
+     "pmcid": "PMC6464503",
+     "source": "europepmc_fullTextXML",
+     "status": 503,
+     "bytes": 190,
+     "file": "CD012567_PMC6464503_europepmc_fullTextXML.xml"
+    }
+   ]
+  },
+  "CD012661": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 503,
+   "europepmc_repeat_hits": null,
+   "pmc_ids": [
+    "6516891",
+    "6481685"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6516891",
+     "doi": "10.1002/14651858.cd012661.pub2",
+     "pmid": "30371961",
+     "title": "Development of type 2 diabetes mellitus in people with intermediate hyperglycaemia.",
+     "pubdate": "2018 Oct 29",
+     "epubdate": "2018 Oct 29"
+    },
+    {
+     "pmcid": "PMC6481685",
+     "doi": "10.1002/14651858.cd012661",
+     "pmid": null,
+     "title": "Intermediate hyperglycaemia as a predictor for the development of type 2 diabetes: prognostic factor exemplar review.",
+     "pubdate": "2017 May",
+     "epubdate": "2017 May 12"
+    }
+   ],
+   "pmc_protocol": [
+    {
+     "pmcid": "PMC6481685",
+     "doi": "10.1002/14651858.cd012661",
+     "pmid": null,
+     "title": "Intermediate hyperglycaemia as a predictor for the development of type 2 diabetes: prognostic factor exemplar review.",
+     "pubdate": "2017 May",
+     "epubdate": "2017 May 12"
+    }
+   ],
+   "protocol_identified": true,
+   "fulltext": [
+    {
+     "pmcid": "PMC6481685",
+     "source": "pmc_html",
+     "status": 200,
+     "bytes": 225585,
+     "file": "CD012661_PMC6481685_pmc.html"
+    },
+    {
+     "pmcid": "PMC6481685",
+     "source": "europepmc_fullTextXML",
+     "status": 503,
+     "bytes": 190,
+     "file": "CD012661_PMC6481685_europepmc_fullTextXML.xml"
+    }
+   ]
+  },
+  "CD012669": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 503,
+   "europepmc_repeat_hits": null,
+   "pmc_ids": [
+    "6517180",
+    "6481509"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC6517180",
+     "doi": "10.1002/14651858.cd012669.pub2",
+     "pmid": "30548249",
+     "title": "Point-of-care ultrasonography for diagnosing thoracoabdominal injuries in patients with blunt trauma.",
+     "pubdate": "2018 Dec 12",
+     "epubdate": "2018 Dec 12"
+    },
+    {
+     "pmcid": "PMC6481509",
+     "doi": "10.1002/14651858.cd012669",
+     "pmid": null,
+     "title": "Point\u2010of\u2010care ultrasonography for diagnosing thoracoabdominal injuries in patients with blunt trauma.",
+     "pubdate": "2017 May",
+     "epubdate": "2017 May 19"
+    }
+   ],
+   "pmc_protocol": [
+    {
+     "pmcid": "PMC6481509",
+     "doi": "10.1002/14651858.cd012669",
+     "pmid": null,
+     "title": "Point\u2010of\u2010care ultrasonography for diagnosing thoracoabdominal injuries in patients with blunt trauma.",
+     "pubdate": "2017 May",
+     "epubdate": "2017 May 19"
+    }
+   ],
+   "protocol_identified": true,
+   "fulltext": [
+    {
+     "pmcid": "PMC6481509",
+     "source": "pmc_html",
+     "status": 200,
+     "bytes": 170546,
+     "file": "CD012669_PMC6481509_pmc.html"
+    },
+    {
+     "pmcid": "PMC6481509",
+     "source": "europepmc_fullTextXML",
+     "status": 503,
+     "bytes": 190,
+     "file": "CD012669_PMC6481509_europepmc_fullTextXML.xml"
+    }
+   ]
+  },
+  "CD012768": {
+   "pubmed_protocol": null,
+   "europepmc_repeat_status": 503,
+   "europepmc_repeat_hits": null,
+   "pmc_ids": [
+    "12320217",
+    "8078545",
+    "6513199",
+    "6483559"
+   ],
+   "pmc_records": [
+    {
+     "pmcid": "PMC12320217",
+     "doi": "10.1002/14651858.cd012768.pub4",
+     "pmid": "40757508",
+     "title": "Low-complexity automated nucleic acid amplification tests for extrapulmonary tuberculosis and rifampicin resistance in adults and adolescents.",
+     "pubdate": "2025 Aug 4",
+     "epubdate": "2025 Aug 4"
+    },
+    {
+     "pmcid": "PMC8078545",
+     "doi": "10.1002/14651858.cd012768.pub3",
+     "pmid": "33448348",
+     "title": "Xpert MTB/RIF Ultra and Xpert MTB/RIF assays for extrapulmonary tuberculosis and rifampicin resistance in adults.",
+     "pubdate": "2021 Jan 15",
+     "epubdate": "2021 Jan 15"
+    },
+    {
+     "pmcid": "PMC6513199",
+     "doi": "10.1002/14651858.cd012768.pub2",
+     "pmid": "30148542",
+     "title": "Xpert(\u00ae) MTB/RIF assay for extrapulmonary tuberculosis and rifampicin resistance.",
+     "pubdate": "2018 Aug 27",
+     "epubdate": "2018 Aug 27"
+    },
+    {
+     "pmcid": "PMC6483559",
+     "doi": "10.1002/14651858.cd012768",
+     "pmid": null,
+     "title": "Xpert\u00ae MTB/RIF assay for extrapulmonary tuberculosis and rifampicin resistance.",
+     "pubdate": "2017 Aug",
+     "epubdate": "2017 Aug 22"
+    }
+   ],
+   "pmc_protocol": [
+    {
+     "pmcid": "PMC6483559",
+     "doi": "10.1002/14651858.cd012768",
+     "pmid": null,
+     "title": "Xpert\u00ae MTB/RIF assay for extrapulmonary tuberculosis and rifampicin resistance.",
+     "pubdate": "2017 Aug",
+     "epubdate": "2017 Aug 22"
+    }
+   ],
+   "protocol_identified": true,
+   "fulltext": [
+    {
+     "pmcid": "PMC6483559",
+     "source": "pmc_html",
+     "status": 200,
+     "bytes": 21310,
+     "file": "CD012768_PMC6483559_pmc.html"
+    },
+    {
+     "pmcid": "PMC6483559",
+     "source": "europepmc_fullTextXML",
+     "status": 503,
+     "bytes": 190,
+     "file": "CD012768_PMC6483559_europepmc_fullTextXML.xml"
+    }
+   ]
+  }
+ },
+ "finished": "2026-09-28 23:35:09 EDT"
+}

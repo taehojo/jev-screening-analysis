@@ -1,0 +1,145 @@
+{
+ "analysis_id": "AN-0001-10",
+ "release_path": "/N/u/tjo/Quartz/.synergy_dataset_source/synergy-dataset-plus/",
+ "reproduction_check": {
+  "release_reviews": 119,
+  "release_records": 494338,
+  "release_incl": 10755,
+  "used114_release_records": 478478,
+  "used114_release_incl": 10679,
+  "used114_local_records": 168969,
+  "used114_local_incl": 4399,
+  "label_col": "label_included",
+  "heldout_release_records": 115054,
+  "heldout_release_incl": 1493,
+  "reproduces_stored_totals": true
+ },
+ "heldout": {
+  "describe": {
+   "n_reviews": 23,
+   "share_records_median": 0.3889871738168952,
+   "share_records_range": [
+    0.039220209943476754,
+    0.6777054997043169
+   ],
+   "share_records_iqr": [
+    0.2346997306995488,
+    0.45607100903309433
+   ],
+   "share_included_median": 0.4230769230769231,
+   "share_included_range": [
+    0.038461538461538464,
+    0.9333333333333333
+   ],
+   "share_included_iqr": [
+    0.25357142857142856,
+    0.5845313398504888
+   ],
+   "totals": {
+    "export_records": 33001,
+    "release_records": 115054,
+    "export_included": 597,
+    "release_included": 1493
+   },
+   "reviews_with_recall_below_1": 2,
+   "reviews_with_recall_below_0.95": 0
+  },
+  "spearman": {
+   "share_records~recall_at_tau": {
+    "rho": -0.01414490714236686,
+    "p": 0.9489252231160624,
+    "n": 23
+   },
+   "share_records~work_at_tau": {
+    "rho": 0.4011857707509882,
+    "p": 0.05778679831730355,
+    "n": 23
+   },
+   "share_records~jev_auc": {
+    "rho": -0.3557312252964427,
+    "p": 0.09573462668647759,
+    "n": 23
+   },
+   "share_included~recall_at_tau": {
+    "rho": 0.058600329589805565,
+    "p": 0.7905527948983446,
+    "n": 23
+   },
+   "share_included~work_at_tau": {
+    "rho": 0.3102766798418973,
+    "p": 0.1496137510331062,
+    "n": 23
+   },
+   "share_included~jev_auc": {
+    "rho": -0.24110671936758896,
+    "p": 0.2677434206454534,
+    "n": 23
+   }
+  }
+ },
+ "development73": {
+  "describe": {
+   "n_reviews": 73,
+   "share_records_median": 0.3306033762326592,
+   "share_records_range": [
+    0.15296841408963122,
+    0.707631318136769
+   ],
+   "share_records_iqr": [
+    0.2596322241681261,
+    0.43736263736263736
+   ],
+   "share_included_median": 0.36363636363636365,
+   "share_included_range": [
+    0.109375,
+    0.9574468085106383
+   ],
+   "share_included_iqr": [
+    0.2962962962962963,
+    0.5166666666666667
+   ],
+   "totals": {
+    "export_records": 52957,
+    "release_records": 166391,
+    "export_included": 2048,
+    "release_included": 5544
+   },
+   "reviews_with_recall_below_1": 5,
+   "reviews_with_recall_below_0.95": 1
+  },
+  "spearman": {
+   "share_records~recall_at_tau": {
+    "rho": 0.03251608302249358,
+    "p": 0.784780444059836,
+    "n": 73
+   },
+   "share_records~work_at_tau": {
+    "rho": 0.31571640133283974,
+    "p": 0.006510605321157919,
+    "n": 73
+   },
+   "share_records~jev_auc": {
+    "rho": -0.21614075143145292,
+    "p": 0.0662676909284863,
+    "n": 73
+   },
+   "share_included~recall_at_tau": {
+    "rho": 0.023324812841058685,
+    "p": 0.8447085950439177,
+    "n": 73
+   },
+   "share_included~work_at_tau": {
+    "rho": 0.16914425194611113,
+    "p": 0.15255744032770563,
+    "n": 73
+   },
+   "share_included~jev_auc": {
+    "rho": -0.026468047282052595,
+    "p": 0.8240968339660184,
+    "n": 73
+   }
+  }
+ },
+ "note": "Spearman correlation, scipy.stats.spearmanr default (P from the t distribution). Recall at tau is 1 in most held-out reviews, so its variation is limited.",
+ "finished": "2026-09-28T20:08:39-04:00"
+}

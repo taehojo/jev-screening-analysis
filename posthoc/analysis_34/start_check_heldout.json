@@ -1,0 +1,487 @@
+{
+ "Abgaz_2023": {
+  "N": 288,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.92,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Attai_2022": {
+  "N": 1726,
+  "start_len_by_seed": [
+   5,
+   4,
+   2,
+   3,
+   5,
+   2,
+   3,
+   5,
+   2,
+   3
+  ],
+  "distinct_start_sets": 8,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Boersma-van_Dam_2024": {
+  "N": 578,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.83,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   0,
+   1
+  ]
+ },
+ "Bos_2018": {
+  "N": 2241,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 3,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Bosch_2021": {
+  "N": 1716,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 2,
+  "top_p": 0.93,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Chakraborty_2023": {
+  "N": 2233,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.84,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Chueca_2023": {
+  "N": 609,
+  "start_len_by_seed": [
+   5,
+   4,
+   4,
+   4,
+   4,
+   5,
+   5,
+   3,
+   3,
+   4
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.89,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Donners_2021": {
+  "N": 119,
+  "start_len_by_seed": [
+   9,
+   9,
+   8,
+   8,
+   9,
+   9,
+   9,
+   9,
+   9,
+   9
+  ],
+  "distinct_start_sets": 2,
+  "top_p": 0.97,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Eggmann_2023": {
+  "N": 266,
+  "start_len_by_seed": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.94,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Hall_2011": {
+  "N": 340,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.91,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Harms_2024": {
+  "N": 840,
+  "start_len_by_seed": [
+   5,
+   4,
+   5,
+   4,
+   4,
+   3,
+   3,
+   5,
+   3,
+   4
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.92,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Kerschbaumer_2024b": {
+  "N": 1146,
+  "start_len_by_seed": [
+   13,
+   16,
+   13,
+   12,
+   15,
+   14,
+   17,
+   12,
+   16,
+   17
+  ],
+  "distinct_start_sets": 8,
+  "top_p": 0.95,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Lewowski_2021": {
+  "N": 329,
+  "start_len_by_seed": [
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8,
+   8
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.92,
+  "n_records_at_top_p": 2,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Menon_2022": {
+  "N": 485,
+  "start_len_by_seed": [
+   4,
+   3,
+   3,
+   3,
+   4,
+   4,
+   3,
+   3,
+   4,
+   3
+  ],
+  "distinct_start_sets": 2,
+  "top_p": 0.85,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Moran_2020": {
+  "N": 1992,
+  "start_len_by_seed": [
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10,
+   10
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.86,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Parodis_2023b": {
+  "N": 1679,
+  "start_len_by_seed": [
+   2,
+   3,
+   4,
+   3,
+   4,
+   2,
+   3,
+   2,
+   2,
+   4
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.89,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Roberts_2021": {
+  "N": 883,
+  "start_len_by_seed": [
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6,
+   6
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.81,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Seghers_2022": {
+  "N": 1759,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.86,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Theobald_2021": {
+  "N": 70,
+  "start_len_by_seed": [
+   2,
+   3,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 4,
+  "top_p": 0.89,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   0
+  ]
+ },
+ "Toffalini_2021": {
+  "N": 328,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.93,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Tumkaya_2018": {
+  "N": 481,
+  "start_len_by_seed": [
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3,
+   3
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.67,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ },
+ "Walker_2018": {
+  "N": 11735,
+  "start_len_by_seed": [
+   2,
+   3,
+   5,
+   2,
+   4,
+   3,
+   6,
+   5,
+   2,
+   3
+  ],
+  "distinct_start_sets": 10,
+  "top_p": 0.95,
+  "n_records_at_top_p": 9,
+  "labels_at_top_p": [
+   0,
+   1
+  ]
+ },
+ "van_der_Waal_2022": {
+  "N": 1158,
+  "start_len_by_seed": [
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2,
+   2
+  ],
+  "distinct_start_sets": 1,
+  "top_p": 0.89,
+  "n_records_at_top_p": 1,
+  "labels_at_top_p": [
+   1
+  ]
+ }
+}

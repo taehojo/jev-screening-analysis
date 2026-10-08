@@ -1,0 +1,215 @@
+{
+ "analysis_id": "AN-0002-03",
+ "started": "2026-09-27 21:03:05 EDT",
+ "page": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+ "access_time_live_copy_utc": "20260926230040",
+ "note": "post hoc documentary check; no model call; no manuscript content or study record sent",
+ "cdx_query": {
+  "url": "https://web.archive.org/cdx/search/cdx?url=typesafe.ai/blog/introducing-system-one-models-and-jev&output=json&fl=timestamp,statuscode,digest,mimetype,original",
+  "status": null,
+  "time": "2026-09-27 21:20:16 EDT",
+  "attempts": [
+   {
+    "time": "2026-09-27 21:03:05 EDT",
+    "status": 503
+   },
+   {
+    "time": "2026-09-27 21:03:25 EDT",
+    "status": 503
+   },
+   {
+    "time": "2026-09-27 21:04:00 EDT",
+    "status": 503
+   },
+   {
+    "time": "2026-09-27 21:05:05 EDT",
+    "status": 503
+   },
+   {
+    "time": "2026-09-27 21:07:06 EDT",
+    "status": 503
+   },
+   {
+    "time": "2026-09-27 21:11:11 EDT",
+    "status": 503
+   },
+   {
+    "time": "2026-09-27 21:19:16 EDT",
+    "status": "error: TimeoutError: The read operation timed out"
+   }
+  ]
+ },
+ "cdx_source": "re-query failed; saved round 1 index (2026-09-26 19:08 EDT) used",
+ "cdx_n_rows": 15,
+ "cdx_n_status200": 15,
+ "cdx_first": "20260915192610",
+ "cdx_last": "20260926091045",
+ "cdx_n_distinct_digests_status200": 15,
+ "live_copy": {
+  "html": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-15/sources/typesafe_blog_introducing_system_one_models_and_jev.html",
+  "sha256": "4b272b2da9efd910399f9a7ddedafa6f3215a54d96dfeeeab67564aa711415b9",
+  "n_text_lines": 3,
+  "sentence_present": true,
+  "date_present": true
+ },
+ "snapshots": {
+  "earliest": {
+   "cdx_timestamp": "20260915192610",
+   "cdx_digest": "2JAOZMQZ4CHTG3TMTHPKIDVMDK2LQ6IY",
+   "snapshot_url": "https://web.archive.org/web/20260915192610/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "fetched_url": "https://web.archive.org/web/20260915192610id_/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "http_status": 200,
+   "fetch_time": "2026-09-27 21:20:16 EDT",
+   "attempts": [
+    {
+     "time": "2026-09-27 21:20:16 EDT",
+     "status": 200
+    }
+   ],
+   "saved_as": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260915192610_id.html",
+   "bytes": 42076,
+   "sha256": "b0be67cc6a53aa0084a8de62a7720ce92084138ec1528adb1e53c417e7ff11b4",
+   "n_text_lines": 1007,
+   "sentence_present": false,
+   "sentence_keys_present": {
+    "GPT-6 Astra": false,
+    "Fable 5.1": false,
+    "reference answer": false
+   },
+   "date_present": false,
+   "sentence_lines": [],
+   "diff_vs_live": {
+    "n_removed_lines": 3,
+    "n_added_lines": 1007,
+    "file": "diff_live_vs_20260915192610.txt"
+   }
+  },
+  "latest_at_or_before_access": {
+   "cdx_timestamp": "20260926091045",
+   "cdx_digest": "YAV2UK22C46GM6IOCUZY6O5PYUVTRIVS",
+   "snapshot_url": "https://web.archive.org/web/20260926091045/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "fetched_url": "https://web.archive.org/web/20260926091045id_/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "http_status": 200,
+   "fetch_time": "2026-09-27 21:20:17 EDT",
+   "attempts": [
+    {
+     "time": "2026-09-27 21:20:17 EDT",
+     "status": 200
+    }
+   ],
+   "saved_as": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260926091045_id.html",
+   "bytes": 43983,
+   "sha256": "d9e6f8ce0add5da5995af4e91fd199e8af93b624ff3b9f22e2b12e02a59bae5c",
+   "n_text_lines": 911,
+   "sentence_present": false,
+   "sentence_keys_present": {
+    "GPT-6 Astra": false,
+    "Fable 5.1": false,
+    "reference answer": false
+   },
+   "date_present": false,
+   "sentence_lines": [],
+   "diff_vs_live": {
+    "n_removed_lines": 3,
+    "n_added_lines": 911,
+    "file": "diff_live_vs_20260926091045.txt"
+   }
+  }
+ },
+ "live_html_text_vs_round1_txt_n_diff_lines": 135,
+ "text_provenance": {
+  "source": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/audit_fix_iter4/fx41_text_provenance.json",
+  "source_written": "2026-09-27 19:31:23 EDT",
+  "texts": {
+   "pilot_criteria_block": {
+    "n_entries": 12,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "jev_question": {
+    "n_entries": 49,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "batch_preamble": {
+    "n_entries": 39,
+    "first_time_et": "2026-09-24 17:31:36 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 17:31:36 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "rephrasing_1": {
+    "n_entries": 36,
+    "first_time_et": "2026-09-24 19:00:13 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:00:13 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "rephrasing_2": {
+    "n_entries": 36,
+    "first_time_et": "2026-09-24 19:00:13 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:00:13 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "llm_system_prompt": {
+    "n_entries": 46,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "verbalised_scale_sentence": {
+    "n_entries": 46,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "criteria_block_template": {
+    "n_entries": 51,
+    "first_time_et": "2026-09-24 18:04:39 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 18:04:39 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "clef_criteria_sections": {
+    "n_entries": 7,
+    "first_time_et": "2026-09-25 09:49:41 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-25 09:49:41 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "mismatch_control_file": {
+    "n_entries": 77,
+    "first_time_et": "2026-09-24 19:09:11 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:09:11 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "title_only_control_file": {
+    "n_entries": 75,
+    "first_time_et": "2026-09-24 19:09:11 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:09:11 EDT",
+    "first_any_model": "claude-opus-5-5"
+   }
+  }
+ },
+ "finished": "2026-09-27 21:20:17 EDT"
+}

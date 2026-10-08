@@ -1,0 +1,22 @@
+{
+ "reviews": 54,
+ "truncated_equal_in_every_review": true,
+ "query_tokens_plus_2_equal_an13_in_every_review": true,
+ "reviews_where_query_cut_in_any_pair": [
+  "test:Abgaz_2023",
+  "test:Attai_2022",
+  "test:Boersma-van_Dam_2024",
+  "test:Bos_2018",
+  "test:Chakraborty_2023",
+  "test:Chueca_2023",
+  "test:Kerschbaumer_2024b",
+  "test:Lewowski_2021",
+  "test:Menon_2022",
+  "test:Moran_2020",
+  "test:Parodis_2023b",
+  "test:Theobald_2021",
+  "test:Toffalini_2021",
+  "test:Walker_2018",
+  "clef:CD009044"
+ ]
+}

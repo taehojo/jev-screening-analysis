@@ -1,0 +1,13 @@
+collection,option,runs_per_review,review_run_pairs,pairs_recall_ge_095,proportion,reviews_with_at_least_one_run_below_095,lowest_single_run_recall,mean_based_reliable_reviews_table3,n_reviews
+heldout,threshold,1,23,23,1.000000,0,0.958333,23,23
+heldout,knee150_asr,10,230,224,0.973913,3,0.015625,20,23
+heldout,knee1000_asr,10,230,230,1.000000,0,not stored,23,23
+heldout,combined_workflow,10,230,230,1.000000,0,1.000000,23,23
+heldout,stat_asreview,10,230,230,1.000000,0,0.992593,23,23
+heldout,threshold_plus_sample_check,10,230,230,1.000000,0,0.958333,23,23
+clef,threshold,1,28,25,0.892857,3,0.888889,25,28
+clef,knee150_asr,10,280,273,0.975000,2,0.111111,26,28
+clef,knee1000_asr,10,280,280,1.000000,0,not stored,28,28
+clef,combined_workflow,10,280,280,1.000000,0,1.000000,28,28
+clef,stat_asreview,10,280,280,1.000000,0,0.983673,28,28
+clef,threshold_plus_sample_check,10,280,280,1.000000,0,0.972973,28,28

@@ -1,0 +1,179 @@
+{
+ "synergy": {
+  "held_out_23": {
+   "n": 23,
+   "criteria_chars_median": 973.0,
+   "criteria_chars_min": 220,
+   "criteria_chars_max": 2172,
+   "criteria_chars_iqr": [
+    637.5,
+    1445.0
+   ],
+   "criteria_words_median": 145.0,
+   "criteria_words_min": 33,
+   "criteria_words_max": 298,
+   "block_chars_median": 1614.0,
+   "block_chars_min": 577,
+   "block_chars_max": 2755,
+   "block_words_median": 220.0,
+   "protocol_flag_1": 8,
+   "protocol_flag_0": 15,
+   "research_question_present": 23
+  },
+  "development_73_used": {
+   "n": 73,
+   "criteria_chars_median": 939.0,
+   "criteria_chars_min": 148,
+   "criteria_chars_max": 2756,
+   "criteria_chars_iqr": [
+    562.0,
+    1281.0
+   ],
+   "criteria_words_median": 137.0,
+   "criteria_words_min": 19,
+   "criteria_words_max": 429,
+   "block_chars_median": 1452.0,
+   "block_chars_min": 557,
+   "block_chars_max": 3194,
+   "block_words_median": 193.0,
+   "protocol_flag_1": 32,
+   "protocol_flag_0": 41,
+   "research_question_present": 73
+  },
+  "development_all_91": {
+   "n": 91,
+   "criteria_chars_median": 930.0,
+   "criteria_chars_min": 148,
+   "criteria_chars_max": 2756,
+   "criteria_chars_iqr": [
+    566.5,
+    1271.5
+   ],
+   "criteria_words_median": 133.0,
+   "criteria_words_min": 19,
+   "criteria_words_max": 429,
+   "block_chars_median": 1389.0,
+   "block_chars_min": 557,
+   "block_chars_max": 3194,
+   "block_words_median": 190.0,
+   "protocol_flag_1": 39,
+   "protocol_flag_0": 52,
+   "research_question_present": 91
+  },
+  "all_114": {
+   "n": 114,
+   "criteria_chars_median": 936.0,
+   "criteria_chars_min": 148,
+   "criteria_chars_max": 2756,
+   "criteria_chars_iqr": [
+    611.0,
+    1287.0
+   ],
+   "criteria_words_median": 137.0,
+   "criteria_words_min": 19,
+   "criteria_words_max": 429,
+   "block_chars_median": 1429.0,
+   "block_chars_min": 557,
+   "block_chars_max": 3194,
+   "block_words_median": 194.0,
+   "protocol_flag_1": 47,
+   "protocol_flag_0": 67,
+   "research_question_present": 114
+  },
+  "shortest_criteria_reviews": [
+   {
+    "review": "Bech_2019",
+    "split": "train",
+    "criteria_chars": 148,
+    "criteria_words": 19
+   },
+   {
+    "review": "Donners_2021",
+    "split": "test",
+    "criteria_chars": 220,
+    "criteria_words": 36
+   },
+   {
+    "review": "Webers_2022",
+    "split": "train",
+    "criteria_chars": 234,
+    "criteria_words": 27
+   },
+   {
+    "review": "Harms_2024",
+    "split": "test",
+    "criteria_chars": 240,
+    "criteria_words": 33
+   },
+   {
+    "review": "Kapuka_2021",
+    "split": "train",
+    "criteria_chars": 265,
+    "criteria_words": 33
+   }
+  ],
+  "longest_criteria_reviews": [
+   {
+    "review": "Deckers_2022",
+    "split": "train",
+    "criteria_chars": 2756,
+    "criteria_words": 429
+   },
+   {
+    "review": "Marques_2021",
+    "split": "train",
+    "criteria_chars": 2387,
+    "criteria_words": 331
+   },
+   {
+    "review": "Ramiro_2015",
+    "split": "train",
+    "criteria_chars": 2368,
+    "criteria_words": 302
+   },
+   {
+    "review": "Sepriano_2022",
+    "split": "train",
+    "criteria_chars": 2229,
+    "criteria_words": 272
+   },
+   {
+    "review": "Theobald_2021",
+    "split": "test",
+    "criteria_chars": 2172,
+    "criteria_words": 298
+   }
+  ]
+ },
+ "synergy_provenance": {
+  "deposit_metadata_json": "In the SYNERGY+ 3.0 deposit downloaded on 2026-09-24 (~/.synergy_dataset_source/synergy-dataset-plus/<key>/metadata.json), eligibility_criteria sits under the \"publication\" object together with the DOI of the review publication; example key Abgaz_2023.",
+  "package_readme": "synergy-dataset 2.2 README (PyPI, fetched 2026-09-26): \"eligibility_criteria: the screening criteria text from metadata.json (overwritten by reviews.csv Eligibility Criteria, if available)\". No statement that criteria were taken from protocols.",
+  "classic_datasets_toml": "The repository file datasets.toml (master branch, fetched 2026-09-26) stores eligibility_criteria under [datasets.publication].",
+  "reviews_csv_protocol_column": "reviews.csv has a column \"Protocol\" (0/1) with no definition in the files available to us; its distribution is reported but not interpreted as the source of the criteria text.",
+  "conclusion": "The metadata attributes the criteria text to the review publication; whether the text was drafted at protocol stage cannot be determined from the dataset documentation.",
+  "example_text_evidence": "Abgaz_2023 criteria text refers to \"details of which are provided at the end of this subsection\", wording copied from the published paper."
+ },
+ "clef": {
+  "n": 31,
+  "criteria_chars_median": 348.0,
+  "criteria_chars_min": 122,
+  "criteria_chars_max": 936,
+  "criteria_words_median": 49.0,
+  "criteria_words_min": 18,
+  "criteria_words_max": 126,
+  "block_chars_median": 812.0,
+  "block_chars_min": 457,
+  "block_chars_max": 2386,
+  "abstract_version_years": {
+   "2017": 3,
+   "2018": 26,
+   "2019": 2
+  },
+  "source_rule": "clef/build_clef.py: PubMed search \"<CD number> AND Cochrane Database Syst Rev\"; the Objectives and Selection criteria sections of the abstract of the latest version published by 2019, else the earliest available version; the Cochrane review abstracts describe the completed review, not the protocol."
+ },
+ "pilot": {
+  "block_chars": 1199,
+  "block_words": 144,
+  "source": "Authors summary of the review protocol eligibility criteria (synergy/dhl_criteria.json; screen/run_screen.mjs CRITERIA)"
+ }
+}

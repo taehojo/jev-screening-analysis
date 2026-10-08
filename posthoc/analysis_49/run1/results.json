@@ -1,0 +1,738 @@
+{
+ "analysis": "AN-0002-03",
+ "manuscript_analysis_number": 49,
+ "post_hoc": true,
+ "started": "2026-09-29 04:28:55 EDT",
+ "environment": {
+  "scipy": "1.18.1",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3"
+ },
+ "part_a": {
+  "n_comparisons": 383,
+  "by_assigned_location": {
+   "Supplementary Note 16": 10,
+   "Supplementary Table 20": 75,
+   "Supplementary Table 22": 8,
+   "Supplementary Table 25": 8,
+   "Supplementary Table 26": 31,
+   "Supplementary Table 52": 27,
+   "Supplementary Table 58": 222,
+   "search": 2
+  },
+  "by_source": {
+   "AN-0001-02": 75,
+   "AN-0001-02 (npj)": 8,
+   "AN-0001-03": 222,
+   "AN-0001-03 (npj)": 8,
+   "AN-0001-04": 5,
+   "AN-0001-08": 36,
+   "AN-0001-13": 27,
+   "original": 2
+  },
+  "n_printed_p_found_in_assigned_text": 283,
+  "n_printed_p_not_found_in_assigned_text": 90,
+  "not_found": [
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_final|hybrid_minus_jevonly|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.500",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_final|pseudo_minus_jevonly|rec@10",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.345",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_final|pseudo_minus_jevonly|rec@20",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.388",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_final|pseudo_minus_jevonly|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.333",
+    "p_string_found_elsewhere_in_SI_tables": "Table 24;Table 25;Table 28;Table 33;Table 35;Table 42"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_final|hybrid_minus_jevonly_stable|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.500",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_ta|jevonly_minus_asr|wss95",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.622",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_ta|jevonly_minus_asr|wss100",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.380",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_ta|jevonly_minus_asr|rec@20",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.204",
+    "p_string_found_elsewhere_in_SI_tables": "Table 11;Table 25"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "heldout_ta|jevonly_minus_asr|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.339",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "clef_final|hybrid_minus_jevonly|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "clef_final|jevonly_minus_asr|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.155",
+    "p_string_found_elsewhere_in_SI_tables": "Table 23;Table 25"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "clef_final|pseudo_minus_jevonly|wss95",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.124",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25;Table 58"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "clef_final|pseudo_minus_jevonly|rec@20",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.859",
+    "p_string_found_elsewhere_in_SI_tables": "Table 23;Table 43;Table 47"
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "clef_final|pseudo_minus_jevonly|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.612",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-02",
+    "key": "clef_final|hybrid_minus_jevonly_stable|rec@30",
+    "assigned": "Supplementary Table 20",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_1_minus_asr_jevblend_3|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|wss95",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.617",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.821",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 19;Table 21;Table 59"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.590",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.535",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.331",
+    "p_string_found_elsewhere_in_SI_tables": "Table 11"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.648",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_2_minus_asr_jevblend_3|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_5_minus_asr_jevblend_3|wss95",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.392",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_5_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.867",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 11;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_5_minus_asr_jevblend_3|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.687",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_5_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.374",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_5_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.668",
+    "p_string_found_elsewhere_in_SI_tables": "Table 56"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_10_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.196",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_10_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.695",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_10_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.982",
+    "p_string_found_elsewhere_in_SI_tables": "Table 33;Table 37;Table 40;Table 43;Table 45;Table 54"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_10_minus_asr_jevblend_3|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_1_minus_jev_only|wss95",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.881",
+    "p_string_found_elsewhere_in_SI_tables": "Table 56"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_1_minus_jev_only|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.375",
+    "p_string_found_elsewhere_in_SI_tables": "Table 56"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_1_minus_jev_only|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.324",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_1_minus_jev_only|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.297",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "development|asr_jevblend_1_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.849",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_2_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_2_minus_asr_jevblend_3|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.655",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25;Table 53"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_2_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_asr_jevblend_3|wss95",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.421",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_asr_jevblend_3|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.748",
+    "p_string_found_elsewhere_in_SI_tables": "Table 59"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "1.000",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 24;Table 25;Table 28;Table 29;Table 32"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_asr_jevblend_3|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "1.000",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 24;Table 25;Table 28;Table 29;Table 32"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_10_minus_asr_jevblend_3|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.289",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_10_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.352",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_10_minus_asr_jevblend_3|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.345",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_10_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "1.000",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 24;Table 25;Table 28;Table 29;Table 32"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_10_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.878",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 11;Table 23;Table 54"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_2_minus_jev_only|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.205",
+    "p_string_found_elsewhere_in_SI_tables": "Table 11"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_2_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.500",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_3_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.500",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_jev_only|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.237",
+    "p_string_found_elsewhere_in_SI_tables": "Table 6;Table 8;Table 20"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "heldout|asr_jevblend_5_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.500",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_asr_jevblend_3|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.590",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_asr_jevblend_3|rec@10",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.910",
+    "p_string_found_elsewhere_in_SI_tables": "Table 41;Table 54;Table 56"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_asr_jevblend_3|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_asr_jevblend_3|wss100",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.230",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_asr_jevblend_3|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.317",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_asr_jevblend_3|knee_work",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.569",
+    "p_string_found_elsewhere_in_SI_tables": "Table 6"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_asr_jevblend_3|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.655",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25;Table 53"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_3_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_3_minus_asr_prior|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.345",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_5_minus_asr_prior|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.225",
+    "p_string_found_elsewhere_in_SI_tables": "Table 10;Table 23"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_jev_only|rec@20",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.173",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_jev_only|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.345",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|asr_jevblend_10_minus_asr_prior|knee_rec",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.600",
+    "p_string_found_elsewhere_in_SI_tables": "Table 54"
+   },
+   {
+    "source": "AN-0001-03",
+    "key": "clef|jev_only_minus_asr_prior|rec@30",
+    "assigned": "Supplementary Table 58",
+    "p_default_printed_format": "0.155",
+    "p_string_found_elsewhere_in_SI_tables": "Table 23;Table 25"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|stat_jev_only_minus_threshold_recall",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.180",
+    "p_string_found_elsewhere_in_SI_tables": "Table 11;Table 20;Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|stat_asreview_minus_knee_asreview_recall",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.144",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 20;Table 52"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|stat_hybrid_minus_knee_hybrid_work",
+    "assigned": "Supplementary Table 26",
+    "p_default_printed_format": "0.560",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|comb_minus_stat_jev_only_work",
+    "assigned": "Supplementary Table 26",
+    "p_default_printed_format": "0.109",
+    "p_string_found_elsewhere_in_SI_tables": "Table 4;Table 25;Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|atd_hybrid_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|atd_jev_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|stat_jev_only_minus_threshold_recall",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.109",
+    "p_string_found_elsewhere_in_SI_tables": "Table 4;Table 25;Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|stat_jev_only_minus_stat_asreview_work",
+    "assigned": "Supplementary Table 26",
+    "p_default_printed_format": "0.135",
+    "p_string_found_elsewhere_in_SI_tables": "Table 17;Table 20;Table 23;Table 41;Table 52;Table 53"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|stat_asreview_minus_knee_asreview_work",
+    "assigned": "Supplementary Table 26",
+    "p_default_printed_format": "0.245",
+    "p_string_found_elsewhere_in_SI_tables": "Table 46;Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|stat_asreview_minus_knee_asreview_recall",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.138",
+    "p_string_found_elsewhere_in_SI_tables": "Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|comb_minus_stat_jev_only_work",
+    "assigned": "Supplementary Table 26",
+    "p_default_printed_format": "0.180",
+    "p_string_found_elsewhere_in_SI_tables": "Table 11;Table 20;Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|atd_hybrid_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|atd_jev_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.00053",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|atd_hybrid_minus_jev",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.0034",
+    "p_string_found_elsewhere_in_SI_tables": "Table 20;Table 22;Table 23;Table 25;Table 58"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|reliability|asr_stat_minus_asr_knee",
+    "assigned": "Supplementary Table 26",
+    "p_default_printed_format": "0.157",
+    "p_string_found_elsewhere_in_SI_tables": "Table 25;Table 46;Table 58"
+   },
+   {
+    "source": "AN-0001-13",
+    "key": "P2 AUC single-record vs full-run batches, 23",
+    "assigned": "Supplementary Table 52",
+    "p_default_printed_format": "0.301",
+    "p_string_found_elsewhere_in_SI_tables": "Table 26"
+   },
+   {
+    "source": "AN-0001-13",
+    "key": "P2 AUC subset batches vs full-run batches, 23",
+    "assigned": "Supplementary Table 52",
+    "p_default_printed_format": "0.510",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   }
+  ],
+  "n_in_table53_main_rows": 33,
+  "note_numbers": {
+   "stop_recall_diffs": 16,
+   "atd_diffs": 16
+  },
+  "analyses_32_46_among_383": {
+   "analysis 33 (AN-0001-02 npj)": 8,
+   "analysis 34 (AN-0001-03 npj)": 8
+  }
+ },
+ "part_b": {
+  "n_printed_wilcoxon_comparisons_analyses_32_46": 62,
+  "by_table": {
+   "Supplementary Table 11": 10,
+   "Supplementary Table 22": 14,
+   "Supplementary Table 23": 8,
+   "Supplementary Table 25": 30
+  },
+  "n_already_among_383": 19,
+  "n_added": 43,
+  "added_by_table": {
+   "Supplementary Table 11": 10,
+   "Supplementary Table 22": 1,
+   "Supplementary Table 23": 8,
+   "Supplementary Table 25": 24
+  },
+  "n_default_equals_stored": 62,
+  "n_default_equals_printed": 62,
+  "mismatches_default_vs_stored_or_printed": [],
+  "n_float_diffs_set_to_zero_total": 0,
+  "added_n_with_at_least_one_zero_difference": 11,
+  "added_n_conclusion_changes_at_0.05": 3,
+  "added_n_pratt_differs_at_0.05": 1,
+  "added_n_signflip_differs_at_0.05": 2,
+  "added_changes": [
+   {
+    "table": "Supplementary Table 25",
+    "label": "clef|N<=2000|paired_knee1000_minus_knee150_asr|work",
+    "n": 15,
+    "n_zero": 10,
+    "p_default_recomputed": 0.043114446783075355,
+    "p_pratt": 0.026218962891761798,
+    "p_signflip": 0.0625
+   },
+   {
+    "table": "Supplementary Table 25",
+    "label": "clef|N>2000|paired_knee1000_minus_knee150_asr|work",
+    "n": 13,
+    "n_zero": 4,
+    "p_default_recomputed": 0.0390625,
+    "p_pratt": 0.0546875,
+    "p_signflip": 0.02734375
+   },
+   {
+    "table": "Supplementary Table 23",
+    "label": "clef|tnr95|jev_minus_asreview",
+    "n": 28,
+    "n_zero": 0,
+    "p_default_recomputed": 0.029833190143108368,
+    "p_pratt": 0.029833190143108368,
+    "p_signflip": 0.3866861331386686
+   }
+  ],
+  "mcnemar_printed_entries_not_in_scope": 63,
+  "mcnemar_comparisons_not_in_scope": 21
+ },
+ "total_after_extension": {
+  "comparisons": 426,
+  "with_at_least_one_zero_difference": 295
+ },
+ "finished": "2026-09-29 04:29:00 EDT"
+}

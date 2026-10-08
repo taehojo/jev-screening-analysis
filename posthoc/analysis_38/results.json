@@ -1,0 +1,490 @@
+{
+ "analysis_id": "AN-0001-07",
+ "seed": 20260928,
+ "n_subset": 2002,
+ "n_common": 1999,
+ "refused_claude_ids_count": 3,
+ "refused_claude": [
+  {
+   "review": "Attai_2022",
+   "label": 1
+  },
+  {
+   "review": "Attai_2022",
+   "label": 1
+  },
+  {
+   "review": "Walker_2018",
+   "label": 0
+  }
+ ],
+ "macro_auc_point": {
+  "jev": 0.9615250803142474,
+  "gpt4omini_lp": 0.9369426692423971,
+  "deepseek": 0.9186674985601063,
+  "claude_opus": 0.972719615422318
+ },
+ "two_stage": {
+  "B": 5000,
+  "seed": 20260928,
+  "description": "stage 1: 23 reviews with replacement; stage 2: within each drawn review, its excluded records with replacement (included records kept); the same excluded-record draw is used for all four models; macro AUC = mean over drawn reviews",
+  "macro_auc_ci": {
+   "jev": [
+    0.9278320599128911,
+    0.9839485804110857
+   ],
+   "gpt4omini_lp": [
+    0.9008782007972731,
+    0.9645583294013873
+   ],
+   "deepseek": [
+    0.8790119253143024,
+    0.9497170665263738
+   ],
+   "claude_opus": [
+    0.9444046655095745,
+    0.9909828157734833
+   ]
+  },
+  "diff": {
+   "claude_minus_jev": {
+    "point": 0.011194535108070558,
+    "ci_two_stage": [
+     0.0030963933490968766,
+     0.021385955597029167
+    ],
+    "ci_one_stage_same_review_draws": [
+     0.0052263020499059235,
+     0.01884310725505035
+    ],
+    "proportion_of_two_stage_resamples_at_or_below_zero": 0.0022,
+    "width_two_stage": 0.01828956224793229,
+    "width_one_stage": 0.013616805205144427
+   },
+   "jev_minus_gpt4omini": {
+    "point": 0.02458241107185033,
+    "ci_two_stage": [
+     0.007640614624039102,
+     0.04282289503226393
+    ],
+    "ci_one_stage_same_review_draws": [
+     0.01024244463119838,
+     0.040872266940123456
+    ],
+    "proportion_of_two_stage_resamples_at_or_below_zero": 0.0016,
+    "width_two_stage": 0.035182280408224825,
+    "width_one_stage": 0.030629822308925074
+   },
+   "jev_minus_deepseek": {
+    "point": 0.042857581754141116,
+    "ci_two_stage": [
+     0.022666054839433035,
+     0.0651605699346274
+    ],
+    "ci_one_stage_same_review_draws": [
+     0.02408285425402928,
+     0.06217925635371547
+    ],
+    "proportion_of_two_stage_resamples_at_or_below_zero": 0.0,
+    "width_two_stage": 0.04249451509519437,
+    "width_one_stage": 0.03809640209968619
+   }
+  },
+  "one_stage_macro_auc_ci": {
+   "jev": [
+    0.9363021527113936,
+    0.9821629037988833
+   ],
+   "gpt4omini_lp": [
+    0.9094798469058799,
+    0.9616985825468024
+   ],
+   "deepseek": [
+    0.88315381164996,
+    0.9477503444908818
+   ],
+   "claude_opus": [
+    0.9512613046220478,
+    0.9898918104711075
+   ]
+  }
+ },
+ "refused_sensitivity": {
+  "refused_scored_0": {
+   "n_records": 2002,
+   "macro_auc_claude": 0.9721171108284231,
+   "macro_auc_jev": 0.9614998534953475,
+   "claude_minus_jev": 0.010617257333075353,
+   "ci_one_stage": [
+    0.004621331932748765,
+    0.01834231124714442
+   ],
+   "claude_higher_reviews": 14,
+   "claude_lower_reviews": 2,
+   "tied_reviews": 7,
+   "reviews_changed_vs_common_set": [
+    "Attai_2022",
+    "Walker_2018"
+   ],
+   "per_review_affected": [
+    {
+     "review": "Attai_2022",
+     "claude": 0.9222729578893962,
+     "jev": 0.9169964485032979
+    },
+    {
+     "review": "Walker_2018",
+     "claude": 0.994442009018036,
+     "jev": 0.9872714178356713
+    }
+   ]
+  },
+  "refused_scored_1": {
+   "n_records": 2002,
+   "macro_auc_claude": 0.9726741024283699,
+   "macro_auc_jev": 0.9614998534953475,
+   "claude_minus_jev": 0.01117424893302243,
+   "ci_one_stage": [
+    0.0052097910826765055,
+    0.01888283473994233
+   ],
+   "claude_higher_reviews": 14,
+   "claude_lower_reviews": 2,
+   "tied_reviews": 7,
+   "reviews_changed_vs_common_set": [
+    "Attai_2022",
+    "Walker_2018"
+   ],
+   "per_review_affected": [
+    {
+     "review": "Attai_2022",
+     "claude": 0.9370877727042111,
+     "jev": 0.9169964485032979
+    },
+    {
+     "review": "Walker_2018",
+     "claude": 0.992438001002004,
+     "jev": 0.9872714178356713
+    }
+   ]
+  }
+ },
+ "refused_sensitivity_note": "All 2002 records; the three records refused by the Claude Opus 5.5 interface are given score 0 (lowest possible) or 1 (ranked first, as if routed to humans). Jev on the same 2002 records. One-stage review bootstrap, B=5000, seed 20260928.",
+ "calibration": {
+  "final": {
+   "n_reviews": 23,
+   "n_records": 1999,
+   "jev": {
+    "n": 1999,
+    "n_pos": 595,
+    "observed_rate": 0.2976488244122061,
+    "mean_predicted": 0.2860280140070035,
+    "O_E_ratio": 1.04062822463578,
+    "recal_intercept": 0.39650435204941403,
+    "recal_slope": 1.4869929181927313,
+    "recal_converged": true,
+    "brier": 0.08403386693346673,
+    "ece_10_equal_width": 0.05532266133066534,
+    "n_scores_clipped_by_1e-4": 0,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      0.8198654043498268,
+      1.2739843899556336
+     ],
+     "recal_intercept": [
+      -0.3601955927276066,
+      1.1390903033493278
+     ],
+     "recal_slope": [
+      1.2891517654614386,
+      1.8869902841870945
+     ],
+     "brier": [
+      0.05336629194851449,
+      0.1281331881550408
+     ],
+     "ece_10_equal_width": [
+      0.04543346205079305,
+      0.11413531819134234
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 97
+   },
+   "gpt4omini_lp": {
+    "n": 1999,
+    "n_pos": 595,
+    "observed_rate": 0.2976488244122061,
+    "mean_predicted": 0.1905528480694663,
+    "O_E_ratio": 1.5620276864279554,
+    "recal_intercept": 0.5718032294479516,
+    "recal_slope": 0.2667519822516664,
+    "recal_converged": true,
+    "brier": 0.1424716470624391,
+    "ece_10_equal_width": 0.14187194350913895,
+    "n_scores_clipped_by_1e-4": 1663,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      1.2422396140870908,
+      2.218823874442477
+     ],
+     "recal_intercept": [
+      0.0347796963569312,
+      1.3966036093206533
+     ],
+     "recal_slope": [
+      0.22118621543994002,
+      0.3258471869997264
+     ],
+     "brier": [
+      0.08904083816419689,
+      0.22579121757579865
+     ],
+     "ece_10_equal_width": [
+      0.08842345500484783,
+      0.22797354513230025
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 1980
+   },
+   "deepseek": {
+    "n": 1999,
+    "n_pos": 595,
+    "observed_rate": 0.2976488244122061,
+    "mean_predicted": 0.24544772386193095,
+    "O_E_ratio": 1.2126770610414757,
+    "recal_intercept": 0.5745056140523419,
+    "recal_slope": 1.0112111581112309,
+    "recal_converged": true,
+    "brier": 0.10086418209104552,
+    "ece_10_equal_width": 0.05580290145072533,
+    "n_scores_clipped_by_1e-4": 531,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      0.9829180740390397,
+      1.4887521844777782
+     ],
+     "recal_intercept": [
+      0.0009112601167496335,
+      1.2924812771031038
+     ],
+     "recal_slope": [
+      0.8588120921744278,
+      1.2340579172583055
+     ],
+     "brier": [
+      0.06595976315215664,
+      0.1552048722198122
+     ],
+     "ece_10_equal_width": [
+      0.01900411175926051,
+      0.13877233426992056
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 13
+   },
+   "claude_opus": {
+    "n": 1999,
+    "n_pos": 595,
+    "observed_rate": 0.2976488244122061,
+    "mean_predicted": 0.19833766883441717,
+    "O_E_ratio": 1.5007175699977555,
+    "recal_intercept": 2.2610808061808947,
+    "recal_slope": 1.4985542121189022,
+    "recal_converged": true,
+    "brier": 0.0802938924462231,
+    "ece_10_equal_width": 0.0993111555777889,
+    "n_scores_clipped_by_1e-4": 0,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      1.2730584336374569,
+      1.7341597901531665
+     ],
+     "recal_intercept": [
+      1.5705724367444687,
+      2.951080781771075
+     ],
+     "recal_slope": [
+      1.3680009189774414,
+      1.753557131294135
+     ],
+     "brier": [
+      0.040622605090227644,
+      0.14227722973857015
+     ],
+     "ece_10_equal_width": [
+      0.04692571056560996,
+      0.18677261104269086
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 45
+   }
+  },
+  "ta": {
+   "n_reviews": 12,
+   "n_records": 1159,
+   "jev": {
+    "n": 1159,
+    "n_pos": 319,
+    "observed_rate": 0.27523727351164795,
+    "mean_predicted": 0.2504918032786886,
+    "O_E_ratio": 1.0987875447781756,
+    "recal_intercept": 0.7313296321643872,
+    "recal_slope": 1.6110675285471057,
+    "recal_converged": true,
+    "brier": 0.07743520276100087,
+    "ece_10_equal_width": 0.06319240724762727,
+    "n_scores_clipped_by_1e-4": 0,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      0.8322802276237448,
+      1.5610250125541836
+     ],
+     "recal_intercept": [
+      -0.1674259420794754,
+      2.0248281198874007
+     ],
+     "recal_slope": [
+      1.3499060958629754,
+      2.2621078555109437
+     ],
+     "brier": [
+      0.04657789731271293,
+      0.16550243788739666
+     ],
+     "ece_10_equal_width": [
+      0.04935136057574062,
+      0.17434223920366532
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 94
+   },
+   "gpt4omini_lp": {
+    "n": 1159,
+    "n_pos": 319,
+    "observed_rate": 0.27523727351164795,
+    "mean_predicted": 0.14077069911586984,
+    "O_E_ratio": 1.9552170674743703,
+    "recal_intercept": 0.7990330725961186,
+    "recal_slope": 0.27665899489456175,
+    "recal_converged": true,
+    "brier": 0.1572463144140591,
+    "ece_10_equal_width": 0.1581595119641451,
+    "n_scores_clipped_by_1e-4": 1001,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      1.2485907939634593,
+      4.458068879787975
+     ],
+     "recal_intercept": [
+      0.10943039197284303,
+      4.835956461456804
+     ],
+     "recal_slope": [
+      0.1888311090553613,
+      0.652870861871971
+     ],
+     "brier": [
+      0.08131924721108937,
+      0.35292303270454456
+     ],
+     "ece_10_equal_width": [
+      0.08298474777284638,
+      0.35871676303240585
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 1156
+   },
+   "deepseek": {
+    "n": 1159,
+    "n_pos": 319,
+    "observed_rate": 0.27523727351164795,
+    "mean_predicted": 0.19344262295081965,
+    "O_E_ratio": 1.4228367528991972,
+    "recal_intercept": 0.695404719543473,
+    "recal_slope": 0.8244646343477777,
+    "recal_converged": true,
+    "brier": 0.1179853321829163,
+    "ece_10_equal_width": 0.08386540120793787,
+    "n_scores_clipped_by_1e-4": 413,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      1.04835843644488,
+      2.196505142075291
+     ],
+     "recal_intercept": [
+      0.09775599595675254,
+      1.8441317104452404
+     ],
+     "recal_slope": [
+      0.6269360639185443,
+      1.235417448564139
+     ],
+     "brier": [
+      0.06475622002398082,
+      0.25883046583850927
+     ],
+     "ece_10_equal_width": [
+      0.024007144318781037,
+      0.26768409653465336
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 12
+   },
+   "claude_opus": {
+    "n": 1159,
+    "n_pos": 319,
+    "observed_rate": 0.27523727351164795,
+    "mean_predicted": 0.17433218291630717,
+    "O_E_ratio": 1.578809310520611,
+    "recal_intercept": 2.462952918851878,
+    "recal_slope": 1.479556988119748,
+    "recal_converged": true,
+    "brier": 0.0784769378774806,
+    "ece_10_equal_width": 0.10090509059534082,
+    "n_scores_clipped_by_1e-4": 0,
+    "bootstrap_ci_reviews": {
+     "O_E_ratio": [
+      1.3269917754051181,
+      1.8703887095423886
+     ],
+     "recal_intercept": [
+      1.4730978308385598,
+      3.937156884537746
+     ],
+     "recal_slope": [
+      1.312079097266384,
+      1.8043699587853064
+     ],
+     "brier": [
+      0.04537548694190559,
+      0.15828433778166115
+     ],
+     "ece_10_equal_width": [
+      0.04728526465998498,
+      0.23385818975732295
+     ],
+     "B_used": 1000,
+     "not_converged_dropped": 0
+    },
+    "n_distinct_scores": 42
+   }
+  }
+ },
+ "calibration_note": "The subset holds all included records and about 4.3% of the excluded records per review (29.8% included at the final level), so O:E and the calibration intercept describe the enriched subset, not a full search. The slope and the ranking-related quantities are less affected by the sampling of excluded records. Scores are clipped to [1e-4, 1-1e-4] before the logit, as in the Lancet AN-0001-01 calibration analysis; this affects GPT-4o-mini log-probability scores and verbalised 0 or 1 values. Bootstrap over reviews, B=1000, seed 20260928; resamples whose recalibration fit did not converge are dropped and counted.",
+ "runtime_seconds": 11.9,
+ "finished": "2026-09-28T20:05:55-04:00"
+}

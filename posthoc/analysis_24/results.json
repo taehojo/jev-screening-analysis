@@ -1,0 +1,196 @@
+{
+ "analysis_id": "AN-0002-03",
+ "reference": "16",
+ "live_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+ "live_copy": {
+  "file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-15/sources/typesafe_blog_introducing_system_one_models_and_jev.html",
+  "fetched_et": "2026-09-26 19:00:40 EDT (AN-0001-15/sources/fetch_record.txt)",
+  "bytes": 257471,
+  "sha256": "4b272b2da9efd910399f9a7ddedafa6f3215a54d96dfeeeab67564aa711415b9",
+  "sentence_present": true,
+  "date_present": true,
+  "sentence_line": [
+   "We use the average of GPT-6 Astra and Fable 5.1 as the reference answer, which biases answers towards OpenAI and Anthropic’s models. We likely underestimate the relative performance of our model and DeepSeek’s models."
+  ]
+ },
+ "cdx": {
+  "cdx_source": "re-query failed; saved round 1 index (2026-09-26 19:08 EDT) used",
+  "cdx_n_rows": 15,
+  "cdx_n_status200": 15,
+  "cdx_first": "20260915192610",
+  "cdx_last": "20260926091045",
+  "cdx_n_distinct_digests_status200": 15
+ },
+ "cdx_requery_attempts": [
+  {
+   "time": "2026-09-27 21:03:05 EDT",
+   "status": 503
+  },
+  {
+   "time": "2026-09-27 21:03:25 EDT",
+   "status": 503
+  },
+  {
+   "time": "2026-09-27 21:04:00 EDT",
+   "status": 503
+  },
+  {
+   "time": "2026-09-27 21:05:05 EDT",
+   "status": 503
+  },
+  {
+   "time": "2026-09-27 21:07:06 EDT",
+   "status": 503
+  },
+  {
+   "time": "2026-09-27 21:11:11 EDT",
+   "status": 503
+  },
+  {
+   "time": "2026-09-27 21:19:16 EDT",
+   "status": "error: TimeoutError: The read operation timed out"
+  }
+ ],
+ "snapshots": {
+  "earliest": {
+   "cdx_timestamp_utc": "20260915192610",
+   "snapshot_url": "https://web.archive.org/web/20260915192610/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "fetched_url": "https://web.archive.org/web/20260915192610id_/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "http_status": 200,
+   "fetch_time": "2026-09-27 21:20:16 EDT",
+   "gzip_encoded_body": true,
+   "decoded_bytes": 242187,
+   "decoded_sha256": "1cff67343a89b1ac8c338c92c2f6b83656206c0463fe086646013c0c745f3ed6",
+   "identical_bytes_to_live_copy": false,
+   "sentence_present": true,
+   "date_present": false,
+   "first_date_string": "Sep 14, 2026",
+   "sentence_line": [
+    "We use the average of GPT-6 Astra and Fable 5.1 as the reference answer, which biases answers towards OpenAI and Anthropic’s models. We likely underestimate the relative performance of our model and DeepSeek’s models."
+   ],
+   "text_diff_vs_live": {
+    "removed_lines": 19,
+    "added_lines": 17,
+    "file": "diff_text_live_vs_20260915192610.txt"
+   },
+   "decoded_file": "blog_20260915192610_id_decoded.html"
+  },
+  "latest_at_or_before_access": {
+   "cdx_timestamp_utc": "20260926091045",
+   "snapshot_url": "https://web.archive.org/web/20260926091045/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "fetched_url": "https://web.archive.org/web/20260926091045id_/https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+   "http_status": 200,
+   "fetch_time": "2026-09-27 21:20:17 EDT",
+   "gzip_encoded_body": true,
+   "decoded_bytes": 257471,
+   "decoded_sha256": "2dc950eeb4170d9112c40cd70429a5c5096bd041785ff4cff90ca7374524327a",
+   "identical_bytes_to_live_copy": false,
+   "sentence_present": true,
+   "date_present": true,
+   "first_date_string": "Sep 15, 2026",
+   "sentence_line": [
+    "We use the average of GPT-6 Astra and Fable 5.1 as the reference answer, which biases answers towards OpenAI and Anthropic’s models. We likely underestimate the relative performance of our model and DeepSeek’s models."
+   ],
+   "text_diff_vs_live": {
+    "removed_lines": 0,
+    "added_lines": 0,
+    "file": "diff_text_live_vs_20260926091045.txt"
+   },
+   "decoded_file": "blog_20260926091045_id_decoded.html"
+  }
+ },
+ "text_provenance": {
+  "source": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/audit_fix_iter4/fx41_text_provenance.json",
+  "source_written": "2026-09-27 19:31:23 EDT",
+  "texts": {
+   "pilot_criteria_block": {
+    "n_entries": 12,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "jev_question": {
+    "n_entries": 49,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "batch_preamble": {
+    "n_entries": 39,
+    "first_time_et": "2026-09-24 17:31:36 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 17:31:36 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "rephrasing_1": {
+    "n_entries": 36,
+    "first_time_et": "2026-09-24 19:00:13 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:00:13 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "rephrasing_2": {
+    "n_entries": 36,
+    "first_time_et": "2026-09-24 19:00:13 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:00:13 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "llm_system_prompt": {
+    "n_entries": 46,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "verbalised_scale_sentence": {
+    "n_entries": 46,
+    "first_time_et": "2026-09-24 09:18:47 EDT",
+    "first_model": "claude-fable-5-1",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 09:18:47 EDT",
+    "first_any_model": "claude-fable-5-1"
+   },
+   "criteria_block_template": {
+    "n_entries": 51,
+    "first_time_et": "2026-09-24 18:04:39 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 18:04:39 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "clef_criteria_sections": {
+    "n_entries": 7,
+    "first_time_et": "2026-09-25 09:49:41 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-25 09:49:41 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "mismatch_control_file": {
+    "n_entries": 77,
+    "first_time_et": "2026-09-24 19:09:11 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:09:11 EDT",
+    "first_any_model": "claude-opus-5-5"
+   },
+   "title_only_control_file": {
+    "n_entries": 75,
+    "first_time_et": "2026-09-24 19:09:11 EDT",
+    "first_model": "claude-opus-5-5",
+    "first_kind": "model_tool_call",
+    "first_any_time_et": "2026-09-24 19:09:11 EDT",
+    "first_any_model": "claude-opus-5-5"
+   }
+  }
+ }
+}

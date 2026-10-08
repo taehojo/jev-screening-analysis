@@ -1,0 +1,382 @@
+{
+ "analysis_id": "AN-0003-02",
+ "post_hoc": true,
+ "tau": 0.07,
+ "started": "2026-09-28 10:38:04 EDT",
+ "environment": {
+  "python": "3.12.9",
+  "numpy": "2.5.3",
+  "executable": "/N/project/AiLab/jev/synergy/.venv/bin/python"
+ },
+ "definitions": {
+  "selected": "positive records (final inclusion; CLEF content-level label) with stored Jev probability < 0.07",
+  "p_share": "1 - C(N-K, n-1)/C(N-1, n-1); N records and K positive records of the review, n size of the record's request",
+  "poisson_binomial": "exact distribution of the number of selected records sharing a request, assuming independence between records",
+  "threshold_rule": "records with p >= tau are read (synergy/stop_eval.py, final_eval.py)",
+  "score_precision": "stored Jev probabilities have at most two decimals"
+ },
+ "collections": {
+  "heldout": {
+   "records_file": "/N/project/AiLab/jev/synergy/test_records.json",
+   "jev_file": "/N/project/AiLab/jev/synergy/jev_test.json",
+   "requests": 3308,
+   "requests_equal_to_file_slices": 3308,
+   "n_selected": 3,
+   "observed_shared": 1,
+   "expected_shared": 1.3441182686323923,
+   "P_X_ge_observed": 0.8392330818344841,
+   "P_X_le_observed": 0.5778184748860615,
+   "poisson_binomial_pmf": [
+    0.1607669181655159,
+    0.41705155672054567,
+    0.33947786342996866,
+    0.08270366168396971
+   ],
+   "reference_all_positive": {
+    "n_positive": 597,
+    "observed_shared": 181,
+    "observed_share": 0.30318257956448913,
+    "expected_shared": 192.23794548079627,
+    "expected_share": 0.32200660884555493
+   },
+   "selected": [
+    {
+     "review": "Attai_2022",
+     "openalex": "w3012099148",
+     "source_row": 1018,
+     "stored_score": 0.05,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.5178704686838373,
+     "review_N": 1726,
+     "review_K": 135,
+     "position_in_file": 1018
+    },
+    {
+     "review": "Attai_2022",
+     "openalex": "w2416103835",
+     "source_row": 1689,
+     "stored_score": 0.06,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.5178704686838373,
+     "review_N": 1726,
+     "review_K": 135,
+     "position_in_file": 1689
+    },
+    {
+     "review": "Boersma-van_Dam_2024",
+     "openalex": "w2794605847",
+     "source_row": 93,
+     "stored_score": 0.04,
+     "request_size": 10,
+     "other_positive_in_request": 1,
+     "shared": true,
+     "p_share_random": 0.3083773312647175,
+     "review_N": 578,
+     "review_K": 24,
+     "position_in_file": 93
+    }
+   ],
+   "appendix_check": {
+    "table": "S5",
+    "rows_in_table": 3,
+    "selected_here": 3,
+    "rows_matched_one_to_one": 3,
+    "unmatched_table_rows": [],
+    "selected_not_in_table": 0
+   }
+  },
+  "clef": {
+   "records_file": "/N/project/AiLab/jev/clef/clef_records.json",
+   "jev_file": "/N/project/AiLab/jev/synergy/jev_clef.json",
+   "requests": 8257,
+   "requests_equal_to_file_slices": 8257,
+   "n_selected": 5,
+   "observed_shared": 3,
+   "expected_shared": 2.71975852550238,
+   "P_X_ge_observed": 0.6673552293547349,
+   "P_X_le_observed": 0.8955828961156289,
+   "poisson_binomial_pmf": [
+    0.0028580370803751925,
+    0.04880688611888428,
+    0.28097984744600557,
+    0.5629381254703639,
+    0.1019079513414621,
+    0.0025091525429088548
+   ],
+   "reference_all_positive": {
+    "n_positive": 882,
+    "observed_shared": 248,
+    "observed_share": 0.2811791383219955,
+    "expected_shared": 277.8342131035728,
+    "expected_share": 0.3150047767614204
+   },
+   "selected": [
+    {
+     "review": "CD012233",
+     "pmid": "9362194",
+     "stored_score": 0.05,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.14402684609849972,
+     "review_N": 472,
+     "review_K": 9,
+     "position_in_file": 20
+    },
+    {
+     "review": "CD011977",
+     "pmid": "15682919",
+     "stored_score": 0.03,
+     "request_size": 10,
+     "other_positive_in_request": 2,
+     "shared": true,
+     "p_share_random": 0.849090860818553,
+     "review_N": 195,
+     "review_K": 37,
+     "position_in_file": 17
+    },
+    {
+     "review": "CD011977",
+     "pmid": "19781467",
+     "stored_score": 0.05,
+     "request_size": 10,
+     "other_positive_in_request": 3,
+     "shared": true,
+     "p_share_random": 0.849090860818553,
+     "review_N": 195,
+     "review_K": 37,
+     "position_in_file": 77
+    },
+    {
+     "review": "CD011977",
+     "pmid": "19491981",
+     "stored_score": 0.03,
+     "request_size": 10,
+     "other_positive_in_request": 1,
+     "shared": true,
+     "p_share_random": 0.849090860818553,
+     "review_N": 195,
+     "review_K": 37,
+     "position_in_file": 128
+    },
+    {
+     "review": "CD010558",
+     "pmid": "23851972",
+     "stored_score": 0.06,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.028459096948221334,
+     "review_N": 2815,
+     "review_K": 10,
+     "position_in_file": 2780
+    }
+   ],
+   "appendix_check": {
+    "table": "S6",
+    "rows_in_table": 5,
+    "selected_here": 5,
+    "rows_matched": 5,
+    "selected_not_in_table": []
+   }
+  },
+  "development": {
+   "records_file": "/N/project/AiLab/jev/synergy/dev2000_records.json",
+   "jev_file": "/N/project/AiLab/jev/synergy/jev_dev2000.json",
+   "requests": 5328,
+   "requests_equal_to_file_slices": 5328,
+   "n_selected": 9,
+   "observed_shared": 5,
+   "expected_shared": 4.418268325507959,
+   "P_X_ge_observed": 0.48270617684561706,
+   "P_X_le_observed": 0.7901394477386083,
+   "poisson_binomial_pmf": [
+    0.0010594801542094235,
+    0.012388669075200611,
+    0.06140933338449934,
+    0.16779614566296375,
+    0.27464019487750985,
+    0.2728456245842253,
+    0.15770168948299756,
+    0.04678414974908995,
+    0.00518795216165122,
+    0.0001867608676530384
+   ],
+   "reference_all_positive": {
+    "n_positive": 2048,
+    "observed_shared": 913,
+    "observed_share": 0.44580078125,
+    "expected_shared": 929.8297035493579,
+    "expected_share": 0.4540184099362099
+   },
+   "selected": [
+    {
+     "review": "Ferreira_2022",
+     "openalex": "w1826299300",
+     "source_row": 19,
+     "stored_score": 0.03,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.0796135502017855,
+     "review_N": 223,
+     "review_K": 3,
+     "position_in_file": 19
+    },
+    {
+     "review": "Ferreira_2022",
+     "openalex": "w3030794609",
+     "source_row": 46,
+     "stored_score": 0.04,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.0796135502017855,
+     "review_N": 223,
+     "review_K": 3,
+     "position_in_file": 46
+    },
+    {
+     "review": "Maciel_2024",
+     "openalex": "w4214665157",
+     "source_row": 39,
+     "stored_score": 0.05,
+     "request_size": 10,
+     "other_positive_in_request": 3,
+     "shared": true,
+     "p_share_random": 0.655044923130699,
+     "review_N": 274,
+     "review_K": 31,
+     "position_in_file": 39
+    },
+    {
+     "review": "van_der_Valk_2021",
+     "openalex": "w3082162295",
+     "source_row": 287,
+     "stored_score": 0.06,
+     "request_size": 10,
+     "other_positive_in_request": 1,
+     "shared": true,
+     "p_share_random": 0.7025967005338766,
+     "review_N": 362,
+     "review_K": 46,
+     "position_in_file": 287
+    },
+    {
+     "review": "van_der_Valk_2021",
+     "openalex": "w3020810195",
+     "source_row": 330,
+     "stored_score": 0.04,
+     "request_size": 10,
+     "other_positive_in_request": 4,
+     "shared": true,
+     "p_share_random": 0.7025967005338766,
+     "review_N": 362,
+     "review_K": 46,
+     "position_in_file": 330
+    },
+    {
+     "review": "Fong_2021",
+     "openalex": "w2062428352",
+     "source_row": 125,
+     "stored_score": 0.04,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.5671597144531365,
+     "review_N": 489,
+     "review_K": 44,
+     "position_in_file": 125
+    },
+    {
+     "review": "Fong_2021",
+     "openalex": "w2073617744",
+     "source_row": 354,
+     "stored_score": 0.05,
+     "request_size": 10,
+     "other_positive_in_request": 2,
+     "shared": true,
+     "p_share_random": 0.5671597144531365,
+     "review_N": 489,
+     "review_K": 44,
+     "position_in_file": 354
+    },
+    {
+     "review": "Endedijk_2021",
+     "openalex": "w2971563642",
+     "source_row": 10,
+     "stored_score": 0.04,
+     "request_size": 10,
+     "other_positive_in_request": 0,
+     "shared": false,
+     "p_share_random": 0.5322417359998312,
+     "review_N": 1092,
+     "review_K": 89,
+     "position_in_file": 10
+    },
+    {
+     "review": "Endedijk_2021",
+     "openalex": "w2991644972",
+     "source_row": 250,
+     "stored_score": 0.05,
+     "request_size": 10,
+     "other_positive_in_request": 2,
+     "shared": true,
+     "p_share_random": 0.5322417359998312,
+     "review_N": 1092,
+     "review_K": 89,
+     "position_in_file": 250
+    }
+   ],
+   "appendix_check": {
+    "table": "S5",
+    "rows_in_table": 9,
+    "selected_here": 9,
+    "rows_matched_one_to_one": 9,
+    "unmatched_table_rows": [],
+    "selected_not_in_table": 0
+   }
+  }
+ },
+ "evaluation_sets_pooled": {
+  "n_selected": 8,
+  "observed_shared": 4,
+  "expected_shared": 4.063876794134773,
+  "P_X_ge_observed": 0.6995144105234528,
+  "P_X_le_observed": 0.6510661847903095,
+  "poisson_binomial_pmf": [
+   0.0004594778134146885,
+   0.009038481480123841,
+   0.06649749229672361,
+   0.22449013788628522,
+   0.3505805953137622,
+   0.2572473527918277,
+   0.08219898383990332,
+   0.0092799624749373,
+   0.0002075161030222062
+  ],
+  "reference_all_positive": {
+   "n_positive": 1479,
+   "observed_shared": 429,
+   "expected_shared": 470.07215858436905,
+   "observed_share": 0.29006085192697767,
+   "expected_share": 0.3178310740935558
+  }
+ },
+ "kennis_2004": {
+  "review": "CD011977",
+  "pmid": "15682919",
+  "stored_score": 0.03,
+  "stored_score_repr": "0.03",
+  "at_least_0.03": true,
+  "distance_from_0.03": 0.0,
+  "read_under_tau_0.03_rule_p_ge_tau": true,
+  "read_under_tau_0.07": false,
+  "note": "stored to two decimals; the distance is known only at that precision"
+ },
+ "finished": "2026-09-28 10:38:06 EDT"
+}

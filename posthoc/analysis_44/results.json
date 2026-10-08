@@ -1,0 +1,388 @@
+{
+ "analysis_id": "AN-0001-13 (npj round 1)",
+ "post_hoc": true,
+ "started": "2026-09-28 23:06:56 EDT",
+ "model": "71caf65d4927987813984f54c284405a13fcca49",
+ "environment": {
+  "python": "3.12.9",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1"
+ },
+ "settings": {
+  "auc": "sklearn roc_auc_score per review",
+  "tnr95": "mean over ten random tie orders (seeds 0-9)",
+  "bootstrap": "percentile, 5000 resamples of reviews, seed 20260928"
+ },
+ "sets": {
+  "heldout_final": {
+   "n_reviews": 23,
+   "records": 33001,
+   "pairs_truncated_at_512": 26919,
+   "pairs": 33001,
+   "macro": {
+    "auc_medcpt": 0.7088277656561656,
+    "auc_jev": 0.9657098644292029,
+    "auc_bge": 0.8306361050979288,
+    "tnr95_medcpt": 0.33125127566852464,
+    "tnr95_jev": 0.8674162021935814,
+    "tnr95_bge": 0.5520044361461713
+   },
+   "comparisons": {
+    "auc_jev_minus_medcpt": {
+     "label": "AUC Jev minus MedCPT Cross-Encoder",
+     "n": 23,
+     "mean_a": 0.9657098644292029,
+     "mean_b": 0.7088277656561656,
+     "mean_diff": 0.2568820987730374,
+     "ci95_bootstrap": [
+      0.1893100140691704,
+      0.3320622805217689
+     ],
+     "higher": 23,
+     "lower": 0,
+     "tied": 0,
+     "wilcoxon_p": 2.384185791015625e-07,
+     "wilcoxon_method": "exact"
+    },
+    "auc_medcpt_minus_bge": {
+     "label": "AUC MedCPT Cross-Encoder minus bge-base",
+     "n": 23,
+     "mean_a": 0.7088277656561656,
+     "mean_b": 0.8306361050979288,
+     "mean_diff": -0.1218083394417632,
+     "ci95_bootstrap": [
+      -0.19181002780854753,
+      -0.059541999111030496
+     ],
+     "higher": 6,
+     "lower": 17,
+     "tied": 0,
+     "wilcoxon_p": 0.0016598701477050781,
+     "wilcoxon_method": "exact"
+    },
+    "tnr95_jev_minus_medcpt": {
+     "label": "TNR@95 Jev minus MedCPT Cross-Encoder",
+     "n": 23,
+     "mean_a": 0.8674162021935814,
+     "mean_b": 0.33125127566852464,
+     "mean_diff": 0.5361649265250569,
+     "ci95_bootstrap": [
+      0.42325657903727154,
+      0.6495925129417202
+     ],
+     "higher": 23,
+     "lower": 0,
+     "tied": 0,
+     "wilcoxon_p": 2.384185791015625e-07,
+     "wilcoxon_method": "exact"
+    },
+    "tnr95_medcpt_minus_bge": {
+     "label": "TNR@95 MedCPT Cross-Encoder minus bge-base",
+     "n": 23,
+     "mean_a": 0.33125127566852464,
+     "mean_b": 0.5520044361461713,
+     "mean_diff": -0.22075316047764665,
+     "ci95_bootstrap": [
+      -0.33970183103855045,
+      -0.10722274781168722
+     ],
+     "higher": 5,
+     "lower": 18,
+     "tied": 0,
+     "wilcoxon_p": 0.0012786388397216797,
+     "wilcoxon_method": "exact"
+    }
+   },
+   "by_domain": {
+    "other": {
+     "n_reviews": 13,
+     "reviews": [
+      "Abgaz_2023",
+      "Attai_2022",
+      "Chakraborty_2023",
+      "Chueca_2023",
+      "Hall_2011",
+      "Harms_2024",
+      "Lewowski_2021",
+      "Menon_2022",
+      "Moran_2020",
+      "Roberts_2021",
+      "Seghers_2022",
+      "Theobald_2021",
+      "Toffalini_2021"
+     ],
+     "fields": {
+      "Computer Science": 6,
+      "Psychology": 4,
+      "Environmental Science": 1,
+      "Social Sciences": 1,
+      "Economics, Econometrics and Finance": 1
+     },
+     "macro": {
+      "auc_medcpt": 0.7569127693529274,
+      "auc_jev": 0.961745756481888,
+      "auc_bge": 0.8133638584565384
+     },
+     "auc_jev_minus_medcpt": {
+      "label": "AUC Jev minus MedCPT",
+      "n": 13,
+      "mean_a": 0.961745756481888,
+      "mean_b": 0.7569127693529274,
+      "mean_diff": 0.20483298712896045,
+      "ci95_bootstrap": [
+       0.13978565383266,
+       0.27772963222531377
+      ],
+      "higher": 13,
+      "lower": 0,
+      "tied": 0,
+      "wilcoxon_p": 0.000244140625,
+      "wilcoxon_method": "exact"
+     },
+     "auc_medcpt_minus_bge": {
+      "label": "AUC MedCPT minus bge-base",
+      "n": 13,
+      "mean_a": 0.7569127693529274,
+      "mean_b": 0.8133638584565384,
+      "mean_diff": -0.05645108910361064,
+      "ci95_bootstrap": [
+       -0.12224790192650126,
+       0.0004834885650993336
+      ],
+      "higher": 5,
+      "lower": 8,
+      "tied": 0,
+      "wilcoxon_p": 0.167724609375,
+      "wilcoxon_method": "exact"
+     }
+    },
+    "biomedical": {
+     "n_reviews": 10,
+     "reviews": [
+      "Boersma-van_Dam_2024",
+      "Bos_2018",
+      "Bosch_2021",
+      "Donners_2021",
+      "Eggmann_2023",
+      "Kerschbaumer_2024b",
+      "Parodis_2023b",
+      "Tumkaya_2018",
+      "Walker_2018",
+      "van_der_Waal_2022"
+     ],
+     "fields": {
+      "Medicine": 7,
+      "Dentistry": 1,
+      "Neuroscience": 1,
+      "Health Professions": 1
+     },
+     "macro": {
+      "auc_medcpt": 0.6463172608503747,
+      "auc_jev": 0.9708632047607123,
+      "auc_bge": 0.8530900257317363
+     },
+     "auc_jev_minus_medcpt": {
+      "label": "AUC Jev minus MedCPT",
+      "n": 10,
+      "mean_a": 0.9708632047607123,
+      "mean_b": 0.6463172608503747,
+      "mean_diff": 0.3245459439103375,
+      "ci95_bootstrap": [
+       0.20440200500599592,
+       0.44727986579354506
+      ],
+      "higher": 10,
+      "lower": 0,
+      "tied": 0,
+      "wilcoxon_p": 0.001953125,
+      "wilcoxon_method": "exact"
+     },
+     "auc_medcpt_minus_bge": {
+      "label": "AUC MedCPT minus bge-base",
+      "n": 10,
+      "mean_a": 0.6463172608503747,
+      "mean_b": 0.8530900257317363,
+      "mean_diff": -0.20677276488136154,
+      "ci95_bootstrap": [
+       -0.31382269327747525,
+       -0.10190848633068228
+      ],
+      "higher": 1,
+      "lower": 9,
+      "tied": 0,
+      "wilcoxon_p": 0.005859375,
+      "wilcoxon_method": "exact"
+     }
+    }
+   }
+  },
+  "clef_content": {
+   "n_reviews": 28,
+   "records": 77611,
+   "pairs_truncated_at_512": 25790,
+   "pairs": 77611,
+   "macro": {
+    "auc_medcpt": 0.7834521632143051,
+    "auc_jev": 0.9697866998450202,
+    "auc_bge": 0.9001025766195189,
+    "tnr95_medcpt": 0.46637934669105624,
+    "tnr95_jev": 0.87810891633347,
+    "tnr95_bge": 0.725077381026746
+   },
+   "comparisons": {
+    "auc_jev_minus_medcpt": {
+     "label": "AUC Jev minus MedCPT Cross-Encoder",
+     "n": 28,
+     "mean_a": 0.9697866998450202,
+     "mean_b": 0.7834521632143051,
+     "mean_diff": 0.18633453663071534,
+     "ci95_bootstrap": [
+      0.132706239419662,
+      0.24233971327497517
+     ],
+     "higher": 27,
+     "lower": 1,
+     "tied": 0,
+     "wilcoxon_p": 1.4901161193847656e-08,
+     "wilcoxon_method": "exact"
+    },
+    "auc_medcpt_minus_bge": {
+     "label": "AUC MedCPT Cross-Encoder minus bge-base",
+     "n": 28,
+     "mean_a": 0.7834521632143051,
+     "mean_b": 0.9001025766195189,
+     "mean_diff": -0.11665041340521379,
+     "ci95_bootstrap": [
+      -0.166497090895573,
+      -0.07388092152631626
+     ],
+     "higher": 2,
+     "lower": 26,
+     "tied": 0,
+     "wilcoxon_p": 1.8849968910217285e-06,
+     "wilcoxon_method": "exact"
+    },
+    "tnr95_jev_minus_medcpt": {
+     "label": "TNR@95 Jev minus MedCPT Cross-Encoder",
+     "n": 28,
+     "mean_a": 0.87810891633347,
+     "mean_b": 0.46637934669105624,
+     "mean_diff": 0.4117295696424138,
+     "ci95_bootstrap": [
+      0.289834261456497,
+      0.5318062460329993
+     ],
+     "higher": 25,
+     "lower": 3,
+     "tied": 0,
+     "wilcoxon_p": 1.8849968910217285e-06,
+     "wilcoxon_method": "exact"
+    },
+    "tnr95_medcpt_minus_bge": {
+     "label": "TNR@95 MedCPT Cross-Encoder minus bge-base",
+     "n": 28,
+     "mean_a": 0.46637934669105624,
+     "mean_b": 0.725077381026746,
+     "mean_diff": -0.25869803433568966,
+     "ci95_bootstrap": [
+      -0.3588518289684688,
+      -0.16423577862710165
+     ],
+     "higher": 3,
+     "lower": 25,
+     "tied": 0,
+     "wilcoxon_p": 5.677342414855957e-06,
+     "wilcoxon_method": "exact"
+    }
+   }
+  },
+  "clef_ta": {
+   "n_reviews": 31,
+   "records": 82418,
+   "pairs_truncated_at_512": 28502,
+   "pairs": 82418,
+   "macro": {
+    "auc_medcpt": 0.7355583818201639,
+    "auc_jev": 0.9468379326707441,
+    "auc_bge": 0.8684798411699495,
+    "tnr95_medcpt": 0.3437355840935863,
+    "tnr95_jev": 0.8069091688798394,
+    "tnr95_bge": 0.6325240109636442
+   },
+   "comparisons": {
+    "auc_jev_minus_medcpt": {
+     "label": "AUC Jev minus MedCPT Cross-Encoder",
+     "n": 31,
+     "mean_a": 0.9468379326707441,
+     "mean_b": 0.7355583818201639,
+     "mean_diff": 0.21127955085058014,
+     "ci95_bootstrap": [
+      0.15783282727896056,
+      0.2730310310031928
+     ],
+     "higher": 31,
+     "lower": 0,
+     "tied": 0,
+     "wilcoxon_p": 9.313225746154785e-10,
+     "wilcoxon_method": "exact"
+    },
+    "auc_medcpt_minus_bge": {
+     "label": "AUC MedCPT Cross-Encoder minus bge-base",
+     "n": 31,
+     "mean_a": 0.7355583818201639,
+     "mean_b": 0.8684798411699495,
+     "mean_diff": -0.13292145934978553,
+     "ci95_bootstrap": [
+      -0.17965148277131746,
+      -0.09288153990162072
+     ],
+     "higher": 0,
+     "lower": 31,
+     "tied": 0,
+     "wilcoxon_p": 9.313225746154785e-10,
+     "wilcoxon_method": "exact"
+    },
+    "tnr95_jev_minus_medcpt": {
+     "label": "TNR@95 Jev minus MedCPT Cross-Encoder",
+     "n": 31,
+     "mean_a": 0.8069091688798394,
+     "mean_b": 0.3437355840935863,
+     "mean_diff": 0.46317358478625315,
+     "ci95_bootstrap": [
+      0.3663043709198906,
+      0.5583778429085432
+     ],
+     "higher": 29,
+     "lower": 1,
+     "tied": 1,
+     "wilcoxon_p": 2.878599219394298e-06,
+     "wilcoxon_method": "asymptotic"
+    },
+    "tnr95_medcpt_minus_bge": {
+     "label": "TNR@95 MedCPT Cross-Encoder minus bge-base",
+     "n": 31,
+     "mean_a": 0.3437355840935863,
+     "mean_b": 0.6325240109636442,
+     "mean_diff": -0.2887884268700578,
+     "ci95_bootstrap": [
+      -0.37774334908118823,
+      -0.20637795296815217
+     ],
+     "higher": 3,
+     "lower": 28,
+     "tied": 0,
+     "wilcoxon_p": 1.9278377294540405e-07,
+     "wilcoxon_method": "exact"
+    }
+   }
+  }
+ },
+ "cross_checks": {
+  "heldout_bge_auc_max_abs_diff_vs_zs_auc_test_csv": 1.1102230246251565e-16,
+  "clef_jev_auc_max_abs_diff_vs_clef_zs_label_csv": 1.1102230246251565e-16,
+  "clef_bge_auc_max_abs_diff_vs_clef_zs_label_csv": 1.1102230246251565e-16
+ },
+ "finished": "2026-09-28 23:07:28 EDT",
+ "elapsed_seconds": 32.5
+}

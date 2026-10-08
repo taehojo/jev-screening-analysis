@@ -1,0 +1,164 @@
+{
+ "analysis": "AN-0002-03",
+ "manuscript_analysis_number": 49,
+ "post_hoc": true,
+ "started": "2026-09-29 04:48:16 EDT",
+ "environment": {
+  "scipy": "1.18.1",
+  "numpy": "2.5.3",
+  "pandas": "2.3.3"
+ },
+ "part_a": {
+  "n_comparisons": 383,
+  "by_assigned_location": {
+   "Supplementary Note 16": 10,
+   "Supplementary Table 20": 75,
+   "Supplementary Table 22": 8,
+   "Supplementary Table 25": 8,
+   "Supplementary Table 26": 31,
+   "Supplementary Table 52": 27,
+   "Supplementary Table 58": 222,
+   "search": 2
+  },
+  "by_source": {
+   "AN-0001-02": 75,
+   "AN-0001-02 (npj)": 8,
+   "AN-0001-03": 222,
+   "AN-0001-03 (npj)": 8,
+   "AN-0001-04": 5,
+   "AN-0001-08": 36,
+   "AN-0001-13": 27,
+   "original": 2
+  },
+  "n_printed_p_found_in_assigned_text": 365,
+  "n_printed_p_not_found_in_assigned_text": 8,
+  "not_found": [
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|atd_hybrid_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|atd_jev_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "heldout|atd_hybrid_minus_jev",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.025",
+    "p_string_found_elsewhere_in_SI_tables": "Table 20;Table 22;Table 23;Table 26;Table 45;Table 48"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|atd_hybrid_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|atd_jev_minus_asr",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.00053",
+    "p_string_found_elsewhere_in_SI_tables": ""
+   },
+   {
+    "source": "AN-0001-08",
+    "key": "clef|atd_hybrid_minus_jev",
+    "assigned": "Supplementary Note 16",
+    "p_default_printed_format": "0.0034",
+    "p_string_found_elsewhere_in_SI_tables": "Table 20;Table 22;Table 23;Table 25;Table 58"
+   },
+   {
+    "source": "original",
+    "key": "final_dev.json|C1 AUC Jev minus bge-base, development reviews",
+    "assigned": "search",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   },
+   {
+    "source": "original",
+    "key": "final_dev.json|C3 WSS@95 hybrid minus ASReview, development reviews",
+    "assigned": "search",
+    "p_default_printed_format": "<0.0001",
+    "p_string_found_elsewhere_in_SI_tables": "Table 8;Table 10;Table 11;Table 14;Table 20;Table 22"
+   }
+  ],
+  "n_in_table53_main_rows": 33,
+  "note_numbers": {
+   "stop_recall_diffs": 16,
+   "atd_diffs": 16
+  },
+  "analyses_32_46_among_383": {
+   "analysis 33 (AN-0001-02 npj)": 8,
+   "analysis 34 (AN-0001-03 npj)": 8
+  }
+ },
+ "part_b": {
+  "n_printed_wilcoxon_comparisons_analyses_32_46": 62,
+  "by_table": {
+   "Supplementary Table 11": 10,
+   "Supplementary Table 22": 14,
+   "Supplementary Table 23": 8,
+   "Supplementary Table 25": 30
+  },
+  "n_already_among_383": 19,
+  "n_added": 43,
+  "added_by_table": {
+   "Supplementary Table 11": 10,
+   "Supplementary Table 22": 1,
+   "Supplementary Table 23": 8,
+   "Supplementary Table 25": 24
+  },
+  "n_default_equals_stored": 62,
+  "n_default_equals_printed": 62,
+  "mismatches_default_vs_stored_or_printed": [],
+  "n_float_diffs_set_to_zero_total": 0,
+  "added_n_with_at_least_one_zero_difference": 11,
+  "added_n_conclusion_changes_at_0.05": 3,
+  "added_n_pratt_differs_at_0.05": 1,
+  "added_n_signflip_differs_at_0.05": 2,
+  "added_changes": [
+   {
+    "table": "Supplementary Table 25",
+    "label": "clef|N<=2000|paired_knee1000_minus_knee150_asr|work",
+    "n": 15,
+    "n_zero": 10,
+    "p_default_recomputed": 0.043114446783075355,
+    "p_pratt": 0.026218962891761798,
+    "p_signflip": 0.0625
+   },
+   {
+    "table": "Supplementary Table 25",
+    "label": "clef|N>2000|paired_knee1000_minus_knee150_asr|work",
+    "n": 13,
+    "n_zero": 4,
+    "p_default_recomputed": 0.0390625,
+    "p_pratt": 0.0546875,
+    "p_signflip": 0.02734375
+   },
+   {
+    "table": "Supplementary Table 23",
+    "label": "clef|tnr95|jev_minus_asreview",
+    "n": 28,
+    "n_zero": 0,
+    "p_default_recomputed": 0.029833190143108368,
+    "p_pratt": 0.029833190143108368,
+    "p_signflip": 0.3866861331386686
+   }
+  ],
+  "mcnemar_printed_entries_not_in_scope": 63,
+  "mcnemar_comparisons_not_in_scope": 21
+ },
+ "total_after_extension": {
+  "comparisons": 426,
+  "with_at_least_one_zero_difference": 295
+ },
+ "finished": "2026-09-29 04:48:19 EDT"
+}

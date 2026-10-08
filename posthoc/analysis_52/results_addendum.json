@@ -1,0 +1,152 @@
+{
+ "analysis_id": "AN-0004-01",
+ "part": "addendum",
+ "logged": "2026-09-29 09:18:08 EDT",
+ "results": {
+  "heldout": {
+   "threshold": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "knee150_asr": {
+    "reviews_not_reliable_on_mean": [
+     "Chakraborty_2023",
+     "Walker_2018",
+     "van_der_Waal_2022"
+    ],
+    "reviews_with_any_run_below_095": [
+     "Chakraborty_2023",
+     "Walker_2018",
+     "van_der_Waal_2022"
+    ],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 24,
+    "mean_recall_of_reviews_not_reliable_on_mean": {
+     "Chakraborty_2023": 0.6571428571428571,
+     "Walker_2018": 0.9015625,
+     "van_der_Waal_2022": 0.9058823529411765
+    }
+   },
+   "knee1000_asr": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "combined_workflow": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "stat_asreview": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "threshold_plus_sample_check": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   }
+  },
+  "clef": {
+   "threshold": {
+    "reviews_not_reliable_on_mean": [
+     "CD010558",
+     "CD011977",
+     "CD012233"
+    ],
+    "reviews_with_any_run_below_095": [
+     "CD010558",
+     "CD011977",
+     "CD012233"
+    ],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {
+     "CD010558": 0.9,
+     "CD011977": 0.918918918918919,
+     "CD012233": 0.8888888888888888
+    }
+   },
+   "knee150_asr": {
+    "reviews_not_reliable_on_mean": [
+     "CD010038",
+     "CD012567"
+    ],
+    "reviews_with_any_run_below_095": [
+     "CD010038",
+     "CD012567"
+    ],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 13,
+    "mean_recall_of_reviews_not_reliable_on_mean": {
+     "CD010038": 0.9111111111111111,
+     "CD012567": 0.55
+    }
+   },
+   "knee1000_asr": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "combined_workflow": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "stat_asreview": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   },
+   "threshold_plus_sample_check": {
+    "reviews_not_reliable_on_mean": [],
+    "reviews_with_any_run_below_095": [],
+    "sets_equal": true,
+    "reviews_reliable_on_mean_with_any_run_below_095": [],
+    "runs_below_095_in_reviews_reliable_on_mean": 0,
+    "runs_at_or_above_095_in_reviews_not_reliable_on_mean": 0,
+    "mean_recall_of_reviews_not_reliable_on_mean": {}
+   }
+  }
+ }
+}

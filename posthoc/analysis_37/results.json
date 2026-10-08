@@ -1,0 +1,295 @@
+{
+ "analysis_id": "AN-0001-06",
+ "seed": 20260928,
+ "B": 5000,
+ "grid": [
+  0.01,
+  0.02,
+  0.03,
+  0.05,
+  0.07,
+  0.1,
+  0.15,
+  0.2,
+  0.3
+ ],
+ "n_dev_reviews": 73,
+ "selection_rule": "largest tau of the grid at which at least 95% of the (resampled) development reviews reach recall >= 0.95",
+ "full_sample_selection": 0.07,
+ "dev_reviews_per_stratum": {
+  "<=500": 35,
+  "501-1000": 17,
+  "1001-2000": 21
+ },
+ "selected_tau_distribution": {
+  "0.03": 87,
+  "0.07": 4214,
+  "0.1": 699
+ },
+ "oob_overall": {
+  "reliability": {
+   "n_resamples": 5000,
+   "mean": 0.9694734944421213,
+   "p2.5": 0.8333333333333334,
+   "p50": 1.0,
+   "p97.5": 1.0,
+   "min": 0.7391304347826086,
+   "proportion_of_resamples_below_0.90": 0.1352,
+   "proportion_of_resamples_below_0.95": 0.14
+  },
+  "mean_recall": {
+   "n_resamples": 5000,
+   "mean": 0.986428452272552,
+   "p2.5": 0.9541750007932869,
+   "p50": 0.9966135091207566,
+   "p97.5": 1.0,
+   "min": 0.9347504492150908,
+   "proportion_of_resamples_below_0.90": 0.0,
+   "proportion_of_resamples_below_0.95": 0.0086
+  },
+  "min_recall": {
+   "n_resamples": 5000,
+   "mean": 0.7235419214647653,
+   "p2.5": 0.3333333333333333,
+   "p50": 0.9545454545454546,
+   "p97.5": 1.0,
+   "min": 0.3333333333333333,
+   "proportion_of_resamples_below_0.90": 0.4232,
+   "proportion_of_resamples_below_0.95": 0.4232
+  },
+  "macro_work": {
+   "n_resamples": 5000,
+   "mean": 0.5712976889468377,
+   "p2.5": 0.43100339151963635,
+   "p50": 0.5763860622378146,
+   "p97.5": 0.6737667632759057,
+   "min": 0.350851673790071,
+   "proportion_of_resamples_below_0.90": 1.0,
+   "proportion_of_resamples_below_0.95": 1.0
+  },
+  "n_oob": {
+   "n_resamples": 5000,
+   "mean": 26.6498,
+   "p2.5": 21.0,
+   "p50": 27.0,
+   "p97.5": 32.0,
+   "min": 18.0,
+   "proportion_of_resamples_below_0.90": 0.0,
+   "proportion_of_resamples_below_0.95": 0.0
+  }
+ },
+ "oob_by_stratum": {
+  "<=500": {
+   "reliability": {
+    "n_resamples": 5000,
+    "mean": 0.944087635334222,
+    "p2.5": 0.714075630252101,
+    "p50": 1.0,
+    "p97.5": 1.0,
+    "min": 0.5,
+    "proportion_of_resamples_below_0.90": 0.157,
+    "proportion_of_resamples_below_0.95": 0.4218
+   },
+   "macro_work": {
+    "n_resamples": 5000,
+    "mean": 0.5654782637733596,
+    "p2.5": 0.40629672127282745,
+    "p50": 0.5670870054096091,
+    "p97.5": 0.7125255640964158,
+    "min": 0.2866620475318228,
+    "proportion_of_resamples_below_0.90": 0.9984,
+    "proportion_of_resamples_below_0.95": 1.0
+   },
+   "min_recall": {
+    "n_resamples": 5000,
+    "mean": 0.7247324365676399,
+    "p2.5": 0.3333333333333333,
+    "p50": 0.9545454545454546,
+    "p97.5": 1.0,
+    "min": 0.3333333333333333,
+    "proportion_of_resamples_below_0.90": 0.4232,
+    "proportion_of_resamples_below_0.95": 0.4232
+   }
+  },
+  "501-1000": {
+   "reliability": {
+    "n_resamples": 4998,
+    "mean": 1.0,
+    "p2.5": 1.0,
+    "p50": 1.0,
+    "p97.5": 1.0,
+    "min": 1.0,
+    "proportion_of_resamples_below_0.90": 0.0,
+    "proportion_of_resamples_below_0.95": 0.0
+   },
+   "macro_work": {
+    "n_resamples": 4998,
+    "mean": 0.5555358194917039,
+    "p2.5": 0.3536150278264814,
+    "p50": 0.5552823825144043,
+    "p97.5": 0.783347337782764,
+    "min": 0.1551433389544688,
+    "proportion_of_resamples_below_0.90": 0.9987995198079231,
+    "proportion_of_resamples_below_0.95": 0.9997999199679872
+   },
+   "min_recall": {
+    "n_resamples": 4998,
+    "mean": 0.9975699558173784,
+    "p2.5": 0.95,
+    "p50": 1.0,
+    "p97.5": 1.0,
+    "min": 0.95,
+    "proportion_of_resamples_below_0.90": 0.0,
+    "proportion_of_resamples_below_0.95": 0.0
+   }
+  },
+  "1001-2000": {
+   "reliability": {
+    "n_resamples": 5000,
+    "mean": 0.9878934471084471,
+    "p2.5": 0.8571428571428571,
+    "p50": 1.0,
+    "p97.5": 1.0,
+    "min": 0.5,
+    "proportion_of_resamples_below_0.90": 0.0708,
+    "proportion_of_resamples_below_0.95": 0.088
+   },
+   "macro_work": {
+    "n_resamples": 5000,
+    "mean": 0.5935341328373056,
+    "p2.5": 0.4123272276002387,
+    "p50": 0.5976144374828688,
+    "p97.5": 0.7508634452215615,
+    "min": 0.26962413860749707,
+    "proportion_of_resamples_below_0.90": 0.997,
+    "proportion_of_resamples_below_0.95": 1.0
+   },
+   "min_recall": {
+    "n_resamples": 5000,
+    "mean": 0.9794354107055621,
+    "p2.5": 0.8571428571428571,
+    "p50": 1.0,
+    "p97.5": 1.0,
+    "min": 0.8571428571428571,
+    "proportion_of_resamples_below_0.90": 0.088,
+    "proportion_of_resamples_below_0.95": 0.088
+   }
+  }
+ },
+ "oob_pooled_over_resamples": {
+  "<=500": {
+   "reliable": 60244,
+   "oob_reviews": 63889,
+   "proportion": 0.942947925307956
+  },
+  "501-1000": {
+   "reliable": 30939,
+   "oob_reviews": 30939,
+   "proportion": 1.0
+  },
+  "1001-2000": {
+   "reliable": 37981,
+   "oob_reviews": 38421,
+   "proportion": 0.9885479295177116
+  },
+  "all": {
+   "reliable": 129164,
+   "oob_reviews": 133249,
+   "proportion": 0.9693431095167694
+  }
+ },
+ "heldout_tau0.07_by_size": {
+  "<=2000": {
+   "n_reviews": 20,
+   "n_reliable": 20,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8388748398148704,
+    1.0000000000000002
+   ],
+   "macro_work": 0.590689248365601,
+   "pooled_work": 0.5828370652691758,
+   "min_recall": 0.9583333333333334,
+   "failing_reviews": []
+  },
+  ">2000": {
+   "n_reviews": 3,
+   "n_reliable": 3,
+   "reliability": 1.0,
+   "wilson95": [
+    0.4385029643606803,
+    1.0
+   ],
+   "macro_work": 0.5757331119471216,
+   "pooled_work": 0.4345733851563946,
+   "min_recall": 1.0,
+   "failing_reviews": []
+  },
+  "all": {
+   "n_reviews": 23,
+   "n_reliable": 23,
+   "reliability": 1.0,
+   "wilson95": [
+    0.8568833796149266,
+    1.0000000000000002
+   ],
+   "macro_work": 0.5887384479631907,
+   "pooled_work": 0.510014848034908,
+   "min_recall": 0.9583333333333334,
+   "failing_reviews": []
+  }
+ },
+ "clef_tau0.07_by_size": {
+  "<=2000": {
+   "n_reviews": 15,
+   "n_reliable": 13,
+   "reliability": 0.8666666666666667,
+   "wilson95": [
+    0.6211801694601944,
+    0.9626387412357151
+   ],
+   "macro_work": 0.42726809706004953,
+   "pooled_work": 0.34274539730993037,
+   "min_recall": 0.8888888888888888,
+   "failing_reviews": [
+    "CD012233",
+    "CD011977"
+   ]
+  },
+  ">2000": {
+   "n_reviews": 13,
+   "n_reliable": 12,
+   "reliability": 0.9230769230769231,
+   "wilson95": [
+    0.6668604882863951,
+    0.986289578909774
+   ],
+   "macro_work": 0.34808644755614326,
+   "pooled_work": 0.29355857466332974,
+   "min_recall": 0.9,
+   "failing_reviews": [
+    "CD010558"
+   ]
+  },
+  "all": {
+   "n_reviews": 28,
+   "n_reliable": 25,
+   "reliability": 0.8928571428571429,
+   "wilson95": [
+    0.7280414829086314,
+    0.962881633460356
+   ],
+   "macro_work": 0.3905051883618073,
+   "pooled_work": 0.30020229091237066,
+   "min_recall": 0.8888888888888888,
+   "failing_reviews": [
+    "CD012233",
+    "CD011977",
+    "CD010558"
+   ]
+  }
+ },
+ "note": "tau was tuned only on development reviews of at most 2000 records; OOB reviews are therefore also at most 2000 records. OOB estimates re-use the development reviews and are not independent of the data that fixed the grid and the rule.",
+ "runtime_seconds": 5.4,
+ "finished": "2026-09-28T20:05:10-04:00"
+}

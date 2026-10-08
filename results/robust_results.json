@@ -1,0 +1,36 @@
+{
+ "q1": {
+  "reviews": 12,
+  "mean_rho": 0.959,
+  "min_rho": 0.853,
+  "auc_q0": 0.9422,
+  "auc_alt": 0.9432,
+  "auc_diff": 0.001,
+  "pass": true
+ },
+ "q2": {
+  "reviews": 12,
+  "mean_rho": 0.977,
+  "min_rho": 0.952,
+  "auc_q0": 0.9422,
+  "auc_alt": 0.9434,
+  "auc_diff": 0.0012,
+  "pass": true
+ },
+ "title_only": {
+  "reviews": 12,
+  "mean_rho": 0.887,
+  "min_rho": 0.671,
+  "auc_q0": 0.9422,
+  "auc_alt": 0.8947,
+  "auc_diff": -0.0474
+ },
+ "mismatch": {
+  "reviews": 12,
+  "mean_rho": 0.326,
+  "min_rho": -0.031,
+  "auc_q0": 0.9422,
+  "auc_alt": 0.601,
+  "auc_diff": -0.3412
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "P1_wss95": [
+  {
+   "compare": "hybrid \u03bb3 vs pseudo-label 10/50",
+   "n": 23,
+   "mean_a": 0.8055,
+   "mean_b": 0.746,
+   "diff": 0.0595,
+   "ci": [
+    0.0217,
+    0.1059
+   ],
+   "wins": 21,
+   "losses": 2,
+   "wilcoxon_p": 0.0002148151397705078
+  },
+  {
+   "compare": "pseudo-label vs ASReview",
+   "n": 23,
+   "mean_a": 0.746,
+   "mean_b": 0.6587,
+   "diff": 0.0873,
+   "ci": [
+    0.042,
+    0.1387
+   ],
+   "wins": 18,
+   "losses": 5,
+   "wilcoxon_p": 0.0006387233734130859
+  }
+ ],
+ "P1_wss100": [
+  {
+   "compare": "hybrid vs pseudo",
+   "n": 23,
+   "mean_a": 0.8212,
+   "mean_b": 0.728,
+   "diff": 0.0932,
+   "ci": [
+    0.0501,
+    0.1459
+   ],
+   "wins": 21,
+   "losses": 2,
+   "wilcoxon_p": 6.031990051269531e-05
+  },
+  {
+   "compare": "pseudo vs ASReview",
+   "n": 23,
+   "mean_a": 0.728,
+   "mean_b": 0.639,
+   "diff": 0.089,
+   "ci": [
+    0.0404,
+    0.1399
+   ],
+   "wins": 17,
+   "losses": 6,
+   "wilcoxon_p": 0.0024156570434570312
+  }
+ ],
+ "P4_wss95": [
+  {
+   "compare": "h3+Jev vs ASReview elas_h3",
+   "n": 23,
+   "mean_a": 0.8063,
+   "mean_b": 0.7242,
+   "diff": 0.0822,
+   "ci": [
+    0.0452,
+    0.1282
+   ],
+   "wins": 21,
+   "losses": 2,
+   "wilcoxon_p": 0.0001277923583984375
+  },
+  {
+   "compare": "elas_h3 vs elas_u4",
+   "n": 23,
+   "mean_a": 0.7242,
+   "mean_b": 0.6587,
+   "diff": 0.0655,
+   "ci": [
+    0.0137,
+    0.1247
+   ],
+   "wins": 14,
+   "losses": 9,
+   "wilcoxon_p": 0.08020281791687012
+  }
+ ],
+ "P4_wss100": [
+  {
+   "compare": "h3+Jev vs elas_h3",
+   "n": 23,
+   "mean_a": 0.8166,
+   "mean_b": 0.702,
+   "diff": 0.1147,
+   "ci": [
+    0.0612,
+    0.1746
+   ],
+   "wins": 19,
+   "losses": 4,
+   "wilcoxon_p": 0.0007376670837402344
+  }
+ ],
+ "P3_ta_wss95": {
+  "compare": "TA labels: hybrid vs ASReview",
+  "n": 12,
+  "mean_a": 0.5575,
+  "mean_b": 0.4623,
+  "diff": 0.0952,
+  "ci": [
+   0.0276,
+   0.179
+  ],
+  "wins": 9,
+  "losses": 3,
+  "wilcoxon_p": 0.0341796875
+ },
+ "P3_ta_wss100": {
+  "compare": "TA labels: hybrid vs ASReview",
+  "n": 12,
+  "mean_a": 0.4801,
+  "mean_b": 0.336,
+  "diff": 0.1441,
+  "ci": [
+   0.0562,
+   0.243
+  ],
+  "wins": 8,
+  "losses": 4,
+  "wilcoxon_p": 0.04248046875
+ },
+ "P2": {
+  "n_records": 2002,
+  "reviews": 23,
+  "macro_auc": {
+   "single": 0.9601,
+   "b10_subset": 0.9625,
+   "b10_full": 0.9615
+  },
+  "single_minus_full": {
+   "compare": "single vs batch10(full, prevalence ~1.8%)",
+   "n": 23,
+   "mean_a": 0.9601,
+   "mean_b": 0.9615,
+   "diff": -0.0014,
+   "ci": [
+    -0.0049,
+    0.0023
+   ],
+   "wins": 4,
+   "losses": 12,
+   "wilcoxon_p": 0.3010541816225988
+  },
+  "subset_minus_full": {
+   "compare": "batch10 subset (prevalence ~30%) vs batch10 full",
+   "n": 23,
+   "mean_a": 0.9625,
+   "mean_b": 0.9615,
+   "diff": 0.001,
+   "ci": [
+    -0.0022,
+    0.0045
+   ],
+   "wins": 10,
+   "losses": 5,
+   "wilcoxon_p": 0.46030155637941883
+  },
+  "mean_rho_single_full": 0.936,
+  "mean_rho_sub_full": 0.961,
+  "mean_p_pos": {
+   "single": 0.595,
+   "b10_subset": 0.632,
+   "b10_full": 0.652
+  },
+  "mean_p_neg": {
+   "single": 0.116,
+   "b10_subset": 0.122,
+   "b10_full": 0.13
+  },
+  "subset_prevalence": 0.298
+ }
+}

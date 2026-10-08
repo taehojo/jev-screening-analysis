@@ -1,0 +1,153 @@
+{
+ "lgar_table1_as_published": {
+  "DTA": {
+   "n_slr": 8,
+   "papers": 30521,
+   "avg_incl_rate_pct": 7.05
+  },
+  "Intervention": {
+   "n_slr": 20,
+   "papers": 41996,
+   "avg_incl_rate_pct": 5.49
+  },
+  "Qualitative": {
+   "n_slr": 2,
+   "papers": 6536,
+   "avg_incl_rate_pct": 1.32
+  },
+  "Prognosis": {
+   "n_slr": 1,
+   "papers": 3367,
+   "avg_incl_rate_pct": 5.7
+  }
+ },
+ "lgar_table2_tar2019_as_published": {
+  "MAP": 50.6,
+  "TNR@95%": 76.5,
+  "R@10%": 76.7,
+  "R@20%": 88.3,
+  "row": "LGAR (T+R, monoT5)",
+  "source": "ACL Anthology 2025.findings-acl.412 pp 7910-7927, Table 2 (macro-averages over 31 SLRs, footnote 8)"
+ },
+ "qrels": {
+  "abs": {
+   "DTA": {
+    "n_slr": 8,
+    "papers": 30521,
+    "positives": 440,
+    "macro_incl_rate_pct": 7.05,
+    "pooled_incl_rate_pct": 1.44
+   },
+   "Intervention": {
+    "n_slr": 20,
+    "papers": 41996,
+    "positives": 937,
+    "macro_incl_rate_pct": 5.49,
+    "pooled_incl_rate_pct": 2.23
+   },
+   "Prognosis": {
+    "n_slr": 1,
+    "papers": 3367,
+    "positives": 192,
+    "macro_incl_rate_pct": 5.7,
+    "pooled_incl_rate_pct": 5.7
+   },
+   "Qualitative": {
+    "n_slr": 2,
+    "papers": 6537,
+    "positives": 113,
+    "macro_incl_rate_pct": 1.32,
+    "pooled_incl_rate_pct": 1.73
+   }
+  },
+  "content": {
+   "DTA": {
+    "n_slr": 8,
+    "papers": 30521,
+    "positives": 250,
+    "macro_incl_rate_pct": 3.31,
+    "pooled_incl_rate_pct": 0.82
+   },
+   "Intervention": {
+    "n_slr": 20,
+    "papers": 41996,
+    "positives": 510,
+    "macro_incl_rate_pct": 2.92,
+    "pooled_incl_rate_pct": 1.21
+   },
+   "Prognosis": {
+    "n_slr": 1,
+    "papers": 3367,
+    "positives": 94,
+    "macro_incl_rate_pct": 2.79,
+    "pooled_incl_rate_pct": 2.79
+   },
+   "Qualitative": {
+    "n_slr": 2,
+    "papers": 6537,
+    "positives": 28,
+    "macro_incl_rate_pct": 0.32,
+    "pooled_incl_rate_pct": 0.43
+   }
+  }
+ },
+ "table1_matches": {
+  "abs": true,
+  "content": false
+ },
+ "conclusion": "LGAR Table 1 average inclusion rates equal the macro-averaged inclusion rates of the abstract-level qrels (qrel_abs_test) to two decimals for all four review types and do not match the content-level qrels; LGAR therefore evaluated on title-and-abstract screening labels, the same level as the manuscript's \"title and abstract labels\" row (31 reviews).",
+ "project_clef_records": {
+  "topics": 31,
+  "records": 82418,
+  "content_level_positives": 882,
+  "abstract_level_positives": 1682,
+  "topics_without_content_level_positive": [
+   "CD012342",
+   "CD011140",
+   "CD011558"
+  ]
+ },
+ "manuscript_comparison_same_level": {
+  "label": "title and abstract labels (label_ta), 31 topics, macro-averages",
+  "jev": {
+   "AUC": 0.9468,
+   "MAP": 0.5415,
+   "TNR@95": 0.8063,
+   "R@10%": 0.7838,
+   "R@20%": 0.893
+  },
+  "bge": {
+   "AUC": 0.8685,
+   "MAP": 0.3023,
+   "TNR@95": 0.6325,
+   "R@10%": 0.5885,
+   "R@20%": 0.7315
+  },
+  "lgar_reported": {
+   "MAP": 0.506,
+   "TNR@95%": 0.765,
+   "R@10%": 0.767,
+   "R@20%": 0.883
+  },
+  "source": "synergy/clef_results.json zeroshot_label_ta (unchanged, not recomputed)"
+ },
+ "manuscript_comparison_content_level": {
+  "label": "final inclusion (label), 28 topics",
+  "jev": {
+   "AUC": 0.9698,
+   "MAP": 0.5975,
+   "TNR@95": 0.8781,
+   "R@10%": 0.8965,
+   "R@20%": 0.9505
+  },
+  "bge": {
+   "AUC": 0.9001,
+   "MAP": 0.2251,
+   "TNR@95": 0.7251,
+   "R@10%": 0.6858,
+   "R@20%": 0.8218
+  },
+  "lgar_reported": null,
+  "source": "synergy/clef_results.json zeroshot_label"
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "analysis_id": "AN-0001-12",
+ "inputs": {
+  "threshold": "Lancet AN-0001-04 per_review_{heldout,clef}.csv thr_work, thr_rec",
+  "combined_workflow": "Lancet AN-0001-08 per_review_stopping.csv jev_stat_work, jev_stat_rec (mean over ten tie-break seeds)"
+ },
+ "percentiles_note": "numpy.percentile with linear interpolation",
+ "heldout": {
+  "threshold_proportion_read": {
+   "k": 23,
+   "pooled": 0.6281389558390075,
+   "ci95": [
+    0.533496961128246,
+    0.7138779382456307
+   ],
+   "pi95": [
+    0.18418009247300046,
+    0.9266791185667098
+   ],
+   "tau2_logit": 0.8969113259900158,
+   "Q": 4704.019477522894,
+   "I2": 0.9953231486168111,
+   "t_quantile_df_k_minus_2": 2.0796138447276795,
+   "n_clipped": 0,
+   "empirical_p5_p95": [
+    0.2183347897816111,
+    0.9262029419097482
+   ],
+   "empirical_min_max": [
+    0.1294117647058823,
+    0.9713390058217644
+   ],
+   "mean": 0.5887384479631907,
+   "median": 0.5375939849624061
+  },
+  "combined_workflow_proportion_read": {
+   "k": 23,
+   "pooled": 0.9087508326747343,
+   "ci95": [
+    0.8663977686711385,
+    0.9386286606496171
+   ],
+   "pi95": [
+    0.5291529535181374,
+    0.9887959196130877
+   ],
+   "tau2_logit": 1.052711739370692,
+   "Q": 3517.4740077203983,
+   "I2": 0.9937455117076308,
+   "t_quantile_df_k_minus_2": 2.0796138447276795,
+   "n_clipped": 0,
+   "empirical_p5_p95": [
+    0.6824076549535337,
+    0.9685598377281949
+   ],
+   "empirical_min_max": [
+    0.5876864081806562,
+    0.9714285714285712
+   ],
+   "mean": 0.8763339154428149,
+   "median": 0.9524854455888938
+  },
+  "threshold_recall_empirical": {
+   "mean": 0.9975442834138485,
+   "p5": 0.9866666666666667,
+   "median": 1.0,
+   "min": 0.9583333333333334,
+   "n_equal_1": 21,
+   "n": 23
+  },
+  "combined_recall_empirical": {
+   "mean": 1.0,
+   "p5": 1.0,
+   "median": 1.0,
+   "min": 1.0,
+   "n_equal_1": 23,
+   "n": 23
+  },
+  "difference_combined_minus_threshold_empirical_p5_p95": [
+   -0.01703371939719517,
+   0.6402383546183779
+  ]
+ },
+ "clef": {
+  "threshold_proportion_read": {
+   "k": 28,
+   "pooled": 0.36076108976108756,
+   "ci95": [
+    0.2794900021396547,
+    0.4508760095208238
+   ],
+   "pi95": [
+    0.06436760047755932,
+    0.8223699882263165
+   ],
+   "tau2_logit": 1.0116713415327965,
+   "Q": 12319.629911661177,
+   "I2": 0.9978083757228419,
+   "t_quantile_df_k_minus_2": 2.0555294386428735,
+   "n_clipped": 0,
+   "empirical_p5_p95": [
+    0.084250252605227,
+    0.7665874484193295
+   ],
+   "empirical_min_max": [
+    0.044569993722536,
+    0.9236641221374046
+   ],
+   "mean": 0.39050518836180725,
+   "median": 0.41367257810210833
+  },
+  "combined_workflow_proportion_read": {
+   "k": 28,
+   "pooled": 0.9000864471765869,
+   "ci95": [
+    0.8590000572359562,
+    0.9301737535272429
+   ],
+   "pi95": [
+    0.5071130405166603,
+    0.9874810876983645
+   ],
+   "tau2_logit": 1.0743700895636685,
+   "Q": 8794.285503044848,
+   "I2": 0.9969298244876571,
+   "t_quantile_df_k_minus_2": 2.0555294386428735,
+   "n_clipped": 0,
+   "empirical_p5_p95": [
+    0.572775528802926,
+    0.9673505226683751
+   ],
+   "empirical_min_max": [
+    0.5473131821998323,
+    0.9830508474576268
+   ],
+   "mean": 0.8608323190392566,
+   "median": 0.9501301987651549
+  },
+  "threshold_recall_empirical": {
+   "mean": 0.9895645645645647,
+   "p5": 0.9066216216216216,
+   "median": 1.0,
+   "min": 0.8888888888888888,
+   "n_equal_1": 25,
+   "n": 28
+  },
+  "combined_recall_empirical": {
+   "mean": 1.0,
+   "p5": 1.0,
+   "median": 1.0,
+   "min": 1.0,
+   "n_equal_1": 28,
+   "n": 28
+  },
+  "difference_combined_minus_threshold_empirical_p5_p95": [
+   -0.004302374536243556,
+   0.8560767951673038
+  ]
+ },
+ "finished": "2026-09-28T20:08:23-04:00"
+}

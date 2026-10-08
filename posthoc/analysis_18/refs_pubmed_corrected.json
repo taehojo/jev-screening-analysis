@@ -1,0 +1,266 @@
+{
+ "borah2017": {
+  "pmid": "28242767",
+  "authors": [
+   "Borah R",
+   "Brown AW",
+   "Capers PL",
+   "Kaiser KA"
+  ],
+  "title": "Analysis of the time and workers needed to conduct systematic reviews of medical interventions using data from the PROSPERO registry.",
+  "journal": "BMJ Open",
+  "year": "2017",
+  "vol": "7",
+  "issue": "2",
+  "pages": "e012545",
+  "doi": "10.1136/bmjopen-2016-012545"
+ },
+ "asreview2021": null,
+ "cohen2006": {
+  "pmid": "16357352",
+  "authors": [
+   "Cohen AM",
+   "Hersh WR",
+   "Peterson K",
+   "Yen PY"
+  ],
+  "title": "Reducing workload in systematic review preparation using automated citation classification.",
+  "journal": "J Am Med Inform Assoc",
+  "year": "2006",
+  "vol": "13",
+  "issue": "2",
+  "pages": "206-19",
+  "doi": "10.1197/jamia.M1929"
+ },
+ "callaghan2020": {
+  "pmid": "33248464",
+  "authors": [
+   "Callaghan MW",
+   "Müller-Hansen F"
+  ],
+  "title": "Statistical stopping criteria for automated screening in systematic reviews.",
+  "journal": "Syst Rev",
+  "year": "2020",
+  "vol": "9",
+  "issue": "1",
+  "pages": "273",
+  "doi": "10.1186/s13643-020-01521-4"
+ },
+ "teijema2023": {
+  "pmid": "37340494",
+  "authors": [
+   "Ferdinands G",
+   "Schram R",
+   "de Bruin J",
+   "Bagheri A",
+   "Oberski DL",
+   "Tummers L",
+   "Teijema JJ",
+   "van de Schoot R"
+  ],
+  "title": "Performance of active learning models for screening prioritization in systematic reviews: a simulation study into the Average Time to Discover relevant records.",
+  "journal": "Syst Rev",
+  "year": "2023",
+  "vol": "12",
+  "issue": "1",
+  "pages": "100",
+  "doi": "10.1186/s13643-023-02257-7"
+ },
+ "tripodllm": {
+  "pmid": "39779929",
+  "authors": [
+   "Gallifant J",
+   "Afshar M",
+   "Ameen S",
+   "Aphinyanaphongs Y",
+   "Chen S",
+   "Cacciamani G",
+   "Demner-Fushman D",
+   "Dligach D",
+   "Daneshjou R",
+   "Fernandes C",
+   "Hansen LH",
+   "Landman A",
+   "Lehmann L",
+   "McCoy LG",
+   "Miller T",
+   "Moreno A",
+   "Munch N",
+   "Restrepo D",
+   "Savova G",
+   "Umeton R",
+   "Gichoya JW",
+   "Collins GS",
+   "Moons KGM",
+   "Celi LA",
+   "Bitterman DS"
+  ],
+  "title": "The TRIPOD-LLM reporting guideline for studies using large language models.",
+  "journal": "Nat Med",
+  "year": "2025",
+  "vol": "31",
+  "issue": "1",
+  "pages": "60-69",
+  "doi": "10.1038/s41591-024-03425-5"
+ },
+ "akinseloyin2024": {
+  "pmid": "39042516",
+  "authors": [
+   "Akinseloyin O",
+   "Jiang X",
+   "Palade V"
+  ],
+  "title": "A question-answering framework for automated abstract screening using large language models.",
+  "journal": "J Am Med Inform Assoc",
+  "year": "2024",
+  "vol": "31",
+  "issue": "9",
+  "pages": "1939-1952",
+  "doi": "10.1093/jamia/ocae166"
+ },
+ "titansr2026": {
+  "pmid": "42767575",
+  "authors": [
+   "Pitre T",
+   "Zeraatkar D",
+   "Granton J",
+   "Busse J",
+   "Rochwerg B",
+   "Guyatt G"
+  ],
+  "title": "A biomedical BERT ensemble (TITAN-SR) outperformed active learning and LLM chatbots for systematic-review title and abstract screening: development and external validation.",
+  "journal": "J Clin Epidemiol",
+  "year": "2026",
+  "vol": null,
+  "issue": null,
+  "pages": "112514",
+  "doi": "10.1016/j.jclinepi.2026.112514"
+ },
+ "loonlens2025": {
+  "pmid": "40998117",
+  "authors": [
+   "Janoudi G",
+   "Uzun M",
+   "Disher T",
+   "Jurdana M",
+   "Fuzul E",
+   "Ivkovic J",
+   "Hutton B"
+  ],
+  "title": "Validating Loon Lens 1.0 for Autonomous Abstract Screening and Confidence-Guided Human-in-the-Loop Workflows in Systematic Reviews.",
+  "journal": "Value Health",
+  "year": "2025",
+  "vol": "28",
+  "issue": "11",
+  "pages": "1630-1636",
+  "doi": "10.1016/j.jval.2025.09.008"
+ },
+ "interactiveal2026": {
+  "pmid": "41801982",
+  "authors": [
+   "Li Y",
+   "Plasek JM",
+   "Du X",
+   "Wang Y",
+   "Zhou Z",
+   "Lian J",
+   "Chuang YW",
+   "Hong P",
+   "Hou PC",
+   "Zhou L"
+  ],
+  "title": "Interactive active learning for literature screening: finetuning GPT with DeepSeek reasoning for cross-domain generalization.",
+  "journal": "J Am Med Inform Assoc",
+  "year": "2026",
+  "vol": "33",
+  "issue": "5",
+  "pages": "1026-1036",
+  "doi": "10.1093/jamia/ocag014"
+ },
+ "scoping2026": {
+  "pmid": "41911537",
+  "authors": [
+   "Harasgama S",
+   "Pearce H",
+   "Appel C",
+   "Loftus L",
+   "Painter H",
+   "Kuhn I",
+   "Karpusheff J",
+   "Ceesay A",
+   "Ford J"
+  ],
+  "title": "Artificial Intelligence Tools for Automating Evidence Synthesis: Scoping Review.",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "vol": "28",
+  "issue": null,
+  "pages": "e81597",
+  "doi": "10.2196/81597"
+ },
+ "prognosis2025": {
+  "pmid": "41626989",
+  "authors": [
+   "Spiero I",
+   "Leeuwenberg AM",
+   "Moons KGM",
+   "Hooft L",
+   "Damen JAA"
+  ],
+  "title": "Evaluation of semi-automated record screening methods for systematic reviews of prognosis studies and intervention studies.",
+  "journal": "Res Synth Methods",
+  "year": "2025",
+  "vol": "16",
+  "issue": "6",
+  "pages": "975-989",
+  "doi": "10.1017/rsm.2025.10025"
+ },
+ "llmrank2025": {
+  "pmid": "41939135",
+  "authors": [
+   "Sujau M",
+   "Wada M",
+   "Vallée E",
+   "Hillis N",
+   "Sušnjak T"
+  ],
+  "title": "Accelerating Disease Model Parameter Extraction: An LLM-Based Ranking Approach to Select Initial Studies For Literature Review Automation.",
+  "journal": "Mach Learn Knowl Extr",
+  "year": "2025",
+  "vol": "7",
+  "issue": "2",
+  "pages": "28",
+  "doi": "10.3390/make7020028"
+ },
+ "repke2026": {
+  "pmid": "41583534",
+  "authors": [
+   "Repke T",
+   "Tinsdeall F",
+   "Danilenko D",
+   "Graziosi S",
+   "Müller-Hansen F",
+   "Schmidt L",
+   "Thomas J",
+   "van Valkenhoef G"
+  ],
+  "title": "Don't Stop Me Now, `Cause I'm Having a Good Time Screening: Evaluation of Stopping Methods for Safe Use of Priority Screening in Systematic Reviews.",
+  "journal": "Cochrane Evid Synth Methods",
+  "year": "2026",
+  "vol": "4",
+  "issue": "1",
+  "pages": "e70068",
+  "doi": "10.1002/cesm.70068"
+ },
+ "_correction_note": {
+  "made_by": "ldh-reviser AN-0001-18",
+  "date": "2026-09-26",
+  "original": "manuscript/refs_pubmed.json (untouched)",
+  "changes": [
+   "tripodllm: replaced wrong record PMID 42459564 (Dinc 2026, Front Pediatr) with the TRIPOD-LLM record (Gallifant 2025, Nat Med) found by DOI search",
+   "callaghan2020: the key held the Repke 2026 record; it now holds Callaghan and Muller-Hansen 2020 (Syst Rev) found by DOI search",
+   "repke2026: new key holding the Repke 2026 record previously stored under callaghan2020"
+  ],
+  "source": "PubMed E-utilities esearch by DOI and efetch, saved in api_responses/pubmed_efetch_tripodllm_callaghan.xml"
+ }
+}

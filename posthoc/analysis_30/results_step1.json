@@ -1,0 +1,221 @@
+{
+ "analysis_id": "AN-0003-03",
+ "post_hoc": true,
+ "step": 1,
+ "started": "2026-09-28 10:40:29 EDT",
+ "terms": [
+  "subsidi",
+  "sustainab",
+  "pricing",
+  "price"
+ ],
+ "copies": {
+  "live_20260926_190040_EDT": {
+   "description": "live copy fetched 2026-09-26 19:00:40 EDT (https://typesafe.ai/blog/introducing-system-one-models-and-jev)",
+   "html": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-15/sources/typesafe_blog_introducing_system_one_models_and_jev.html",
+   "text": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-15/sources/typesafe_blog_introducing_system_one_models_and_jev.txt",
+   "matches": {
+    "extracted_text_file": {
+     "subsidi": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "sustainab": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "pricing": [
+      "Cost per call: We make our pricing transparent.",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 1,
+      "sustainab": 1,
+      "pricing": 2,
+      "price": 0
+     }
+    },
+    "html_visible_text_lxml": {
+     "subsidi": [
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "sustainab": [
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "pricing": [
+      "Score, judge, verify, guardrail, and detect jailbreaks of LLM prompts, reasoning traces, and/or outputs.Evidence / Technical ResultsWe love skeptics, and are skeptics ourselves.There are some claims you can easily verify:Speed per call: We truly are that fast, though our published evals are generally run from our laptops on the West Coast (this is where our service is currently based).Cost per call: We make our pricing transparent.",
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 1,
+      "sustainab": 1,
+      "pricing": 2,
+      "price": 0
+     }
+    },
+    "html_all_text_including_scripts": {
+     "subsidi": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "sustainab": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "pricing": [
+      "Cost per call: We make our pricing transparent.",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "\"]],[5,\"Score, judge, verify, guardrail, and detect jailbreaks of LLM prompts, reasoning traces, and/or outputs.\"]]]]]]],[4,\"h2\",{\"dir\":\"ltr\"},[4,\"br\",{\"className\":\"trailing-break\"}]],[4,\"h2\",{\"dir\":\"ltr\"},[5,\"Evidence / Technical Results\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"We love skeptics, and are skeptics ourselves.\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"There are some claims you can easily verify:\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Speed per call:\"]],[5,\" We truly are that fast, though our published evals are generally run from our laptops on the West C",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 2,
+      "sustainab": 2,
+      "pricing": 4,
+      "price": 0
+     }
+    }
+   }
+  },
+  "wayback_20260926091045": {
+   "description": "Internet Archive capture 2026-09-26 09:10:45 UTC (id_)",
+   "html": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260926091045_id_decoded.html",
+   "text": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260926091045_id_decoded.txt",
+   "matches": {
+    "extracted_text_file": {
+     "subsidi": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "sustainab": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "pricing": [
+      "Cost per call: We make our pricing transparent.",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 1,
+      "sustainab": 1,
+      "pricing": 2,
+      "price": 0
+     }
+    },
+    "html_visible_text_lxml": {
+     "subsidi": [
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "sustainab": [
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "pricing": [
+      "Score, judge, verify, guardrail, and detect jailbreaks of LLM prompts, reasoning traces, and/or outputs.Evidence / Technical ResultsWe love skeptics, and are skeptics ourselves.There are some claims you can easily verify:Speed per call: We truly are that fast, though our published evals are generally run from our laptops on the West Coast (this is where our service is currently based).Cost per call: We make our pricing transparent.",
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 1,
+      "sustainab": 1,
+      "pricing": 2,
+      "price": 0
+     }
+    },
+    "html_all_text_including_scripts": {
+     "subsidi": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "sustainab": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "pricing": [
+      "Cost per call: We make our pricing transparent.",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "\"]],[5,\"Score, judge, verify, guardrail, and detect jailbreaks of LLM prompts, reasoning traces, and/or outputs.\"]]]]]]],[4,\"h2\",{\"dir\":\"ltr\"},[4,\"br\",{\"className\":\"trailing-break\"}]],[4,\"h2\",{\"dir\":\"ltr\"},[5,\"Evidence / Technical Results\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"We love skeptics, and are skeptics ourselves.\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"There are some claims you can easily verify:\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Speed per call:\"]],[5,\" We truly are that fast, though our published evals are generally run from our laptops on the West C",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 2,
+      "sustainab": 2,
+      "pricing": 4,
+      "price": 0
+     }
+    }
+   }
+  },
+  "wayback_20260915192610": {
+   "description": "Internet Archive capture 2026-09-15 19:26:10 UTC (id_)",
+   "html": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260915192610_id_decoded.html",
+   "text": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260915192610_id_decoded.txt",
+   "matches": {
+    "extracted_text_file": {
+     "subsidi": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "sustainab": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "pricing": [
+      "Cost per call: We make our pricing transparent.",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 1,
+      "sustainab": 1,
+      "pricing": 2,
+      "price": 0
+     }
+    },
+    "html_visible_text_lxml": {
+     "subsidi": [
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "sustainab": [
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "pricing": [
+      "Score, judge, verify, guardrail, and detect jailbreaks of LLM prompts, reasoning traces, and/or outputs.Evidence / Technical ResultsWe love skeptics, and are skeptics ourselves.There are some claims you can easily verify:Speed per call: We truly are that fast, though our published evals are generally run from our laptops on the West Coast (this is where our service is currently based).Cost per call: We make our pricing transparent.",
+      "We canât prove it isnât subsidized; weâll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).No type errors: This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.For our bolder claims, we want to provide as much nuance as we can.Side-by-side demonstrationOur side-by-side demo shows a key difference between our models and LLMs: Jev outputs all probabilities in parallel instead of autoregressively generating by token."
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 1,
+      "sustainab": 1,
+      "pricing": 2,
+      "price": 0
+     }
+    },
+    "html_all_text_including_scripts": {
+     "subsidi": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "sustainab": [
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "pricing": [
+      "Cost per call: We make our pricing transparent.",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+      "\"]],[5,\"Score, judge, verify, guardrail, and detect jailbreaks of LLM prompts, reasoning traces, and/or outputs.\"]]]]]]],[4,\"h2\",{\"dir\":\"ltr\"},[4,\"br\",{\"className\":\"trailing-break\"}]],[4,\"h2\",{\"dir\":\"ltr\"},[5,\"Evidence / Technical Results\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"We love skeptics, and are skeptics ourselves.\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"There are some claims you can easily verify:\"]],[4,\"ul\",{\"dir\":\"auto\"},[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"Speed per call:\"]],[5,\" We truly are that fast, though our published evals are generally run from our laptops on the West C",
+      "We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).\"]]],[4,\"li\",{\"data-preset-tag\":\"p\"},[4,\"p\",null,[4,\"strong\",null,[5,\"No type errors\"]],[5,\": This would be an easy thing to falsify with just a single counter-example, but it is mathematically impossible.\"]]]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"For our bolder claims, we want to provide as much nuance as we can.\"]],[4,\"h3\",{\"dir\":\"ltr\"},[5,\"Side-by-side demonstration\"]],[4,\"p\",{\"dir\":\"ltr\"},[5,\"Our side-by-side demo shows a key difference between our models and LLM"
+     ],
+     "price": [],
+     "_counts": {
+      "subsidi": 2,
+      "sustainab": 2,
+      "pricing": 4,
+      "price": 0
+     }
+    }
+   }
+  }
+ },
+ "subsidi_in_capture_20260926091045": true,
+ "subsidi_in_any_saved_copy": true,
+ "finished": "2026-09-28 10:40:29 EDT"
+}

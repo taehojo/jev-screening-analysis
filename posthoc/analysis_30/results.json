@@ -1,0 +1,116 @@
+{
+ "analysis_id": "AN-0003-03",
+ "post_hoc": true,
+ "network_used": false,
+ "step2_cdx_needed": false,
+ "step2_reason": "the sentence is present in the capture of Sept 26, 2026 (20260926091045); the plan queries later captures only if it is absent",
+ "copies": {
+  "live_20260926_190040_EDT": {
+   "description": "live copy fetched 2026-09-26 19:00:40 EDT (https://typesafe.ai/blog/introducing-system-one-models-and-jev)",
+   "text_file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-15/sources/typesafe_blog_introducing_system_one_models_and_jev.txt",
+   "html_file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-15/sources/typesafe_blog_introducing_system_one_models_and_jev.html",
+   "sha256_html": "4b272b2da9efd910399f9a7ddedafa6f3215a54d96dfeeeab67564aa711415b9",
+   "sha256_text": "664511ddf33c5399c7b4eab3d0c0d4865d1acd1bb8ade8ae7354048a1a6a47de",
+   "mtime_html": "2026-09-26 19:00:40 EDT",
+   "lines_with_subsidi": [
+    {
+     "line": 66,
+     "text": "Cost per call: We make our pricing transparent. We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+    }
+   ],
+   "counts_step1": {
+    "extracted_text_file": {
+     "subsidi": 1,
+     "sustainab": 1,
+     "pricing": 2,
+     "price": 0
+    },
+    "html_visible_text_lxml": {
+     "subsidi": 1,
+     "sustainab": 1,
+     "pricing": 2,
+     "price": 0
+    },
+    "html_all_text_including_scripts": {
+     "subsidi": 2,
+     "sustainab": 2,
+     "pricing": 4,
+     "price": 0
+    }
+   }
+  },
+  "wayback_20260926091045": {
+   "description": "Internet Archive capture 2026-09-26 09:10:45 UTC (id_)",
+   "text_file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260926091045_id_decoded.txt",
+   "html_file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260926091045_id_decoded.html",
+   "sha256_html": "2dc950eeb4170d9112c40cd70429a5c5096bd041785ff4cff90ca7374524327a",
+   "sha256_text": "a3f1b7138a905dd1e4d1c39d466e43112f562a836f475fa7fd6200cffd762503",
+   "mtime_html": "2026-09-27 21:21:05 EDT",
+   "lines_with_subsidi": [
+    {
+     "line": 67,
+     "text": "Cost per call: We make our pricing transparent. We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+    }
+   ],
+   "counts_step1": {
+    "extracted_text_file": {
+     "subsidi": 1,
+     "sustainab": 1,
+     "pricing": 2,
+     "price": 0
+    },
+    "html_visible_text_lxml": {
+     "subsidi": 1,
+     "sustainab": 1,
+     "pricing": 2,
+     "price": 0
+    },
+    "html_all_text_including_scripts": {
+     "subsidi": 2,
+     "sustainab": 2,
+     "pricing": 4,
+     "price": 0
+    }
+   }
+  },
+  "wayback_20260915192610": {
+   "description": "Internet Archive capture 2026-09-15 19:26:10 UTC (id_)",
+   "text_file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260915192610_id_decoded.txt",
+   "html_file": "/N/project/AiLab/jev/review_pipeline/rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260915192610_id_decoded.html",
+   "sha256_html": "1cff67343a89b1ac8c338c92c2f6b83656206c0463fe086646013c0c745f3ed6",
+   "sha256_text": "ffb18b75fba4df233310120030b8f6ad255475be28290eda7ccf15d18a07c996",
+   "mtime_html": "2026-09-27 21:21:05 EDT",
+   "lines_with_subsidi": [
+    {
+     "line": 67,
+     "text": "Cost per call: We make our pricing transparent. We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up)."
+    }
+   ],
+   "counts_step1": {
+    "extracted_text_file": {
+     "subsidi": 1,
+     "sustainab": 1,
+     "pricing": 2,
+     "price": 0
+    },
+    "html_visible_text_lxml": {
+     "subsidi": 1,
+     "sustainab": 1,
+     "pricing": 2,
+     "price": 0
+    },
+    "html_all_text_including_scripts": {
+     "subsidi": 2,
+     "sustainab": 2,
+     "pricing": 4,
+     "price": 0
+    }
+   }
+  }
+ },
+ "same_line_in_all_copies": true,
+ "quotation": "Cost per call: We make our pricing transparent. We can’t prove it isn’t subsidized; we’ll need the long-term to prove the sustainability of our pricing (which we expect to go down, not up).",
+ "quotation_source": "https://web.archive.org/web/20260926091045/https://typesafe.ai/blog/introducing-system-one-models-and-jev (captured 2026-09-26 09:10:45 UTC; saved in rounds/round_0002/revision/analysis/AN-0002-03/snapshots/blog_20260926091045_id_decoded.txt, line 67)",
+ "note_typography": "apostrophes in the source are U+2019; the source spelling is 'subsidized'",
+ "finished": "2026-09-28 10:40:49 EDT"
+}

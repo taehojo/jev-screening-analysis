@@ -1,0 +1,115 @@
+key,split,n_records,n_records_included,prevalence,year,review_type,has_ti_ab_labels,protocol,criteria_chars,journal,used_in_development_73
+Abgaz_2023,test,288,11,0.03819444444444445,2023,Systematic review,1,1,973,IEEE Transactions on Software Engineering,False
+Adamo_2021,train,1151,16,0.013900955690703735,2021,Systematic literature review,1,1,958,Software and Systems Modeling,True
+Ali_2024,train,515,30,0.05825242718446602,2024,Systematic literature review,1,1,478,Business & Information Systems Engineering,True
+Anmarkrud_2021,train,593,16,0.026981450252951095,2021,Systematic review,1,0,962,Educational Psychology Review,True
+Aouad_2024,train,714,30,0.04201680672268908,2024,Systematic literature review,0,0,972,Annals of the Rheumatic Diseases,True
+Appenzeller-Herzog_2019,train,582,8,0.013745704467353952,2019,Systematic review,1,0,1949,Liver international,True
+Attai_2022,test,1726,135,0.07821552723059096,2022,Systematic review,0,0,542,Tropical Medicine and Infectious deisease,False
+Bakker-Jacobs_2022,train,549,8,0.014571948998178506,2022,Systematic scoping review,1,1,1098,International Journal of Nursing and Health Care Research,True
+Bech_2019,train,556,15,0.02697841726618705,2019,Systematic literature review,0,0,148,Annals of the Rheumatic Diseases,True
+Bindoli_2024a,train,1449,64,0.04416839199447895,2024,Systematic review,0,1,1088,Annals of the Rheumatic Diseases,True
+Bindoli_2024b,train,341,7,0.020527859237536656,2024,Systematic review,0,1,1086,Annals of the Rheumatic Diseases,True
+Boersma-van_Dam_2024,test,578,24,0.04152249134948097,2024,Systematic review and meta-analysis,1,1,1768,Health Psychology Review,False
+Bos_2018,test,2241,6,0.002677376171352075,2018,Systematic review,1,0,1453,Alzheimer's & Dementia,False
+Bosch_2021,test,1716,22,0.01282051282051282,2021,Systematic literature review,0,0,533,Rheumatic & Musculoskeletal Diseases,False
+Bosch_2023,train,2341,19,0.008116189662537377,2023,Systematic literature review,0,1,1956,Rheumatic & Musculoskeletal Diseases,False
+Brons_2024,train,172,25,0.14534883720930233,2024,Scoping review,1,0,1281,Journal of medical internet research,True
+Brouwer_2019,train,11440,14,0.0012237762237762239,2019,Systematic review,0,1,1629,Clinical Psychology Review,False
+Burska_2023,train,3247,158,0.0486603018170619,2023,Systematic literature review,1,0,789,Rheumatic & Musculoskeletal Diseases,False
+Butink_2023,train,3090,30,0.009708737864077669,2023,Systematic review and meta-analysis,1,1,787,Rheumatic & Musculoskeletal Diseases,False
+Chakraborty_2023,test,2233,7,0.003134796238244514,2023,Systematic literature review,1,0,1308,Software and Systems Modeling,False
+Chueca_2023,test,609,16,0.026272577996715927,2023,Systematic literature review,1,0,905,Information and Software Technology,False
+Cinquin_2018,train,290,9,0.03103448275862069,2018,Systematic review,1,0,1023,Computers & Education,True
+Clarinval_2021,train,446,19,0.042600896860986545,2021,Systematic literature review,0,1,364,IEEE Transactions on Intelligent Transportation Systems,True
+Clark_2021,train,199,3,0.01507537688442211,2021,Systematic review,1,1,971,"Language, Speech, and Hearing Services in Schools",True
+Cozim-Melges_2024,train,630,95,0.15079365079365079,2024,Systematic review,0,0,706,npj Biodiversity,True
+de_Matteis_2024a,train,140,3,0.02142857142857143,2024,Systematic review,0,1,632,Annals of the Rheumatic Diseases,True
+de_Matteis_2024b,train,553,24,0.0433996383363472,2024,Systematic review,0,0,272,Annals of the Rheumatic Diseases,True
+Deckers_2022,train,106,3,0.02830188679245283,2022,Systematic literature review,1,0,2756,Journal of Systems and Software,True
+Dolinska_2022,train,3231,15,0.004642525533890436,2022,Systematic review and meta-analysis,1,0,959,F&S Reviews,False
+Donners_2021,test,119,14,0.11764705882352941,2021,Systematic review,0,0,220,Clinical Pharmacokinetics,False
+Dornauer_2023,train,259,5,0.019305019305019305,2023,Systematic literature review,0,1,839,2023 IEEE/ACM 10th International Conference on Mobile Software Engineering and Systems (MOBILESoft),True
+Eggmann_2023,test,266,9,0.03383458646616541,2023,Systematic review,0,1,862,Materials,False
+Endedijk_2021,train,1092,89,0.0815018315018315,2021,Meta-analysis,1,1,632,Review of Educational Research,True
+Farisogullari_2023,train,1439,59,0.04100069492703266,2023,Systematic review,0,1,1900,Rheumatic & Musculoskeletal Diseases,True
+Fejza_2023,train,1499,45,0.030020013342228154,2023,Systematic literature review,0,1,675,Immunology,True
+Ferreira_2022,train,223,3,0.013452914798206279,2022,Systematic review and meta-analysis,0,1,1815,British Journal of Nutrition,True
+Filges_2018,train,925,20,0.021621621621621623,2018,Systematic review,1,1,382,Campbell Systematic reviews,True
+Filges_2022,train,781,6,0.0076824583866837385,2022,Systematic review,1,1,723,Campbell Systematic reviews,True
+Fong_2021,train,489,44,0.08997955010224949,2021,Meta-analysis,1,0,346,Education Research Review,True
+Giesen_2021,train,1293,11,0.008507347254447023,2021,Systematic scoping review,1,1,1031,International Journal of Nursing and Health Care Research,True
+Greca_2023,train,328,24,0.07317073170731707,2023,Live Systematic Literature Review,0,0,1908,ACM Computing Surveys,True
+Hall_2011,test,340,4,0.011764705882352941,2011,Systematic review,0,0,940,IEEE Transactions on Software Engineering,False
+Hamaker_2022,train,1313,13,0.009900990099009901,2022,Systematic review,0,0,1858,Journal of Geriatric Oncology,True
+Hanlon_2022,train,77,6,0.07792207792207792,2022,Systematic review,1,1,1691,Wellcome Open Research,True
+Harms_2024,test,840,48,0.05714285714285714,2024,Systematic review,1,0,240,Urban Transformations,False
+Hilfiker_2017,train,7573,749,0.09890400105638453,2017,Systematic review,0,1,1092,British Journal of Sports Medicine,False
+Kapuka_2021,train,151,8,0.052980132450331126,2021,Systematic review,1,0,265,Ecosphere,True
+Kerschbaumer_2022,train,2605,29,0.011132437619961612,2022,Systematic literature review,0,0,933,Annals of the Rheumatic Diseases,False
+Kerschbaumer_2024a,train,1949,29,0.014879425346331451,2024,Systematic literature research,0,1,1137,Annals of the Rheumatic Diseases,True
+Kerschbaumer_2024b,test,1146,15,0.013089005235602094,2024,Systematic literature research,0,1,1178,Annals of the Rheumatic Diseases,False
+Lauper_2021,train,5691,137,0.02407309787383588,2021,Systematic review,0,0,653,Rheumatic & Musculoskeletal Diseases,False
+Leenaars_2019,train,1395,7,0.005017921146953405,2019,Systematic review,0,1,1276,Journal of circadian rhythms,True
+Leenaars_2020,train,1956,199,0.10173824130879346,2020,Systematic review,0,1,449,animals,True
+Lewowski_2021,test,329,9,0.02735562310030395,2021,Systematic literature review,1,0,1529,Information and Software Technology,False
+Low_2023,train,556,36,0.06474820143884892,2023,Systematic review,0,0,348,Agricultural Systems,True
+Maciel_2024,train,274,31,0.11313868613138686,2024,Systematic review,1,1,553,Death studies,True
+Marques_2021,train,713,16,0.02244039270687237,2021,Systematic review,0,0,2387,Rheumatic & Musculoskeletal Diseases,True
+Meijboom_2021,train,464,21,0.04525862068965517,2021,Systematic review,0,1,681,BioDrugs,True
+Mejean_2024,train,486,66,0.13580246913580246,2024,Systematic literature review,1,0,571,Environmental research letters,True
+Menon_2022,test,485,35,0.07216494845360824,2022,Systematic review,0,1,1174,Critical reviews in Toxicology,False
+Mohamed_2023,train,2699,80,0.029640607632456465,2023,Systematic review and meta-analysis,0,1,799,Carcinogenesis,False
+Monschau_2025,train,7384,51,0.0069068255687974,2025,Systematic review,1,0,1223,PsyArXiv,False
+Moran_2020,test,1992,39,0.01957831325301205,2020,Systematic review and meta-analysis,1,1,1817,Biological reviews,False
+Moseng_2024,train,3556,38,0.010686164229471317,2024,Systematic literature review,0,0,482,Annals of the Rheumatic Diseases,False
+Muthu_2020,train,923,20,0.021668472372697724,2020,Systematic review and meta-analysis,0,0,653,Spine,True
+Nobrega-Dos_Santos_2023,train,277,8,0.02888086642599278,2023,Systematic literature review,0,1,607,SBES'23,True
+Noetel_2021,train,444,6,0.013513513513513514,2021,Meta-analysis,1,0,2014,Review of Educational Research,True
+Oliveira_2021,train,184,17,0.09239130434782608,2021,Systematic review and meta-analysis,1,0,903,Frontiers in Psychology,True
+Oud_2018,train,243,5,0.0205761316872428,2018,Systematic review and meta-analysis,0,0,734,Australian & New Zealand Journal of Psychiatry,True
+Parodis_2023a,train,4125,52,0.012606060606060607,2023,Systematic literature review,0,0,644,Rheumatic & Musculoskeletal Diseases,False
+Parodis_2023b,test,1679,33,0.019654556283502083,2023,Systematic literature review,0,0,633,Rheumatic & Musculoskeletal Diseases,False
+Pijls_2017,train,54,3,0.05555555555555555,2017,Systematic review,0,0,335,Acta Radiologica,True
+Pijls_2018,train,301,16,0.053156146179401995,2018,Systematic review and meta-analysis,0,0,348,Acta Orthopaedica,True
+Pinos-Cisneros_2023,train,109,21,0.1926605504587156,2023,Scoping review,0,1,1042,JMIR Serious Games,True
+Quevedo_2023,train,199,18,0.09045226130653267,2023,Systematic map,1,0,939,IEEE Access,True
+Ramiro_2015,train,338,18,0.05325443786982249,2015,Systematic literature review,0,0,2368,Annals of the Rheumatic Diseases,True
+Rinne_2021,train,815,194,0.23803680981595093,2021,Scoping review,1,1,976,Health & Place,True
+Roberts_2021,test,883,3,0.0033975084937712344,2021,Meta-analysis,1,0,623,Review of Educational Research,False
+Ruggeri_2019,train,2265,11,0.004856512141280353,2019,Systematic review,1,0,1211,Sage,False
+Sanchez-Acedo_2023,train,345,20,0.057971014492753624,2023,Systematic literature review,1,0,494,Multimodal technologies and interaction,True
+Sanchez-Alvarez_2023,train,2289,80,0.03494975972040192,2023,Systematic literature review,0,0,516,Rheumatic & Musculoskeletal Diseases,False
+Sanchez-Gomez_2024,train,385,7,0.01818181818181818,2024,Systematic review,1,0,1054,behavioral sciences,True
+Santos_2018,train,488,7,0.014344262295081968,2018,Systematic review,0,0,1747,Journal of Systems and Software,True
+Seghers_2022,test,1759,16,0.009096077316657191,2022,Systematic review,0,1,925,Cancers,False
+Sep_2021,train,147,28,0.19047619047619047,2021,Systematic review and meta-analysis,1,1,806,PLoS ONE,True
+Sepriano_2020,train,1908,29,0.01519916142557652,2020,Systematic literature review,0,0,1714,Annals of the Rheumatic Diseases,True
+Sepriano_2022,train,1760,57,0.03238636363636364,2022,Systematic literature review,0,0,2229,Annals of the Rheumatic Diseases,True
+Smid_2019,train,770,11,0.014285714285714285,2019,Systematic review and meta-analysis,0,0,1364,Structural equation modeling,True
+Taschner_2024,train,1323,34,0.025699168556311415,2024,Systematic review and meta-analysis,1,1,1267,Review of Educational research,True
+Tektonidou_2019,train,1251,58,0.04636290967226219,2019,Systematic literature review,0,0,450,Rheumatic & Musculoskeletal Diseases,True
+Theobald_2021,test,70,9,0.12857142857142856,2021,Meta-analysis,1,0,2172,Contemporary Educational Psychology,False
+Toffalini_2021,test,328,22,0.06707317073170732,2021,Systematic review and meta-analysis,1,0,1931,Behavior Research Methods,False
+Tumkaya_2018,test,481,39,0.08108108108108109,2018,Systematic review,1,0,642,Neuroscience & Biobehavioral Reviews,False
+van_Ballegooijen_2024,train,3295,87,0.026403641881638847,2024,Systematic review and meta-analysis,1,0,930,JAMA Psychiatry,False
+van_de_Schoot_2025,train,6948,100,0.014392630972941854,2025,Systematic review,1,0,385,Multivariate Behavioral Research,False
+van_der_Valk_2021,train,362,46,0.1270718232044199,2021,Systematic review and meta-analysis,1,1,479,Obesity reviews,True
+van_der_Waal_2022,test,1158,17,0.01468048359240069,2022,Meta-analysis,0,0,986,Journal of Geriatric Oncology,False
+van_Dis_2019,train,3154,20,0.0063411540900443885,2019,Systematic review and meta-analysis,1,1,1416,JAMA Psychiatry,False
+van_Heugten_Breurkes_2022,train,303,13,0.0429042904290429,2022,Systematic literature review,0,0,1169,EASE '22,True
+van_Hoorn_2020,train,1154,15,0.012998266897746967,2020,Scoping review,1,1,1828,Developmental Medicine & Child Neurology,True
+Verdugo-Castro_2022,train,1245,10,0.008032128514056224,2022,Systematic literature review,0,0,484,Heliyon,True
+Viguie_2020,train,1978,104,0.0525783619817998,2020,Systematic map,1,1,904,Environmental research letters,True
+Walker_2018,test,11735,64,0.005453770771197273,2018,Scoping review,0,1,1437,Environment International,False
+Ward_2020,train,374,8,0.0213903743315508,2020,Systematic review and meta-analysis,1,1,648,American Professional Society of ADHD and Related Disorders,True
+Wassenaar_2017,train,1523,23,0.015101772816808929,2017,Systematic review and meta-analysis,1,1,1145,Environmental Health Perspectives,True
+Webers_2022,train,8078,84,0.010398613518197574,2022,Systematic literature review,0,1,234,Annals of the Rheumatic Diseases,False
+Wijnen_2024,train,399,6,0.015037593984962405,2024,Systematic review,1,0,314,EGU,True
+Williamson_2023,train,258,5,0.01937984496124031,2023,Systematic map,0,0,740,Reviews in Fish Biology and Fisheries,True
+Wolters_2018,train,1683,9,0.0053475935828877,2018,Systematic review and meta-analysis,0,0,1289,Alzheimer's & Dementia,True
+Xu_2022,train,960,21,0.021875,2022,Systematic review,1,0,1806,Educational Research Review,True
+Zakeri-Nasrabadi_2023a,train,627,9,0.014354066985645933,2023,Systematic literature review,1,0,927,ACM Computing Surveys,True
+Zakeri-Nasrabadi_2023b,train,1720,46,0.026744186046511628,2023,Systematic literature review,1,0,1812,Journal of Systems and Software,True
+Zanframundo_2022,train,1334,40,0.029985007496251874,2022,Systematic literature review,1,0,507,Clinical and Experimental Rheumatology,True
+Zinsser_2022,train,125,3,0.024,2022,Systematic review,1,0,562,Review of Educational Research,True

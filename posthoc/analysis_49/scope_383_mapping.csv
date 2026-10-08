@@ -1,0 +1,384 @@
+source,key,assigned,builder,in_table53_main_rows,main_text_or_table2,p_default_printed_format,printed_p_found_in_assigned_text,p_string_found_elsewhere_in_SI_tables,n_zero
+AN-0001-02,heldout_final|hybrid_minus_jevonly|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),True,"Results (hybrid increment over the Jev ranking, P=0.025)",0.025,True,,3
+AN-0001-02,heldout_final|hybrid_minus_jevonly|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.033,True,,4
+AN-0001-02,heldout_final|hybrid_minus_jevonly|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.051,True,,14
+AN-0001-02,heldout_final|hybrid_minus_jevonly|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.036,True,,15
+AN-0001-02,heldout_final|hybrid_minus_jevonly|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.50,True,,18
+AN-0001-02,heldout_final|jevonly_minus_asr|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),True,Results (post hoc Jev ranking vs ASReview),0.00048,True,,0
+AN-0001-02,heldout_final|jevonly_minus_asr|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00025,True,,0
+AN-0001-02,heldout_final|jevonly_minus_asr|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00039,True,,3
+AN-0001-02,heldout_final|jevonly_minus_asr|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00085,True,,6
+AN-0001-02,heldout_final|jevonly_minus_asr|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.019,True,,11
+AN-0001-02,heldout_final|hybrid_minus_asr|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,<0.0001,True,,0
+AN-0001-02,heldout_final|hybrid_minus_asr|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,<0.0001,True,,0
+AN-0001-02,heldout_final|hybrid_minus_asr|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,<0.0001,True,,3
+AN-0001-02,heldout_final|hybrid_minus_asr|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00029,True,,6
+AN-0001-02,heldout_final|hybrid_minus_asr|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0076,True,,12
+AN-0001-02,heldout_final|asr_jevstart_minus_jevonly|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0012,True,,1
+AN-0001-02,heldout_final|asr_jevstart_minus_jevonly|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00061,True,,1
+AN-0001-02,heldout_final|asr_jevstart_minus_jevonly|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0013,True,,7
+AN-0001-02,heldout_final|asr_jevstart_minus_jevonly|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0014,True,,6
+AN-0001-02,heldout_final|asr_jevstart_minus_jevonly|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.019,True,,11
+AN-0001-02,heldout_final|pseudo_minus_jevonly|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.048,True,,0
+AN-0001-02,heldout_final|pseudo_minus_jevonly|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.020,True,,0
+AN-0001-02,heldout_final|pseudo_minus_jevonly|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.35,True,,18
+AN-0001-02,heldout_final|pseudo_minus_jevonly|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.39,True,,11
+AN-0001-02,heldout_final|pseudo_minus_jevonly|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.33,True,,13
+AN-0001-02,heldout_final|hybrid_minus_jevonly_stable|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.028,True,,3
+AN-0001-02,heldout_final|hybrid_minus_jevonly_stable|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.036,True,,4
+AN-0001-02,heldout_final|hybrid_minus_jevonly_stable|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.051,True,,14
+AN-0001-02,heldout_final|hybrid_minus_jevonly_stable|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.075,True,,17
+AN-0001-02,heldout_final|hybrid_minus_jevonly_stable|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.50,True,,18
+AN-0001-02,heldout_ta|hybrid_minus_jevonly|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0024,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_jevonly|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0034,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_jevonly|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.074,True,,3
+AN-0001-02,heldout_ta|hybrid_minus_jevonly|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.014,True,,2
+AN-0001-02,heldout_ta|hybrid_minus_jevonly|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0020,True,,2
+AN-0001-02,heldout_ta|jevonly_minus_asr|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.62,True,,0
+AN-0001-02,heldout_ta|jevonly_minus_asr|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.38,True,,0
+AN-0001-02,heldout_ta|jevonly_minus_asr|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.034,True,,0
+AN-0001-02,heldout_ta|jevonly_minus_asr|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.20,True,,0
+AN-0001-02,heldout_ta|jevonly_minus_asr|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.34,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_asr|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.034,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_asr|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.042,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_asr|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0024,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_asr|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0034,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_asr|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.019,True,,1
+AN-0001-02,heldout_ta|hybrid_minus_jevonly_stable|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00098,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_jevonly_stable|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0024,True,,0
+AN-0001-02,heldout_ta|hybrid_minus_jevonly_stable|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.078,True,,4
+AN-0001-02,heldout_ta|hybrid_minus_jevonly_stable|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.014,True,,2
+AN-0001-02,heldout_ta|hybrid_minus_jevonly_stable|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0020,True,,2
+AN-0001-02,clef_final|hybrid_minus_jevonly|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),True,Discussion (0.019 of 0.044 in Cochrane reviews),0.0043,True,,2
+AN-0001-02,clef_final|hybrid_minus_jevonly|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.058,True,,2
+AN-0001-02,clef_final|hybrid_minus_jevonly|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0099,True,,17
+AN-0001-02,clef_final|hybrid_minus_jevonly|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.063,True,,21
+AN-0001-02,clef_final|hybrid_minus_jevonly|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.22,True,,23
+AN-0001-02,clef_final|jevonly_minus_asr|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),True,Results (Cochrane),0.032,True,,0
+AN-0001-02,clef_final|jevonly_minus_asr|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0071,True,,0
+AN-0001-02,clef_final|jevonly_minus_asr|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0026,True,,7
+AN-0001-02,clef_final|jevonly_minus_asr|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.074,True,,13
+AN-0001-02,clef_final|jevonly_minus_asr|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.15,True,,17
+AN-0001-02,clef_final|hybrid_minus_asr|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00015,True,,0
+AN-0001-02,clef_final|hybrid_minus_asr|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,<0.0001,True,,0
+AN-0001-02,clef_final|hybrid_minus_asr|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.00014,True,,8
+AN-0001-02,clef_final|hybrid_minus_asr|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0022,True,,16
+AN-0001-02,clef_final|hybrid_minus_asr|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.012,True,,20
+AN-0001-02,clef_final|pseudo_minus_jevonly|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.12,True,,1
+AN-0001-02,clef_final|pseudo_minus_jevonly|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.088,True,,1
+AN-0001-02,clef_final|pseudo_minus_jevonly|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.25,True,,22
+AN-0001-02,clef_final|pseudo_minus_jevonly|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.86,True,,19
+AN-0001-02,clef_final|pseudo_minus_jevonly|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.61,True,,21
+AN-0001-02,clef_final|hybrid_minus_jevonly_stable|wss95,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.0074,True,,2
+AN-0001-02,clef_final|hybrid_minus_jevonly_stable|wss100,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.091,True,,2
+AN-0001-02,clef_final|hybrid_minus_jevonly_stable|rec@10,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.013,True,,18
+AN-0001-02,clef_final|hybrid_minus_jevonly_stable|rec@20,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.063,True,,21
+AN-0001-02,clef_final|hybrid_minus_jevonly_stable|rec@30,Supplementary Table 20,ranking_diffs (built by make_appendix_tables.py; recount analysis AN-0001-02 of the earlier version),False,,0.22,True,,23
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,7
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0027,True,,7
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,30
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00069,True,,40
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.10,True,,53
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,46
+AN-0001-03,development|asr_jevblend_1_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,72
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.62,True,,13
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.82,True,,14
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.59,True,,52
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.53,True,,57
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.33,True,,59
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.65,True,,49
+AN-0001-03,development|asr_jevblend_2_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,72
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.39,True,,15
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.017,True,,15
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.87,True,,50
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.69,True,,56
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.37,True,,64
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.67,True,,49
+AN-0001-03,development|asr_jevblend_5_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,no test,,,73
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00069,True,,9
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00073,True,,10
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.20,True,,42
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,55
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.69,True,,61
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.98,True,,45
+AN-0001-03,development|asr_jevblend_10_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,72
+AN-0001-03,development|asr_jevblend_1_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.88,True,,3
+AN-0001-03,development|asr_jevblend_1_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.38,True,,3
+AN-0001-03,development|asr_jevblend_1_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,20
+AN-0001-03,development|asr_jevblend_1_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.30,True,,39
+AN-0001-03,development|asr_jevblend_1_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.85,True,,47
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,9
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,22
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,35
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0056,True,,49
+AN-0001-03,development|asr_jevblend_1_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.080,True,,68
+AN-0001-03,development|asr_jevblend_2_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0017,True,,2
+AN-0001-03,development|asr_jevblend_2_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0015,True,,2
+AN-0001-03,development|asr_jevblend_2_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.032,True,,27
+AN-0001-03,development|asr_jevblend_2_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,42
+AN-0001-03,development|asr_jevblend_2_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.052,True,,53
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,8
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,20
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,30
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00039,True,,43
+AN-0001-03,development|asr_jevblend_2_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.080,True,,68
+AN-0001-03,development|asr_jevblend_3_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,3
+AN-0001-03,development|asr_jevblend_3_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,4
+AN-0001-03,development|asr_jevblend_3_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0010,True,,29
+AN-0001-03,development|asr_jevblend_3_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.028,True,,45
+AN-0001-03,development|asr_jevblend_3_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.12,True,,55
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,8
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,19
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,30
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0018,True,,42
+AN-0001-03,development|asr_jevblend_3_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.080,True,,68
+AN-0001-03,development|asr_jevblend_5_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,2
+AN-0001-03,development|asr_jevblend_5_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,2
+AN-0001-03,development|asr_jevblend_5_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00016,True,,32
+AN-0001-03,development|asr_jevblend_5_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0063,True,,48
+AN-0001-03,development|asr_jevblend_5_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0099,True,,56
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,8
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,19
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,31
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0030,True,,43
+AN-0001-03,development|asr_jevblend_5_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.080,True,,68
+AN-0001-03,development|asr_jevblend_10_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,4
+AN-0001-03,development|asr_jevblend_10_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,3
+AN-0001-03,development|asr_jevblend_10_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00061,True,,43
+AN-0001-03,development|asr_jevblend_10_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.050,True,,53
+AN-0001-03,development|asr_jevblend_10_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0029,True,,59
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,8
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,18
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,31
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0021,True,,42
+AN-0001-03,development|asr_jevblend_10_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.080,True,,68
+AN-0001-03,development|jev_only_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|jev_only_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,development|jev_only_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,8
+AN-0001-03,development|jev_only_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,17
+AN-0001-03,development|jev_only_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,28
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.28,True,,3
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.14,True,,3
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.22,True,,18
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.65,True,,21
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,22
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.25,True,,12
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,no test,,,23
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.42,True,,4
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.75,True,,4
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,1.00,True,,19
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.22,True,,18
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,22
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,1.00,True,,15
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,no test,,,23
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.13,True,,3
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.29,True,,2
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.35,True,,16
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.35,True,,18
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,1.00,True,,20
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.88,True,,13
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,no test,,,23
+AN-0001-03,heldout|asr_jevblend_2_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.099,True,,2
+AN-0001-03,heldout|asr_jevblend_2_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.20,True,,2
+AN-0001-03,heldout|asr_jevblend_2_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.25,True,,12
+AN-0001-03,heldout|asr_jevblend_2_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.050,True,,15
+AN-0001-03,heldout|asr_jevblend_2_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.50,True,,18
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,3
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00029,True,,6
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0076,True,,12
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.028,True,,11
+AN-0001-03,heldout|asr_jevblend_2_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,20
+AN-0001-03,heldout|asr_jevblend_3_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.025,True,,3
+AN-0001-03,heldout|asr_jevblend_3_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.033,True,,4
+AN-0001-03,heldout|asr_jevblend_3_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.051,True,,14
+AN-0001-03,heldout|asr_jevblend_3_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.036,True,,15
+AN-0001-03,heldout|asr_jevblend_3_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.50,True,,18
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,3
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00029,True,,6
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0076,True,,12
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0071,True,,10
+AN-0001-03,heldout|asr_jevblend_3_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,20
+AN-0001-03,heldout|asr_jevblend_5_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.019,True,,3
+AN-0001-03,heldout|asr_jevblend_5_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.017,True,,3
+AN-0001-03,heldout|asr_jevblend_5_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.050,True,,15
+AN-0001-03,heldout|asr_jevblend_5_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.24,True,,16
+AN-0001-03,heldout|asr_jevblend_5_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.50,True,,18
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00014,True,,3
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00028,True,,5
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.013,True,,12
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0071,True,,10
+AN-0001-03,heldout|asr_jevblend_5_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,20
+AN-0001-03,heldout|asr_jevblend_10_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0057,True,,2
+AN-0001-03,heldout|asr_jevblend_10_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0057,True,,2
+AN-0001-03,heldout|asr_jevblend_10_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.051,True,,14
+AN-0001-03,heldout|asr_jevblend_10_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.16,True,,15
+AN-0001-03,heldout|asr_jevblend_10_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.068,True,,19
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00025,True,,0
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00025,True,,3
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00028,True,,5
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.013,True,,12
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.013,True,,9
+AN-0001-03,heldout|asr_jevblend_10_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.11,True,,20
+AN-0001-03,heldout|jev_only_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00048,True,,0
+AN-0001-03,heldout|jev_only_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00025,True,,0
+AN-0001-03,heldout|jev_only_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00039,True,,3
+AN-0001-03,heldout|jev_only_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00085,True,,6
+AN-0001-03,heldout|jev_only_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.019,True,,11
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.030,True,,8
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.59,True,,7
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.22,True,,23
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.18,True,,26
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,27
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.91,True,,13
+AN-0001-03,clef|asr_jevblend_5_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,27
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.016,True,,7
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.23,True,,7
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.015,True,,19
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.043,True,,23
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.32,True,,27
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.57,True,,12
+AN-0001-03,clef|asr_jevblend_10_minus_asr_jevblend_3|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.65,True,,26
+AN-0001-03,clef|asr_jevblend_3_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0043,True,,2
+AN-0001-03,clef|asr_jevblend_3_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.058,True,,2
+AN-0001-03,clef|asr_jevblend_3_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0099,True,,17
+AN-0001-03,clef|asr_jevblend_3_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.063,True,,21
+AN-0001-03,clef|asr_jevblend_3_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.22,True,,23
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00015,True,,0
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,<0.0001,True,,0
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00014,True,,8
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0022,True,,16
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.012,True,,20
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0010,True,,7
+AN-0001-03,clef|asr_jevblend_3_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.22,True,,23
+AN-0001-03,clef|asr_jevblend_5_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0020,True,,2
+AN-0001-03,clef|asr_jevblend_5_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.012,True,,2
+AN-0001-03,clef|asr_jevblend_5_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.017,True,,18
+AN-0001-03,clef|asr_jevblend_5_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.063,True,,21
+AN-0001-03,clef|asr_jevblend_5_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.35,True,,23
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0011,True,,0
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00034,True,,0
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00016,True,,8
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0030,True,,15
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.012,True,,20
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0022,True,,8
+AN-0001-03,clef|asr_jevblend_5_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.22,True,,23
+AN-0001-03,clef|asr_jevblend_10_minus_jev_only|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0056,True,,4
+AN-0001-03,clef|asr_jevblend_10_minus_jev_only|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0051,True,,4
+AN-0001-03,clef|asr_jevblend_10_minus_jev_only|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.13,True,,21
+AN-0001-03,clef|asr_jevblend_10_minus_jev_only|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.17,True,,22
+AN-0001-03,clef|asr_jevblend_10_minus_jev_only|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.35,True,,23
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.010,True,,0
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00097,True,,0
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.00084,True,,7
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.016,True,,15
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.012,True,,20
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|knee_work,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0045,True,,8
+AN-0001-03,clef|asr_jevblend_10_minus_asr_prior|knee_rec,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.60,True,,22
+AN-0001-03,clef|jev_only_minus_asr_prior|wss95,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.032,True,,0
+AN-0001-03,clef|jev_only_minus_asr_prior|wss100,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0071,True,,0
+AN-0001-03,clef|jev_only_minus_asr_prior|rec@10,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.0026,True,,7
+AN-0001-03,clef|jev_only_minus_asr_prior|rec@20,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.074,True,,13
+AN-0001-03,clef|jev_only_minus_asr_prior|rec@30,Supplementary Table 58,lambda_diffs (make_appendix_tables.py; recount AN-0001-03),False,,0.15,True,,17
+AN-0001-08,heldout|stat_jev_only_minus_threshold_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),True,Discussion (28.8 percentage points),<0.0001,True,,0
+AN-0001-08,heldout|stat_jev_only_minus_threshold_recall,Supplementary Note 16,stop_recall_diffs text (make_appendix_tables.py; recount AN-0001-08),False,,0.18,True,,21
+AN-0001-08,heldout|stat_jev_only_minus_stat_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),True,Discussion (2.5 percentage points),0.0051,True,,2
+AN-0001-08,heldout|stat_hybrid_minus_stat_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.00054,True,,2
+AN-0001-08,heldout|stat_asreview_minus_knee_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.042,True,,0
+AN-0001-08,heldout|stat_asreview_minus_knee_asreview_recall,Supplementary Note 16,stop_recall_diffs text (make_appendix_tables.py; recount AN-0001-08),False,,0.14,True,,19
+AN-0001-08,heldout|stat_hybrid_minus_knee_hybrid_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.56,True,,0
+AN-0001-08,heldout|threshold_minus_stat_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,<0.0001,True,,0
+AN-0001-08,heldout|comb_minus_threshold_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,<0.0001,True,,2
+AN-0001-08,heldout|comb_minus_stat_jev_only_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.11,True,,20
+AN-0001-08,heldout|atd_hybrid_minus_asr,Supplementary Note 16,atd_diffs text (make_appendix_tables.py; recount AN-0001-08; no P printed there),False,,<0.0001,False,Table 8;Table 10;Table 11;Table 14;Table 20;Table 22,0
+AN-0001-08,heldout|atd_jev_minus_asr,Supplementary Note 16,atd_diffs text (make_appendix_tables.py; recount AN-0001-08; no P printed there),True,Discussion (average time to discovery),<0.0001,False,Table 8;Table 10;Table 11;Table 14;Table 20;Table 22,0
+AN-0001-08,heldout|atd_hybrid_minus_jev,Supplementary Note 16,atd_diffs text (make_appendix_tables.py; recount AN-0001-08; no P printed there),False,,0.025,False,Table 20;Table 22;Table 23;Table 26;Table 45;Table 48,2
+AN-0001-08,heldout|reliability|jev_stat_minus_thr,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,no test,,,23
+AN-0001-08,heldout|reliability|asr_stat_minus_asr_knee,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.083,True,,20
+AN-0001-08,heldout|reliability|jev_stat_minus_asr_stat,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,no test,,,23
+AN-0001-08,heldout|reliability|thr_minus_asr_stat,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,no test,,,23
+AN-0001-08,heldout|reliability|jev_comb_minus_thr,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,no test,,,23
+AN-0001-08,clef|stat_jev_only_minus_threshold_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),True,Discussion (47.0 percentage points),<0.0001,True,,0
+AN-0001-08,clef|stat_jev_only_minus_threshold_recall,Supplementary Note 16,stop_recall_diffs text (make_appendix_tables.py; recount AN-0001-08),False,,0.11,True,,25
+AN-0001-08,clef|stat_jev_only_minus_stat_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),True,Discussion (0.9 percentage points),0.14,True,,3
+AN-0001-08,clef|stat_hybrid_minus_stat_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.0086,True,,4
+AN-0001-08,clef|stat_asreview_minus_knee_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.25,True,,0
+AN-0001-08,clef|stat_asreview_minus_knee_asreview_recall,Supplementary Note 16,stop_recall_diffs text (make_appendix_tables.py; recount AN-0001-08),False,,0.14,True,,23
+AN-0001-08,clef|stat_hybrid_minus_knee_hybrid_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.0076,True,,0
+AN-0001-08,clef|threshold_minus_stat_asreview_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,<0.0001,True,,0
+AN-0001-08,clef|comb_minus_threshold_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,<0.0001,True,,2
+AN-0001-08,clef|comb_minus_stat_jev_only_work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.18,True,,26
+AN-0001-08,clef|atd_hybrid_minus_asr,Supplementary Note 16,atd_diffs text (make_appendix_tables.py; recount AN-0001-08; no P printed there),False,,<0.0001,False,Table 8;Table 10;Table 11;Table 14;Table 20;Table 22,0
+AN-0001-08,clef|atd_jev_minus_asr,Supplementary Note 16,atd_diffs text (make_appendix_tables.py; recount AN-0001-08; no P printed there),False,,0.00053,False,,0
+AN-0001-08,clef|atd_hybrid_minus_jev,Supplementary Note 16,atd_diffs text (make_appendix_tables.py; recount AN-0001-08; no P printed there),False,,0.0034,False,Table 20;Table 22;Table 23;Table 25;Table 58,2
+AN-0001-08,clef|reliability|jev_stat_minus_thr,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.083,True,,25
+AN-0001-08,clef|reliability|asr_stat_minus_asr_knee,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.16,True,,26
+AN-0001-08,clef|reliability|jev_stat_minus_asr_stat,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,no test,,,28
+AN-0001-08,clef|reliability|thr_minus_asr_stat,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.083,True,,25
+AN-0001-08,clef|reliability|jev_comb_minus_thr,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-08),False,,0.083,True,,25
+AN-0001-04,heldout|paired_threshold_vs_knee_asr|work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-04),True,Table 2 C4 records read,<0.0001,True,,0
+AN-0001-04,heldout|paired_threshold_vs_knee_hybrid|work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-04),False,,<0.0001,True,,0
+AN-0001-04,clef|paired_threshold_vs_knee_asr|work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-04),False,,<0.0001,True,,0
+AN-0001-04,clef|paired_threshold_vs_knee_hybrid|work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-04),False,,0.0032,True,,0
+AN-0001-04,development|paired_threshold_vs_knee_asr|work,Supplementary Table 26,stopping_diffs (make_appendix_tables.py; recount AN-0001-04),False,,<0.0001,True,,1
+AN-0001-13,"C1 AUC Jev vs bge-base, 23 held-out reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Table 2 C1; Results,<0.0001,True,,0
+AN-0001-13,"C2 AUC Jev vs GPT-4o-mini (log-probability), 23 reviews, 1999 common records (descriptive, no test in v0)",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Table 2 C2,0.0064,True,,3
+AN-0001-13,"C2 AUC Claude Opus vs Jev, 23 reviews (descriptive, no test in v0)",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Table 2 C2,0.0019,True,,7
+AN-0001-13,"C2 AUC Jev vs DeepSeek, 23 reviews (descriptive, no test in v0)",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.00059,True,,3
+AN-0001-13,"C3 WSS@95 hybrid vs ASReview default, 23 held-out reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Table 2 C3; Results,<0.0001,True,,0
+AN-0001-13,"C3 WSS@100 hybrid vs ASReview default, 23 held-out reviews (no test in v0)",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Table 2 C3,<0.0001,True,,0
+AN-0001-13,"Hybrid vs prespecified comparator logistic_regression, WSS@95, 23 held-out reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"Hybrid vs prespecified comparator logistic_regression, WSS@100, 23 held-out reviews (no test in v0)",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"Hybrid vs prespecified comparator naive_bayes, WSS@95, 23 held-out reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"Hybrid vs prespecified comparator naive_bayes, WSS@100, 23 held-out reviews (no test in v0)",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"P1 WSS@95 hybrid vs weak supervision, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.00021,True,,0
+AN-0001-13,"P1 WSS@95 weak supervision vs ASReview, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.00064,True,,0
+AN-0001-13,"P1 WSS@100 hybrid vs weak supervision, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"P1 WSS@100 weak supervision vs ASReview, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.0024,True,,0
+AN-0001-13,"P4 WSS@95 strongest preset plus Jev vs strongest preset, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.00013,True,,0
+AN-0001-13,"P4 WSS@95 strongest preset vs default, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.080,True,,0
+AN-0001-13,"P4 WSS@100 strongest preset plus Jev vs strongest preset, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.00074,True,,0
+AN-0001-13,"P3 title-abstract labels WSS@95 hybrid vs ASReview, 12",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.034,True,,0
+AN-0001-13,"P3 title-abstract labels WSS@100 hybrid vs ASReview, 12",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.042,True,,0
+AN-0001-13,"CLEF AUC Jev vs bge-base, final inclusion, 28 reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Results (Cochrane),<0.0001,True,,0
+AN-0001-13,"CLEF AUC Jev vs bge-base, title-abstract labels, 31 reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"CLEF wss95 asr_jevblend_3 vs asr_prior, 28 reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),True,Results (Cochrane),0.00015,True,,0
+AN-0001-13,"CLEF wss100 asr_jevblend_3 vs asr_prior, 28 reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,<0.0001,True,,0
+AN-0001-13,"CLEF wss95 asr_jevblend_3 vs asr_pseudo_10_50, 28 reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.00031,True,,0
+AN-0001-13,"CLEF wss100 asr_jevblend_3 vs asr_pseudo_10_50, 28 reviews",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.0011,True,,0
+AN-0001-13,"P2 AUC single-record vs full-run batches, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.30,True,,7
+AN-0001-13,"P2 AUC subset batches vs full-run batches, 23",Supplementary Table 52,wilcoxon (make_appendix_tables.py; recount AN-0001-13),False,,0.51,True,,9
+original,"final_dev.json|C1 AUC Jev minus bge-base, development reviews",search,development-review tests of the original analysis (not in a v0 table builder),False,,<0.0001,False,Table 8;Table 10;Table 11;Table 14;Table 20;Table 22,0
+original,"final_dev.json|C3 WSS@95 hybrid minus ASReview, development reviews",search,development-review tests of the original analysis (not in a v0 table builder),False,,<0.0001,False,Table 8;Table 10;Table 11;Table 14;Table 20;Table 22,0
+AN-0001-02 (npj),heldout|threshold_minus_knee1000_asr|work,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,SI Note 11 (AN-0001-02),<0.0001,True,,0
+AN-0001-02 (npj),heldout|knee1000_minus_knee150_asr|work,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,SI Note 11 (AN-0001-02),0.043,True,,18
+AN-0001-02 (npj),heldout|reliability|threshold_minus_knee150_asr,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,Table 2 C4 reliability,0.083,True,,20
+AN-0001-02 (npj),heldout|reliability|threshold_minus_knee1000_asr,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,SI Note 11 (AN-0001-02),no test,,,23
+AN-0001-02 (npj),clef|threshold_minus_knee1000_asr|work,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,SI Note 11 (AN-0001-02),<0.0001,True,,0
+AN-0001-02 (npj),clef|knee1000_minus_knee150_asr|work,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,SI Note 11 (AN-0001-02),0.0029,True,,14
+AN-0001-02 (npj),clef|reliability|threshold_minus_knee150_asr,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,Results (Cochrane),0.655,True,,23
+AN-0001-02 (npj),clef|reliability|threshold_minus_knee1000_asr,Supplementary Table 25,knee1000 (make_tables_v0001.py; analysis 33),True,SI Note 11 (AN-0001-02),0.083,True,,25
+AN-0001-03 (npj),clef|hybrid10_wss95_minus_asr10_wss95,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),0.00015,True,,0
+AN-0001-03 (npj),clef|hybrid10_wss95_minus_jevonly10_wss95,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),0.0034,True,,2
+AN-0001-03 (npj),clef|hybrid10_wss100_minus_asr10_wss100,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),<0.0001,True,,0
+AN-0001-03 (npj),clef|hybrid10_wss100_minus_jevonly10_wss100,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),0.049,True,,2
+AN-0001-03 (npj),heldout|hybrid10_wss95_minus_asr10_wss95,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),<0.0001,True,,0
+AN-0001-03 (npj),heldout|hybrid10_wss95_minus_jevonly10_wss95,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),0.025,True,,3
+AN-0001-03 (npj),heldout|hybrid10_wss100_minus_asr10_wss100,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),<0.0001,True,,0
+AN-0001-03 (npj),heldout|hybrid10_wss100_minus_jevonly10_wss100,Supplementary Table 22,hybrid_seeds (make_tables_v0001.py; analysis 34),True,SI Note 10 (AN-0001-03),0.033,True,,4

@@ -1,0 +1,35 @@
+{
+ "analysis_id": "AN-0001-19",
+ "responds_to": ["E1.12", "R1.1.10", "R2.1.10", "A0.53"],
+ "lgar_paper": {
+  "citation": "Jaumann C, Wiedholz A, Friedrich A. LGAR: zero-shot LLM-guided neural ranking for abstract screening in systematic literature reviews. Findings of the Association for Computational Linguistics: ACL 2025; 2025: 7910-27. DOI 10.18653/v1/2025.findings-acl.412; arXiv 2505.24757",
+  "sources_saved": ["sources/acl_2025.findings-acl.412.pdf (+ .txt)", "sources/arxiv_2505.24757.pdf (+ .txt)", "sources/acl_2025.findings-acl.412.bib", "sources/lgar_github_README.md", "sources/lgar_tar_data_provider.py"],
+  "topic_set": "test split of CLEF TAR 2019 Task 2, 31 SLRs (footnote 8); Table 1: DTA 8 SLRs 30521 papers, Intervention 20 SLRs 41996, Qualitative 2 SLRs 6536, Prognosis 1 SLR 3367",
+  "criteria_source": "inclusion and exclusion criteria and research questions manually extracted from the full texts of the reviews (section 3.1); prompt gives the LLM the criteria and research questions; Llama-3.3-70B-Instruct graded relevance (scale 0-19) followed by monoT5 re-ranking",
+  "reported_tar2019_values_lgar_T_plus_R_monoT5": {"MAP": 0.506, "TNR@95%": 0.765, "R@10%": 0.767, "R@20%": 0.883, "note": "Table 2, macro-averages over SLRs"},
+  "metric_definitions": "CLEF TAR 2019 metrics; TNR@r% = TN/(TN+FP) at recall r (nWSS of Kusa et al 2023); recall macro-averaged over SLRs (the CLEF 2018 script's micro-averaging was changed to macro-averaging)",
+  "label_level_statement_in_paper": "Limitations section: the datasets 'provide relevance labels that correspond to the full text screening stage' (the paper does not name the qrels file it used)",
+  "label_level_established_from_data": "Table 1 average inclusion rates (7.05, 5.49, 1.32, 5.70%) equal the macro-averaged inclusion rates of the abstract-level qrels (qrel_abs_test: 7.05, 5.49, 1.32, 5.70%) for all four review types and differ from the content-level qrels (3.31, 2.92, 0.32, 2.79%). LGAR therefore evaluated against the title-and-abstract screening labels (see lgar_label_level_check.json)",
+  "consequence": "The v0 appendix note that the label level used by LGAR differs from ours is wrong; the manuscript's title-and-abstract row (31 reviews) is at the same label level as LGAR. Reviewer R2 (R2.1.10) is correct on the label level; the remaining differences are the criteria source (full-text extraction plus research questions in LGAR versus the Objectives and Selection criteria sections of the Cochrane abstract here), the model class and the exact record set (82,418 of 82,421 records retrievable here; LGAR Table 1 sums to 82,420)."
+ },
+ "comparison_same_label_level_title_and_abstract_31_reviews": {
+  "source": "synergy/clef_results.json key zeroshot_label_ta (unchanged; nothing recomputed)",
+  "jev": {"MAP": 0.5415, "TNR@95%": 0.8063, "R@10%": 0.7838, "R@20%": 0.893, "AUC": 0.9468},
+  "bge_base": {"MAP": 0.3023, "TNR@95%": 0.6325, "R@10%": 0.5885, "R@20%": 0.7315, "AUC": 0.8685},
+  "lgar_reported": {"MAP": 0.506, "TNR@95%": 0.765, "R@10%": 0.767, "R@20%": 0.883},
+  "jev_minus_lgar": {"MAP": 0.0355, "TNR@95%": 0.0413, "R@10%": 0.0168, "R@20%": 0.010},
+  "caveats_to_state": ["values from different runs, models and criteria inputs; no paired test possible", "LGAR criteria were manually extracted from full texts and included research questions", "three reviews without a content-level inclusion are included at this level (31 topics)"]
+ },
+ "comparison_content_level_28_reviews": {"source": "synergy/clef_results.json key zeroshot_label", "jev": {"MAP": 0.5975, "TNR@95%": 0.8781, "R@10%": 0.8965, "R@20%": 0.9505, "AUC": 0.9698}, "bge_base": {"MAP": 0.2251, "TNR@95%": 0.7251, "R@10%": 0.6858, "R@20%": 0.8218, "AUC": 0.9001}, "lgar_reported": null, "note": "LGAR reports no content-level values; no comparison at this level"},
+ "recompute_needed": false,
+ "checklist_5c": {
+  "v0_text": "CLEF 2019 searches to June 30, 2017",
+  "finding": "no source in the CLEF 2019, 2018 or 2017 overview papers (sources/clef2019_overview.txt etc.), the topic files, build_clef.py or HANDOVER.md",
+  "clef2019_overview_statement": "each topic's Boolean query was run with the date range of the original review ('specified the date range which dictated the valid dates for the articles to be included in this systematic review'); collection: PubMed Baseline Repository last updated 11/12/2018",
+  "topic_file_date_limits": {"n_topics": 31, "with_8_digit_end_date": 30, "earliest_end": "2015-02-24 (CD011686)", "latest_end": "2019-01-23 (CD011571)", "year_only_limit": "CD011558: yr 2013-2016", "topics_ending_2017-06-30": ["CD000996"], "source": "clef2019_topic_date_limits.json"},
+  "cochrane_abstracts_used_for_criteria": {"2017": 3, "2018": 26, "2019": 2, "source": "clef/clef_criteria_source.json"},
+  "replacement_text_for_5c": "CLEF 2019 Cochrane reviews: the search end date of each review's Boolean query (Ovid entry-date limit in the topic file) ranged from Feb 24, 2015 to Jan 23, 2019 (one review limited to publication years 2013 to 2016); the Cochrane abstracts from which criteria were taken were published between 2017 and 2019"
+ },
+ "text_changes_for_rewrite": ["appendix section 6: correct the note (same label level; different criteria input and model); keep the comparison in the appendix with the caveat", "main text Results and Discussion: replace 'exceeded' with wording that reflects a comparison of reported values on the same 31 reviews at the same label level but with richer criteria in LGAR; state in the Discussion that no open-weight LLM ranker was run locally (no GPU on this server) and that the LGAR comparison is the only evidence on that class", "checklist 5c: replacement text above"],
+ "cost_usd": 0
+}

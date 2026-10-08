@@ -1,0 +1,41 @@
+{
+ "n_records": 32,
+ "record_type_counts": {
+  "primary_evaluation": 10,
+  "other_protocol_or_topic_review": 17,
+  "applied_case_study_no_labelled_evaluation": 4,
+  "protocol_for_evaluation": 1
+ },
+ "primary_evaluations": {
+  "n": 10,
+  "design": {
+   "retrospective_simulation_completed_reviews": 9,
+   "labelled_sample_within_one_live_review": 1
+  },
+  "heldout_or_independent": {
+   "yes": 3,
+   "no": 2,
+   "not_stated": 4,
+   "public_benchmark_test_set": 1
+  },
+  "prespecified": {
+   "yes": 1,
+   "not_stated": 9
+  },
+  "cost_reported": {
+   "not_stated": 10
+  },
+  "pmids": [
+   "42767575",
+   "42736925",
+   "41939135",
+   "41801982",
+   "41626989",
+   "41325716",
+   "40998117",
+   "41626902",
+   "39042516",
+   "38214966"
+  ]
+ }
+}

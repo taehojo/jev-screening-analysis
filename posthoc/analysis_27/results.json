@@ -1,0 +1,531 @@
+{
+ "analysis_id": "AN-0002-06",
+ "post_hoc": true,
+ "repository": "https://github.com/CLEF-TAR/tar.git",
+ "commit": "dbc13d02bb3e2f8ebc90e62ff47f5eb591e5ca20 Thu Apr 17 13:23:32 2025 +0200",
+ "files": {},
+ "by_type": {
+  "abs": {
+   "DTA": {
+    "file": "2019-TAR/Task2/Testing/DTA/qrels/full.test.dta.abs.2019.qrels",
+    "sha256": "dd0046f380536e9d46ce85a561ca492e67c2d5d21a47c303a0083afe8b4f300e",
+    "n_topics": 8,
+    "n_records": 30521,
+    "n_relevant": 440,
+    "macro_rate_pct": 7.047179502436547,
+    "pooled_rate_pct": 1.441630352871793,
+    "relevance_values": {
+     "0": 30081,
+     "1": 440
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 30521,
+    "n_relevant_unique": 440,
+    "macro_rate_unique_pct": 7.047179502436547,
+    "per_topic": {
+     "CD008874": {
+      "records": 2382,
+      "relevant": 118
+     },
+     "CD009044": {
+      "records": 3169,
+      "relevant": 11
+     },
+     "CD011686": {
+      "records": 9729,
+      "relevant": 64
+     },
+     "CD012080": {
+      "records": 6643,
+      "relevant": 77
+     },
+     "CD012233": {
+      "records": 472,
+      "relevant": 43
+     },
+     "CD012567": {
+      "records": 6735,
+      "relevant": 11
+     },
+     "CD012669": {
+      "records": 1260,
+      "relevant": 71
+     },
+     "CD012768": {
+      "records": 131,
+      "relevant": 45
+     }
+    }
+   },
+   "Intervention": {
+    "file": "2019-TAR/Task2/Testing/Intervention/qrels/full.test.intervention.abs.2019.qrels",
+    "sha256": "bbad0cb02925c105ad534cc37eef306f1e6d084f411ab8d1845979db48801afc",
+    "n_topics": 20,
+    "n_records": 41996,
+    "n_relevant": 937,
+    "macro_rate_pct": 5.4853557175750725,
+    "pooled_rate_pct": 2.231164872845033,
+    "relevance_values": {
+     "0": 41059,
+     "1": 937
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 41996,
+    "n_relevant_unique": 937,
+    "macro_rate_unique_pct": 5.4853557175750725,
+    "per_topic": {
+     "CD000996": {
+      "records": 281,
+      "relevant": 9
+     },
+     "CD001261": {
+      "records": 571,
+      "relevant": 72
+     },
+     "CD004414": {
+      "records": 336,
+      "relevant": 16
+     },
+     "CD006468": {
+      "records": 3874,
+      "relevant": 52
+     },
+     "CD007867": {
+      "records": 943,
+      "relevant": 17
+     },
+     "CD009069": {
+      "records": 1757,
+      "relevant": 78
+     },
+     "CD009642": {
+      "records": 1922,
+      "relevant": 62
+     },
+     "CD010038": {
+      "records": 8867,
+      "relevant": 23
+     },
+     "CD010239": {
+      "records": 224,
+      "relevant": 12
+     },
+     "CD010558": {
+      "records": 2815,
+      "relevant": 37
+     },
+     "CD010753": {
+      "records": 2539,
+      "relevant": 29
+     },
+     "CD011140": {
+      "records": 289,
+      "relevant": 4
+     },
+     "CD011571": {
+      "records": 146,
+      "relevant": 15
+     },
+     "CD011768": {
+      "records": 9160,
+      "relevant": 54
+     },
+     "CD011977": {
+      "records": 195,
+      "relevant": 49
+     },
+     "CD012069": {
+      "records": 3479,
+      "relevant": 320
+     },
+     "CD012164": {
+      "records": 61,
+      "relevant": 7
+     },
+     "CD012342": {
+      "records": 2353,
+      "relevant": 6
+     },
+     "CD012455": {
+      "records": 1593,
+      "relevant": 7
+     },
+     "CD012551": {
+      "records": 591,
+      "relevant": 68
+     }
+    }
+   },
+   "Prognosis": {
+    "file": "2019-TAR/Task2/Testing/Prognosis/qrels/full.test.prognosis.abs.2019.qrels",
+    "sha256": "e324cf0e6b3795a975fe4d385a6dfda40b3bab5b08ef6d5b279bb39af6c96772",
+    "n_topics": 1,
+    "n_records": 3367,
+    "n_relevant": 192,
+    "macro_rate_pct": 5.702405702405702,
+    "pooled_rate_pct": 5.702405702405702,
+    "relevance_values": {
+     "0": 3175,
+     "1": 192
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 3367,
+    "n_relevant_unique": 192,
+    "macro_rate_unique_pct": 5.702405702405702,
+    "per_topic": {
+     "CD012661": {
+      "records": 3367,
+      "relevant": 192
+     }
+    }
+   },
+   "Qualitative": {
+    "file": "2019-TAR/Task2/Testing/Qualitative/qrels/full.test.qualitative.abs.2019.qrels",
+    "sha256": "f34d81bc1ffecb6346a13094a8427262a7d722540ab979006d99c173e6e6738a",
+    "n_topics": 2,
+    "n_records": 6537,
+    "n_relevant": 113,
+    "macro_rate_pct": 1.3164390341545897,
+    "pooled_rate_pct": 1.728621691907603,
+    "relevance_values": {
+     "0": 6424,
+     "1": 113
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 6537,
+    "n_relevant_unique": 113,
+    "macro_rate_unique_pct": 1.3164390341545897,
+    "per_topic": {
+     "CD011558": {
+      "records": 2168,
+      "relevant": 2
+     },
+     "CD011787": {
+      "records": 4369,
+      "relevant": 111
+     }
+    }
+   }
+  },
+  "content": {
+   "DTA": {
+    "file": "2019-TAR/Task2/Testing/DTA/qrels/full.test.dta.content.2019.qrels",
+    "sha256": "14dbf58e74e554c3a4e3f132c07abc83bb0efe7e24ca654cde4d270ad49194b3",
+    "n_topics": 8,
+    "n_records": 30521,
+    "n_relevant": 250,
+    "macro_rate_pct": 3.3130375286169342,
+    "pooled_rate_pct": 0.8191081550407916,
+    "relevance_values": {
+     "0": 30271,
+     "1": 250
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 30521,
+    "n_relevant_unique": 250,
+    "macro_rate_unique_pct": 3.3130375286169342,
+    "per_topic": {
+     "CD008874": {
+      "records": 2382,
+      "relevant": 110
+     },
+     "CD009044": {
+      "records": 3169,
+      "relevant": 1
+     },
+     "CD011686": {
+      "records": 9729,
+      "relevant": 3
+     },
+     "CD012080": {
+      "records": 6643,
+      "relevant": 77
+     },
+     "CD012233": {
+      "records": 472,
+      "relevant": 9
+     },
+     "CD012567": {
+      "records": 6735,
+      "relevant": 4
+     },
+     "CD012669": {
+      "records": 1260,
+      "relevant": 24
+     },
+     "CD012768": {
+      "records": 131,
+      "relevant": 22
+     }
+    }
+   },
+   "Intervention": {
+    "file": "2019-TAR/Task2/Testing/Intervention/qrels/full.test.intervention.content.2019.qrels",
+    "sha256": "c38bfe760c25196f48b34fd23819e78263fd9cabd559ee0f706ce06de134ee81",
+    "n_topics": 20,
+    "n_records": 41996,
+    "n_relevant": 510,
+    "macro_rate_pct": 2.923417656970707,
+    "pooled_rate_pct": 1.2144013715591961,
+    "relevance_values": {
+     "0": 41486,
+     "1": 510
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 41996,
+    "n_relevant_unique": 510,
+    "macro_rate_unique_pct": 2.923417656970707,
+    "per_topic": {
+     "CD000996": {
+      "records": 281,
+      "relevant": 6
+     },
+     "CD001261": {
+      "records": 571,
+      "relevant": 22
+     },
+     "CD004414": {
+      "records": 336,
+      "relevant": 7
+     },
+     "CD006468": {
+      "records": 3874,
+      "relevant": 12
+     },
+     "CD007867": {
+      "records": 943,
+      "relevant": 9
+     },
+     "CD009069": {
+      "records": 1757,
+      "relevant": 5
+     },
+     "CD009642": {
+      "records": 1922,
+      "relevant": 50
+     },
+     "CD010038": {
+      "records": 8867,
+      "relevant": 9
+     },
+     "CD010239": {
+      "records": 224,
+      "relevant": 10
+     },
+     "CD010558": {
+      "records": 2815,
+      "relevant": 10
+     },
+     "CD010753": {
+      "records": 2539,
+      "relevant": 20
+     },
+     "CD011140": {
+      "records": 289,
+      "relevant": 0
+     },
+     "CD011571": {
+      "records": 146,
+      "relevant": 6
+     },
+     "CD011768": {
+      "records": 9160,
+      "relevant": 25
+     },
+     "CD011977": {
+      "records": 195,
+      "relevant": 37
+     },
+     "CD012069": {
+      "records": 3479,
+      "relevant": 245
+     },
+     "CD012164": {
+      "records": 61,
+      "relevant": 3
+     },
+     "CD012342": {
+      "records": 2353,
+      "relevant": 0
+     },
+     "CD012455": {
+      "records": 1593,
+      "relevant": 5
+     },
+     "CD012551": {
+      "records": 591,
+      "relevant": 29
+     }
+    }
+   },
+   "Prognosis": {
+    "file": "2019-TAR/Task2/Testing/Prognosis/qrels/full.test.prognosis.content.2019.qrels",
+    "sha256": "1cf78afaf208f57090ed753462d8c3a0e1e3786d13fb83ec0e39aba5384ad866",
+    "n_topics": 1,
+    "n_records": 3367,
+    "n_relevant": 94,
+    "macro_rate_pct": 2.791802791802792,
+    "pooled_rate_pct": 2.791802791802792,
+    "relevance_values": {
+     "0": 3273,
+     "1": 94
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 3367,
+    "n_relevant_unique": 94,
+    "macro_rate_unique_pct": 2.791802791802792,
+    "per_topic": {
+     "CD012661": {
+      "records": 3367,
+      "relevant": 94
+     }
+    }
+   },
+   "Qualitative": {
+    "file": "2019-TAR/Task2/Testing/Qualitative/qrels/full.test.qualitative.content.2019.qrels",
+    "sha256": "6b6155deb7965b89c8be37175fe253fdea66baf35eed1d57c79101f38fa17dbb",
+    "n_topics": 2,
+    "n_records": 6537,
+    "n_relevant": 28,
+    "macro_rate_pct": 0.32043945983062483,
+    "pooled_rate_pct": 0.42833103870276884,
+    "relevance_values": {
+     "0": 6509,
+     "1": 28
+    },
+    "n_duplicate_topic_document_pairs": 0,
+    "duplicate_lines_by_topic": {},
+    "n_records_unique": 6537,
+    "n_relevant_unique": 28,
+    "macro_rate_unique_pct": 0.32043945983062483,
+    "per_topic": {
+     "CD011558": {
+      "records": 2168,
+      "relevant": 0
+     },
+     "CD011787": {
+      "records": 4369,
+      "relevant": 28
+     }
+    }
+   }
+  }
+ },
+ "comparison": {
+  "abs": {
+   "DTA": {
+    "stored_macro_pct": 7.05,
+    "recomputed_macro_pct_2dp": 7.05,
+    "stored_matches": true,
+    "lgar_table1_pct": 7.05,
+    "lgar_topics_records": [
+     8,
+     30521
+    ],
+    "equals_lgar_2dp": true,
+    "topics_records_equal_lgar": true,
+    "unique_records_equal_lgar": true
+   },
+   "Intervention": {
+    "stored_macro_pct": 5.49,
+    "recomputed_macro_pct_2dp": 5.49,
+    "stored_matches": true,
+    "lgar_table1_pct": 5.49,
+    "lgar_topics_records": [
+     20,
+     41996
+    ],
+    "equals_lgar_2dp": true,
+    "topics_records_equal_lgar": true,
+    "unique_records_equal_lgar": true
+   },
+   "Prognosis": {
+    "stored_macro_pct": 5.7,
+    "recomputed_macro_pct_2dp": 5.7,
+    "stored_matches": true,
+    "lgar_table1_pct": 5.7,
+    "lgar_topics_records": [
+     1,
+     3367
+    ],
+    "equals_lgar_2dp": true,
+    "topics_records_equal_lgar": true,
+    "unique_records_equal_lgar": true
+   },
+   "Qualitative": {
+    "stored_macro_pct": 1.32,
+    "recomputed_macro_pct_2dp": 1.32,
+    "stored_matches": true,
+    "lgar_table1_pct": 1.32,
+    "lgar_topics_records": [
+     2,
+     6536
+    ],
+    "equals_lgar_2dp": true,
+    "topics_records_equal_lgar": false,
+    "unique_records_equal_lgar": false
+   }
+  },
+  "content": {
+   "DTA": {
+    "stored_macro_pct": 3.31,
+    "recomputed_macro_pct_2dp": 3.31,
+    "stored_matches": true,
+    "lgar_table1_pct": 7.05,
+    "lgar_topics_records": [
+     8,
+     30521
+    ],
+    "equals_lgar_2dp": false,
+    "topics_records_equal_lgar": true,
+    "unique_records_equal_lgar": true
+   },
+   "Intervention": {
+    "stored_macro_pct": 2.92,
+    "recomputed_macro_pct_2dp": 2.92,
+    "stored_matches": true,
+    "lgar_table1_pct": 5.49,
+    "lgar_topics_records": [
+     20,
+     41996
+    ],
+    "equals_lgar_2dp": false,
+    "topics_records_equal_lgar": true,
+    "unique_records_equal_lgar": true
+   },
+   "Prognosis": {
+    "stored_macro_pct": 2.79,
+    "recomputed_macro_pct_2dp": 2.79,
+    "stored_matches": true,
+    "lgar_table1_pct": 5.7,
+    "lgar_topics_records": [
+     1,
+     3367
+    ],
+    "equals_lgar_2dp": false,
+    "topics_records_equal_lgar": true,
+    "unique_records_equal_lgar": true
+   },
+   "Qualitative": {
+    "stored_macro_pct": 0.32,
+    "recomputed_macro_pct_2dp": 0.32,
+    "stored_matches": true,
+    "lgar_table1_pct": 1.32,
+    "lgar_topics_records": [
+     2,
+     6536
+    ],
+    "equals_lgar_2dp": false,
+    "topics_records_equal_lgar": false,
+    "unique_records_equal_lgar": false
+   }
+  }
+ }
+}

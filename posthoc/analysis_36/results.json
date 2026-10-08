@@ -1,0 +1,659 @@
+{
+ "analysis_id": "AN-0001-05",
+ "tau": 0.07,
+ "n_subset_ids": 2002,
+ "n_records_found": 2002,
+ "inputs": {
+  "ids": "/N/project/AiLab/jev/synergy/test_cmp_ids.json",
+  "records": "/N/project/AiLab/jev/synergy/test_records.json",
+  "single": "/N/project/AiLab/jev/synergy/jev_testcmp_single.json",
+  "b10_subset": "/N/project/AiLab/jev/synergy/jev_testcmp_b10.json",
+  "b10_full": "/N/project/AiLab/jev/synergy/jev_test.json"
+ },
+ "missing_or_failed": {
+  "single": 0,
+  "b10_subset": 0,
+  "b10_full": 0
+ },
+ "n_common": 2002,
+ "final": {
+  "n_records": 2002,
+  "n_reviews": 23,
+  "n_positive": 597,
+  "crosstab_by_mode": {
+   "single": {
+    "pos_below": 4,
+    "pos_at_or_above": 593,
+    "neg_below": 757,
+    "neg_at_or_above": 648
+   },
+   "b10_subset": {
+    "pos_below": 3,
+    "pos_at_or_above": 594,
+    "neg_below": 760,
+    "neg_at_or_above": 645
+   },
+   "b10_full": {
+    "pos_below": 3,
+    "pos_at_or_above": 594,
+    "neg_below": 712,
+    "neg_at_or_above": 693
+   }
+  },
+  "paired_side_of_tau": {
+   "single_vs_b10_subset": {
+    "positive": {
+     "both_below": 3,
+     "both_at_or_above": 593,
+     "single_below_b10_subset_at_or_above": 1,
+     "single_at_or_above_b10_subset_below": 0,
+     "n": 597,
+     "discordant": 1
+    },
+    "negative": {
+     "both_below": 687,
+     "both_at_or_above": 575,
+     "single_below_b10_subset_at_or_above": 70,
+     "single_at_or_above_b10_subset_below": 73,
+     "n": 1405,
+     "discordant": 143
+    },
+    "all": {
+     "both_below": 690,
+     "both_at_or_above": 1168,
+     "single_below_b10_subset_at_or_above": 71,
+     "single_at_or_above_b10_subset_below": 73,
+     "n": 2002,
+     "discordant": 144
+    }
+   },
+   "single_vs_b10_full": {
+    "positive": {
+     "both_below": 3,
+     "both_at_or_above": 593,
+     "single_below_b10_full_at_or_above": 1,
+     "single_at_or_above_b10_full_below": 0,
+     "n": 597,
+     "discordant": 1
+    },
+    "negative": {
+     "both_below": 659,
+     "both_at_or_above": 595,
+     "single_below_b10_full_at_or_above": 98,
+     "single_at_or_above_b10_full_below": 53,
+     "n": 1405,
+     "discordant": 151
+    },
+    "all": {
+     "both_below": 662,
+     "both_at_or_above": 1188,
+     "single_below_b10_full_at_or_above": 99,
+     "single_at_or_above_b10_full_below": 53,
+     "n": 2002,
+     "discordant": 152
+    }
+   },
+   "b10_subset_vs_b10_full": {
+    "positive": {
+     "both_below": 3,
+     "both_at_or_above": 594,
+     "b10_subset_below_b10_full_at_or_above": 0,
+     "b10_subset_at_or_above_b10_full_below": 0,
+     "n": 597,
+     "discordant": 0
+    },
+    "negative": {
+     "both_below": 687,
+     "both_at_or_above": 620,
+     "b10_subset_below_b10_full_at_or_above": 73,
+     "b10_subset_at_or_above_b10_full_below": 25,
+     "n": 1405,
+     "discordant": 98
+    },
+    "all": {
+     "both_below": 690,
+     "both_at_or_above": 1214,
+     "b10_subset_below_b10_full_at_or_above": 73,
+     "b10_subset_at_or_above_b10_full_below": 25,
+     "n": 2002,
+     "discordant": 98
+    }
+   }
+  },
+  "per_review": [
+   {
+    "review": "Abgaz_2023",
+    "n_subset": 23,
+    "n_pos": 11,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Attai_2022",
+    "n_subset": 208,
+    "n_pos": 135,
+    "recall_single": 0.9851851851851852,
+    "pos_below_single": 2,
+    "recall_b10_subset": 0.9851851851851852,
+    "pos_below_b10_subset": 2,
+    "recall_b10_full": 0.9851851851851852,
+    "pos_below_b10_full": 2
+   },
+   {
+    "review": "Boersma-van_Dam_2024",
+    "n_subset": 49,
+    "n_pos": 24,
+    "recall_single": 0.9583333333333334,
+    "pos_below_single": 1,
+    "recall_b10_subset": 0.9583333333333334,
+    "pos_below_b10_subset": 1,
+    "recall_b10_full": 0.9583333333333334,
+    "pos_below_b10_full": 1
+   },
+   {
+    "review": "Bos_2018",
+    "n_subset": 101,
+    "n_pos": 6,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Bosch_2021",
+    "n_subset": 95,
+    "n_pos": 22,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Chakraborty_2023",
+    "n_subset": 102,
+    "n_pos": 7,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Chueca_2023",
+    "n_subset": 42,
+    "n_pos": 16,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Donners_2021",
+    "n_subset": 19,
+    "n_pos": 14,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Eggmann_2023",
+    "n_subset": 20,
+    "n_pos": 9,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Hall_2011",
+    "n_subset": 18,
+    "n_pos": 4,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Harms_2024",
+    "n_subset": 84,
+    "n_pos": 48,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Kerschbaumer_2024b",
+    "n_subset": 64,
+    "n_pos": 15,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Lewowski_2021",
+    "n_subset": 23,
+    "n_pos": 9,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Menon_2022",
+    "n_subset": 56,
+    "n_pos": 35,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Moran_2020",
+    "n_subset": 124,
+    "n_pos": 39,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Parodis_2023b",
+    "n_subset": 104,
+    "n_pos": 33,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Roberts_2021",
+    "n_subset": 41,
+    "n_pos": 3,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Seghers_2022",
+    "n_subset": 91,
+    "n_pos": 16,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Theobald_2021",
+    "n_subset": 14,
+    "n_pos": 9,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Toffalini_2021",
+    "n_subset": 36,
+    "n_pos": 22,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Tumkaya_2018",
+    "n_subset": 59,
+    "n_pos": 39,
+    "recall_single": 0.9743589743589743,
+    "pos_below_single": 1,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Walker_2018",
+    "n_subset": 563,
+    "n_pos": 64,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "van_der_Waal_2022",
+    "n_subset": 66,
+    "n_pos": 17,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   }
+  ],
+  "reviews_recall_below_0.95": {
+   "single": [],
+   "b10_subset": [],
+   "b10_full": []
+  },
+  "n_reviews_recall_below_0.95": {
+   "single": 0,
+   "b10_subset": 0,
+   "b10_full": 0
+  },
+  "n_reviews_with_positive": 23,
+  "min_recall": {
+   "single": 0.9583333333333334,
+   "b10_subset": 0.9583333333333334,
+   "b10_full": 0.9583333333333334
+  }
+ },
+ "ta": {
+  "n_records": 1160,
+  "n_reviews": 12,
+  "n_positive": 319,
+  "crosstab_by_mode": {
+   "single": {
+    "pos_below": 8,
+    "pos_at_or_above": 311,
+    "neg_below": 514,
+    "neg_at_or_above": 327
+   },
+   "b10_subset": {
+    "pos_below": 5,
+    "pos_at_or_above": 314,
+    "neg_below": 499,
+    "neg_at_or_above": 342
+   },
+   "b10_full": {
+    "pos_below": 7,
+    "pos_at_or_above": 312,
+    "neg_below": 478,
+    "neg_at_or_above": 363
+   }
+  },
+  "paired_side_of_tau": {
+   "single_vs_b10_subset": {
+    "positive": {
+     "both_below": 5,
+     "both_at_or_above": 311,
+     "single_below_b10_subset_at_or_above": 3,
+     "single_at_or_above_b10_subset_below": 0,
+     "n": 319,
+     "discordant": 3
+    },
+    "negative": {
+     "both_below": 469,
+     "both_at_or_above": 297,
+     "single_below_b10_subset_at_or_above": 45,
+     "single_at_or_above_b10_subset_below": 30,
+     "n": 841,
+     "discordant": 75
+    },
+    "all": {
+     "both_below": 474,
+     "both_at_or_above": 608,
+     "single_below_b10_subset_at_or_above": 48,
+     "single_at_or_above_b10_subset_below": 30,
+     "n": 1160,
+     "discordant": 78
+    }
+   },
+   "single_vs_b10_full": {
+    "positive": {
+     "both_below": 7,
+     "both_at_or_above": 311,
+     "single_below_b10_full_at_or_above": 1,
+     "single_at_or_above_b10_full_below": 0,
+     "n": 319,
+     "discordant": 1
+    },
+    "negative": {
+     "both_below": 457,
+     "both_at_or_above": 306,
+     "single_below_b10_full_at_or_above": 57,
+     "single_at_or_above_b10_full_below": 21,
+     "n": 841,
+     "discordant": 78
+    },
+    "all": {
+     "both_below": 464,
+     "both_at_or_above": 617,
+     "single_below_b10_full_at_or_above": 58,
+     "single_at_or_above_b10_full_below": 21,
+     "n": 1160,
+     "discordant": 79
+    }
+   },
+   "b10_subset_vs_b10_full": {
+    "positive": {
+     "both_below": 5,
+     "both_at_or_above": 312,
+     "b10_subset_below_b10_full_at_or_above": 0,
+     "b10_subset_at_or_above_b10_full_below": 2,
+     "n": 319,
+     "discordant": 2
+    },
+    "negative": {
+     "both_below": 463,
+     "both_at_or_above": 327,
+     "b10_subset_below_b10_full_at_or_above": 36,
+     "b10_subset_at_or_above_b10_full_below": 15,
+     "n": 841,
+     "discordant": 51
+    },
+    "all": {
+     "both_below": 468,
+     "both_at_or_above": 639,
+     "b10_subset_below_b10_full_at_or_above": 36,
+     "b10_subset_at_or_above_b10_full_below": 17,
+     "n": 1160,
+     "discordant": 53
+    }
+   }
+  },
+  "per_review": [
+   {
+    "review": "Abgaz_2023",
+    "n_subset": 23,
+    "n_pos": 12,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Boersma-van_Dam_2024",
+    "n_subset": 49,
+    "n_pos": 27,
+    "recall_single": 0.8888888888888888,
+    "pos_below_single": 3,
+    "recall_b10_subset": 0.8888888888888888,
+    "pos_below_b10_subset": 3,
+    "recall_b10_full": 0.8888888888888888,
+    "pos_below_b10_full": 3
+   },
+   {
+    "review": "Chakraborty_2023",
+    "n_subset": 102,
+    "n_pos": 7,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Chueca_2023",
+    "n_subset": 42,
+    "n_pos": 16,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Harms_2024",
+    "n_subset": 84,
+    "n_pos": 48,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Lewowski_2021",
+    "n_subset": 23,
+    "n_pos": 10,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Moran_2020",
+    "n_subset": 124,
+    "n_pos": 47,
+    "recall_single": 0.9574468085106383,
+    "pos_below_single": 2,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 0.9574468085106383,
+    "pos_below_b10_full": 2
+   },
+   {
+    "review": "Roberts_2021",
+    "n_subset": 41,
+    "n_pos": 3,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Theobald_2021",
+    "n_subset": 14,
+    "n_pos": 11,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Toffalini_2021",
+    "n_subset": 36,
+    "n_pos": 23,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   },
+   {
+    "review": "Tumkaya_2018",
+    "n_subset": 59,
+    "n_pos": 44,
+    "recall_single": 0.9318181818181818,
+    "pos_below_single": 3,
+    "recall_b10_subset": 0.9545454545454546,
+    "pos_below_b10_subset": 2,
+    "recall_b10_full": 0.9545454545454546,
+    "pos_below_b10_full": 2
+   },
+   {
+    "review": "Walker_2018",
+    "n_subset": 563,
+    "n_pos": 71,
+    "recall_single": 1.0,
+    "pos_below_single": 0,
+    "recall_b10_subset": 1.0,
+    "pos_below_b10_subset": 0,
+    "recall_b10_full": 1.0,
+    "pos_below_b10_full": 0
+   }
+  ],
+  "reviews_recall_below_0.95": {
+   "single": [
+    "Boersma-van_Dam_2024",
+    "Tumkaya_2018"
+   ],
+   "b10_subset": [
+    "Boersma-van_Dam_2024"
+   ],
+   "b10_full": [
+    "Boersma-van_Dam_2024"
+   ]
+  },
+  "n_reviews_recall_below_0.95": {
+   "single": 2,
+   "b10_subset": 1,
+   "b10_full": 1
+  },
+  "n_reviews_with_positive": 12,
+  "min_recall": {
+   "single": 0.8888888888888888,
+   "b10_subset": 0.8888888888888888,
+   "b10_full": 0.8888888888888888
+  }
+ },
+ "note": "The subset holds all 597 finally included records and 1405 excluded records sampled at about 4.3% per review (29.8% included), so proportions read are not workload estimates and are not reported. At the title-and-abstract level (12 reviews), positives in the subset are the finally included records plus the title-and-abstract positives that happened to be among the sampled excluded records, so recall at that level describes the subset only.",
+ "finished": "2026-09-28T19:58:20-04:00"
+}

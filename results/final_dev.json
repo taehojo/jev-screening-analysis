@@ -1,0 +1,66 @@
+{
+ "split": "dev",
+ "n_reviews": 73,
+ "C1_macro_auc": {
+  "jev": 0.9453,
+  "tfidf": 0.7578,
+  "bm25": 0.735,
+  "minilm": 0.8374,
+  "bge": 0.8467
+ },
+ "C1": {
+  "best_free": "bge",
+  "diff": 0.0987,
+  "ci": [
+   0.0761,
+   0.1227
+  ],
+  "wilcoxon_p": 1.0230226886624594e-11,
+  "jev_wins": 66,
+  "n": 73,
+  "pass": true
+ },
+ "C3": {
+  "hybrid": "asr_jevblend_3",
+  "n": 73,
+  "wss95_hybrid": 0.7662,
+  "wss95_asr": 0.6071,
+  "diff": 0.1591,
+  "ci": [
+   0.119,
+   0.2031
+  ],
+  "wilcoxon_p": 2.837018222901003e-11,
+  "wins": 65,
+  "wss100_diff": 0.1684,
+  "pass": true
+ },
+ "C3_all_methods_wss95": {
+  "asr_jev": 0.6146,
+  "asr_jevblend_1": 0.7309,
+  "asr_jevblend_2": 0.7657,
+  "asr_jevblend_3": 0.7662,
+  "asr_jevfeat_1": 0.7488,
+  "asr_prior": 0.6071,
+  "asr_random": 0.5546
+ },
+ "C3_all_methods_wss100": {
+  "asr_jev": 0.6051,
+  "asr_jevblend_1": 0.7372,
+  "asr_jevblend_2": 0.7658,
+  "asr_jevblend_3": 0.7657,
+  "asr_jevfeat_1": 0.7434,
+  "asr_prior": 0.5973,
+  "asr_random": 0.5483
+ },
+ "C4": {
+  "tau": 0.07,
+  "reliability": 0.9863,
+  "mean_work": 0.5829,
+  "mean_recall": 0.9889,
+  "min_recall": 0.3333,
+  "knee_reliability": 0.9589,
+  "knee_mean_work": 0.9479,
+  "pass": true
+ }
+}

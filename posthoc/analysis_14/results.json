@@ -1,0 +1,171 @@
+{
+ "asreview_version": "3.0.8",
+ "reviews": [
+  "Theobald_2021",
+  "Abgaz_2023"
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "cases": [
+  {
+   "review": "Theobald_2021",
+   "N": 70,
+   "n_included": 9,
+   "seed": 0,
+   "cli_command": "/N/project/AiLab/jev/synergy/.venv/bin/asreview simulate /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Theobald_2021.csv -o /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Theobald_2021_seed0.asreview --n-prior-included 1 --n-prior-excluded 1 --prior-seed 0 --seed 0",
+   "cli_returncode": 0,
+   "cli_seconds": 8.4,
+   "api_positions": 59,
+   "cli_positions": 59,
+   "positions_compared": 59,
+   "identical_positions": 59,
+   "first_difference_at": null,
+   "cli_labels_match_dataset": true,
+   "api_last_relevant_rank": 59,
+   "cli_last_relevant_rank": 59,
+   "prior_records_api": [
+    58,
+    31
+   ],
+   "prior_records_cli": [
+    58,
+    31
+   ]
+  },
+  {
+   "review": "Theobald_2021",
+   "N": 70,
+   "n_included": 9,
+   "seed": 1,
+   "cli_command": "/N/project/AiLab/jev/synergy/.venv/bin/asreview simulate /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Theobald_2021.csv -o /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Theobald_2021_seed1.asreview --n-prior-included 1 --n-prior-excluded 1 --prior-seed 1 --seed 1",
+   "cli_returncode": 0,
+   "cli_seconds": 10.8,
+   "api_positions": 58,
+   "cli_positions": 58,
+   "positions_compared": 58,
+   "identical_positions": 58,
+   "first_difference_at": null,
+   "cli_labels_match_dataset": true,
+   "api_last_relevant_rank": 58,
+   "cli_last_relevant_rank": 58,
+   "prior_records_api": [
+    65,
+    46
+   ],
+   "prior_records_cli": [
+    65,
+    46
+   ]
+  },
+  {
+   "review": "Theobald_2021",
+   "N": 70,
+   "n_included": 9,
+   "seed": 2,
+   "cli_command": "/N/project/AiLab/jev/synergy/.venv/bin/asreview simulate /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Theobald_2021.csv -o /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Theobald_2021_seed2.asreview --n-prior-included 1 --n-prior-excluded 1 --prior-seed 2 --seed 2",
+   "cli_returncode": 0,
+   "cli_seconds": 6.5,
+   "api_positions": 59,
+   "cli_positions": 59,
+   "positions_compared": 59,
+   "identical_positions": 59,
+   "first_difference_at": null,
+   "cli_labels_match_dataset": true,
+   "api_last_relevant_rank": 59,
+   "cli_last_relevant_rank": 59,
+   "prior_records_api": [
+    24,
+    42
+   ],
+   "prior_records_cli": [
+    24,
+    42
+   ]
+  },
+  {
+   "review": "Abgaz_2023",
+   "N": 288,
+   "n_included": 11,
+   "seed": 0,
+   "cli_command": "/N/project/AiLab/jev/synergy/.venv/bin/asreview simulate /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Abgaz_2023.csv -o /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Abgaz_2023_seed0.asreview --n-prior-included 1 --n-prior-excluded 1 --prior-seed 0 --seed 0",
+   "cli_returncode": 0,
+   "cli_seconds": 7.6,
+   "api_positions": 67,
+   "cli_positions": 67,
+   "positions_compared": 67,
+   "identical_positions": 67,
+   "first_difference_at": null,
+   "cli_labels_match_dataset": true,
+   "api_last_relevant_rank": 67,
+   "cli_last_relevant_rank": 67,
+   "prior_records_api": [
+    141,
+    227
+   ],
+   "prior_records_cli": [
+    141,
+    227
+   ]
+  },
+  {
+   "review": "Abgaz_2023",
+   "N": 288,
+   "n_included": 11,
+   "seed": 1,
+   "cli_command": "/N/project/AiLab/jev/synergy/.venv/bin/asreview simulate /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Abgaz_2023.csv -o /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Abgaz_2023_seed1.asreview --n-prior-included 1 --n-prior-excluded 1 --prior-seed 1 --seed 1",
+   "cli_returncode": 0,
+   "cli_seconds": 9.1,
+   "api_positions": 64,
+   "cli_positions": 64,
+   "positions_compared": 64,
+   "identical_positions": 64,
+   "first_difference_at": null,
+   "cli_labels_match_dataset": true,
+   "api_last_relevant_rank": 64,
+   "cli_last_relevant_rank": 64,
+   "prior_records_api": [
+    26,
+    287
+   ],
+   "prior_records_cli": [
+    26,
+    287
+   ]
+  },
+  {
+   "review": "Abgaz_2023",
+   "N": 288,
+   "n_included": 11,
+   "seed": 2,
+   "cli_command": "/N/project/AiLab/jev/synergy/.venv/bin/asreview simulate /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Abgaz_2023.csv -o /N/project/AiLab/jev/review_pipeline/rounds/round_0001/revision/analysis/AN-0001-14/Abgaz_2023_seed2.asreview --n-prior-included 1 --n-prior-excluded 1 --prior-seed 2 --seed 2",
+   "cli_returncode": 0,
+   "cli_seconds": 10.2,
+   "api_positions": 70,
+   "cli_positions": 70,
+   "positions_compared": 70,
+   "identical_positions": 70,
+   "first_difference_at": null,
+   "cli_labels_match_dataset": true,
+   "api_last_relevant_rank": 70,
+   "cli_last_relevant_rank": 70,
+   "prior_records_api": [
+    141,
+    159
+   ],
+   "prior_records_cli": [
+    141,
+    159
+   ]
+  }
+ ],
+ "summary": {
+  "n_reviews": 2,
+  "n_cases": 6,
+  "positions_compared_total": 377,
+  "identical_total": 377,
+  "all_identical": true
+ }
+}

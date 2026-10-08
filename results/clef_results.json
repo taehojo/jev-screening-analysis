@@ -1,0 +1,134 @@
+{
+ "zeroshot_label": {
+  "topics": 28,
+  "jev": {
+   "AUC": 0.9698,
+   "MAP": 0.5975,
+   "TNR@95": 0.8781,
+   "R@10%": 0.8965,
+   "R@20%": 0.9505
+  },
+  "bge": {
+   "AUC": 0.9001,
+   "MAP": 0.2251,
+   "TNR@95": 0.7251,
+   "R@10%": 0.6858,
+   "R@20%": 0.8218
+  },
+  "jev_vs_bge_auc": {
+   "diff": 0.0697,
+   "ci": [
+    0.0466,
+    0.0953
+   ],
+   "wins": 26,
+   "p": 1.4156103134155273e-07
+  },
+  "by_type_jev_auc": {
+   "DTA": 0.9441,
+   "Intervention": 0.98,
+   "Prognosis": 0.9698,
+   "Qualitative": 0.9923
+  }
+ },
+ "zeroshot_label_ta": {
+  "topics": 31,
+  "jev": {
+   "AUC": 0.9468,
+   "MAP": 0.5415,
+   "TNR@95": 0.8063,
+   "R@10%": 0.7838,
+   "R@20%": 0.893
+  },
+  "bge": {
+   "AUC": 0.8685,
+   "MAP": 0.3023,
+   "TNR@95": 0.6325,
+   "R@10%": 0.5885,
+   "R@20%": 0.7315
+  },
+  "jev_vs_bge_auc": {
+   "diff": 0.0784,
+   "ci": [
+    0.0534,
+    0.1057
+   ],
+   "wins": 27,
+   "p": 4.163011908531189e-07
+  },
+  "by_type_jev_auc": {
+   "DTA": 0.9286,
+   "Intervention": 0.953,
+   "Prognosis": 0.9604,
+   "Qualitative": 0.9514
+  }
+ },
+ "al_wss95": {
+  "asr_jevblend_3": 0.8304,
+  "asr_prior": 0.7863,
+  "asr_pseudo_10_50": 0.8102
+ },
+ "al_wss100": {
+  "asr_jevblend_3": 0.8488,
+  "asr_prior": 0.7612,
+  "asr_pseudo_10_50": 0.8154
+ },
+ "wss95_asr_jevblend_3_vs_asr_prior": {
+  "n": 28,
+  "diff": 0.044,
+  "ci": [
+   0.0134,
+   0.0718
+  ],
+  "wins": 24,
+  "p": 0.00015273690223693848
+ },
+ "wss100_asr_jevblend_3_vs_asr_prior": {
+  "n": 28,
+  "diff": 0.0877,
+  "ci": [
+   0.0461,
+   0.1291
+  ],
+  "wins": 25,
+  "p": 7.204711437225342e-05
+ },
+ "wss95_asr_jevblend_3_vs_asr_pseudo_10_50": {
+  "n": 28,
+  "diff": 0.0202,
+  "ci": [
+   -0.0061,
+   0.0378
+  ],
+  "wins": 23,
+  "p": 0.0003059804439544678
+ },
+ "wss100_asr_jevblend_3_vs_asr_pseudo_10_50": {
+  "n": 28,
+  "diff": 0.0334,
+  "ci": [
+   0.0034,
+   0.0588
+  ],
+  "wins": 22,
+  "p": 0.0010645166039466858
+ },
+ "knee_asreview": {
+  "reliability": 0.9286,
+  "work": 0.7596
+ },
+ "stop_tau0.07": {
+  "topics": 28,
+  "reliability95": 0.8929,
+  "mean_recall": 0.9896,
+  "min_recall": 0.8889,
+  "mean_work": 0.3905
+ },
+ "LGAR_reference_TAR2019": {
+  "MAP": 0.506,
+  "TNR@95": 0.765,
+  "R@10%": 0.767,
+  "R@20%": 0.883,
+  "source": "arXiv 2505.24757 Table (TAR2019 test, 31 SLRs)"
+ }
+}

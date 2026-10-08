@@ -1,0 +1,157 @@
+{
+ "analysis": "AN-0002-02",
+ "manuscript_analysis_number": 48,
+ "post_hoc": true,
+ "started_script": "2026-09-29 04:31:38 EDT",
+ "tokenizer": {
+  "repo": "ncbi/MedCPT-Cross-Encoder",
+  "revision_sha": "71caf65d4927987813984f54c284405a13fcca49",
+  "class": "BertTokenizer",
+  "transformers": "5.17.0",
+  "tokenizers": "0.23.2",
+  "truncation_true_maps_to": "longest_first (transformers/tokenization_utils_base.py: \"if truncation is True: truncation_strategy = TruncationStrategy.LONGEST_FIRST\")",
+  "tokenizer_config_truncation_strategy": "longest_first",
+  "truncation_side": "right"
+ },
+ "sets": {
+  "heldout_final": {
+   "reviews": 23,
+   "pairs": 33001,
+   "pairs_truncated": 26919,
+   "share_truncated": 0.8157025544680464,
+   "truncated_only_document_shortened": 4200,
+   "truncated_only_query_shortened": 5884,
+   "truncated_both_shortened": 16835,
+   "truncated_neither_shortened_check": 0,
+   "not_truncated_but_shortened_check": 0,
+   "query_tokens_per_review": {
+    "median": 303.0,
+    "min": 116,
+    "max": 492
+   },
+   "reviews_with_query_over_509_tokens": 0,
+   "reviews_with_query_cut_in_any_pair": 14,
+   "document_tokens_all_pairs": {
+    "median": 305.0,
+    "min": 31,
+    "max": 2211
+   },
+   "document_tokens_removed_in_truncated_pairs": {
+    "median": 65.0,
+    "min": 0,
+    "max": 1910
+   },
+   "share_of_document_tokens_retained_in_truncated_pairs": {
+    "median": 0.8012618296529969,
+    "min": 0.13050153531218014,
+    "max": 1.0
+   },
+   "share_of_document_tokens_retained_pooled_all_pairs": 0.7571781171116917,
+   "query_tokens_removed_where_query_cut": {
+    "n": 22719,
+    "median": 103.0,
+    "max": 238
+   },
+   "share_of_query_tokens_retained_pooled_all_pairs": 0.7972842045993267
+  },
+  "clef_content": {
+   "reviews": 28,
+   "pairs": 77611,
+   "pairs_truncated": 25790,
+   "share_truncated": 0.33229825669041757,
+   "truncated_only_document_shortened": 22670,
+   "truncated_only_query_shortened": 1376,
+   "truncated_both_shortened": 1744,
+   "truncated_neither_shortened_check": 0,
+   "not_truncated_but_shortened_check": 0,
+   "query_tokens_per_review": {
+    "median": 136.5,
+    "min": 80,
+    "max": 462
+   },
+   "reviews_with_query_over_509_tokens": 0,
+   "reviews_with_query_cut_in_any_pair": 1,
+   "document_tokens_all_pairs": {
+    "median": 300.0,
+    "min": 3,
+    "max": 2447
+   },
+   "document_tokens_removed_in_truncated_pairs": {
+    "median": 61.0,
+    "min": 0,
+    "max": 2044
+   },
+   "share_of_document_tokens_retained_in_truncated_pairs": {
+    "median": 0.8478747203579419,
+    "min": 0.159569009748589,
+    "max": 1.0
+   },
+   "share_of_document_tokens_retained_pooled_all_pairs": 0.8911540618701137,
+   "query_tokens_removed_where_query_cut": {
+    "n": 3120,
+    "median": 207.0,
+    "max": 208
+   },
+   "share_of_query_tokens_retained_pooled_all_pairs": 0.9550787288671019
+  },
+  "clef_ta": {
+   "reviews": 31,
+   "pairs": 82418,
+   "pairs_truncated": 28502,
+   "share_truncated": 0.3458225144992599,
+   "truncated_only_document_shortened": 25382,
+   "truncated_only_query_shortened": 1376,
+   "truncated_both_shortened": 1744,
+   "truncated_neither_shortened_check": 0,
+   "not_truncated_but_shortened_check": 0,
+   "query_tokens_per_review": {
+    "median": 139.0,
+    "min": 80,
+    "max": 462
+   },
+   "reviews_with_query_over_509_tokens": 0,
+   "reviews_with_query_cut_in_any_pair": 1,
+   "document_tokens_all_pairs": {
+    "median": 302.0,
+    "min": 3,
+    "max": 2447
+   },
+   "document_tokens_removed_in_truncated_pairs": {
+    "median": 64.0,
+    "min": 0,
+    "max": 2044
+   },
+   "share_of_document_tokens_retained_in_truncated_pairs": {
+    "median": 0.8410596026490066,
+    "min": 0.125,
+    "max": 1.0
+   },
+   "share_of_document_tokens_retained_pooled_all_pairs": 0.8856173446386839,
+   "query_tokens_removed_where_query_cut": {
+    "n": 3120,
+    "median": 207.0,
+    "max": 208
+   },
+   "share_of_query_tokens_retained_pooled_all_pairs": 0.9581466674867253
+  }
+ },
+ "reproduction_of_an13_counts": {
+  "heldout_final": {
+   "an13": 26919,
+   "here": 26919,
+   "equal": true
+  },
+  "clef_content": {
+   "an13": 25790,
+   "here": 25790,
+   "equal": true
+  },
+  "clef_ta": {
+   "an13": 28502,
+   "here": 28502,
+   "equal": true
+  }
+ },
+ "per_review_counts_equal_an13": false,
+ "finished": "2026-09-29 04:32:53 EDT"
+}

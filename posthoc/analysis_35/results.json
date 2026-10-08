@@ -1,0 +1,397 @@
+{
+ "analysis_id": "AN-0001-04 (npj round 1)",
+ "post_hoc": true,
+ "started": "2026-09-28 20:27:59 EDT",
+ "environment": {
+  "python": "3.12.9",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "2.3.3"
+ },
+ "definition": {
+  "tnr95": "TN/(TN+FP) at the point where the ceil(0.95 x n_included)-th included record is read: (excluded records not yet read) / (all excluded records)",
+  "k95": "rank of the ceil(0.95 x n_included)-th included record (synergy/al_sim.py metrics(): pos[math.ceil(0.95 * n1) - 1])",
+  "bootstrap": "percentile, 5000 resamples of reviews, seed 20260928",
+  "per_review_value": "mean over seeds 0-9 (exact fractions)"
+ },
+ "collections": {
+  "heldout": {
+   "n_reviews": 23,
+   "macro_tnr95": {
+    "asreview": 0.7324025389111181,
+    "hybrid": 0.8870485493218864,
+    "hybrid_seed0": 0.8870485493218864,
+    "jev": 0.8674162021935815,
+    "jev_file_order": 0.8689557899777832,
+    "bge": 0.5520044361461712,
+    "bge_file_order": 0.5520044361461712
+   },
+   "macro_tnr95_ci95_bootstrap": {
+    "asreview": [
+     0.6367544123556989,
+     0.814476377000492
+    ],
+    "hybrid": [
+     0.8425363017360727,
+     0.9266142026159601
+    ],
+    "hybrid_seed0": [
+     0.8425363017360727,
+     0.9266142026159601
+    ],
+    "jev": [
+     0.8079975991146973,
+     0.9157642897630928
+    ],
+    "jev_file_order": [
+     0.8110531902768194,
+     0.9165201466929234
+    ],
+    "bge": [
+     0.44890553542462847,
+     0.6540192894218605
+    ],
+    "bge_file_order": [
+     0.44890553542462847,
+     0.6540192894218605
+    ]
+   },
+   "asreview_rerun_orders_k95_differing_from_stored_tasks": 1,
+   "k95_rounding": {
+    "reviews_where_95pct_recall_requires_all_included": 13,
+    "n1_of_those_reviews": [
+     3,
+     4,
+     6,
+     7,
+     9,
+     9,
+     9,
+     11,
+     14,
+     15,
+     16,
+     16,
+     17
+    ],
+    "rule": "ceil(0.95 n) = n for every n <= 19 and < n for n >= 20; so 95% recall means all included records in reviews with at most 19 included records"
+   },
+   "comparisons": {
+    "hybrid_minus_asreview": {
+     "label": "hybrid (10-seed mean) minus ASReview",
+     "n": 23,
+     "mean_a": 0.8870485493218864,
+     "mean_b": 0.7324025389111181,
+     "mean_diff": 0.1546460104107683,
+     "ci95_bootstrap": [
+      0.0939763896462878,
+      0.22208709062058196
+     ],
+     "higher": 21,
+     "lower": 2,
+     "tied": 0,
+     "wilcoxon_p": 1.6689300537109375e-06,
+     "wilcoxon_method": "exact"
+    },
+    "jev_minus_asreview": {
+     "label": "Jev ranking minus ASReview",
+     "n": 23,
+     "mean_a": 0.8674162021935815,
+     "mean_b": 0.7324025389111181,
+     "mean_diff": 0.1350136632824634,
+     "ci95_bootstrap": [
+      0.06543835463315471,
+      0.2126619847545688
+     ],
+     "higher": 20,
+     "lower": 3,
+     "tied": 0,
+     "wilcoxon_p": 0.00047516822814941406,
+     "wilcoxon_method": "exact"
+    },
+    "hybrid_minus_jev": {
+     "label": "hybrid (10-seed mean) minus Jev ranking",
+     "n": 23,
+     "mean_a": 0.8870485493218864,
+     "mean_b": 0.8674162021935815,
+     "mean_diff": 0.019632347128304927,
+     "ci95_bootstrap": [
+      0.002271743834824032,
+      0.03981018550689066
+     ],
+     "higher": 16,
+     "lower": 4,
+     "tied": 3,
+     "wilcoxon_p": 0.02509350819808047,
+     "wilcoxon_method": "asymptotic"
+    },
+    "jev_minus_bge": {
+     "label": "Jev ranking minus bge-base (both ten random tie orders)",
+     "n": 23,
+     "mean_a": 0.8674162021935815,
+     "mean_b": 0.5520044361461712,
+     "mean_diff": 0.31541176604741017,
+     "ci95_bootstrap": [
+      0.2345663127579259,
+      0.39498368827075897
+     ],
+     "higher": 23,
+     "lower": 0,
+     "tied": 0,
+     "wilcoxon_p": 2.384185791015625e-07,
+     "wilcoxon_method": "exact"
+    },
+    "hybrid_seed0_minus_asreview": {
+     "label": "hybrid stored run (seed 0) minus ASReview",
+     "n": 23,
+     "mean_a": 0.8870485493218864,
+     "mean_b": 0.7324025389111181,
+     "mean_diff": 0.1546460104107683,
+     "ci95_bootstrap": [
+      0.0939763896462878,
+      0.22208709062058196
+     ],
+     "higher": 21,
+     "lower": 2,
+     "tied": 0,
+     "wilcoxon_p": 1.6689300537109375e-06,
+     "wilcoxon_method": "exact"
+    },
+    "hybrid_seed0_minus_jev": {
+     "label": "hybrid stored run (seed 0) minus Jev ranking",
+     "n": 23,
+     "mean_a": 0.8870485493218864,
+     "mean_b": 0.8674162021935815,
+     "mean_diff": 0.019632347128304927,
+     "ci95_bootstrap": [
+      0.002271743834824032,
+      0.03981018550689066
+     ],
+     "higher": 16,
+     "lower": 4,
+     "tied": 3,
+     "wilcoxon_p": 0.02509350819808047,
+     "wilcoxon_method": "asymptotic"
+    },
+    "jev_file_order_minus_bge_file_order": {
+     "label": "Jev minus bge-base, data-file order of ties (as clef_eval.py)",
+     "n": 23,
+     "mean_a": 0.8689557899777832,
+     "mean_b": 0.5520044361461712,
+     "mean_diff": 0.316951353831612,
+     "ci95_bootstrap": [
+      0.23637997526651575,
+      0.3967541043776547
+     ],
+     "higher": 23,
+     "lower": 0,
+     "tied": 0,
+     "wilcoxon_p": 2.384185791015625e-07,
+     "wilcoxon_method": "exact"
+    }
+   }
+  },
+  "clef": {
+   "n_reviews": 28,
+   "macro_tnr95": {
+    "asreview": 0.8593136083733075,
+    "hybrid": 0.904655413434302,
+    "hybrid_seed0": 0.9046750313877483,
+    "jev": 0.8781089163334701,
+    "jev_file_order": 0.8780988524300194,
+    "bge": 0.725077381026746,
+    "bge_file_order": 0.725077381026746
+   },
+   "macro_tnr95_ci95_bootstrap": {
+    "asreview": [
+     0.8070348253243856,
+     0.9072990560201355
+    ],
+    "hybrid": [
+     0.8343930044446141,
+     0.9584972578339076
+    ],
+    "hybrid_seed0": [
+     0.8344857933259497,
+     0.9585125181045009
+    ],
+    "jev": [
+     0.8011318476753955,
+     0.941247538511447
+    ],
+    "jev_file_order": [
+     0.8023808480139498,
+     0.9400958142021039
+    ],
+    "bge": [
+     0.6350926435645681,
+     0.812926334972869
+    ],
+    "bge_file_order": [
+     0.6350926435645681,
+     0.812926334972869
+    ]
+   },
+   "asreview_rerun_orders_k95_differing_from_stored_tasks": 2,
+   "k95_rounding": {
+    "reviews_where_95pct_recall_requires_all_included": 15,
+    "n1_of_those_reviews": [
+     1,
+     3,
+     3,
+     4,
+     5,
+     5,
+     6,
+     6,
+     7,
+     9,
+     9,
+     9,
+     10,
+     10,
+     12
+    ],
+    "rule": "ceil(0.95 n) = n for every n <= 19 and < n for n >= 20; so 95% recall means all included records in reviews with at most 19 included records"
+   },
+   "comparisons": {
+    "hybrid_minus_asreview": {
+     "label": "hybrid (10-seed mean) minus ASReview",
+     "n": 28,
+     "mean_a": 0.904655413434302,
+     "mean_b": 0.8593136083733075,
+     "mean_diff": 0.04534180506099457,
+     "ci95_bootstrap": [
+      0.01243353210467458,
+      0.07458785173208432
+     ],
+     "higher": 24,
+     "lower": 4,
+     "tied": 0,
+     "wilcoxon_p": 0.00015273690223693848,
+     "wilcoxon_method": "exact"
+    },
+    "jev_minus_asreview": {
+     "label": "Jev ranking minus ASReview",
+     "n": 28,
+     "mean_a": 0.8781089163334701,
+     "mean_b": 0.8593136083733075,
+     "mean_diff": 0.01879530796016264,
+     "ci95_bootstrap": [
+      -0.024825192194525184,
+      0.057802500275491664
+     ],
+     "higher": 20,
+     "lower": 8,
+     "tied": 0,
+     "wilcoxon_p": 0.029833190143108368,
+     "wilcoxon_method": "exact"
+    },
+    "hybrid_minus_jev": {
+     "label": "hybrid (10-seed mean) minus Jev ranking",
+     "n": 28,
+     "mean_a": 0.904655413434302,
+     "mean_b": 0.8781089163334701,
+     "mean_diff": 0.02654649710083193,
+     "ci95_bootstrap": [
+      0.006824612186610087,
+      0.05322910498622616
+     ],
+     "higher": 18,
+     "lower": 8,
+     "tied": 2,
+     "wilcoxon_p": 0.0033519996218643183,
+     "wilcoxon_method": "asymptotic"
+    },
+    "jev_minus_bge": {
+     "label": "Jev ranking minus bge-base (both ten random tie orders)",
+     "n": 28,
+     "mean_a": 0.8781089163334701,
+     "mean_b": 0.725077381026746,
+     "mean_diff": 0.1530315353067241,
+     "ci95_bootstrap": [
+      0.08241830080230227,
+      0.22450417916746526
+     ],
+     "higher": 26,
+     "lower": 2,
+     "tied": 0,
+     "wilcoxon_p": 1.1049211025238037e-05,
+     "wilcoxon_method": "exact"
+    },
+    "hybrid_seed0_minus_asreview": {
+     "label": "hybrid stored run (seed 0) minus ASReview",
+     "n": 28,
+     "mean_a": 0.9046750313877483,
+     "mean_b": 0.8593136083733075,
+     "mean_diff": 0.045361423014440766,
+     "ci95_bootstrap": [
+      0.012412188065952692,
+      0.07459954972651102
+     ],
+     "higher": 24,
+     "lower": 4,
+     "tied": 0,
+     "wilcoxon_p": 0.00015273690223693848,
+     "wilcoxon_method": "exact"
+    },
+    "hybrid_seed0_minus_jev": {
+     "label": "hybrid stored run (seed 0) minus Jev ranking",
+     "n": 28,
+     "mean_a": 0.9046750313877483,
+     "mean_b": 0.8781089163334701,
+     "mean_diff": 0.026566115054278125,
+     "ci95_bootstrap": [
+      0.006876475250386558,
+      0.05321909360419404
+     ],
+     "higher": 17,
+     "lower": 9,
+     "tied": 2,
+     "wilcoxon_p": 0.004272989014000572,
+     "wilcoxon_method": "asymptotic"
+    },
+    "jev_file_order_minus_bge_file_order": {
+     "label": "Jev minus bge-base, data-file order of ties (as clef_eval.py)",
+     "n": 28,
+     "mean_a": 0.8780988524300194,
+     "mean_b": 0.725077381026746,
+     "mean_diff": 0.15302147140327338,
+     "ci95_bootstrap": [
+      0.08355722261798376,
+      0.2243346338484228
+     ],
+     "higher": 26,
+     "lower": 2,
+     "tied": 0,
+     "wilcoxon_p": 9.395182132720947e-06,
+     "wilcoxon_method": "exact"
+    }
+   }
+  }
+ },
+ "cross_checks": {
+  "heldout_jev_random_ties_vs_lancet_an02": {
+   "stored": 0.8674162021935814,
+   "recomputed": 0.8674162021935815,
+   "match": true
+  },
+  "clef_jev_random_ties_vs_lancet_an02": {
+   "stored": 0.8781089163334702,
+   "recomputed": 0.8781089163334701,
+   "match": true
+  },
+  "clef_jev_file_order_vs_clef_results": {
+   "stored_4dp": 0.8781,
+   "recomputed": 0.8780988524300194,
+   "match": true
+  },
+  "clef_bge_file_order_vs_clef_results": {
+   "stored_4dp": 0.7251,
+   "recomputed": 0.725077381026746,
+   "match": true
+  }
+ },
+ "finished": "2026-09-28 20:28:01 EDT",
+ "elapsed_seconds": 2.0
+}
