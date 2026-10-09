@@ -6,8 +6,8 @@ authors:
   - family-names: Jo
     given-names: Taeho
     affiliation: "Department of Radiology and Imaging Sciences, Indiana University School of Medicine, Indianapolis, IN, USA"
-version: 1.0.0
-date-released: 2026-10-08
+version: 1.0.1
+date-released: 2026-10-09
 license: Apache-2.0
 repository-code: "https://github.com/taehojo/jev-screening-analysis"
 keywords:

@@ -1,0 +1,525 @@
+{
+ "tau": 0.07,
+ "year_strata": {
+  "held-out": {
+   "2011-2019": {
+    "n_reviews": 4,
+    "jev_auc_mean": 0.9744,
+    "bge_auc_mean": 0.8835,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.3507
+   },
+   "2020-2021": {
+    "n_reviews": 7,
+    "jev_auc_mean": 0.9693,
+    "bge_auc_mean": 0.8235,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.5049
+   },
+   "2022": {
+    "n_reviews": 4,
+    "jev_auc_mean": 0.953,
+    "bge_auc_mean": 0.8521,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 0.9963,
+    "tau_recall_min": 0.9852,
+    "tau_work_mean": 0.6329
+   },
+   "2023": {
+    "n_reviews": 5,
+    "jev_auc_mean": 0.9682,
+    "bge_auc_mean": 0.8052,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.8062
+   },
+   "2024-2025": {
+    "n_reviews": 3,
+    "jev_auc_mean": 0.9586,
+    "bge_auc_mean": 0.7905,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 0.9861,
+    "tau_recall_min": 0.9583,
+    "tau_work_mean": 0.6804
+   }
+  },
+  "held-out_spearman": {
+   "n": 23,
+   "year_vs_jev_auc": {
+    "rho": -0.2632,
+    "p": 0.225
+   },
+   "year_vs_tau_recall": {
+    "rho": -0.2809,
+    "p": 0.1941
+   },
+   "year_vs_tau_work": {
+    "rho": 0.6255,
+    "p": 0.0014
+   },
+   "year_min": 2011,
+   "year_max": 2024,
+   "jev_auc_mean": 0.9657,
+   "tau_reliability": 1.0,
+   "year_vs_jev_minus_bge_auc": {
+    "rho": 0.2431,
+    "p": 0.2638
+   }
+  },
+  "development": {
+   "2011-2019": {
+    "n_reviews": 14,
+    "jev_auc_mean": 0.9783,
+    "bge_auc_mean": 0.9094,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.4217
+   },
+   "2020-2021": {
+    "n_reviews": 21,
+    "jev_auc_mean": 0.9471,
+    "bge_auc_mean": 0.8354,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 0.9947,
+    "tau_recall_min": 0.9545,
+    "tau_work_mean": 0.5668
+   },
+   "2022": {
+    "n_reviews": 12,
+    "jev_auc_mean": 0.9184,
+    "bge_auc_mean": 0.8591,
+    "tau_reliability_recall_ge95": 0.9167,
+    "tau_recall_mean": 0.9444,
+    "tau_recall_min": 0.3333,
+    "tau_work_mean": 0.6091
+   },
+   "2023": {
+    "n_reviews": 12,
+    "jev_auc_mean": 0.9493,
+    "bge_auc_mean": 0.8553,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.6046
+   },
+   "2024-2025": {
+    "n_reviews": 14,
+    "jev_auc_mean": 0.9294,
+    "bge_auc_mean": 0.7827,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 0.9977,
+    "tau_recall_min": 0.9677,
+    "tau_work_mean": 0.7274
+   }
+  },
+  "development_spearman": {
+   "n": 73,
+   "year_vs_jev_auc": {
+    "rho": -0.2626,
+    "p": 0.0248
+   },
+   "year_vs_tau_recall": {
+    "rho": -0.0174,
+    "p": 0.8837
+   },
+   "year_vs_tau_work": {
+    "rho": 0.3772,
+    "p": 0.001
+   },
+   "year_min": 2015,
+   "year_max": 2024,
+   "jev_auc_mean": 0.9453,
+   "tau_reliability": 0.9863,
+   "year_vs_jev_minus_bge_auc": {
+    "rho": 0.1468,
+    "p": 0.2153
+   }
+  },
+  "all_96": {
+   "2011-2019": {
+    "n_reviews": 18,
+    "jev_auc_mean": 0.9774,
+    "bge_auc_mean": 0.9036,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.406
+   },
+   "2020-2021": {
+    "n_reviews": 28,
+    "jev_auc_mean": 0.9526,
+    "bge_auc_mean": 0.8324,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 0.996,
+    "tau_recall_min": 0.9545,
+    "tau_work_mean": 0.5513
+   },
+   "2022": {
+    "n_reviews": 16,
+    "jev_auc_mean": 0.9271,
+    "bge_auc_mean": 0.8574,
+    "tau_reliability_recall_ge95": 0.9375,
+    "tau_recall_mean": 0.9574,
+    "tau_recall_min": 0.3333,
+    "tau_work_mean": 0.615
+   },
+   "2023": {
+    "n_reviews": 17,
+    "jev_auc_mean": 0.9548,
+    "bge_auc_mean": 0.8406,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 1.0,
+    "tau_recall_min": 1.0,
+    "tau_work_mean": 0.6639
+   },
+   "2024-2025": {
+    "n_reviews": 17,
+    "jev_auc_mean": 0.9346,
+    "bge_auc_mean": 0.7841,
+    "tau_reliability_recall_ge95": 1.0,
+    "tau_recall_mean": 0.9957,
+    "tau_recall_min": 0.9583,
+    "tau_work_mean": 0.7191
+   }
+  },
+  "all_96_spearman": {
+   "n": 96,
+   "year_vs_jev_auc": {
+    "rho": -0.2512,
+    "p": 0.0136
+   },
+   "year_vs_tau_recall": {
+    "rho": -0.0768,
+    "p": 0.4572
+   },
+   "year_vs_tau_work": {
+    "rho": 0.4371,
+    "p": 0.0
+   },
+   "year_min": 2011,
+   "year_max": 2024,
+   "jev_auc_mean": 0.9502,
+   "tau_reliability": 0.9896,
+   "year_vs_jev_minus_bge_auc": {
+    "rho": 0.1652,
+    "p": 0.1078
+   }
+  }
+ },
+ "year_strata_note": "Year = publication year encoded in the SYNERGY review key. Bins fixed before computation: 2011-2019, 2020-2021, 2022, 2023, 2024-2025. Threshold recall uses tau=0.07 on the batched scores of the original runs. Development set = the 73 development reviews of at most 2000 records that were scored.",
+ "reviews_2024_2025": [
+  {
+   "review": "Boersma-van_Dam_2024",
+   "split": "held-out",
+   "n": 578,
+   "n1": 24,
+   "jev_auc": 0.9526,
+   "tau_recall": 0.9583,
+   "tau_work": 0.2076
+  },
+  {
+   "review": "Harms_2024",
+   "split": "held-out",
+   "n": 840,
+   "n1": 48,
+   "jev_auc": 0.9764,
+   "tau_recall": 1.0,
+   "tau_work": 0.9286
+  },
+  {
+   "review": "Kerschbaumer_2024b",
+   "split": "held-out",
+   "n": 1146,
+   "n1": 15,
+   "jev_auc": 0.9468,
+   "tau_recall": 1.0,
+   "tau_work": 0.9049
+  },
+  {
+   "review": "de_Matteis_2024a",
+   "split": "development",
+   "n": 140,
+   "n1": 3,
+   "jev_auc": 1.0,
+   "tau_recall": 1.0,
+   "tau_work": 0.6071
+  },
+  {
+   "review": "Brons_2024",
+   "split": "development",
+   "n": 172,
+   "n1": 25,
+   "jev_auc": 0.9488,
+   "tau_recall": 1.0,
+   "tau_work": 0.7267
+  },
+  {
+   "review": "Maciel_2024",
+   "split": "development",
+   "n": 274,
+   "n1": 31,
+   "jev_auc": 0.9559,
+   "tau_recall": 0.9677,
+   "tau_work": 0.5328
+  },
+  {
+   "review": "Bindoli_2024b",
+   "split": "development",
+   "n": 341,
+   "n1": 7,
+   "jev_auc": 0.83,
+   "tau_recall": 1.0,
+   "tau_work": 0.9267
+  },
+  {
+   "review": "Sanchez-Gomez_2024",
+   "split": "development",
+   "n": 385,
+   "n1": 7,
+   "jev_auc": 0.9894,
+   "tau_recall": 1.0,
+   "tau_work": 0.5974
+  },
+  {
+   "review": "Wijnen_2024",
+   "split": "development",
+   "n": 399,
+   "n1": 6,
+   "jev_auc": 0.909,
+   "tau_recall": 1.0,
+   "tau_work": 0.9624
+  },
+  {
+   "review": "Mejean_2024",
+   "split": "development",
+   "n": 486,
+   "n1": 66,
+   "jev_auc": 0.9239,
+   "tau_recall": 1.0,
+   "tau_work": 0.8827
+  },
+  {
+   "review": "Ali_2024",
+   "split": "development",
+   "n": 515,
+   "n1": 30,
+   "jev_auc": 0.9107,
+   "tau_recall": 1.0,
+   "tau_work": 0.6699
+  },
+  {
+   "review": "de_Matteis_2024b",
+   "split": "development",
+   "n": 553,
+   "n1": 24,
+   "jev_auc": 0.9881,
+   "tau_recall": 1.0,
+   "tau_work": 0.425
+  },
+  {
+   "review": "Cozim-Melges_2024",
+   "split": "development",
+   "n": 630,
+   "n1": 95,
+   "jev_auc": 0.762,
+   "tau_recall": 1.0,
+   "tau_work": 0.9619
+  },
+  {
+   "review": "Aouad_2024",
+   "split": "development",
+   "n": 714,
+   "n1": 30,
+   "jev_auc": 0.9504,
+   "tau_recall": 1.0,
+   "tau_work": 0.8137
+  },
+  {
+   "review": "Taschner_2024",
+   "split": "development",
+   "n": 1323,
+   "n1": 34,
+   "jev_auc": 0.9518,
+   "tau_recall": 1.0,
+   "tau_work": 0.4573
+  },
+  {
+   "review": "Bindoli_2024a",
+   "split": "development",
+   "n": 1449,
+   "n1": 64,
+   "jev_auc": 0.9561,
+   "tau_recall": 1.0,
+   "tau_work": 0.8785
+  },
+  {
+   "review": "Kerschbaumer_2024a",
+   "split": "development",
+   "n": 1949,
+   "n1": 29,
+   "jev_auc": 0.936,
+   "tau_recall": 1.0,
+   "tau_work": 0.7409
+  }
+ ],
+ "label_publicity": {
+  "synergy_plus_v3.0_release": {
+   "date_utc": "2026-08-27T08:21:34Z",
+   "source": "GitHub API releases for asreview/synergy-dataset (tag synergy_plus_v3.0), fetched 2026-09-26 17:52 EDT; copy in analysis/AN-0001-17/sources/"
+  },
+  "synergy_v1.0_release": {
+   "date_utc": "2023-04-24T15:16:39Z",
+   "source": "same GitHub API response (tag v1.0)"
+  },
+  "clef_2019_qrels": {
+   "year": 2019,
+   "source": "CLEF 2019 TAR task overview (manuscript reference 19); qrels distributed with the task"
+  },
+  "vendor_model_release": {
+   "date": "2026-09-15",
+   "source": "TypeSafe AI blog post (reference 16) and Vercel AI Gateway model listing field released=1789430400 (2026-09-15 00:00 UTC), fetched 2026-09-26"
+  },
+  "pilot_review": {
+   "status": "unpublished; labels produced by the authors group; never public",
+   "scoring_dates": "Sept 24, 2026 (screen/ file times)"
+  },
+  "per_review_deposit_dates": "not collected (deposits on OSF, Zenodo, DANS and others; outside this analysis)",
+  "consequence": "Every SYNERGY and CLEF label used was public before the vendor release date; the label-publicity stratum therefore contains all benchmark reviews and only the pilot review lies outside it."
+ },
+ "ta_heldout": {
+  "n_reviews": 12,
+  "jev_auc_mean": 0.9028,
+  "bge_auc_mean": 0.7958,
+  "minilm_auc_mean": 0.7911,
+  "tau_reliability": 0.5833,
+  "tau_recall_mean": 0.9342,
+  "tau_recall_min": 0.6471,
+  "tau_work_mean": 0.5772,
+  "reviews": [
+   "Abgaz_2023",
+   "Boersma-van_Dam_2024",
+   "Chakraborty_2023",
+   "Chueca_2023",
+   "Harms_2024",
+   "Lewowski_2021",
+   "Moran_2020",
+   "Roberts_2021",
+   "Theobald_2021",
+   "Toffalini_2021",
+   "Tumkaya_2018",
+   "Walker_2018"
+  ],
+  "p3_ta_auc_csv_check": {
+   "n": 12,
+   "jev_ta_mean": 0.9028,
+   "bge_ta_mean": 0.7958
+  }
+ },
+ "ta_clef": {
+  "n_reviews": 31,
+  "jev_auc_mean": 0.9468,
+  "bge_auc_mean": 0.8685,
+  "tau_reliability": 0.8065,
+  "tau_recall_mean": 0.9823,
+  "tau_recall_min": 0.8889,
+  "tau_work_mean": 0.3835,
+  "clef_zs_label_ta_csv_check": {
+   "n": 31,
+   "jev_AUC_mean": 0.9468,
+   "bge_AUC_mean": 0.8685
+  }
+ },
+ "final_clef": {
+  "n_reviews": 28,
+  "jev_auc_mean": 0.9698,
+  "bge_auc_mean": 0.9001,
+  "tau_reliability": 0.8929,
+  "tau_work_mean": 0.3905
+ },
+ "final_heldout": {
+  "n_reviews": 23,
+  "jev_auc_mean": 0.9657,
+  "bge_auc_mean": 0.8306,
+  "tau_reliability": 1.0,
+  "tau_work_mean": 0.5887
+ },
+ "pilot": {
+  "jev_single_record_screen_jev": {
+   "n": 1572,
+   "n_pos": 143,
+   "auc": 0.9435,
+   "tau_recall": 0.993,
+   "tau_work": 0.591,
+   "n_included_final": 76,
+   "auc_included_vs_rest": 0.9509,
+   "tau_recall_final": 1.0
+  },
+  "jev_batch10_dhl_jev_b10": {
+   "n": 1572,
+   "n_pos": 143,
+   "auc": 0.9421,
+   "tau_recall": 0.993,
+   "tau_work": 0.6323,
+   "n_included_final": 76,
+   "auc_included_vs_rest": 0.9424,
+   "tau_recall_final": 1.0
+  },
+  "claude_opus_single_record": {
+   "n": 1572,
+   "n_pos": 143,
+   "auc": 0.9514,
+   "tau_recall": 0.986,
+   "tau_work": 0.4917,
+   "n_included_final": 76,
+   "auc_included_vs_rest": 0.9602,
+   "tau_recall_final": 1.0
+  },
+  "free_rankers_zs_auc_dhl_csv": {
+   "review": "dhl",
+   "n": 1572,
+   "incl": 143,
+   "tfidf": 0.6385510920150528,
+   "bm25": 0.6798142375469177,
+   "minilm": 0.8376242372043632,
+   "bge": 0.8294469701047728,
+   "e5": 0.7774569726984003,
+   "ce_bge": 0.6310099976999908,
+   "ce_m3": 0.7251635698101758
+  },
+  "label_level": "title and abstract decision (passed to full text) among 1572 PubMed-arm records; 144 positives; final inclusion 77 of them",
+  "note": "tau=0.07 was selected on batched development scores; applied to single-record pilot scores only for reference."
+ },
+ "pilot_subset544_four_models": {
+  "jev": {
+   "n": 544,
+   "n_pos": 143,
+   "auc": 0.9428,
+   "distinct_p": 91
+  },
+  "claude_opus": {
+   "n": 544,
+   "n_pos": 143,
+   "auc": 0.9509,
+   "distinct_p": 37
+  },
+  "deepseek": {
+   "n": 544,
+   "n_pos": 143,
+   "auc": 0.9042,
+   "distinct_p": 12
+  },
+  "gpt4omini_verbalised": {
+   "n": 544,
+   "n_pos": 143,
+   "auc": 0.8857,
+   "distinct_p": 8
+  }
+ },
+ "pilot_subset544_note": "GPT-4o-mini in the pilot returned a verbalised probability (screen/run_screen.mjs), not log-probabilities; subset = all 144 positives plus 400 random negatives (seed 7)."
+}

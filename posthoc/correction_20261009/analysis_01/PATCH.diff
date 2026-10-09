@@ -1,0 +1,12 @@
+170,172c170,172
+< DR = {r['id']: r for r in json.load(open(f'{ROOT}/synergy/dhl_records.json'))}
+< Bt = [d for d in json.load(open(f'{ROOT}/synergy/dhl_jev_b10.json')) if d.get('ok')]
+< Sg = [d for d in json.load(open(f'{ROOT}/screen/screen_jev.json')) if d.get('ok')]
+---
+> DR = {r['id']: r for r in json.load(open(f'{ROOT}/relabel_20261009/data/dhl_records.json'))}
+> Bt = [d for d in json.load(open(f'{ROOT}/relabel_20261009/data/dhl_jev_b10.json')) if d.get('ok')]
+> Sg = [d for d in json.load(open(f'{ROOT}/relabel_20261009/data/screen_jev.json')) if d.get('ok')]
+179c179
+< assert PB.y_ta.sum() == 144 and PB.y.sum() == 77 and PS.y_ta.sum() == 144 and PS.y.sum() == 77, (PB.y_ta.sum(), PB.y.sum(), PS.y_ta.sum(), PS.y.sum())
+---
+> assert PB.y_ta.sum() == 143 and PB.y.sum() == 76 and PS.y_ta.sum() == 143 and PS.y.sum() == 76, (PB.y_ta.sum(), PB.y.sum(), PS.y_ta.sum(), PS.y.sum())

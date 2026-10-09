@@ -1,0 +1,12 @@
+79c79
+< sc = '/N/project/AiLab/jev/screen/'
+---
+> sc = '/N/project/AiLab/jev/relabel_20261009/data/'
+81c81
+< b10 = [d for d in json.load(open(S + 'dhl_jev_b10.json')) if d.get('ok')]
+---
+> b10 = [d for d in json.load(open('/N/project/AiLab/jev/relabel_20261009/data/dhl_jev_b10.json')) if d.get('ok')]
+92c92
+<                 'free_rankers_zs_auc_dhl_csv': pd.read_csv(S + 'zs_auc_dhl.csv').iloc[0].to_dict(),
+---
+>                 'free_rankers_zs_auc_dhl_csv': pd.read_csv('/N/project/AiLab/jev/relabel_20261009/rerun/zs_auc_dhl.csv').iloc[0].to_dict(),

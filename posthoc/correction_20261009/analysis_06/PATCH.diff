@@ -1,0 +1,8 @@
+37,39c37,39
+< DR = {r['id']: r for r in json.load(open(f'{ROOT}/synergy/dhl_records.json'))}
+< Bt = {d['id']: d['p'] for d in json.load(open(f'{ROOT}/synergy/dhl_jev_b10.json')) if d.get('ok')}
+< Sg = {d['pmid']: d['p'] for d in json.load(open(f'{ROOT}/screen/screen_jev.json')) if d.get('ok')}
+---
+> DR = {r['id']: r for r in json.load(open(f'{ROOT}/relabel_20261009/data/dhl_records.json'))}
+> Bt = {d['id']: d['p'] for d in json.load(open(f'{ROOT}/relabel_20261009/data/dhl_jev_b10.json')) if d.get('ok')}
+> Sg = {d['pmid']: d['p'] for d in json.load(open(f'{ROOT}/relabel_20261009/data/screen_jev.json')) if d.get('ok')}

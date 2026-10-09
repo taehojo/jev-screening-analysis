@@ -1,0 +1,31 @@
+{
+ "AN-0001-01": {
+  "stored_vs_orig_differences": [
+   "/datasets/clef_final_batched/recal_slope_review_fixed_effects",
+   "/datasets/dev_final_batched/recal_slope_review_fixed_effects",
+   "/datasets/dev_ta_batched/recal_slope_review_fixed_effects",
+   "/datasets/heldout_final_batched/recal_slope_review_fixed_effects"
+  ],
+  "n_stored_vs_orig": 4,
+  "n_orig_vs_new": 77,
+  "orig_vs_new_outside_pilot": []
+ },
+ "AN-0001-02": {
+  "stored_vs_orig_differences": [],
+  "n_stored_vs_orig": 0,
+  "n_orig_vs_new": 41,
+  "orig_vs_new_outside_pilot": []
+ },
+ "AN-0001-06": {
+  "stored_vs_orig_differences": [],
+  "n_stored_vs_orig": 0,
+  "n_orig_vs_new": 11,
+  "orig_vs_new_outside_pilot": []
+ },
+ "AN-0001-10": {
+  "stored_vs_orig_differences": [],
+  "n_stored_vs_orig": 0,
+  "n_orig_vs_new": 31,
+  "orig_vs_new_outside_pilot": []
+ }
+}

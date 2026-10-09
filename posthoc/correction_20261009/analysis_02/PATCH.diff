@@ -1,0 +1,6 @@
+147,148c147,148
+<     byd = load_by(SYN + '/dhl_records.json'); Jd = load_jev(SYN + '/dhl_jev_b10.json')
+<     r, T, P = run_collection('pilot_review', byd, Jd, SYN + '/asr_dhl.json'); r.pop('reviews', None); out['collections']['pilot_review'] = r
+---
+>     byd = load_by('/N/project/AiLab/jev/relabel_20261009/data/dhl_records.json'); Jd = load_jev('/N/project/AiLab/jev/relabel_20261009/data/dhl_jev_b10.json')
+>     r, T, P = run_collection('pilot_review', byd, Jd, '/N/project/AiLab/jev/relabel_20261009/rerun/asr_dhl.json'); r.pop('reviews', None); out['collections']['pilot_review'] = r

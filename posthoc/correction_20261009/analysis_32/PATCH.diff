@@ -1,0 +1,4 @@
+81c81
+< R6 = json.load(open(AN + 'AN-0001-06/results.json'))['pilot_review']; b = R6['modes']['batched_10']['0.07']
+---
+> R6 = json.load(open('/N/project/AiLab/jev/relabel_20261009/rerun/new_AN-0001-06/results.json'))['pilot_review']; b = R6['modes']['batched_10']['0.07']

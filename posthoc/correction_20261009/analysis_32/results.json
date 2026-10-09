@@ -1,0 +1,576 @@
+{
+ "analysis_id": "AN-0001-01",
+ "a_pooled_failures_final_inclusion": {
+  "reviews": 51,
+  "heldout_reviews": 23,
+  "clef_content_reviews": 28,
+  "failures": 3,
+  "k": 3,
+  "n": 51,
+  "proportion": 0.058823529411764705,
+  "wilson95_two_sided": [
+   0.020206639422464676,
+   0.15924626048800428
+  ],
+  "clopper_pearson95_two_sided": [
+   0.012299088255240053,
+   0.16242221807205048
+  ],
+  "exact_one_sided_lower95": 0.01622341549453841,
+  "exact_one_sided_upper95": 0.14507500299119816,
+  "failing_reviews": [
+   {
+    "review": "CD012233",
+    "N": 472,
+    "n_pos": 9,
+    "found": 8,
+    "missed": 1,
+    "read": 353,
+    "recall": 0.8888888888888888,
+    "work": 0.7478813559322034,
+    "collection": "clef_content",
+    "published_review_study_level_from_Lancet_AN-0001-07_ai_proposed_unverified": {
+     "n_included_study_ids_represented_in_clef_relevant_set": 4,
+     "n_of_these_with_at_least_one_report_at_or_above_tau": 4,
+     "study_level_recall_at_tau": 1.0,
+     "n_included_studies_published_review": 16,
+     "missed_records": [
+      {
+       "pmid": "9362194",
+       "p": 0.05,
+       "category_ai_proposed_unverified": "E (proposed new category): CLEF content-level label does not correspond to an included study of the published review",
+       "study_id_in_published_review": "Chen 1997",
+       "reference_list_section": [
+        "Additional references"
+       ],
+       "contribution_to_published_review": "None: not an included study of the published review; contributes to no data table, meta-analysis or summary of findings."
+      }
+     ]
+    }
+   },
+   {
+    "review": "CD011977",
+    "N": 195,
+    "n_pos": 37,
+    "found": 34,
+    "missed": 3,
+    "read": 89,
+    "recall": 0.918918918918919,
+    "work": 0.4564102564102564,
+    "collection": "clef_content",
+    "published_review_study_level_from_Lancet_AN-0001-07_ai_proposed_unverified": {
+     "n_included_study_ids_represented_in_clef_relevant_set": 37,
+     "n_of_these_with_at_least_one_report_at_or_above_tau": 34,
+     "study_level_recall_at_tau": 0.918918918918919,
+     "n_included_studies_published_review": 51,
+     "missed_records": [
+      {
+       "pmid": "15682919",
+       "p": 0.03,
+       "category_ai_proposed_unverified": "B: eligibility information not stated in the abstract (the abstract frames the trial as an aspheric versus spherical intraocular lens comparison; that the spherical comparator AcrySof Natural SN60AT is a blue-light filtering lens is product knowledge not stated in the abstract)",
+       "study_id_in_published_review": "Kennis 2004",
+       "reference_list_section": [
+        "References to studies included in this review"
+       ],
+       "contribution_to_published_review": "Primary outcome (distance BCVA at six to 18 months): the review states that six studies including Kennis 2004 reported relevant data, that Kennis 2004 could not be included in the meta-analysis because it analysed 98 eyes of 71 participants without details of the analysis approach, and that its findings were presented separately (Analysis 1.2, Figure 5). The pooled estimate (Analysis 1.1; MD -0.01 logMAR, 95% CI -0.03 to 0.02; 2 studies, 131 eyes) comprised Caporossi 2009 and Vuori 2006 only. Secondary outcome contrast sensitivity: listed as potentially relevant but no measures of variability, so no data were included."
+      },
+      {
+       "pmid": "19781467",
+       "p": 0.05,
+       "category_ai_proposed_unverified": "B: eligibility information not stated in the abstract (aspheric versus spherical comparison; the spherical group used AcrySof Natural SN60AT, a blue-light filtering lens, which the abstract does not state)",
+       "study_id_in_published_review": "Yamaguchi 2009",
+       "reference_list_section": [
+        "References to studies included in this review"
+       ],
+       "contribution_to_published_review": "No data for the primary outcome or for any meta-analysis: the review mentions Yamaguchi 2009 only in the description of study designs and countries, in the risk-of-bias assessment, and in the adverse-effects summary (no participants developed intraoperative or postoperative complications)."
+      },
+      {
+       "pmid": "19491981",
+       "p": 0.03,
+       "category_ai_proposed_unverified": "B: eligibility information not stated in the abstract (aspheric versus spherical comparison; the spherical control AcrySof Natural is a blue-light filtering lens, which the abstract does not state)",
+       "study_id_in_published_review": "Cui 2009",
+       "reference_list_section": [
+        "References to studies included in this review"
+       ],
+       "contribution_to_published_review": "No data for the primary outcome or for any meta-analysis: the review states that its distance BCVA data were not relevant to the primary outcome because follow-up was under six months and that the publication lacked quantitative data; Cui 2009 appears in the adverse-effects summary table (intraoperative complications: none) and in the risk-of-bias tables."
+      }
+     ]
+    }
+   },
+   {
+    "review": "CD010558",
+    "N": 2815,
+    "n_pos": 10,
+    "found": 9,
+    "missed": 1,
+    "read": 856,
+    "recall": 0.9,
+    "work": 0.30408525754884547,
+    "collection": "clef_content",
+    "published_review_study_level_from_Lancet_AN-0001-07_ai_proposed_unverified": {
+     "n_included_study_ids_represented_in_clef_relevant_set": 4,
+     "n_of_these_with_at_least_one_report_at_or_above_tau": 4,
+     "study_level_recall_at_tau": 1.0,
+     "n_included_studies_published_review": 6,
+     "missed_records": [
+      {
+       "pmid": "23851972",
+       "p": 0.06,
+       "category_ai_proposed_unverified": "D (proposed new category): secondary report of an included study whose other reports were retrieved above tau",
+       "study_id_in_published_review": "Wiles 2016",
+       "reference_list_section": [
+        "References to studies included in this review"
+       ],
+       "contribution_to_published_review": "The record itself contributes no outcome data; the trial (Wiles 2016) contributes to the primary outcomes through its main reports, which were above tau, so the trial would not have been lost."
+      }
+     ]
+    }
+   }
+  ],
+  "total_positive_records_missed": 5,
+  "total_positive_records_in_failing_reviews": 56,
+  "note": "Final inclusion for SYNERGY+ held-out reviews and the CLEF content-level label for Cochrane reviews. The study-level mapping of missed CLEF records to included studies of the published reviews comes from Lancet AN-0001-07 (AI-assisted, not verified by the authors)."
+ },
+ "b_crosstab": {
+  "heldout12": {
+   "ta_pos_below_final_pos": 1,
+   "ta_pos_below_final_neg": 60,
+   "ta_pos_above_final_pos": 290,
+   "ta_pos_above_final_neg": 597,
+   "ta_neg_below_final_pos": 0,
+   "ta_neg_above_final_pos": 0,
+   "final_pos_below": 1,
+   "final_pos_total": 291,
+   "ta_pos_total": 948,
+   "n_reviews": 12,
+   "n_records": 20366,
+   "ta_pos_below": 61
+  },
+  "clef31": {
+   "ta_pos_below_final_pos": 5,
+   "ta_pos_below_final_neg": 18,
+   "ta_pos_above_final_pos": 877,
+   "ta_pos_above_final_neg": 782,
+   "ta_neg_below_final_pos": 0,
+   "ta_neg_above_final_pos": 0,
+   "final_pos_below": 5,
+   "final_pos_total": 882,
+   "ta_pos_total": 1682,
+   "n_reviews": 31,
+   "n_records": 82418,
+   "ta_pos_below": 23
+  },
+  "pilot_aggregated_batched": {
+   "source": "Lancet AN-0001-06 results.json pilot_review.modes.batched_10.0.07 (aggregated counts only)",
+   "ta_pos_total": 143,
+   "final_pos_total": 76,
+   "ta_pos_below": 1,
+   "final_pos_below": 0,
+   "ta_pos_below_final_neg": 1,
+   "ta_pos_below_final_pos": 0
+  }
+ },
+ "b_note": "For the 12 held-out reviews the final label is final inclusion; for the 31 CLEF reviews it is the CLEF content-level label (records without a content-level label counted as 0). ta_neg_*_final_pos counts records that are finally positive but not title-and-abstract positive (label inconsistency in the source).",
+ "c_cost": {
+  "full_run_cost_usd": {
+   "heldout_33001_records": 0.6634,
+   "clef_82418_records": 1.5442,
+   "development_52957_records": 1.1134
+  },
+  "cost_per_1000_usd": {
+   "jev_development_batch10": 0.021,
+   "jev_held_out_batch10": 0.0201,
+   "jev_clef_batch10": 0.0187,
+   "jev_p2_batch10_subset": 0.0202,
+   "jev_p2_single_record": 0.0422,
+   "jev_pilot_single_record": 0.0356,
+   "gpt4omini_lp_single_record": 0.1109,
+   "deepseek_single_record": 0.16,
+   "claude_opus_cli_per_2002_attempted": 14.6522,
+   "claude_opus_cli_per_1999_scored": 14.6742,
+   "claude_opus_cli_pilot_1572": 14.434
+  },
+  "records_relations": {
+   "heldout": {
+    "records": 33001,
+    "one_percentage_point_of_records": 330.01,
+    "threshold_records_read": 16831.0,
+    "knee_asr_records_read_seed_mean": 26180.0,
+    "records_not_read_threshold_vs_knee_pooled": 9349.0,
+    "macro_pp_threshold_vs_knee": 35.10853849977239,
+    "combined_jev_records_read_seed_mean": 25364.0,
+    "combined_asr_records_read_seed_mean": 27075.300000000003,
+    "records_not_read_jev_vs_asr_ranking_pooled": 1711.300000000003,
+    "macro_pp_jev_vs_asr_ranking_under_stat": 2.4858850216229653,
+    "records_not_read_threshold_vs_combined_jev_pooled": 8533.0,
+    "macro_pp_threshold_vs_combined_jev": 28.75954674796243
+   },
+   "clef": {
+    "records": 77611,
+    "one_percentage_point_of_records": 776.11,
+    "threshold_records_read": 23299.0,
+    "knee_asr_records_read_seed_mean": 47956.6,
+    "records_not_read_threshold_vs_knee_pooled": 24657.6,
+    "macro_pp_threshold_vs_knee": 36.90725449952394,
+    "combined_jev_records_read_seed_mean": 64900.1,
+    "combined_asr_records_read_seed_mean": 65920.8,
+    "records_not_read_jev_vs_asr_ranking_pooled": 1020.7000000000044,
+    "macro_pp_jev_vs_asr_ranking_under_stat": 0.8651198372200757,
+    "records_not_read_threshold_vs_combined_jev_pooled": 41601.1,
+    "macro_pp_threshold_vs_combined_jev": 47.032713067744936
+   }
+  },
+  "cost_factors": {
+   "denominator_heldout_full_run_0.0201": {
+    "gpt4omini_lp": 5.517412935323383,
+    "deepseek": 7.960199004975125,
+    "claude_opus_cli_per_2002_attempted": 728.9651741293533,
+    "claude_opus_cli_per_1999_scored": 730.0597014925373
+   },
+   "denominator_subset_batched_0.0202": {
+    "gpt4omini_lp": 5.49009900990099,
+    "deepseek": 7.920792079207922,
+    "claude_opus_cli_per_2002_attempted": 725.3564356435644,
+    "claude_opus_cli_per_1999_scored": 726.4455445544555
+   },
+   "denominator_subset_single_record_0.0422": {
+    "gpt4omini_lp": 2.6279620853080567,
+    "deepseek": 3.7914691943127963,
+    "claude_opus_cli_per_2002_attempted": 347.2085308056872,
+    "claude_opus_cli_per_1999_scored": 347.72985781990525
+   },
+   "note": "Ratios of the stored costs per 1000 records (Lancet AN-0001-12 cost_per_1000, rounded there to four decimals); factors computed from the rounded values."
+  }
+ },
+ "d_rounding": {
+  "run_screen_mjs_lines_with_noul": [
+   {
+    "line": 29,
+    "text": "// Jev: \ud55c \uc694\uccad\uc5d0 \uae30\ub85d \uc5ec\ub7ec \uac1c(batch)\ub97c \ub123\uace0 \uae30\ub85d\ub9c8\ub2e4 noul \uc9c8\ubb38 \ud558\ub098"
+   },
+   {
+    "line": 33,
+    "text": "if (recs.length === 1) { state = crit + '\\n\\n' + recText(recs[0]); questions = { r1: { type: 'noul', instructions: QUESTION } }; }"
+   },
+   {
+    "line": 36,
+    "text": "questions = {}; recs.forEach((_, i) => { questions['r' + (i + 1)] = { type: 'noul', instructions: `Consider only Record R${i + 1}. ${QUESTION}` }; });"
+   },
+   {
+    "line": 44,
+    "text": "return recs.map((_, i) => ({ p: j.answers['r' + (i + 1)]?.noul, tokens: j.usage?.input_tokens, batch: recs.length }));"
+   }
+  ],
+  "probe_response_answers": {
+   "q1": {
+    "type": "noul",
+    "noul": 0.99
+   }
+  },
+  "decimals_in_stored_outputs": {
+   "jev_dev2000.json": {
+    "n_scores": 52957,
+    "decimals_count": {
+     "0": 40,
+     "1": 3383,
+     "2": 49534
+    },
+    "distinct_values": 98,
+    "min": 0.0,
+    "max": 0.97,
+    "all_multiples_of_0.01": true
+   },
+   "jev_test.json": {
+    "n_scores": 33001,
+    "decimals_count": {
+     "1": 1815,
+     "2": 31186
+    },
+    "distinct_values": 97,
+    "min": 0.01,
+    "max": 0.97,
+    "all_multiples_of_0.01": true
+   },
+   "jev_clef.json": {
+    "n_scores": 82418,
+    "decimals_count": {
+     "0": 60,
+     "1": 2777,
+     "2": 79581
+    },
+    "distinct_values": 98,
+    "min": 0.0,
+    "max": 0.97,
+    "all_multiples_of_0.01": true
+   },
+   "jev_testcmp_single.json": {
+    "n_scores": 2002,
+    "decimals_count": {
+     "1": 110,
+     "2": 1892
+    },
+    "distinct_values": 95,
+    "min": 0.01,
+    "max": 0.95,
+    "all_multiples_of_0.01": true
+   },
+   "jev_testcmp_b10.json": {
+    "n_scores": 2002,
+    "decimals_count": {
+     "1": 131,
+     "2": 1871
+    },
+    "distinct_values": 96,
+    "min": 0.01,
+    "max": 0.96,
+    "all_multiples_of_0.01": true
+   },
+   "jev_robust_q1.json": {
+    "n_scores": 5550,
+    "decimals_count": {
+     "1": 349,
+     "2": 5201
+    },
+    "distinct_values": 93,
+    "min": 0.01,
+    "max": 0.94,
+    "all_multiples_of_0.01": true
+   },
+   "jev_robust_q2.json": {
+    "n_scores": 5550,
+    "decimals_count": {
+     "1": 380,
+     "2": 5170
+    },
+    "distinct_values": 96,
+    "min": 0.01,
+    "max": 0.96,
+    "all_multiples_of_0.01": true
+   },
+   "jev_robust_titleonly.json": {
+    "n_scores": 5550,
+    "decimals_count": {
+     "1": 454,
+     "2": 5096
+    },
+    "distinct_values": 94,
+    "min": 0.01,
+    "max": 0.94,
+    "all_multiples_of_0.01": true
+   },
+   "jev_robust_mismatch.json": {
+    "n_scores": 5550,
+    "decimals_count": {
+     "0": 162,
+     "1": 74,
+     "2": 5314
+    },
+    "distinct_values": 64,
+    "min": 0.0,
+    "max": 0.92,
+    "all_multiples_of_0.01": true
+   },
+   "dhl_jev_b10.json": {
+    "n_scores": 1572,
+    "decimals_count": {
+     "1": 100,
+     "2": 1472
+    },
+    "distinct_values": 96,
+    "min": 0.01,
+    "max": 0.96,
+    "all_multiples_of_0.01": true
+   },
+   "dhl_jev_b5.json": {
+    "n_scores": 1572,
+    "decimals_count": {
+     "1": 99,
+     "2": 1473
+    },
+    "distinct_values": 96,
+    "min": 0.01,
+    "max": 0.96,
+    "all_multiples_of_0.01": true
+   },
+   "../screen/screen_jev.json": {
+    "n_scores": 1572,
+    "decimals_count": {
+     "1": 110,
+     "2": 1462
+    },
+    "distinct_values": 95,
+    "min": 0.01,
+    "max": 0.96,
+    "all_multiples_of_0.01": true
+   }
+  },
+  "reading": "The script stores answers[r_k].noul as returned (no rounding in the script); the raw probe response of 26 September 2026 returned 0.99. The stored scores are the values returned by the endpoint."
+ },
+ "e_intervals": {
+  "heldout threshold 23/23": {
+   "k": 23,
+   "n": 23,
+   "proportion": 1.0,
+   "wilson95_two_sided": [
+    0.8568833815495732,
+    1.0
+   ],
+   "clopper_pearson95_two_sided": [
+    0.8518148710847756,
+    1.0
+   ],
+   "exact_one_sided_lower95": 0.8778766110934769,
+   "exact_one_sided_upper95": 1.0
+  },
+  "heldout knee (ASReview, as adapted) 20/23": {
+   "k": 20,
+   "n": 23,
+   "proportion": 0.8695652173913043,
+   "wilson95_two_sided": [
+    0.6787251772990404,
+    0.9546234090636876
+   ],
+   "clopper_pearson95_two_sided": [
+    0.6641108624628791,
+    0.9722484925772068
+   ],
+   "exact_one_sided_lower95": 0.6963622984425383,
+   "exact_one_sided_upper95": 0.9634847002740974
+  },
+  "CLEF threshold 25/28": {
+   "k": 25,
+   "n": 28,
+   "proportion": 0.8928571428571429,
+   "wilson95_two_sided": [
+    0.7280414845132784,
+    0.9628816331707001
+   ],
+   "clopper_pearson95_two_sided": [
+    0.7177356042846756,
+    0.977334909360941
+   ],
+   "exact_one_sided_lower95": 0.7458302635490857,
+   "exact_one_sided_upper95": 0.9701529264408019
+  },
+  "CLEF knee 26/28": {
+   "k": 26,
+   "n": 28,
+   "proportion": 0.9285714285714286,
+   "wilson95_two_sided": [
+    0.7735463743160095,
+    0.9801879358846942
+   ],
+   "clopper_pearson95_two_sided": [
+    0.7649652268254092,
+    0.9912295032964729
+   ],
+   "exact_one_sided_lower95": 0.791795286820588,
+   "exact_one_sided_upper95": 0.9871585380029486
+  },
+  "heldout title-abstract threshold 7/12": {
+   "k": 7,
+   "n": 12,
+   "proportion": 0.5833333333333334,
+   "wilson95_two_sided": [
+    0.3195113125495498,
+    0.8067396863412435
+   ],
+   "clopper_pearson95_two_sided": [
+    0.2766696856821058,
+    0.8483477701915698
+   ],
+   "exact_one_sided_lower95": 0.3152377907244521,
+   "exact_one_sided_upper95": 0.818975242757679
+  },
+  "CLEF title-abstract threshold 25/31": {
+   "k": 25,
+   "n": 31,
+   "proportion": 0.8064516129032258,
+   "wilson95_two_sided": [
+    0.6371974218820453,
+    0.9081299163841389
+   ],
+   "clopper_pearson95_two_sided": [
+    0.6252678338934159,
+    0.9254801026888712
+   ],
+   "exact_one_sided_lower95": 0.6533474562111927,
+   "exact_one_sided_upper95": 0.9121855328567512
+  },
+  "statistical criterion heldout 23/23": {
+   "k": 23,
+   "n": 23,
+   "proportion": 1.0,
+   "wilson95_two_sided": [
+    0.8568833815495732,
+    1.0
+   ],
+   "clopper_pearson95_two_sided": [
+    0.8518148710847756,
+    1.0
+   ],
+   "exact_one_sided_lower95": 0.8778766110934769,
+   "exact_one_sided_upper95": 1.0
+  },
+  "statistical criterion CLEF 28/28": {
+   "k": 28,
+   "n": 28,
+   "proportion": 1.0,
+   "wilson95_two_sided": [
+    0.8793566952341543,
+    0.9999999999999998
+   ],
+   "clopper_pearson95_two_sided": [
+    0.8765638814997362,
+    1.0
+   ],
+   "exact_one_sided_lower95": 0.8985342644272752,
+   "exact_one_sided_upper95": 1.0
+  },
+  "pooled threshold failures 3/51": {
+   "k": 3,
+   "n": 51,
+   "proportion": 0.058823529411764705,
+   "wilson95_two_sided": [
+    0.020206639422464676,
+    0.15924626048800428
+   ],
+   "clopper_pearson95_two_sided": [
+    0.012299088255240053,
+    0.16242221807205048
+   ],
+   "exact_one_sided_lower95": 0.01622341549453841,
+   "exact_one_sided_upper95": 0.14507500299119816
+  },
+  "development threshold 72/73": {
+   "k": 72,
+   "n": 73,
+   "proportion": 0.9863013698630136,
+   "wilson95_two_sided": [
+    0.9264026272903616,
+    0.997577748533516
+   ],
+   "clopper_pearson95_two_sided": [
+    0.9260236768216559,
+    0.9996532408474009
+   ],
+   "exact_one_sided_lower95": 0.9366584000690549,
+   "exact_one_sided_upper95": 0.9992975989308831
+  }
+ },
+ "lookups": {
+  "O_E_clef_final_batched_unrounded": 0.12484465192122046,
+  "O_E_heldout_final_batched_unrounded": 0.12886347594656375,
+  "O_E_clef_ta_batched_unrounded": 0.2221602908952584,
+  "O_E_heldout_ta_batched_unrounded": 0.3815703147955097,
+  "heldout_macro_wss95_lambda2": 0.8054842230526866,
+  "heldout_macro_wss95_lambda3": 0.8055076755274879,
+  "heldout_macro_wss95_lambda1": null,
+  "heldout_n_reviews_lambda": 23,
+  "development_macro_wss95_lambda2": 0.7656759253364062,
+  "development_macro_wss95_lambda3": 0.7661966677288751,
+  "development_macro_wss95_lambda1": 0.7308985384898686,
+  "development_n_reviews_lambda": 73
+ },
+ "finished": "2026-10-09T17:34:24-04:00"
+}

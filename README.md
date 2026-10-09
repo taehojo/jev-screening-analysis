@@ -11,6 +11,7 @@ This archive contains the analysis code, the model inputs, the per-record model 
 | `responses/` | Per-record responses of every model: Jev on the development (`jev_dev2000.json`), held-out (`jev_test.json`), and CLEF (`jev_clef.json`) records; the rephrasings and controls (`jev_robust_*.json`); the 2002-record comparison subset with Jev in two scoring modes and with Claude Opus 5.5, GPT-4o-mini, and DeepSeek-V3.1 (`jev_testcmp_*.json`, `test_cmp_*.json`). Fields: `id` (review, record identifier, index), `review`, `label`, `backend`, `p` (probability), `tokens`, `batch` (records per request), `ok`; LLM files also keep the raw reply. For the composition of the ten-record requests, see post-hoc analysis 22. |
 | `results/` | Result files of the planned analyses (ranking, active learning, stopping, CLEF) and the free-ranker scores (`scores_zs/`). |
 | `posthoc/analysis_NN/` | Scripts and machine-readable outputs of the post-hoc analyses 1 to 52, numbered as in Supplementary Tables 1 to 3; `posthoc/INDEX.csv` lists them. |
+| `posthoc/correction_20261009/` | Pilot-review results of post-hoc analyses 1, 2, 6, 10, and 32, recomputed after a correction of the pilot-review labels on 9 October 2026 (version 1.0.1), with the code of the re-runs; see the README in that folder. |
 
 ## Not included
 
